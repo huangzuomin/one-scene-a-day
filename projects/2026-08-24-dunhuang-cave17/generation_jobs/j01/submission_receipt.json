@@ -1,0 +1,10 @@
+{
+  "job_id": "j01",
+  "thread_id": "skill_4854442d-2c27-43f1-a4b2-a0cc0479b06d",
+  "run_id": "skill_723c1bb1-2d68-4b14-9e77-a28c5130843e",
+  "submitted_at": "2026-08-24 21:38",
+  "model_directive": "Seedance 2.5（消息首行指令）",
+  "web_thread_link": "https://xyq.jianying.com/home?tab_name=integrated-agent&thread_id=skill_4854442d-2c27-43f1-a4b2-a0cc0479b06d&agent_name=pippit_nest_agent",
+  "submit_attempts": 1,
+  "note": "首次提交即成功；尝试1因密钥相对路径写错未发出请求（head 找不到文件，不计费不计次）"
+}

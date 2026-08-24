@@ -1,0 +1,26 @@
+{
+  "topic": {
+    "id": "T001",
+    "title": "赤壁之夜，东南风起",
+    "event": "Battle of Red Cliffs 赤壁之战",
+    "year": "208"
+  },
+  "moment": "东南风初起的深夜江面——火攻发起前的最后一刻宁静",
+  "protagonist": "一名二十岁出头的东吴水军士兵：短黑发束深色发带，深灰色布甲外罩暗褐色皮坎肩，腰挎短刀，手持火把（身份锁描述，全片不变）",
+  "location": "长江赤壁江面，连环船队边缘的一条木质战船船头，深夜",
+  "action": "他察觉风变了：旗幡猛然转向东南，披风向后扬起；极远的江面尽头，第一艘火船的火光亮起",
+  "emotion": "寂静中的紧张，命运将至的预感与敬畏",
+  "visual_hook": "垂落的旗幡被狂风灌满猎猎转向 + 黑色江面尽头一点橘色火光亮起",
+  "ending": "低角度全景剪影：士兵按紧刀柄迎风而立，远处火光在江面拉出颤抖的光路，静止两秒后渐黑",
+  "pacing_diagnosis": {
+    "genre_energy": "quiet observation → emotional realization → dread",
+    "felt_speed": "慢起，第6秒骤紧",
+    "target_duration": 15,
+    "avg_beat": "3.8s",
+    "fastest_beat": "Beat2 旗幡转向 3s",
+    "slowest_beat": "Beat4 收尾定格 4s",
+    "required_pauses": "风灌满旗幡前留半拍死寂",
+    "final_hold": "≥2s"
+  },
+  "confidence_note": "东南风、火船战术为A级史实；船头士兵为C级艺术创作（需求文档§14允许，发布时附艺术化说明）"
+}

@@ -1,0 +1,113 @@
+本次创作进行中
+{
+  "messages": [
+    {
+      "id": "5190804130316",
+      "role": "user",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_prompt_text",
+          "data": "{\"content\":\"生成一条 15 秒的电影感历史短片，16:9 横屏，写实电影风格。题材：公元 208 年赤壁之战当夜，东南风初起、火攻将至的前一刻。\\n\\n场景与人物：隆冬深夜的长江江面。主角是一名二十岁出头的东吴水军年轻士兵——短黑发、束深色发带，身穿深灰色布甲、外罩暗褐色皮坎肩，腰间挎短刀，右手举着一支燃烧的火把。全片只有他一个清晰人物，站在一条木质战船的船头，背景是隐没在黑夜中的船队轮廓与墨蓝色江面。\\n\\n镜头与动作（严格按此顺序呈现四个镜头）：\\n第一个镜头（0–3 秒）：中近景、微仰角、浅景深，镜头缓慢推近；火把的暖橘色光芒映着他警觉的脸，身后帆索吱呀作响，江水拍打船体。\\n第二个镜头（3–6 秒）：切至桅顶旗幡的大特写——垂落的旌旗在半秒死寂后突然被狂风灌满，布面猛然绷直展开，猎猎甩向东南方向。\\n第三个镜头（6–11 秒）：回到士兵面部特写，他闭上眼感受风向，披风和发带被风吹得向后扬起；随后他睁开眼，镜头拉远并随他的视线摇向漆黑的江面尽头——极远处的水面上，一点橘色火光缓缓亮起，倒映在江水中。\\n第四个镜头（11–15 秒）：低角度全景剪影，士兵按紧刀柄迎风而立，远处火光在江面拉出颤抖的橘色光路；镜头缓慢拉远后完全静止两秒，画面渐黑。\\n\\n光线与质感：整体冷蓝月夜色调，画面中唯一的暖光源是手中的火把与远方的火光；写实电影质感，注意木材纹理、江水波光、布料与头发被风吹动的物理细节。\\n\\n情绪基调：寂静、紧张、命运将至的历史瞬间感。\\n\\n约束要求：全程保持主角的面容、发型、服装、体型完全一致，不得变化；严格按上述四个镜头的顺序呈现，不要跳过、合并或重排镜头；除主角外不要出现任何清晰的人物面孔，也不要新增人物；画面中绝对不要出现文字、字幕、水印、边框或编号；镜头之间用自然的运动衔接过渡，不要做成静态幻灯片。\",\"reference_info_list\":null}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        },
+        {
+          "type": "data",
+          "sub_type": "biz/general_agent_settings",
+          "data": "{\"video_model\":\"seedance2.0_fast_vision\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "5193079156492",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "sub_type": "",
+          "data": "火把暖光对冷蓝江夜的这组对比很见功力，全片只留一个清晰人物的处理也很有历史瞬间的分量。这是一条 15 秒内的片段视频，四个镜头我按你给的顺序逐一落实。",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        },
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"load_skill\",\"tool_id\":\"call_-7328588252913333827\",\"request_data\":\"{\\\"SkillName\\\":\\\"video_prompt\\\"}\",\"extra\":\"{\\\"display_name\\\":\\\"技能学习\\\",\\\"loadingText\\\":\\\"正在学习相关技能...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "5193079156492",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "sub_type": "",
+          "data": "按四个镜头的时间轴写入一段完整提示词，一次性生成 15 秒成片。",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        },
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"sandbox_generate_video\",\"tool_id\":\"call_-7328621169542684789\",\"request_data\":\"{\\\"Duration\\\":15,\\\"OutputPath\\\":\\\"assets/chibi_night_fire_15s.mp4\\\",\\\"Prompt\\\":\\\"时长：15秒，比例：16:9，写实电影质感，冷蓝月夜色调，公元208年赤壁之战当夜的长江江面，隆冬深夜。主角：一名二十岁出头的东吴水军年轻士兵，短黑发、束深色发带，身穿深灰色布甲、外罩暗褐色皮坎肩，腰间挎短刀，右手举着一支燃烧的火把，站在木质战船船头。全程只有他一个清晰人物，背景是隐没在黑夜中的船队轮廓与墨蓝色江面。\\\\n\\\\n0-3秒画面：中近景、微仰角、浅景深，云台镜头缓慢推轨靠近士兵，火把的暖橘色光芒映着他警觉的脸，身后帆索吱呀作响，江水拍打船体。\\\\n3-6秒画面：切换至桅顶旗幡的大特写——垂落的旌旗在短暂死寂后突然被狂风灌满，布面猛然绷直展开，猎猎甩向东南方向，布料纹理清晰。\\\\n6-11秒画面：回到士兵面部特写，他闭上眼感受风向，披风和发带被风吹得向后扬起，布料与头发物理飘动自然；随后他睁开眼，镜头流畅拉远并随他的视线摇向漆黑的江面尽头——极远处水面上一点橘色火光缓缓亮起，倒映在江水波光中。\\\\n11-15秒画面：低角度全景剪影，士兵按紧刀柄迎风而立，远处火光在江面拉出颤抖的橘色光路；镜头缓慢拉远后完全静止两秒，画面渐黑收尾。\\\\n\\\\n光线与质感：全片冷蓝月夜色调，画面中唯一暖光源是手中的火把与远方的火光；写实电影质感，注意木材纹理、江水波光、布料与头发被风吹动的物理细节。\\\\n音效：\\u003c帆索吱呀声\\u003e\\u003c江水拍打船体声\\u003e\\u003c狂风猎猎声\\u003e，寂静紧张的历史氛围，低沉电影配乐。\\\\n约束：严格按上述四个镜头的顺序呈现，不要跳过、合并或重排镜头；全程保持主角面容、发型、服装、体型完全一致不变化；除主角外不出现任何清晰人物面孔，不新增人物；画面中不出现任何文字、字幕、水印、边框或编号；镜头之间用自然的运动衔接过渡，不要做成静态幻灯片；五官清晰不变形、人体结构正常，4K超高清、画面稳定无模糊、电影质感。\\\",\\\"Ratio\\\":\\\"16:9\\\",\\\"Resolution\\\":\\\"1080p\\\"}\",\"extra\":\"{\\\"display_name\\\":\\\"生成视频\\\",\\\"loadingText\\\":\\\"正在生成视频...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "5193079156492",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_artifact_slots_part",
+          "data": "{\"slots\":[{\"artifact_id\":\"5193079165708\",\"ratio\":\"16:9\",\"type\":\"video\"}]}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    }
+  ]
+}

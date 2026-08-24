@@ -1,0 +1,72 @@
+{
+  "project_id": "2026-08-24-dunhuang-cave17",
+  "series": "history_camera",
+  "day_no": 3,
+  "date": "2026-08-24",
+  "topic_id": "T003",
+  "status": "selected",
+  "thread_id": "skill_4854442d-2c27-43f1-a4b2-a0cc0479b06d",
+  "run_id": "skill_723c1bb1-2d68-4b14-9e77-a28c5130843e",
+  "history": [
+    {
+      "time": "2026-08-24 21:06",
+      "step": "Step0 前置检查",
+      "note": "自动触发（21:00 定时）；当日无项目，额度 0/2；选定 T003 敦煌藏经洞（探索发现，与前两日标签错开）"
+    },
+    {
+      "time": "2026-08-24 21:35",
+      "step": "续跑恢复",
+      "note": "上次运行在建夹+research.md 后中断；本运行补全：T003 已移入 Used 区，状态文件补记，从 Step3 续跑"
+    },
+    {
+      "time": "2026-08-24 21:35",
+      "step": "Step2 研究（追认完成）",
+      "note": "8 条事实：A×3 / B×3 / C×2；视觉锚点=油灯+墙缝+经卷墙，转折=火苗弯折（R-302）"
+    },
+    {
+      "time": "2026-08-24 21:36",
+      "step": "Step3 概念",
+      "note": "转折=火苗弯折；四格压缩图；节奏诊断已填"
+    },
+    {
+      "time": "2026-08-24 21:36",
+      "step": "Step4 脚本",
+      "note": "15s/4 Beats/无对白，声音暗示已标注"
+    },
+    {
+      "time": "2026-08-24 21:36",
+      "step": "Step5 分镜",
+      "note": "storyboard.json 四格八字段；Beat3 火苗弯折为全片视觉核心"
+    },
+    {
+      "time": "2026-08-24 21:37",
+      "step": "Step6 简报",
+      "note": "prompt.txt 完成；身份锁描述出现两次；含 adherence 约束段"
+    },
+    {
+      "time": "2026-08-24 21:38",
+      "step": "Step8 提交",
+      "note": "一次成功 thread_id=skill_4854442d…；首行模型指令 Seedance 2.5；台账 2026-08-24 → 1/2"
+    },
+    {
+      "time": "2026-08-24 21:42",
+      "step": "Step8 轮询完成",
+      "note": "iter=19（约 3.5 分钟）；后端告知 Seedance 2.5 暂不可选，实际 seedance2.0_fast_vision；1280x720/15.04s"
+    },
+    {
+      "time": "2026-08-24 21:44",
+      "step": "Step9 下载归档",
+      "note": "video_01.mp4→video.mp4；抽帧 15 张；fetch_manifest 已记 actual_model"
+    },
+    {
+      "time": "2026-08-24 21:52",
+      "step": "Step10 Critic",
+      "note": "亲读 7 帧；八维均分 8.6（与 T002 持平）；adherence 十问全过，偏差=火苗弯折未确证+payoff 晚 1s；verdict=PASS，建议 selected"
+    },
+    {
+      "time": "2026-08-24 22:05",
+      "step": "人工评审",
+      "note": "用户评级「喜欢」→ selected；系列 3 拍 3 中，AI 建议连续三日与人工一致"
+    }
+  ]
+}

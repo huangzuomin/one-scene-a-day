@@ -1,0 +1,148 @@
+{
+  "messages": [
+    {
+      "id": "5257319913740",
+      "role": "user",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_prompt_text",
+          "data": "{\"content\":\"生成一条 15 秒的电影感历史短片，16:9 横屏，写实电影风格。题材：公元前 49 年冬夜将尽，凯撒率军团来到卢比孔河北岸——跨过这条河就是内战，这是他驻马权衡、最终踏入河水的瞬间。\\n\\n场景与人物：黎明前的深蓝冬晨，卢比孔河因冬雨泛滥，浊流湍急，水面有薄雾。主角是四十多岁的罗马将军凯撒——灰白短发、古铜肤色、轮廓分明的脸，身穿铁环编织的锁子甲，外披深红色军用披风，骑一匹深棕色战马。全片只有他一个清晰人物；身后远处的黑暗里，军团的火把排成一列，只作为光点和剪影存在。\\n\\n镜头与动作（严格按此顺序呈现四个镜头）：\\n第一个镜头（0–3 秒）：大远景，冷蓝雾气中的泛滥河面，一名骑手独自停在河岸边；镜头缓慢推近，骑手身后远处的黑暗中有一列微弱火把光点。\\n第二个镜头（3–7 秒）：中景侧面，凯撒骑马立于水边，马头低垂，河水在马蹄前奔涌；晨风掀起他的深红披风，火把光在他脸上摇曳；他凝视河水，一动不动。\\n第三个镜头（7–11 秒）：面部特写，浅景深，镜头极缓推近他的眼睛——眼神从犹疑转为决意，下颚收紧，深吸一口气呼出白汽；随后半拍死寂。\\n第四个镜头（11–15 秒）：马腹一夹，战马踏入河水，马蹄踏碎水中倒影溅起水花；镜头随即拉远成大远景——骑手独自向对岸走去，身后第一支火把开始移动，接着第二支、第三支，火光沿河岸连成一线；画面静止两秒后渐黑。\\n\\n光线与质感：黎明前冷蓝主调，薄雾，唯一暖光源是身后军团的火把；写实电影质感，注意锁子甲的金属环纹理、湿冷雾气、湍急河水的物理细节、马匹鼻息呼出的白汽。\\n\\n情绪基调：历史的重量压在一瞬——犹豫、决意、不可回头。\\n\\n约束要求：全程保持主角的面容、发型、服装、坐骑完全一致，不得变化；严格按上述四个镜头顺序呈现，不要跳过、合并或重排；除主角外不要出现任何清晰的人物面孔，背景军团只作为剪影和火把光点；画面中绝对不要出现文字、字幕、水印、边框或编号；镜头之间用自然的运动衔接过渡，不要做成静态幻灯片。\",\"reference_info_list\":null}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        },
+        {
+          "type": "data",
+          "sub_type": "biz/general_agent_settings",
+          "data": "{\"video_model\":\"seedance2.0_fast_vision\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "5257943970060",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "sub_type": "",
+          "data": "罗马冬夜、河岸火把、一次不可回头的踏水，这个瞬间很适合做成四镜头的片段视频。我先看下视频创作的规范。",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        },
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"load_skill\",\"tool_id\":\"call_-7323329151358724815\",\"request_data\":\"{\\\"SkillName\\\":\\\"video_prompt\\\"}\",\"extra\":\"{\\\"display_name\\\":\\\"技能学习\\\",\\\"loadingText\\\":\\\"正在学习相关技能...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "5257943970060",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "sub_type": "",
+          "data": "按四镜头的时间分段写好提示词，一次性生成这条 15 秒片段视频。",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        },
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"sandbox_generate_video\",\"tool_id\":\"call_-7323346915343462394\",\"request_data\":\"{\\\"Duration\\\":15,\\\"OutputPath\\\":\\\"assets/caesar_rubicon.mp4\\\",\\\"Prompt\\\":\\\"时长：15秒，比例：16:9，写实电影质感，史诗历史片风格，黎明前冷蓝色主调，薄雾弥漫，全程电影级光影。\\\\n\\\\n公元前49年冬夜将尽，卢比孔河泛滥的冬夜场景。主角为一名四十多岁的罗马将军凯撒：灰白短发、古铜肤色、轮廓分明的脸，身穿铁环编织的锁子甲（金属环纹理清晰），外披深红色军用披风，骑一匹深棕色战马。全程只有他一个清晰人物，面容、发型、服装、坐骑保持完全一致；身后远处黑暗中的军团火把只作为微弱光点和剪影，绝不出现任何其他清晰人物面孔。画面中不要出现任何文字、字幕、水印、边框或编号。\\\\n\\\\n0-3秒画面：大远景，冷蓝雾气笼罩的泛滥河面，浊流湍急，水面浮着薄雾；一名骑手独自停在河岸边，镜头缓慢向前推近，骑手身后远处黑暗中有一列微弱火把光点。\\\\n3-7秒画面：切至中景侧面，凯撒骑马立于水边，马头低垂，河水在马蹄前奔涌翻滚；晨风掀起他的深红披风，远处火把的暖光在他脸上摇曳；他凝视河水，一动不动，马鼻呼出白汽。\\\\n7-11秒画面：面部特写，浅景深，镜头极缓推近他的眼睛——眼神从犹疑转为决意，下颚收紧，深吸一口气呼出白汽；随后半拍死寂，环境声骤停。\\\\n11-15秒画面：马腹一夹，战马踏入河水，马蹄踏碎水中倒影溅起水花；镜头随即拉远成大远景——骑手独自向对岸走去，身后第一支火把开始移动，接着第二支、第三支，火光沿河岸连成一线；画面随后渐黑。\\\\n\\\\n音效：\\u003c湍急河水奔涌声、冬晨寒风声、马匹低沉鼻息与嘶鸣、锁子甲金属轻响、马蹄踏入水中的溅水声\\u003e，（低沉厚重的史诗弦乐铺底，在第7-11秒特写时刻近乎静默，第11秒踏水瞬间重新扬起）。\\\\n质量约束：五官清晰不变形、人物服装发型全程一致、人体结构正常，4K超高清、画面稳定无模糊、电影质感，保持无字幕，避免画面生成字幕，不要生成水印，不要生成logo。\\\",\\\"Ratio\\\":\\\"16:9\\\"}\",\"extra\":\"{\\\"display_name\\\":\\\"生成视频\\\",\\\"loadingText\\\":\\\"正在生成视频...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "5257943970060",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_artifact_slots_part",
+          "data": "{\"slots\":[{\"artifact_id\":\"5257943982348\",\"ratio\":\"16:9\",\"type\":\"video\"}]}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "5257943982348",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_video",
+          "data": "{\"video\":{\"asset_id\":\"7677213601593393689\",\"uri\":null,\"metadata\":{\"height\":720,\"width\":1280,\"format\":\"\",\"duration_ms\":15104,\"size\":0,\"bitrate\":0,\"definition\":\"\",\"codec_type\":\"\",\"encoded_type\":\"\",\"file_hash\":\"\",\"md5\":\"\",\"ratio\":\"16:9\",\"title\":null,\"name\":null,\"mime\":\"\"},\"url\":\"https://v26-xyq-video.jianying.com/eb6abc04dde375bfc8b48f574c7709d5/6b783f66/video/n/everphoto-jianying-assets/2cb5db94d2d8497fa670fb79e1603740/?a=795647\\u0026ch=0\\u0026cr=0\\u0026dr=0\\u0026cd=0%7C0%7C0%7C0\\u0026br=4673\\u0026bt=4673\\u0026cs=0\\u0026ds=3\\u0026ft=TLtriUeR_yygZmo0PU5WRgkVQ9w6x\\u0026mime_type=video_mp4\\u0026qs=13\\u0026rc=ajVuPDhvOm5pZDczNDlmM0BpajVuPDhvOm5pZDczNDlmM0Blay9zYWFmLzJhLS1kNC9zYSNlay9zYWFmLzJhLS1kNC9zcw%3D%3D\\u0026btag=80000e00010000\\u0026dy_q=1787490647\\u0026l=202608232105490DA980A3956E9E295CD4\\u0026download=true\\u0026filename=v02c76g10004da5f2ki7dld5v92kn2hg.mp4\",\"caption\":\"视频片段展现了一位身着古罗马风格盔甲、披着红色披风的男子骑马的场景。他骑在一匹黑色的马上，手持缰绳，腰间别着一把剑。整个场景发生在一个雾气弥漫的夜晚，背景中可以看到远处排列的点点灯光，营造出一种神秘且肃穆的氛围。男子骑马行进在水面上，溅起些许水花，显示出马匹正在移动。画面中还有一个特写镜头，聚焦在男子严肃的面部，他眼神坚定，似乎正在思考或注视着远方。场景中没有可见的文字或对话信息。 \",\"render_task_id\":\"45470675468\",\"cover_url\":\"https://p5-ex-gddgtc-sign.douyinpic.com/everphoto-jianying-assets/osok7k2RQiZsJEPV1jIuXItGjMAKhXo8ATAea7~tplv-noop.image?dy_q=1787490647\\u0026l=202608232105490DA980A3956E9E295CD4\\u0026x-expires=1803042662\\u0026x-signature=eRi6liq20y8FIj%2B6d65TRFNRIKI%3D\",\"music_meta\":null,\"preview_url\":\"https://v11-xyq-video.jianying.com/f4cf781b464160b6666bf3bcb08c8cd9/6b783f66/video/n/everphoto-jianying-assets/b74402059ac7445eb593b5668f377f40/?a=795647\\u0026ch=0\\u0026cr=0\\u0026dr=0\\u0026cd=0%7C0%7C0%7C0\\u0026br=6294\\u0026bt=6294\\u0026cs=0\\u0026ds=3\\u0026ft=TLtriUeR_yygZmo0PU5WRgkVQ9w6x\\u0026mime_type=video_mp4\\u0026qs=13\\u0026rc=Mzx4NWZvOm5pZDczNDlmM0BpMzx4NWZvOm5pZDczNDlmM0BzYHBtYWFeLzJhLS1kNC9zYSNzYHBtYWFeLzJhLS1kNC9zcw%3D%3D\\u0026btag=80000e00010000\\u0026dy_q=1787490647\\u0026l=202608232105490DA980A3956E9E295CD4\",\"render_task_status\":null,\"draft_key\":null,\"package_id\":null,\"vid\":null,\"render_rsp_map\":{\"disable_edit\":\"1\"},\"download_url\":\"https://v26-xyq-video.jianying.com/eb6abc04dde375bfc8b48f574c7709d5/6b783f66/video/n/everphoto-jianying-assets/2cb5db94d2d8497fa670fb79e1603740/?a=795647\\u0026ch=0\\u0026cr=0\\u0026dr=0\\u0026cd=0%7C0%7C0%7C0\\u0026br=4673\\u0026bt=4673\\u0026cs=0\\u0026ds=3\\u0026ft=TLtriUeR_yygZmo0PU5WRgkVQ9w6x\\u0026mime_type=video_mp4\\u0026qs=13\\u0026rc=ajVuPDhvOm5pZDczNDlmM0BpajVuPDhvOm5pZDczNDlmM0Blay9zYWFmLzJhLS1kNC9zYSNlay9zYWFmLzJhLS1kNC9zcw%3D%3D\\u0026btag=80000e00010000\\u0026dy_q=1787490647\\u0026l=202608232105490DA980A3956E9E295CD4\\u0026download=true\\u0026filename=v02c76g10004da5f2ki7dld5v92kn2hg.mp4\",\"ratio\":null,\"title\":\"\",\"duration\":0,\"width\":0,\"height\":0,\"cover_preview_url\":null,\"cover_preview_key\":null,\"player_info\":null,\"preview_url_v2\":null,\"unique_id\":null,\"scene_segment\":null,\"pippit_asset_id\":null,\"extra\":null},\"gif_url\":null,\"living_photo_url\":null,\"task_id\":null,\"error_message\":null,\"error_code\":null}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": "5257616079372",
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "5257943970060",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "sub_type": "",
+          "data": "成片已生成，四段镜头按 0-3、3-7、7-11、11-15 秒推进：远景独骑、临水凝视、眼神特写到踏水拉远，火把连线收尾。如果眼神转变的力度或结尾渐黑节奏想再调，告诉我具体感受即可。",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    }
+  ]
+}

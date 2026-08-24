@@ -1,0 +1,64 @@
+{
+  "project_id": "2026-08-22-chibi-east-wind",
+  "ai_scores": {
+    "visual_quality": 9,
+    "character_consistency": 8,
+    "era_accuracy": 8,
+    "camera_stability": 8,
+    "story_clarity": 9,
+    "emotional_impact": 8,
+    "creativity": 7,
+    "publish_potential": 8
+  },
+  "average_score": 8.4,
+  "verdict": "成功。四镜头结构按分镜顺序完整执行，转折（远处火光初现）落在第 11 秒附近，结尾剪影定格并渐黑，整体氛围达到「寂静中的命运感」设计目标。",
+  "observations": [
+    "低角度火把光开场（f01）与分镜完全一致，暖橘 vs 冷蓝的光比控制出色",
+    "旗幡被狂风灌满的特写（f04）是全片最强画面，转折征兆清晰可读",
+    "远景帧中敌军船队以剪影横列于对岸，空间纵深超出简报要求，加分",
+    "结尾光路反射与静止停留（f13/f14）符合 R-106 收尾 hold 要求",
+    "主角面容与服装在 f01 与 f07 特写间保持一致"
+  ],
+  "risks": [
+    "盔甲实际呈现为皮甲札甲（带肩甲），比简报的「布甲外罩皮坎肩」更精良——更像职业军士而非普通水兵；时代上仍属合理推断(B)，但与身份锁描述有偏差",
+    "「闭眼感受风」瞬间较短，静态抽帧未能确认其时长是否足够",
+    "模型渲染文字风险未触发（画面无文字），但旗帜为素面，若未来需要军旗番号需走后期文字层"
+  ],
+  "decision_suggestion": "建议 selected（人工确认后可发布，附艺术化想象说明）",
+  "adherence_review": {
+    "1_按分镜顺序": true,
+    "2_无跳过合并重排": true,
+    "3_Beat成为可读运动快照": true,
+    "4_主角身份服装剪影稳定": "基本稳定（盔甲形制较简报升级但前后一致）",
+    "5_景别递进与屏幕方向符合计划": true,
+    "6_因果成立": "风变→旗幡转向→火光出现，因果链清晰",
+    "7_无文字边框水印污染": true,
+    "8_无多余人物场景": true,
+    "9_终帧落在计划payoff": true,
+    "10_失败归因": "不适用"
+  },
+  "generation_meta": {
+    "video": "1280x720, 16:9, 15.0s, ~8.2MB",
+    "generation_time_minutes": 2,
+    "frames_sampled": [
+      "f01",
+      "f04",
+      "f07",
+      "f11",
+      "f13",
+      "f14"
+    ]
+  },
+  "human_rating": "喜欢",
+  "human_comment": "喜欢",
+  "human_decision": "selected",
+  "human_reviewed_at": "2026-08-23",
+  "learned": [
+    {
+      "id": "armor-spec-lock",
+      "title": "身份锁要写明甲胄形制",
+      "rule": "主角服装逐件写明材质与形制，不留解释空间",
+      "source": "第 01 夜评审"
+    }
+  ]
+}

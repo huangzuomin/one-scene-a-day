@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>一日一幕 · AI 每日短片实验室</title>
+<meta name="description" content="一日一幕：每晚 21:00，一台 AI 自主拍下一部 15 秒短片。第一季 30 夜，全程留档，无人值守。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%230e0d0b'/%3E%3Crect x='6' y='5' width='20' height='22' fill='none' stroke='%23c98a3d' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='4.5' fill='%23c98a3d'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;900&family=JetBrains+Mono:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="nav-brand" href="#top">
+    <span class="brand-word">一日一幕</span>
+    <span class="brand-sub">AI 每日短片实验室</span>
+  </a>
+  <nav class="nav-links">
+    <a href="#films">影片</a>
+    <a href="#machine">机器</a>
+    <a href="#learning">学习</a>
+    <a href="#about">关于</a>
+  </nav>
+</header>
+
+<!-- ============ 第一幕 · 首屏 ============ -->
+<section class="hero" id="top">
+  <img class="hero-bg" src="assets/hero.jpg" alt="敦煌藏经洞经卷墙，短片第 15 秒画面">
+  <div class="hero-scrim"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">SERIES 01 · 如果历史有镜头 · 第一季 30 夜</p>
+    <p class="hero-day">第 03 夜 · 2026-08-24 <span class="chip chip-selected">已精选</span></p>
+    <h1 class="hero-title">敦煌藏经洞<br>第一次被打开</h1>
+    <p class="hero-sub">深夜，道士王圆箓凿开甬道侧墙的封门墙。封闭千年的气涌吹弯了灯焰，灯光随即照亮从地堆到洞顶的五万卷经书。</p>
+    <p class="hero-def">一日一幕：每晚 21:00，一台 AI 自主拍下一部 15 秒短片。第一季 30 夜，全程留档，无人值守。</p>
+    <div class="hero-cta">
+      <a class="btn btn-solid" href="#film-dunhuang">播放这一夜</a>
+      <a class="btn btn-ghost" href="#machine">这台机器如何运转</a>
+    </div>
+  </div>
+  <p class="hero-caption">首帧画面：《敦煌藏经洞第一次被打开》第 15 秒</p>
+</section>
+
+<main>
+
+<!-- 季况条 -->
+<div class="season-strip">
+  <div class="season-inner">
+    <p class="season-progress"><b>第一季 · 30 夜</b><span>第 03 夜已完成</span><span>精选 3 / 3</span></p>
+    <p class="season-next">下一次运行 今晚 21:00<span class="sep"> · </span>第 30 夜公开结算 <b>2026-09-20</b></p>
+  </div>
+</div>
+
+<!-- ============ 系列 · 影片 ============ -->
+<section class="films" id="films">
+
+  <header class="series-head">
+    <p class="kicker">SERIES 01</p>
+    <h2 class="section-title">如果历史有镜头</h2>
+    <p class="series-statement">假设历史上的某个关键时刻，真的留下过一段 15 秒影像，它会是什么样子？这是一日一幕的第一个系列：不做历史科普，只造一段不存在、但仿佛真的被摄影机记录下来的画面。第一季 30 夜，全部属于这个系列。</p>
+  </header>
+
+  <article class="film" id="film-dunhuang">
+    <div class="film-strip" aria-hidden="true">
+      <img src="assets/films/dunhuang/f01.jpg" alt=""><img src="assets/films/dunhuang/f04.jpg" alt=""><img src="assets/films/dunhuang/f07.jpg" alt=""><img src="assets/films/dunhuang/f09.jpg" alt=""><img src="assets/films/dunhuang/f12.jpg" alt=""><img src="assets/films/dunhuang/f15.jpg" alt="">
+    </div>
+    <header class="film-head">
+      <p class="film-meta">第 03 夜 · 2026-08-24 · 探索发现 · 1900 · <span class="chip chip-selected">已精选</span></p>
+      <h2 class="film-title">敦煌藏经洞第一次被打开</h2>
+      <p class="film-logline">深夜，道士王圆箓凿开甬道侧墙的封门墙。封闭千年的气涌吹弯了灯焰，灯光随即照亮从地堆到洞顶的五万卷经书。</p>
+    </header>
+    <video controls preload="metadata" poster="assets/films/dunhuang/f15.jpg" src="assets/films/dunhuang/video.mp4"></video>
+    <div class="film-verdict">
+      <div class="score-grid">
+        <span class="score"><b>9</b>视觉质量</span><span class="score"><b>9</b>人物一致性</span>
+        <span class="score"><b>9</b>时代准确性</span><span class="score"><b>9</b>镜头稳定性</span>
+        <span class="score"><b>9</b>故事可理解性</span><span class="score"><b>8</b>情绪强度</span>
+        <span class="score"><b>8</b>创意度</span><span class="score"><b>8</b>发布潜力</span>
+      </div>
+      <div class="verdict-block">
+        <p class="verdict-avg">8.6</p>
+        <p class="verdict-note">四拍结构全中，人物一致性为系列最佳；末帧经卷墙与尘埃光柱是至今最强的收尾画面。核心转折「火苗弯折」在成片中未能确证，实际以表情骤惊替代。</p>
+        <p class="verdict-sign"><span class="sign-ai">AI 评审：建议精选</span><span class="sign-human">人说：「喜欢」→ 精选</span></p>
+      </div>
+    </div>
+    <details class="film-archive">
+      <summary>创作档案：研究、分镜与提交简报</summary>
+      <div class="archive-grid">
+        <section class="archive-block">
+          <h3>研究事实与置信分级</h3>
+          <table>
+            <tr><td>1900 年 6 月 22 日，王圆箓发现藏经洞（今编第 17 窟）</td><td class="conf-a">A</td></tr>
+            <tr><td>洞内封存 4 至 11 世纪经卷、文书、绢画约 5 万件，层层堆叠至洞顶</td><td class="conf-a">A</td></tr>
+            <tr><td>发现于第 16 窟甬道：清理积沙后墙缝中空，凿开墙体即是密室</td><td class="conf-b">B</td></tr>
+            <tr><td>夜间以油灯照明进行；具体凿开过程与人物表情</td><td class="conf-c">B/C</td></tr>
+          </table>
+          <p class="archive-note">置信分级：A 史料确认 / B 合理推断 / C 艺术创作。传闻细节「纸捻吸烟发现墙缝」多版本存疑，未入正片。</p>
+        </section>
+        <section class="archive-block">
+          <h3>分镜四拍</h3>
+          <ol class="beat-list">
+            <li><span class="beat-time">0-4s</span>全景：甬道深处油灯形成唯一光圈，道士蹲在光圈中央一錾一錾凿封门墙，镜头缓推。</li>
+            <li><span class="beat-time">4-8s</span>中近景：抹开浮灰露出细长裂缝，提灯凑近侧耳，缝隙深处透出一丝气声。</li>
+            <li><span class="beat-time">8-11s</span>特写：最后一錾砖块内塌，千年气涌使灯焰猛地弯折嘶响，他骤然睁眼，半拍死寂。</li>
+            <li><span class="beat-time">11-15s</span>过肩推入：光柱照亮堆到洞顶的经卷，尘埃在光柱里浮动，静止两秒渐黑。</li>
+          </ol>
+        </section>
+      </div>
+      <details class="prompt-fold">
+        <summary>提交给模型的创作简报原文</summary>
+        <pre class="prompt-text">生成一条 15 秒的电影感历史短片，16:9 横屏，写实电影风格。题材：1900 年 6 月的深夜，敦煌莫高窟，穷道士王圆箓清理积沙时凿开侧墙上一段封门墙，无意间打开了封存千年、堆满五万件经卷的第 17 窟藏经洞。
+
+场景与人物：莫高窟第 16 窟甬道深处，四壁是斑驳的旧壁画，夜间只靠一盏黄铜油灯照明。主角是一名清瘦的中年道士王圆箓：深灰蓝色旧道袍洗得发白、袖口磨损，头发挽成发髻插一根木簪，面容风霜、手指粗糙沾着泥灰。全片只有他一个人物。
+
+镜头与动作（严格按此顺序呈现四个镜头）：一、全身景，油灯在地上形成唯一暖黄光圈，道士蹲在光圈中央凿墙，镜头缓慢推近。二、中近景转插入特写，他停手抹开浮灰，露出砖缝间一条细长的裂缝；提灯凑近，侧耳倾听，裂缝深处透出一丝若有若无的气声。三、特写，浅景深：最后一錾，砖块向内塌落现出破洞，封闭千年的气流涌出，油灯的火苗猛地弯折、嘶响、几乎熄灭又重新立直；光影在他骤然睁大的眼睛上剧烈摇晃后复稳。四、过肩中景推入密室内部大远景：他屏息举灯凑向破口，昏黄光柱照亮从地面层层堆到洞顶的经卷与布包，尘埃在光柱里缓缓浮动；镜头缓慢推进后完全静止两秒，渐黑。
+
+光线与质感：全片单一油灯暖黄光源与深黑环境的高对比；写实电影质感。火苗弯折的一瞬是全片的视觉核心。
+
+约束要求：全程保持主角的面容、发型、服装、体型完全一致；严格按四个镜头顺序呈现；不要出现第二个清晰人物；画面中绝对不要出现文字、字幕、水印、边框或编号；镜头之间用自然的运动衔接，不要做成静态幻灯片。</pre>
+      </details>
+    </details>
+  </article>
+
+  <article class="film" id="film-rubicon">
+    <div class="film-strip" aria-hidden="true">
+      <img src="assets/films/rubicon/f01.jpg" alt=""><img src="assets/films/rubicon/f05.jpg" alt=""><img src="assets/films/rubicon/f09.jpg" alt=""><img src="assets/films/rubicon/f12.jpg" alt=""><img src="assets/films/rubicon/f15.jpg" alt="">
+    </div>
+    <header class="film-head">
+      <p class="film-meta">第 02 夜 · 2026-08-23 · 政治转折 · 前 49 · 首个全自动夜 · <span class="chip chip-selected">已精选</span></p>
+      <h2 class="film-title">凯撒在卢比孔河边的沉默</h2>
+      <p class="film-logline">冬夜将尽，凯撒驻马河北岸。跨过这条河就是内战。他沉默，然后策马踏入冰水，马蹄踏碎了自己的倒影。</p>
+    </header>
+    <video controls preload="metadata" poster="assets/films/rubicon/f15.jpg" src="assets/films/rubicon/video.mp4"></video>
+    <div class="film-verdict">
+      <div class="score-grid">
+        <span class="score"><b>9</b>视觉质量</span><span class="score"><b>8</b>人物一致性</span>
+        <span class="score"><b>9</b>时代准确性</span><span class="score"><b>9</b>镜头稳定性</span>
+        <span class="score"><b>8</b>故事可理解性</span><span class="score"><b>9</b>情绪强度</span>
+        <span class="score"><b>8</b>创意度</span><span class="score"><b>9</b>发布潜力</span>
+      </div>
+      <div class="verdict-block">
+        <p class="verdict-avg">8.6</p>
+        <p class="verdict-note">大远景、特写、大远景的钟形镜头曲线完整落地，冰河与火把线的视觉母题贯穿全片，身份锁零漂移。钩子「马蹄踏碎倒影」发生在动态段，静帧未能验证。</p>
+        <p class="verdict-sign"><span class="sign-ai">AI 评审：建议精选</span><span class="sign-human">人说：「喜欢」→ 精选</span></p>
+      </div>
+    </div>
+    <details class="film-archive">
+      <summary>创作档案：研究、分镜与提交简报</summary>
+      <div class="archive-grid">
+        <section class="archive-block">
+          <h3>研究事实与置信分级</h3>
+          <table>
+            <tr><td>渡过卢比孔河即越过意大利行省边界，罗马内战由此开始</td><td class="conf-a">A</td></tr>
+            <tr><td>「骰子已掷下」传为凯撒踏河之际所言</td><td class="conf-a">A</td></tr>
+            <tr><td>凯撒在河边驻马犹疑之后才下令渡河</td><td class="conf-a">A</td></tr>
+            <tr><td>冬夜涨水、单人骑马夜渡的画面呈现</td><td class="conf-c">B/C</td></tr>
+          </table>
+          <p class="archive-note">独白与表情无史料记载，全片以沉默处理，避免戏剧化演绎。</p>
+        </section>
+        <section class="archive-block">
+          <h3>分镜四拍</h3>
+          <ol class="beat-list">
+            <li><span class="beat-time">0-3s</span>大远景：冷蓝雾气的泛滥河面，骑手独停岸边，身后黑暗里一列火把光点。</li>
+            <li><span class="beat-time">3-7s</span>中景侧面：驻马水边，晨风掀起深红披风，凝视河水一动不动。</li>
+            <li><span class="beat-time">7-11s</span>特写：眼神从犹疑转为决意，深吸气呼出白汽，半拍死寂。</li>
+            <li><span class="beat-time">11-15s</span>远景收束：马蹄踏碎倒影，镜头拉远，身后火把次第跟随，静止两秒。</li>
+          </ol>
+        </section>
+      </div>
+      <details class="prompt-fold">
+        <summary>提交给模型的创作简报原文</summary>
+        <pre class="prompt-text">生成一条 15 秒的电影感历史短片，16:9 横屏，写实电影风格。题材：公元前 49 年冬夜将尽，凯撒率军团来到卢比孔河北岸，跨过这条河就是内战，这是他驻马权衡、最终踏入河水的瞬间。
+
+场景与人物：黎明前的深蓝冬晨，卢比孔河因冬雨泛滥，浊流湍急，水面有薄雾。主角是四十多岁的罗马将军凯撒：灰白短发、古铜肤色、轮廓分明的脸，身穿铁环编织的锁子甲，外披深红色军用披风，骑一匹深棕色战马。全片只有他一个清晰人物；身后远处的黑暗里，军团的火把排成一列，只作为光点和剪影存在。
+
+镜头与动作（严格按此顺序呈现四个镜头）：一、大远景，冷蓝雾气中的泛滥河面，一名骑手独自停在河岸边；镜头缓慢推近。二、中景侧面，凯撒骑马立于水边，马头低垂，河水在马蹄前奔涌；晨风掀起他的深红披风，他凝视河水，一动不动。三、面部特写，浅景深，镜头极缓推近他的眼睛：眼神从犹疑转为决意，下颚收紧，深吸一口气呼出白汽；随后半拍死寂。四、马腹一夹，战马踏入河水，马蹄踏碎水中倒影溅起水花；镜头随即拉远成大远景，骑手独自向对岸走去，身后火光沿河岸连成一线；画面静止两秒后渐黑。
+
+光线与质感：黎明前冷蓝主调，薄雾，唯一暖光源是身后军团的火把；写实电影质感，注意锁子甲的金属环纹理、湿冷雾气、湍急河水的物理细节。
+
+约束要求：全程保持主角的面容、发型、服装、坐骑完全一致；严格按四个镜头顺序呈现；除主角外不要出现任何清晰的人物面孔；画面中绝对不要出现文字、字幕、水印、边框或编号；镜头之间用自然的运动衔接过渡，不要做成静态幻灯片。</pre>
+      </details>
+    </details>
+  </article>
+
+  <article class="film" id="film-chibi">
+    <div class="film-strip" aria-hidden="true">
+      <img src="assets/films/chibi/f01.jpg" alt=""><img src="assets/films/chibi/f04.jpg" alt=""><img src="assets/films/chibi/f07.jpg" alt=""><img src="assets/films/chibi/f11.jpg" alt=""><img src="assets/films/chibi/f13.jpg" alt=""><img src="assets/films/chibi/f14.jpg" alt="">
+    </div>
+    <header class="film-head">
+      <p class="film-meta">第 01 夜 · 2026-08-22 · 战争 · 208 · <span class="chip chip-selected">已精选</span></p>
+      <h2 class="film-title">赤壁之夜，东南风起</h2>
+      <p class="film-logline">公元 208 年冬夜，长江。一名东吴水兵在船头察觉风向变了：旗幡猛然转向东南，极远的江面尽头，第一艘火船的火光亮起。</p>
+    </header>
+    <video controls preload="metadata" poster="assets/films/chibi/f14.jpg" src="assets/films/chibi/video.mp4"></video>
+    <div class="film-verdict">
+      <div class="score-grid">
+        <span class="score"><b>9</b>视觉质量</span><span class="score"><b>8</b>人物一致性</span>
+        <span class="score"><b>8</b>时代准确性</span><span class="score"><b>8</b>镜头稳定性</span>
+        <span class="score"><b>9</b>故事可理解性</span><span class="score"><b>8</b>情绪强度</span>
+        <span class="score"><b>7</b>创意度</span><span class="score"><b>8</b>发布潜力</span>
+      </div>
+      <div class="verdict-block">
+        <p class="verdict-avg">8.4</p>
+        <p class="verdict-note">旗幡被狂风灌满的特写是全片最强画面，转折征兆清晰可读，「寂静中的命运感」达成设计目标。盔甲实际呈札甲，较简报设定精良，但前后一致。</p>
+        <p class="verdict-sign"><span class="sign-ai">AI 评审：建议精选</span><span class="sign-human">人说：「喜欢」→ 精选</span></p>
+      </div>
+    </div>
+    <details class="film-archive">
+      <summary>创作档案：研究、分镜与提交简报</summary>
+      <div class="archive-grid">
+        <section class="archive-block">
+          <h3>研究事实与置信分级</h3>
+          <table>
+            <tr><td>建安十三年（208）冬决战，当晚刮东南风且「时风盛猛」</td><td class="conf-a">A</td></tr>
+            <tr><td>黄盖以蒙冲斗舰数十艘实以薪草膏油诈降，中道点火冲向曹军</td><td class="conf-a">A</td></tr>
+            <tr><td>东汉末士卒着深色布甲皮甲、束发带；战船帆桨并用</td><td class="conf-b">B</td></tr>
+            <tr><td>船头无名士兵其人其行（本片主角）</td><td class="conf-c">C</td></tr>
+          </table>
+          <p class="archive-note">铁索连环为《三国演义》演绎，画面规避铁链特写；旗帜做素面处理，规避模型渲染文字风险。</p>
+        </section>
+        <section class="archive-block">
+          <h3>分镜四拍</h3>
+          <ol class="beat-list">
+            <li><span class="beat-time">0-3s</span>中近景：年轻士兵持火把立于船头凝视黑色江水，火把光在脸上晃动，镜头缓推。</li>
+            <li><span class="beat-time">3-6s</span>大特写：半拍死寂后，垂落的旌旗被狂风灌满，猛地展开甩向东南。</li>
+            <li><span class="beat-time">6-11s</span>特写拉远：他闭眼感受风变，睁眼时极远的黑水上一点橘色火光缓缓亮起。</li>
+            <li><span class="beat-time">11-15s</span>远景剪影：他按紧刀柄迎风而立，镜头缓拉后静止两秒，渐黑。</li>
+          </ol>
+        </section>
+      </div>
+      <details class="prompt-fold">
+        <summary>提交给模型的创作简报原文</summary>
+        <pre class="prompt-text">生成一条 15 秒的电影感历史短片，16:9 横屏，写实电影风格。题材：公元 208 年赤壁之战当夜，东南风初起、火攻将至的前一刻。
+
+场景与人物：隆冬深夜的长江江面。主角是一名二十岁出头的东吴水军年轻士兵：短黑发、束深色发带，身穿深灰色布甲、外罩暗褐色皮坎肩，腰间挎短刀，右手举着一支燃烧的火把。全片只有他一个清晰人物，站在一条木质战船的船头，背景是隐没在黑夜中的船队轮廓与墨蓝色江面。
+
+镜头与动作（严格按此顺序呈现四个镜头）：一、中近景、微仰角、浅景深，镜头缓慢推近；火把的暖橘色光芒映着他警觉的脸，身后帆索吱呀作响。二、切至桅顶旗幡的大特写：垂落的旌旗在半秒死寂后突然被狂风灌满，布面猛然绷直展开，猎猎甩向东南方向。三、回到士兵面部特写，他闭上眼感受风向，披风和发带被风吹得向后扬起；随后他睁开眼，镜头拉远并随他的视线摇向漆黑的江面尽头：极远处的水面上，一点橘色火光缓缓亮起，倒映在江水中。四、低角度全景剪影，士兵按紧刀柄迎风而立，远处火光在江面拉出颤抖的橘色光路；镜头缓慢拉远后完全静止两秒，画面渐黑。
+
+光线与质感：整体冷蓝月夜色调，画面中唯一的暖光源是手中的火把与远方的火光；写实电影质感，注意木材纹理、江水波光、布料与头发被风吹动的物理细节。
+
+约束要求：全程保持主角的面容、发型、服装、体型完全一致；严格按四个镜头的顺序呈现；除主角外不要出现任何清晰的人物面孔；画面中绝对不要出现文字、字幕、水印、边框或编号；镜头之间用自然的运动衔接过渡，不要做成静态幻灯片。</pre>
+      </details>
+    </details>
+  </article>
+
+</section>
+
+<!-- ============ 第三幕 · 机器 ============ -->
+<section class="machine" id="machine">
+  <div class="machine-cols">
+    <div class="pipeline">
+      <h2 class="section-title">一台机器的十一步</h2>
+      <p class="section-sub">每个深夜 21:00，一个 AI 会话醒来，读自己的操作手册和创作守则，然后走完这条流水线。生成环节之外，没有任何人碰过鼠标。</p>
+      <ol class="pipeline-list">
+        <li><span class="step-no">01</span><div><b>选题</b>从候选池选视觉潜力最高、且与近七天标签不重复的一部。</div></li>
+        <li><span class="step-no">02</span><div><b>研究</b>核验时代、服饰、建筑与事件，逐条标注史料置信。</div></li>
+        <li><span class="step-no">03</span><div><b>概念</b>一个瞬间、一个动作、一种情绪、一次转折。</div></li>
+        <li><span class="step-no">04</span><div><b>脚本</b>15 秒微故事，禁旁白堆砌，标注声音暗示。</div></li>
+        <li><span class="step-no">05</span><div><b>分镜</b>四拍八字段：景别、角度、焦段、构图、运镜、动作、光线、转场。</div></li>
+        <li><span class="step-no">06</span><div><b>简报</b>织成一段完整的自然语言创作简报，附镜头顺序约束。</div></li>
+        <li><span class="step-no">07</span><div><b>熔断</b>当日生成满两次即停，预算台账落盘。</div></li>
+        <li><span class="step-no">08</span><div><b>生成</b>提交小云雀 Seedance，每 10 秒轮询，超 90 分钟弃取。</div></li>
+        <li><span class="step-no">09</span><div><b>下载</b>成片归档，按每秒一帧抽帧。</div></li>
+        <li><span class="step-no">10</span><div><b>评审</b>亲看分布帧，八维打分，回答 adherence 十问。</div></li>
+        <li><span class="step-no">11</span><div><b>收尾</b>重建审片页，追加运行日志，等待人工评级。</div></li>
+      </ol>
+      <p class="runtime-note">这条流水线是通用的 Runtime。换一个系列，换的只是第 02 步的「研究」规则：历史系列核验史料，古籍系列理解文本，科幻系列构建世界观。系列 Playbook 可插拔，机器不变。</p>
+      <p class="pipeline-loop">每晚 21:00 自动运行，周日上午追加学习周报</p>
+    </div>
+    <div class="machine-side">
+      <h3 class="side-title">运行日志</h3>
+      <ul class="runlog">
+        <li><span class="log-time">08-22</span>首拍验证。密钥过期受阻一次，更新后续跑成功，T001 评 8.4。</li>
+        <li><span class="log-time">08-22</span>21:00 定时器首次触发：当日已有成片，按「每天一部」规则主动跳过。</li>
+        <li><span class="log-time">08-23</span>首个全自动夜：T002 从选题到收尾无人值守，评 8.6。当晚人工评级「喜欢」。</li>
+        <li><span class="log-time">08-24</span>21:00 定时运行中断后自动续跑完成：T003 评 8.6。指定模型 Seedance 2.5 后端暂不可选，自动回退 fast_vision，成片质量无异常。</li>
+        <li><span class="log-time">08-24</span>人工评级「喜欢」。三夜三片，AI 建议与人工评级全中。</li>
+      </ul>
+      <h3 class="side-title">待拍清单</h3>
+      <ul class="queue">
+        <li><span>君士坦丁堡城墙陷落前夜</span><span class="queue-meta">1453 · 战争</span></li>
+        <li><span>阿波罗 11 号舱门开启前的九十秒</span><span class="queue-meta">1969 · 科技</span></li>
+        <li><span>庞贝的清晨：维苏威醒来的第一小时</span><span class="queue-meta">79 · 灾难</span></li>
+        <li><span>瞭望员的三十秒：冰山在前</span><span class="queue-meta">1912 · 灾难</span></li>
+        <li><span>维京长船推入美洲海岸的雾中</span><span class="queue-meta">约 1000 · 探索发现</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 学习 ============ -->
+<section class="learning" id="learning">
+  <div class="learning-inner">
+    <p class="kicker">LEARNING</p>
+    <h2 class="section-title">它学到过什么</h2>
+    <p class="section-sub">每夜复盘留下的教训，先记为「规则候选」。第 30 夜结算时，只有带样本证据的条目才会写进创作守则。</p>
+    <ol class="rule-list">
+      <li class="rule">
+        <p class="rule-no">规则候选 01</p>
+        <h3 class="rule-title">转折要落在静帧可读的画面上</h3>
+        <p class="rule-why">敦煌夜的「火苗弯折」、卢比孔夜的「马蹄踏碎倒影」，都发生在动态段，事后抽帧无法确证是否真的发生。</p>
+        <p class="rule-candidate">规则候选：核心转折安排一个静态可验证的视觉锚点。</p>
+        <p class="rule-src">来源 · 第 02 夜、第 03 夜评审</p>
+      </li>
+      <li class="rule">
+        <p class="rule-no">规则候选 02</p>
+        <h3 class="rule-title">身份锁要写明甲胄形制</h3>
+        <p class="rule-why">赤壁夜简报写「布甲外罩皮坎肩」，成片升级为札甲，全片一致但偏离设定。</p>
+        <p class="rule-candidate">规则候选：主角服装逐件写明材质与形制，不留解释空间。</p>
+        <p class="rule-src">来源 · 第 01 夜评审</p>
+      </li>
+      <li class="rule">
+        <p class="rule-no">规则候选 03</p>
+        <h3 class="rule-title">简报要预声明模型降级链</h3>
+        <p class="rule-why">指定 Seedance 2.5 不可用时，后端自动回退 fast_vision，成片质量无异常。</p>
+        <p class="rule-candidate">规则候选：简报首行声明可接受的模型顺序，回退不算事故。</p>
+        <p class="rule-src">来源 · 第 03 夜运行日志</p>
+      </li>
+    </ol>
+    <div class="settlement">
+      <p class="settle-title">第 30 夜 · 2026-09-20 · 公开结算</p>
+      <p class="settle-thresholds">运行稳定性 ≥ 90% · 有效成片率 ≥ 70% · 精选率 ≥ 30% · 创作规则 ≥ 10 条</p>
+      <p class="settle-now">当前进度：第 03 夜，精选 3 / 3。样本太小，不作解读。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 第四幕 · 关于 ============ -->
+<section class="about" id="about">
+  <div class="about-intro">
+    <h2 class="section-title">一个无人值守的创作实验</h2>
+    <div class="about-def">
+      <p>一日一幕是一场公开运行的创作实验：一台 AI 每晚 21:00 醒来，读自己的操作手册与创作守则，完成选题、考据、分镜、生成、自评，全程无人值守。第一季 30 夜，只拍一个系列，第 30 夜公开结算。</p>
+      <p>它每晚都拍，但不代表每晚都值得看。精选是人的判断；全部夜次，包括失败和跳过，都留档在案，可在各夜创作档案中查证。</p>
+    </div>
+    <p class="about-lead">这个实验室想回答一个问题：把创作守则、操作手册和真实的历史题材交给一台 AI，它能否夜复一夜地产出值得看的东西？系统没有界面，没有数据库，全部「源代码」就是两份 markdown 文档；一个 AI 会话读着它们醒来、创作、自我评审、落盘归档，然后在第二天晚上再次醒来。</p>
+  </div>
+
+  <div class="method">
+    <section class="method-block method-rhythm">
+      <h3>十五秒的骨架</h3>
+      <p>每条片子按同一条时间轴分配功能，转折必须落在第十一秒附近。</p>
+      <div class="rhythm-bar" role="img" aria-label="时间轴：0至2秒钩子，2至6秒展开，6至11秒升级，11至14秒转折，14至15秒收束">
+        <span style="width:13.3%">钩子<br>0-2s</span><span style="width:26.7%">展开<br>2-6s</span><span style="width:33.3%">升级<br>6-11s</span><span class="rb-turn" style="width:20%">转折<br>11-14s</span><span style="width:6.7%">收束<br>14-15s</span>
+      </div>
+    </section>
+    <section class="method-block method-flow">
+      <h3>七格揭示流</h3>
+      <p>历史转折的默认分镜图，实际拍摄时压缩为四到六格。</p>
+      <ol class="flow-grid">
+        <li>空间孤立</li><li>信号出现</li><li>察觉</li><li>含义揭示</li><li>内在一闪</li><li>定格 payoff</li><li>余韵</li>
+      </ol>
+    </section>
+    <section class="method-block method-qa">
+      <h3>生成后的十问</h3>
+      <p>每夜成片由 AI 亲自看帧复盘，十问之三：</p>
+      <ul>
+        <li>主角身份、服装、剪影是否稳定？</li>
+        <li>终帧是否落在设计的 payoff？</li>
+        <li>画面有没有文字、边框、水印污染？</li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><b>3 / 30</b><span>夜完成 · 全部精选</span></div>
+    <div class="stat"><b>100%</b><span>AI 建议与人工评级一致</span></div>
+    <div class="stat"><b>8.5</b><span>平均评审分</span></div>
+    <div class="stat"><b>0</b><span>生成环节人工干预</span></div>
+  </div>
+
+  <div class="colophon">
+    <p>创作由 ZCode 会话承担，读 <code>PIPELINE.md</code> 与 <code>PLAYBOOK.md</code> 运行；视频由小云雀 Seedance 生成；本站为纯静态 HTML 与 CSS，无框架。</p>
+    <p class="disclaimer">所有影片基于真实历史背景的艺术化想象。关键视觉元素经史料置信分级核验，人物细节属创作自由，完整依据见各片创作档案。</p>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <span>一日一幕 · AI 每日短片实验室</span>
+  <span class="footer-dim">第一季 · 第 30 夜公开结算 2026-09-20</span>
+</footer>
+
+</body>
+</html>

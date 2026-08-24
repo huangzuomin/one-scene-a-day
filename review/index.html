@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 每日短片实验室 · 审片室</title>
+<style>
+  :root { --bg:#0d1117; --card:#161b22; --line:#30363d; --txt:#e6edf3; --dim:#8b949e; --amber:#d29922; --green:#3fb950; --red:#f85149; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:var(--bg); color:var(--txt); font-family:"Segoe UI","Microsoft YaHei",sans-serif; padding:40px 24px; }
+  .wrap { max-width:880px; margin:0 auto; }
+  h1 { font-size:22px; font-weight:600; margin-bottom:4px; }
+  .sub { color:var(--dim); font-size:13px; margin-bottom:32px; }
+  .stats { display:flex; gap:16px; margin-bottom:32px; flex-wrap:wrap; }
+  .stat { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:14px 20px; min-width:120px; }
+  .stat .n { font-size:24px; font-weight:700; }
+  .stat .l { color:var(--dim); font-size:12px; margin-top:2px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:24px; margin-bottom:20px; }
+  .card.pending { border-color:var(--amber); box-shadow:0 0 24px rgba(210,153,34,.08); }
+  .card .date { color:var(--dim); font-size:12px; letter-spacing:1px; }
+  .card h2 { font-size:18px; margin:6px 0 10px; font-weight:600; }
+  .card .meta { color:var(--dim); font-size:13px; line-height:1.7; }
+  .badge { display:inline-block; padding:2px 10px; border-radius:20px; font-size:12px; margin-left:8px; vertical-align:middle; }
+  .badge.review { background:rgba(210,153,34,.15); color:var(--amber); border:1px solid var(--amber); }
+  .badge.ok { background:rgba(63,185,80,.15); color:var(--green); border:1px solid var(--green); }
+  video, img.frame { width:100%; border-radius:8px; margin-top:16px; background:#000; display:block; }
+  .frames { display:flex; gap:8px; margin-top:12px; overflow-x:auto; }
+  .frames img { height:90px; border-radius:6px; border:1px solid var(--line); }
+  .score { margin-top:12px; font-size:13px; color:var(--dim); line-height:1.8; }
+  .score b { color:var(--txt); }
+  .grid { display:grid; grid-template-columns:1fr 1fr; gap:4px 18px; margin-top:10px; font-size:12px; color:var(--dim); max-width:420px; }
+  .grid .v { color:var(--txt); float:right; }
+  .note { border-left:3px solid var(--green); padding:8px 14px; margin-top:14px; font-size:13px; color:var(--dim); background:rgba(63,185,80,.06); border-radius:0 6px 6px 0; }
+  .note.wait { border-color:var(--amber); background:rgba(210,153,34,.06); }
+  footer { margin-top:40px; color:var(--dim); font-size:12px; line-height:1.8; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>🎬 AI 每日短片实验室 · 审片室</h1>
+  <div class="sub">《如果历史有镜头》系列 · 每晚 21:00 自动创作 · 本页由流水线自动重新生成</div>
+
+  <div class="stats">
+    <div class="stat"><div class="n">3</div><div class="l">成片</div></div>
+    <div class="stat"><div class="n">8.5</div><div class="l">平均 AI 分</div></div>
+    <div class="stat"><div class="n">100%</div><div class="l">精选率（3/3）</div></div>
+    <div class="stat"><div class="n">100%</div><div class="l">运行成功率（3/3 天）</div></div>
+  </div>
+
+  <div class="card">
+    <div class="date">2026-08-24 · HISTORY_CAMERA · T003 · Seedance 2.5 指令日（实际回退 fast_vision）</div>
+    <h2>敦煌藏经洞第一次被打开 <span class="badge ok">已精选 · 人工「喜欢」</span></h2>
+    <div class="meta">
+      1900 年 6 月深夜，莫高窟。道士王圆箓凿开 16 窟侧墙的封门墙——封闭千年的气流涌出吹弯灯焰，灯光随即照亮从地堆到洞顶的五万件经卷。<br>
+      1280×720 · 15.0s · 16:9 · 生成耗时约 3.5 分钟 · 实际模型 seedance2.0_fast_vision（2.5 后端暂不可选，质量无异常未重提）
+    </div>
+    <video controls src="../projects/2026-08-24-dunhuang-cave17/video.mp4"></video>
+    <div class="frames">
+      <img src="../projects/2026-08-24-dunhuang-cave17/frames/f01.jpg" alt="f01">
+      <img src="../projects/2026-08-24-dunhuang-cave17/frames/f04.jpg" alt="f04">
+      <img src="../projects/2026-08-24-dunhuang-cave17/frames/f07.jpg" alt="f07">
+      <img src="../projects/2026-08-24-dunhuang-cave17/frames/f09.jpg" alt="f09">
+      <img src="../projects/2026-08-24-dunhuang-cave17/frames/f13.jpg" alt="f13">
+      <img src="../projects/2026-08-24-dunhuang-cave17/frames/f15.jpg" alt="f15">
+    </div>
+    <div class="score"><b>Critic 八维评分（均分 <span style="color:var(--green)">8.6</span>）</b>
+      <div class="grid">
+        <span>视觉质量<span class="v">9</span></span><span>人物一致性<span class="v">9</span></span>
+        <span>时代准确性<span class="v">9</span></span><span>镜头稳定性<span class="v">9</span></span>
+        <span>故事可理解性<span class="v">9</span></span><span>情绪强度<span class="v">8</span></span>
+        <span>创意度<span class="v">8</span></span><span>发布潜力<span class="v">8</span></span>
+      </div>
+    </div>
+    <div class="score"><b>Critic 摘要：</b>四拍结构全中：甬道凿墙（唯一灯光圈+斑驳壁画）→ 手抚裂缝察觉 → 墙破惊变特写 → 举灯照亮经卷墙+尘埃光柱定格。人物一致性为系列最佳（发髻木簪+深灰蓝道袍跨 7 帧零漂移），时代还原无穿帮，末帧为全片最强记忆点。风险：核心转折「火苗弯折」在抽帧中未确证，实际以「表情骤惊」替代；惊讶比计划提前约 2s；Beat4 payoff 到位但晚约 1s。</div>
+    <div class="note">🟢 人工评级：喜欢（2026-08-24 当晚）→ selected。系列 3 拍 3 中，AI 建议连续三日与人工一致。发布时附「基于历史背景的艺术化想象」说明即可。</div>
+  </div>
+
+  <div class="card">
+    <div class="date">2026-08-23 · HISTORY_CAMERA · T002 · 首个全自动日</div>
+    <h2>凯撒在卢比孔河边的沉默 <span class="badge ok">已精选 · 人工「喜欢」</span></h2>
+    <div class="meta">
+      公元前 49 年冬夜，卢比孔河。凯撒驻马水边，身后是高卢的火把长线，面前是改变世界的界河——他沉默，然后策马踏入冰水。<br>
+      1280×720 · 15.1s · 16:9 · 生成耗时约 4 分钟 · 全流程无人工干预
+    </div>
+    <video controls src="../projects/2026-08-23-rubicon/video.mp4"></video>
+    <div class="frames">
+      <img src="../projects/2026-08-23-rubicon/frames/f01.jpg" alt="f01">
+      <img src="../projects/2026-08-23-rubicon/frames/f05.jpg" alt="f05">
+      <img src="../projects/2026-08-23-rubicon/frames/f09.jpg" alt="f09">
+      <img src="../projects/2026-08-23-rubicon/frames/f12.jpg" alt="f12">
+      <img src="../projects/2026-08-23-rubicon/frames/f15.jpg" alt="f15">
+    </div>
+    <div class="score"><b>Critic 八维评分（均分 <span style="color:var(--green)">8.6</span>）</b>
+      <div class="grid">
+        <span>视觉质量<span class="v">9</span></span><span>人物一致性<span class="v">8</span></span>
+        <span>时代准确性<span class="v">9</span></span><span>镜头稳定性<span class="v">9</span></span>
+        <span>故事可理解性<span class="v">8</span></span><span>情绪强度<span class="v">9</span></span>
+        <span>创意度<span class="v">8</span></span><span>发布潜力<span class="v">9</span></span>
+      </div>
+    </div>
+    <div class="score"><b>Critic 摘要：</b>大远景钩子（冰凌浮河+对岸火把一线）→ 侧面驻马（锁子甲+深红披风+马匹白汽，身份锁零漂移）→ 眼神特写（湿发+火把虚化光斑）→ 踏水拉远收束（骑手缩为冰河中一点，火把倒影）。镜头曲线完整命中分镜设计。风险：钩子「马蹄踏碎倒影」在 0-2s 动态段，静帧未能验证；河水深度比「冬季暴涨」偏浅。</div>
+    <div class="note">🟢 人工评级：喜欢（2026-08-23 当晚）→ selected。全自动首日即精选，系列 2 拍 2 中。发布时附「基于历史背景的艺术化想象」说明即可。</div>
+  </div>
+
+  <div class="card">
+    <div class="date">2026-08-22 · HISTORY_CAMERA · T001 · 首拍</div>
+    <h2>赤壁之夜，东南风起 <span class="badge ok">已精选 · 人工「喜欢」</span></h2>
+    <div class="meta">
+      公元 208 年冬夜，长江。一名东吴水军士兵站在船头，察觉风向变了——极远的江面尽头，第一艘火船的火光亮起。<br>
+      1280×720 · 15.0s · 16:9 · 生成耗时约 2 分钟
+    </div>
+    <video controls src="../projects/2026-08-22-chibi-east-wind/video.mp4"></video>
+    <div class="frames">
+      <img src="../projects/2026-08-22-chibi-east-wind/frames/f01.jpg" alt="f01">
+      <img src="../projects/2026-08-22-chibi-east-wind/frames/f04.jpg" alt="f04">
+      <img src="../projects/2026-08-22-chibi-east-wind/frames/f07.jpg" alt="f07">
+      <img src="../projects/2026-08-22-chibi-east-wind/frames/f11.jpg" alt="f11">
+      <img src="../projects/2026-08-22-chibi-east-wind/frames/f14.jpg" alt="f14">
+    </div>
+    <div class="score"><b>Critic 八维评分（均分 <span style="color:var(--green)">8.4</span>）</b>
+      <div class="grid">
+        <span>视觉质量<span class="v">9</span></span><span>人物一致性<span class="v">8</span></span>
+        <span>时代准确性<span class="v">8</span></span><span>镜头稳定性<span class="v">8</span></span>
+        <span>故事可理解性<span class="v">9</span></span><span>情绪强度<span class="v">8</span></span>
+        <span>创意度<span class="v">7</span></span><span>发布潜力<span class="v">8</span></span>
+      </div>
+    </div>
+    <div class="score"><b>Critic 摘要：</b>四镜头按分镜顺序完整执行；旗幡转向的特写是全片最强画面；转折落在第 11 秒附近；结尾剪影定格符合收尾停留规则。风险：盔甲比简报设定更精良（札甲），与身份锁有偏差但前后一致。</div>
+    <div class="note">🟢 人工评级：喜欢（2026-08-23）→ selected。发布时附「基于历史背景的艺术化想象」说明即可。</div>
+  </div>
+
+  <footer>
+    运行手册：PIPELINE.md · 创作守则：PLAYBOOK.md · 运行日志：state/scheduler-log.md<br>
+    项目完整档案：projects/2026-08-24-dunhuang-cave17/ · projects/2026-08-23-rubicon/ · projects/2026-08-22-chibi-east-wind/
+  </footer>
+</div>
+</body>
+</html>

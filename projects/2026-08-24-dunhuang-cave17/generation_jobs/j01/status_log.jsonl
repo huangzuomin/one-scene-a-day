@@ -1,0 +1,21 @@
+{"iter": 1, "time": "2026-08-24T21:40:16", "exit_code": 1, "stderr_head": "错误：请设置 XYQ_ACCESS_KEY 环境变量\n", "stdout_first_line": ""}
+{"iter": 1, "time": "2026-08-24T21:40:35", "exit_code": 0, "stderr_head": "", "stdout_first_line": "本次创作进行中"}
+{"iter": 2, "time": "2026-08-24T21:40:46", "exit_code": 0, "stderr_head": "", "stdout_first_line": "本次创作进行中"}
+{"iter": 3, "time": "2026-08-24T21:40:56", "exit_code": 0, "stderr_head": "", "stdout_first_line": "本次创作进行中"}
+{"iter": 4, "time": "2026-08-24T21:41:07", "exit_code": 0, "stderr_head": "", "stdout_first_line": "本次创作进行中"}
+{"iter": 5, "time": "2026-08-24T21:41:17", "exit_code": 0, "stderr_head": "", "stdout_first_line": "本次创作进行中"}
+{"iter": 6, "time": "2026-08-24T21:41:27", "exit_code": 0, "stderr_head": "", "stdout_first_line": "本次创作进行中"}
+{"iter": 7, "time": "2026-08-24T21:41:38", "exit_code": 0, "stderr_head": "", "stdout_first_line": "本次创作进行中"}
+{"iter": 8, "time": "2026-08-24T21:41:48", "exit_code": 0, "stderr_head": "", "stdout_first_line": "本次创作进行中"}
+{"iter": 9, "time": "2026-08-24T21:41:59", "exit_code": 0, "stderr_head": "", "stdout_first_line": "本次创作进行中"}
+{"iter": 10, "time": "2026-08-24T21:42:09", "exit_code": 0, "stderr_head": "", "stdout_first_line": "本次创作进行中"}
+{"iter": 11, "time": "2026-08-24T21:42:19", "exit_code": 0, "stderr_head": "", "stdout_first_line": "本次创作进行中"}
+{"iter": 12, "time": "2026-08-24T21:42:30", "exit_code": 0, "stderr_head": "", "stdout_first_line": "本次创作进行中"}
+{"iter": 13, "time": "2026-08-24T21:42:40", "exit_code": 0, "stderr_head": "", "stdout_first_line": "本次创作进行中"}
+{"iter": 14, "time": "2026-08-24T21:42:51", "exit_code": 0, "stderr_head": "", "stdout_first_line": "本次创作进行中"}
+{"iter": 15, "time": "2026-08-24T21:43:01", "exit_code": 0, "stderr_head": "", "stdout_first_line": "本次创作进行中"}
+{"iter": 16, "time": "2026-08-24T21:43:11", "exit_code": 0, "stderr_head": "", "stdout_first_line": "本次创作进行中"}
+{"iter": 17, "time": "2026-08-24T21:43:22", "exit_code": 0, "stderr_head": "", "stdout_first_line": "本次创作进行中"}
+{"iter": 18, "time": "2026-08-24T21:43:32", "exit_code": 0, "stderr_head": "", "stdout_first_line": "本次创作进行中"}
+{"iter": 19, "time": "2026-08-24T21:43:43", "exit_code": 0, "stderr_head": "成功：本次创作已完成\n", "stdout_first_line": "{"}
+{"iter":19,"time":"2026-08-24T21:42:30","event":"completed","actual_model":"seedance2.0_fast_vision","model_directive_rejected":"Seedance 2.5 暂不可选，assistant 明确告知改用 seedance2.0_fast_vision","video_meta":"1280x720 16:9 15041ms"}

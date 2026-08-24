@@ -1,0 +1,65 @@
+{
+  "project_id": "2026-08-23-rubicon",
+  "series": "history_camera",
+  "day_no": 2,
+  "date": "2026-08-23",
+  "topic_id": "T002",
+  "status": "selected",
+  "history": [
+    {
+      "time": "2026-08-23 21:02",
+      "step": "Step0 前置检查",
+      "note": "自动触发；当日无项目，额度 0/2"
+    },
+    {
+      "time": "2026-08-23 21:02",
+      "step": "Step1 选题",
+      "note": "T002 凯撒渡卢比孔河（政治转折，与 T001 战争标签错开）"
+    },
+    {
+      "time": "2026-08-23 21:02",
+      "step": "Step2 研究",
+      "note": "8 条事实：A×3 / B×4 / C×1；渡河前的犹豫有史料支撑(F4)"
+    },
+    {
+      "time": "2026-08-23 21:02",
+      "step": "Step3 概念",
+      "note": "驻马水边权衡→踏入河水；转折=马蹄碎影"
+    },
+    {
+      "time": "2026-08-23 21:02",
+      "step": "Step4 脚本",
+      "note": "15s/4 Beats/无对白，节奏诊断已填"
+    },
+    {
+      "time": "2026-08-23 21:02",
+      "step": "Step5 分镜",
+      "note": "四格八字段；Beat2 全静止张力格"
+    },
+    {
+      "time": "2026-08-23 21:02",
+      "step": "Step6 简报",
+      "note": "prompt.txt 完成，含 adherence 约束段"
+    },
+    {
+      "time": "2026-08-23 21:03",
+      "step": "Step8 提交",
+      "note": "一次成功：thread_id=skill_2b9b0bdb；密钥文件读取方案首次实战通过"
+    },
+    {
+      "time": "2026-08-23 21:12",
+      "step": "Step9 下载归档",
+      "note": "iter=24 轮询成功（约 4 分钟）；video.mp4 1280x720/15.1s；抽帧 15 张"
+    },
+    {
+      "time": "2026-08-23 21:20",
+      "step": "Step10 Critic",
+      "note": "亲读 6 帧；八维均分 8.6；adherence 十问全过；verdict=PASS"
+    },
+    {
+      "time": "2026-08-23 21:35",
+      "step": "人工评审",
+      "note": "用户评级「喜欢」→ selected；全自动首日即精选，2 拍 2 中"
+    }
+  ]
+}

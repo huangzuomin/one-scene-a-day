@@ -1,0 +1,11 @@
+{
+  "job_id": "j01",
+  "provider": "xiaoyunque (xyq-skill submit_run)",
+  "thread_id": "skill_2b9b0bdb-776d-41db-97c5-89104df721e1",
+  "run_id": "skill_f15c9326-a05f-4dda-a6c8-70dcb5a4ccb0",
+  "web_thread_link": "https://xyq.jianying.com/home?tab_name=integrated-agent&thread_id=skill_2b9b0bdb-776d-41db-97c5-89104df721e1&agent_name=pippit_nest_agent",
+  "submitted_at": "2026-08-23 21:03",
+  "attempt": 1,
+  "attempt_note": "首次全自动日一次提交成功；密钥经 state/xyq_access_key.txt 文件读取",
+  "prompt_source": "prompt.txt"
+}

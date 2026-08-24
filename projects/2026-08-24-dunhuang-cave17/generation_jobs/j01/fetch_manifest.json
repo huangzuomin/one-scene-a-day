@@ -1,0 +1,10 @@
+{
+  "job_id": "j01",
+  "fetched_at": "2026-08-24 21:44",
+  "source_url": "https://v5-xyq-video.jianying.com/366b0e03289c6f8f0db315f1f72eaaab/6b799890/video/n/everphoto-jianying-assets/2fa8d4eb360f4063a8f7119cce6c4185/?a=795647&ch=0&cr=0&dr=0&cd=0%7C0%7C0%7C0&br=4304&bt=4304&cs=0&ds=3&ft=TLtriUeR_yygZmo0PE4O6gkVQ9w6x&mime_type=video_mp4&qs=13&rc=M241ZmRvOnk3ZDczNDlmM0BpM241ZmRvOnk3ZDczNDlmM0BlM3AxYWEvaDNhLS1kNGFzYSNlM3AxYWEvaDNhLS1kNGFzcw%3D%3D&btag=80000e00010000&dy_q=1787579009&l=20260824213843E704340C0B500D44E799&download=true&filename=v0dc76g10004da64kv27dlda4cs26kh0.mp4",
+  "local_job_file": "generation_jobs/j01/video_01.mp4",
+  "project_copy": "video.mp4",
+  "specs": {"width": 1280, "height": 720, "duration_s": 15.04, "ratio": "16:9"},
+  "actual_model": "seedance2.0_fast_vision",
+  "model_note": "消息首行指定 Seedance 2.5；assistant 回复「模型暂不可选」改用 seedance2.0_fast_vision。成片是否质量异常待 Critic 判定后决定是否回退重提"
+}

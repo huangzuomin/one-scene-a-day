@@ -1,0 +1,27 @@
+{
+  "topic": {
+    "id": "T002",
+    "title": "凯撒在卢比孔河边的沉默",
+    "event": "Caesar crossing the Rubicon 凯撒渡卢比孔河",
+    "year": "前49"
+  },
+  "moment": "冬夜将尽的卢比孔河北岸——凯撒驻马水边，跨与不跨的一念之间",
+  "protagonist": "四十多岁的罗马将军凯撒：灰白短发、古铜肤色，铁环锁子甲外披深红色军用披风，骑一匹深棕色战马（身份锁描述，全片不变）",
+  "location": "冬季黎明前的卢比孔河北岸，泛滥湍急的河水，身后黑暗中军团火把列成一列",
+  "action": "他驻马凝视河水，眼神从犹疑转为决意，一夹马腹踏入水中，马蹄踏碎自己的倒影",
+  "emotion": "历史的重量压在一瞬——犹豫、决意、不可回头",
+  "visual_hook": "马蹄踏入河水的瞬间，倒影碎裂；身后第一支火把开始移动跟随",
+  "ending": "大远景：骑手独自向对岸走去，身后火把次第跟随，静止两秒渐黑",
+  "pacing_diagnosis": {
+    "genre_energy": "quiet observation → emotional realization → irreversible action",
+    "felt_speed": "极慢起，第 11 秒骤然启动",
+    "target_duration": 15,
+    "avg_beat": "3.8s",
+    "fastest_beat": "Beat4 踏水瞬间（3.5s 内完成动作）",
+    "slowest_beat": "Beat2 驻马凝视（4s 静止张力）",
+    "required_pauses": "Beat3 深吸气后留半拍死寂再踏水",
+    "final_hold": "≥2s"
+  },
+  "confidence_note": "渡河、边界含义、犹豫记载、骰子之言为 A 级；夜渡/骑马/画面为 B/C 级创作",
+  "diversity_check": "T001(08-22,战争) vs T002(政治转折)——标签不同、事件不同，7 天规则通过"
+}

@@ -1,0 +1,60 @@
+{
+  "segment": "S01",
+  "duration_total": 15,
+  "aspect_ratio": "16:9",
+  "panel_map_note": "PLAYBOOK R-301 七格图压缩为四格：P01空间孤立→P02信号→P03察觉+含义揭示→P06定格payoff",
+  "beats": [
+    {
+      "beat": 1,
+      "time": "0-3s",
+      "shot_size": "medium close-up",
+      "angle": "slight low angle",
+      "lens": "50mm, shallow depth of field",
+      "composition": "主体置于左三分线，右侧大片负空间留给黑暗江面",
+      "camera": "slow push-in：起点腰部以上，终点胸部以上特写，火把光在脸上晃动",
+      "action": "年轻士兵持火把立于船头凝视黑色江水，身后帆索吱呀",
+      "lighting": "火把暖橘主光 vs 冷蓝月夜，轮廓有一线月光rim light",
+      "emotion": "警觉的静默",
+      "transition": "旗幡爆响处切"
+    },
+    {
+      "beat": 2,
+      "time": "3-6s",
+      "shot_size": "extreme close-up insert",
+      "angle": "eye-level, slight upward tilt",
+      "lens": "35mm",
+      "composition": "旗幡占满画面上部，桅杆斜线构图",
+      "camera": "static 带极轻微颤动，终点定格在旗幡绷直的一瞬",
+      "action": "半拍死寂后，垂落的旌旗突然被狂风灌满，猛地展开甩向东南",
+      "lighting": "月光照亮的布面，褶皱深处浓重阴影",
+      "emotion": "世界在半秒内改变",
+      "transition": "切回士兵"
+    },
+    {
+      "beat": 3,
+      "time": "6-11s",
+      "shot_size": "close-up 起，收于 wide",
+      "angle": "eye-level 转 pan",
+      "lens": "35mm",
+      "composition": "面部居左，披风与发带向后扬起；视线方向留 look room",
+      "camera": "起点闭眼的特写，pull-back 并向右 pan，跟随他的目光摇向江面尽头的黑暗",
+      "action": "他闭眼感受风变，睁眼——极远的黑水上，一点橘色火光缓缓亮起并映入江水",
+      "lighting": "冷夜色中唯一的暖点正在远方生长",
+      "emotion": "恐惧与敬畏——进攻开始了",
+      "transition": "hard cut"
+    },
+    {
+      "beat": 4,
+      "time": "11-15s",
+      "shot_size": "wide shot, silhouette",
+      "angle": "low angle from deck level",
+      "lens": "28mm, deep focus",
+      "composition": "士兵剪影居左三分线，火光在水面的反射形成通向远方的引导线",
+      "camera": "slow pull-back 后静止，最后两秒完全不动",
+      "action": "他按紧刀柄迎新风向而立，注视远处第一艘火船燃起",
+      "lighting": "远景火光提供的逆光剪影轮廓，江面反光颤抖",
+      "emotion": "宿命般的决意——历史正在转向",
+      "transition": "fade out"
+    }
+  ]
+}

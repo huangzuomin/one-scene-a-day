@@ -1,0 +1,60 @@
+{
+  "segment": "S01",
+  "duration_total": 15,
+  "aspect_ratio": "16:9",
+  "panel_map_note": "PLAYBOOK R-301 七格图压缩为四格：P01空间孤立(深夜凿墙)→P02信号(裂缝气声)→P03察觉+含义揭示(墙破·火苗弯折)→P06定格payoff(经卷墙照亮)",
+  "beats": [
+    {
+      "beat": 1,
+      "time": "0-4s",
+      "shot_size": "full shot",
+      "angle": "eye-level",
+      "lens": "28mm, deep focus",
+      "composition": "甬道纵深构图：油灯放在地面左侧形成唯一暖色光圈，蹲着的道士居于光圈中央，四周斑驳壁画与黑暗包裹；甬道向深处延伸作引导线",
+      "camera": "slow push-in：起点为甬道全景，终点人与灯的光圈成为画面中心",
+      "action": "深夜，道士一錾一錾凿着侧墙上砖石外抹草泥的封门墙，墙皮一块块剥落落地",
+      "lighting": "单一黄铜油灯暖黄光源，光圈外一切沉入黑暗，壁画隐约可见",
+      "emotion": "深夜孤人，执念般的静默劳作",
+      "transition": "cut"
+    },
+    {
+      "beat": 2,
+      "time": "4-8s",
+      "shot_size": "medium close-up with insert",
+      "angle": "eye-level, slight high",
+      "lens": "50mm, shallow depth",
+      "composition": "侧脸与墙面同框，细长裂缝成对角线引导线，油灯置于人与墙之间的地面",
+      "camera": "手持微颤基本静止；随他提灯凑近，镜头一次缓慢下移贴近裂缝",
+      "action": "他停手，手指抹开浮灰露出砖缝间一条细长裂缝；提灯凑近，侧耳倾听，裂缝深处透出一丝若有若无的气声",
+      "lighting": "灯光贴墙低角度照射，裂缝投出细影，明暗交界线扫过他的脸",
+      "emotion": "疑惑转为专注——察觉的瞬间",
+      "transition": "cut"
+    },
+    {
+      "beat": 3,
+      "time": "8-11s",
+      "shot_size": "close-up",
+      "angle": "slight low angle",
+      "lens": "85mm, very shallow depth",
+      "composition": "破洞边缘居中，前景虚化的灯焰，后景他骤然睁大的眼睛",
+      "camera": "static 起步，气流涌出一瞬转为极轻 handheld 震颤，随后复稳",
+      "action": "最后一錾，砖块向内塌落现出破洞——封闭千年的气流涌出，灯焰猛地弯折、嘶响、几乎熄灭又直起身来；半拍死寂，尘埃缓缓飘落",
+      "lighting": "灯焰剧烈明灭，光影在他脸上摇晃后重新稳定",
+      "emotion": "惊——屏息的敬畏第一次泄露",
+      "transition": "cut"
+    },
+    {
+      "beat": 4,
+      "time": "11-15s",
+      "shot_size": "over-shoulder medium 收于 interior wide",
+      "angle": "eye-level",
+      "lens": "35mm 转 28mm, deep focus",
+      "composition": "举灯手臂的剪影占左前景，光柱从破口斜探进密室，经卷布包从地面层层堆到洞顶充满画面",
+      "camera": "缓慢 push-in 越过肩头进入破口：起点为他举灯的剪影，终点经卷墙充满画面；最后两秒完全静止",
+      "action": "他屏息举灯凑向破口，光柱照亮密室——经卷与布包自下而上码到洞顶没入黑暗，尘埃在光柱里缓缓浮动",
+      "lighting": "光柱由一线昏黄渐次铺开，经卷墙明暗对比强烈，如时间本身被点亮",
+      "emotion": "敬畏定格——一个人无意间推开了千年的门",
+      "transition": "fade out"
+    }
+  ]
+}

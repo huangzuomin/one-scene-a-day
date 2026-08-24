@@ -1,0 +1,11 @@
+# 密钥与本地环境 —— 严禁入库
+state/xyq_access_key.txt
+*.key
+.env
+
+# 本地会话产物
+.zcode/
+
+# 系统杂项
+Thumbs.db
+.DS_Store

@@ -1,0 +1,60 @@
+{
+  "segment": "S01",
+  "duration_total": 15,
+  "aspect_ratio": "16:9",
+  "panel_map_note": "PLAYBOOK R-301 七格图压缩为四格：P01空间孤立→P02信号(边界之河)→P03察觉+决断→P06行动定格payoff",
+  "beats": [
+    {
+      "beat": 1,
+      "time": "0-3s",
+      "shot_size": "extreme wide shot",
+      "angle": "eye-level, slight high",
+      "lens": "28mm, deep focus",
+      "composition": "骑手剪影居右三分线停在河岸，左侧大面积泛滥河面；身后远处黑暗中一列火把光点作引导线",
+      "camera": "slow push-in：起点河面全景，终点骑手成为画面焦点",
+      "action": "黎明前冷蓝雾气中，骑手独自停在湍急的河北岸，一动不动",
+      "lighting": "黎明前深蓝冷调，薄雾，唯一暖点是身后军团的火把",
+      "emotion": "天地寂静，历史悬在岸边",
+      "transition": "cut"
+    },
+    {
+      "beat": 2,
+      "time": "3-7s",
+      "shot_size": "medium shot, profile",
+      "angle": "eye-level",
+      "lens": "35mm",
+      "composition": "凯撒与马居左侧面剪影，河水从马蹄前横向流过画面下方，视线方向留 look room",
+      "camera": "static 手持微颤，无运镜——静止本身是张力",
+      "action": "凯撒驻马水边，马头低垂，红披风被晨风掀起猎猎作响；他凝视河水一动不动",
+      "lighting": "火把暖光从身后侧打亮轮廓，面部半隐于冷蓝",
+      "emotion": " weighing the Rubicon：凝视即是权衡",
+      "transition": "cut on wind gust"
+    },
+    {
+      "beat": 3,
+      "time": "7-11s",
+      "shot_size": "close-up",
+      "angle": "slight low angle",
+      "lens": "85mm, shallow depth",
+      "composition": "面部居中偏左，虚化的河面反光为背景",
+      "camera": "very slow push-in，起点眼部，终点微距眼神",
+      "action": "他的眼神从犹疑转为决意：下颚收紧，深吸一口气，呼出白汽；半拍死寂",
+      "lighting": "晨光微亮，眼神光来自河面反光",
+      "emotion": "冰面碎裂的一刻——骰子已掷下",
+      "transition": "cut"
+    },
+    {
+      "beat": 4,
+      "time": "11-15s",
+      "shot_size": "wide shot 起，收于 extreme wide",
+      "angle": "eye-level 转 slight high",
+      "lens": "28mm, deep focus",
+      "composition": "骑手入水居中偏左，河面占画面下半，身后火把列成对角线",
+      "camera": "马蹄入水特写一闪后立即拉远成大远景，最后两秒完全静止",
+      "action": "马腹一夹，战马踏入河水，马蹄踏碎倒影溅起水花；骑手向对岸走去，身后第一支火把开始移动，接着第二支第三支",
+      "lighting": "冷蓝河面上一条暖色火把线渐渐拉开",
+      "emotion": "不可回头——内战开始了",
+      "transition": "fade out"
+    }
+  ]
+}

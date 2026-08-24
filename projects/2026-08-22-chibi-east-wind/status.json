@@ -1,0 +1,75 @@
+{
+  "project_id": "2026-08-22-chibi-east-wind",
+  "series": "history_camera",
+  "day_no": 1,
+  "date": "2026-08-22",
+  "topic_id": "T001",
+  "status": "selected",
+  "history": [
+    {
+      "time": "2026-08-22",
+      "step": "Step1 选题",
+      "note": "T001 赤壁之夜，东南风起（首拍验证选题，已入 Used 区）"
+    },
+    {
+      "time": "2026-08-22",
+      "step": "Step2 研究",
+      "note": "7 条事实：A×3 / B×3 / C×1，画面依赖元素均 ≥B"
+    },
+    {
+      "time": "2026-08-22",
+      "step": "Step3 概念",
+      "note": "单主角船头察觉风变；转折=远处第一艘火船亮起"
+    },
+    {
+      "time": "2026-08-22",
+      "step": "Step4 脚本",
+      "note": "15s / 4 Beats / 无旁白，节奏诊断已填"
+    },
+    {
+      "time": "2026-08-22",
+      "step": "Step5 分镜",
+      "note": "七格图压缩为四格，八字段公式齐备"
+    },
+    {
+      "time": "2026-08-22",
+      "step": "Step6 简报",
+      "note": "prompt.txt 完成，含 adherence 约束段"
+    },
+    {
+      "time": "2026-08-22",
+      "step": "Step7 熔断检查",
+      "note": "当日 0/2 次，通过"
+    },
+    {
+      "time": "2026-08-22",
+      "step": "Step8 提交(尝试1)",
+      "note": "失败：XYQ_ACCESS_KEY 已过期（Ak已过期请更换）；状态保持 prompted，等密钥更新后原样重提"
+    },
+    {
+      "time": "2026-08-22",
+      "step": "Step8 提交(尝试2)",
+      "note": "用户更新密钥后重提成功：thread_id=skill_74ad8ea2，回执见 generation_jobs/j01/submission_receipt.json，进入后台轮询"
+    },
+    {
+      "time": "2026-08-22",
+      "step": "Step9 下载归档",
+      "note": "生成耗时约2分钟；1280x720/15.0s 成片下载为 video.mp4，清单 fetch_manifest.json"
+    },
+    {
+      "time": "2026-08-22",
+      "step": "Step10 Critic",
+      "note": "抽帧15帧、亲验6帧；八维均分 8.4；建议 selected；详见 evaluation.json"
+    },
+    {
+      "time": "2026-08-22",
+      "step": "Step11 收尾",
+      "note": "review/index.html 已重生成，scheduler-log.md 已记录；待人工评审"
+    },
+    {
+      "time": "2026-08-23",
+      "step": "人工评审",
+      "note": "用户评级「喜欢」→ selected；本片成为系列第一条精选作品"
+    }
+  ]
+}
