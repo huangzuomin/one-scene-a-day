@@ -89,7 +89,7 @@ a { color: inherit; text-decoration: none; }
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 62%;
+  object-position: center; /* 具体构图由 gen_site.py 按片内联下发 */
 }
 @media (prefers-reduced-motion: no-preference) {
   .hero-bg { animation: kenburns 26s ease-in-out infinite alternate; }

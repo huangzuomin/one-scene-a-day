@@ -10,6 +10,7 @@ gen_site.py — 从 projects/ 数据生成 site/index.html，并同步视频与�
 用法：在仓库根目录执行  python gen_site.py
 """
 
+import hashlib
 import json
 import re
 import shutil
@@ -87,6 +88,9 @@ LEGACY_TAGS = {"T001": "战争", "T002": "政治转折", "T003": "探索发现"}
 LEGACY_BADGE = {"rubicon": "首个全自动夜"}
 HERO_TITLE_BR = {  # 首屏标题的断行位置；缺省时在逗号处断行
     "T003": ("敦煌藏经洞", "第一次被打开"),
+}
+HERO_POS = {  # 首屏背景图的构图微调（object-position）；缺省居中
+    "T003": "center 62%",
 }
 
 SCORE_LABELS = [  # (键候选, 展示名) —— evaluation 新旧 schema 键名兼容
@@ -254,6 +258,7 @@ def load_films(pool):
         slug = slug_of(pdir)
         topic = con.get("topic", {})
         tid = st.get("topic_id") or topic.get("id", "")
+        title = space_cjk_digits(topic.get("title", ev.get("title", "")))
         grid, avg = norm_scores(ev)
 
         meta_bits = [f"第 {st['day_no']:02d} 夜", st["date"]]
@@ -282,7 +287,7 @@ def load_films(pool):
         films.append({
             "slug": slug, "day_no": st["day_no"], "date": st["date"],
             "status": st.get("status", ""), "tid": tid,
-            "title": topic.get("title", ev.get("title", "")),
+            "title": title,
             "logline": logline, "meta_bits": meta_bits,
             "grid": grid, "avg": avg, "note": note,
             "ai_sign": ai_sign_text(ev, avg), "human_sign": human_parts(ev),
@@ -341,8 +346,14 @@ def merge_learning(films):
     return out
 
 
-def render(films, pool, learning):
+def content_version(p):
+    """文件内容的短哈希，用作资源 URL 版本号：内容一变 URL 即变，穿透浏览器与 CDN 缓存。"""
+    return hashlib.md5(p.read_bytes()).hexdigest()[:8] if p.exists() else ""
+
+
+def render(films, pool, learning, hero_v, css_v):
     latest = films[0]
+    hero_pos = HERO_POS.get(latest["tid"], "center")
     done = len(films)
     selected = sum(1 for f in films if f["status"] == "selected")
 
@@ -459,7 +470,7 @@ def render(films, pool, learning):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;900&family=JetBrains+Mono:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.css?v={css_v}">
 </head>
 <body>
 
@@ -478,7 +489,7 @@ def render(films, pool, learning):
 
 <!-- ============ 第一幕 · 首屏 ============ -->
 <section class="hero" id="top">
-  <img class="hero-bg" src="assets/hero.jpg" alt="《{esc(latest["title"])}》末帧画面">
+  <img class="hero-bg" src="assets/hero.jpg?v={hero_v}" alt="《{esc(latest["title"])}》末帧画面" style="object-position:{hero_pos}">
   <div class="hero-scrim"></div>
   <div class="hero-content">
     <p class="hero-eyebrow">SERIES 01 · 如果历史有镜头 · 第一季 30 夜</p>
@@ -644,10 +655,12 @@ def main():
     if not films:
         raise SystemExit("projects/ 下没有找到任何项目")
     learning = merge_learning(films)
-    html = render(films, pool, learning)
+    sync_assets(films)  # 先同步资产，版本号取自同步后的文件内容
+    hero_v = content_version(SITE / "assets" / "hero.jpg")
+    css_v = content_version(SITE / "css" / "style.css")
+    html = render(films, pool, learning, hero_v, css_v)
     (SITE / "index.html").write_text(html, encoding="utf-8", newline="\n")
-    sync_assets(films)
-    print(f"OK: site/index.html 已生成（{len(films)} 个夜次，最新 第 {films[0]['day_no']:02d} 夜）")
+    print(f"OK: site/index.html 已生成（{len(films)} 个夜次，最新 第 {films[0]['day_no']:02d} 夜 · hero?v={hero_v}）")
 
 
 if __name__ == "__main__":
