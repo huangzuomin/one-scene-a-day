@@ -289,6 +289,7 @@ def load_films(pool):
             "status": st.get("status", ""), "tid": tid,
             "title": title,
             "logline": logline, "meta_bits": meta_bits,
+            "tag": tag or "", "year": topic.get("year", ""), "event": topic.get("event", ""),
             "grid": grid, "avg": avg, "note": note,
             "ai_sign": ai_sign_text(ev, avg), "human_sign": human_parts(ev),
             "frames": pick_frames(pdir, slug, ev),

@@ -12,3 +12,4 @@ publish/
 # 系统杂项
 Thumbs.db
 .DS_Store
+__pycache__/
