@@ -1,0 +1,9 @@
+{
+  "job_id": "j01",
+  "project_id": "2026-08-25-apollo-hatch",
+  "thread_id": "skill_268d48a2-3ce1-46a0-9e75-9b0184cf3e93",
+  "run_id": "skill_c142fa97-6173-4555-bef9-eaf83d2666fe",
+  "web_thread_link": "https://xyq.jianying.com/home?tab_name=integrated-agent&thread_id=skill_268d48a2-3ce1-46a0-9e75-9b0184cf3e93&agent_name=pippit_nest_agent",
+  "submitted_at": "2026-08-25 21:13",
+  "model_instruction": "Seedance 2.5（消息首行指令，第 2 天重试；昨日后端答复暂不可选）"
+}

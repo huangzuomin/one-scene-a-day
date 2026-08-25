@@ -1,0 +1,12 @@
+{
+  "job_id": "j01",
+  "project_id": "2026-08-25-apollo-hatch",
+  "fetched_at": "2026-08-25 21:17",
+  "poll_result": "SUCCESS at iter=20 (~3.5 min)",
+  "actual_model": "seedance2.0_fast_vision",
+  "model_note": "消息首行 Seedance 2.5 指令第 2 天重试；后端实际仍用 seedance2.0_fast_vision，连续两日 2.5 不可选",
+  "source_url_file": "video_url.txt",
+  "local_video": "generation_jobs/j01/video.mp4 → 项目根 video.mp4（下载扩展名误判 .bin 已修正）",
+  "spec": { "width": 1280, "height": 720, "duration_s": 15.104 },
+  "frames": { "dir": "frames/", "count": 15, "method": "ffmpeg fps=1" }
+}

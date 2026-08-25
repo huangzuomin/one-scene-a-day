@@ -1,0 +1,62 @@
+{
+  "segment": {
+    "duration_s": 15,
+    "beats": 4,
+    "energy": "quiet_observation_to_realization",
+    "identity_lock": "四十岁上下中年男性宇航员，方脸，棕色短发汗湿贴额，白色 A7L 加压航天服与白色压力头盔，金色外遮阳罩推起露出面部，胸前白色遥控单元箱，深灰手套"
+  },
+  "duration_total": "15s",
+  "aspect_ratio": "16:9",
+  "panel_map_note": "四拍「历史转折 reveal 流」变体：拨杆（信号）→ 死寂停顿（全片支点）→ 拉门（升级）→ 光涌剪影（payoff）；声音节奏为剪辑点依据（R-305）",
+  "beats": [
+    {
+      "beat": 1,
+      "time": "0-3s",
+      "shot_size": "extreme close-up shot",
+      "angle": "eye-level",
+      "lens": "85mm, shallow depth of field",
+      "composition": "深灰手套与泄压阀杆占画面中心偏左，右侧留黑暗负空间；琥珀色仪表灯在白色头盔面罩上形成流动反光",
+      "camera": "固定镜头微推：起点为手部特写，终点阀杆扳下、指尖发力清晰可读",
+      "action": "黑暗中深灰手套缓缓扳下舱壁上的金属泄压阀杆，气流嘶声响起并渐弱",
+      "lighting": "琥珀色仪表灯侧逆光勾勒手套与阀杆边缘，整体低照度",
+      "transition": "嘶声衰减处硬切"
+    },
+    {
+      "beat": 2,
+      "time": "3-7s",
+      "shot_size": "medium shot",
+      "angle": "slightly low angle",
+      "lens": "35mm",
+      "composition": "人物置于右三分线，左侧三角形舷窗入画，窗外刺目灰色月面；背景另一名宇航员虚化剪影",
+      "camera": "极缓慢横移向右：起点人物侧脸，终点视线落向舷窗",
+      "action": "指令长半躺舱内缓缓侧头望向舷窗，一道月面强光反光掠过他的面罩；嘶声彻底消失",
+      "lighting": "舷窗冷白强光为主光，琥珀仪表灯暖光补光",
+      "transition": "死寂落定点切（全片支点停顿）"
+    },
+    {
+      "beat": 3,
+      "time": "7-11s",
+      "shot_size": "close-up shot",
+      "angle": "eye-level, slight high angle",
+      "lens": "50mm",
+      "composition": "门闩拉杆与手套占画面下三分之二，上方留黑暗；高反差",
+      "camera": "缓慢推进：起点手握拉杆，终点门缝裂开一线强光",
+      "action": "手套握住舱门门闩拉杆缓慢用力向内拉，金属轻响后门缝裂开一线垂直强光，照亮浮尘",
+      "lighting": "一线冷白强光切入纯黑舱室，明暗对比拉满",
+      "transition": "门缝扩大至满框时切"
+    },
+    {
+      "beat": 4,
+      "time": "11-15s",
+      "shot_size": "wide shot",
+      "angle": "low angle from cabin floor toward hatch",
+      "lens": "24mm",
+      "composition": "中心构图方形舱门框，宇航员剪影立于门口；两侧舱内仪表灯点点形成画中画；门外纯黑天空与灰色月面地平线",
+      "camera": "开门瞬间轻微后拉随即静止 hold 至结束",
+      "action": "舱门向内完全打开，过曝的月面日光如潮水涌入将舱内冲成剪影，白色宇航员身影立于方形门口面向月面，光尘浮动，定格收束",
+      "lighting": "门外刺目日光全面过曝，舱内纯黑剪影",
+      "transition": "定格收束"
+    }
+  ],
+  "forbidden_render": ["任何文字/刻字/编号/字幕/边框/水印", "门外美国国旗", "夜空星点", "地球", "多余角色"]
+}

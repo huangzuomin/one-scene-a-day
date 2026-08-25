@@ -7,18 +7,31 @@
   "days": {
     "2026-08-22": {
       "generations": 1,
-      "jobs": ["2026-08-22-chibi-east-wind/j01"],
+      "jobs": [
+        "2026-08-22-chibi-east-wind/j01"
+      ],
       "note": "首拍提交成功（尝试1因密钥过期未计费）"
     },
     "2026-08-23": {
       "generations": 1,
-      "jobs": ["2026-08-23-rubicon/j01"],
+      "jobs": [
+        "2026-08-23-rubicon/j01"
+      ],
       "note": "首个全自动日，一次提交成功"
     },
     "2026-08-24": {
       "generations": 1,
-      "jobs": ["2026-08-24-dunhuang-cave17/j01"],
+      "jobs": [
+        "2026-08-24-dunhuang-cave17/j01"
+      ],
       "note": "Seedance 2.5 首次实战，一次提交成功"
+    },
+    "2026-08-25": {
+      "generations": 1,
+      "jobs": [
+        "2026-08-25-apollo-hatch/j01"
+      ],
+      "note": "Seedance 2.5 指令第2天重试，后端仍用 seedance2.0_fast_vision；一次提交成功"
     }
   }
 }
