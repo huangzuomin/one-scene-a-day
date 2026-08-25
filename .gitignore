@@ -6,6 +6,9 @@ state/xyq_access_key.txt
 # 本地会话产物
 .zcode/
 
+# 站外发布包（成片已在 projects/ 归档，发布包是派生物，体积大不入库）
+publish/
+
 # 系统杂项
 Thumbs.db
 .DS_Store

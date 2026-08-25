@@ -192,6 +192,13 @@ python "C:\Users\zooma\.agents\skills\xyq-skill\scripts\download_results.py" --u
    - 运行日志摘编如需更新，编辑 `gen_site.py` 顶部 `RUNLOG` 常量后重新生成（摘编是策展，不是全量转发 scheduler-log）
    - 推送后抽查线上页面最新夜次是否出现
 
+### Step 12½ · 出稿（站外发布包）
+视频号没有公开发布 API，只能人工经「视频号助手」（channels.weixin.qq.com）上传。自动化到此为止：
+
+1. 运行 `python gen_publish.py` —— 为每个有成片的夜晚生成 `publish\channels\<日期>\` 发布包：成片副本（以夜次+题目命名）、末帧封面 cover.jpg、可直接粘贴的 post.txt 文案（标题/一句话/系列介绍/话题标签）、README.txt（评审信息与定时建议）。已打包的日期自动跳过
+2. 发布包目录已在 .gitignore，不入库；成片本体仍在 projects\ 归档
+3. 人工动作（与每晚评级合并）：打开视频号助手 → 上传对应包的视频与封面 → 粘贴 post.txt → 用「定时发表」约到次日 07:30-08:30 流量高峰
+
 ## 4. 人工评审约定
 
 用户看片后在对话里说结论（例："喜欢，但盔甲不对"、"失败，脸崩了"），会话负责：
