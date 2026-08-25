@@ -43,7 +43,7 @@
 | T001 | 赤壁之夜，东南风起（曹操/士兵船头察觉风向改变） | 2026-08-22 | projects/2026-08-22-chibi-east-wind | 喜欢 → selected |
 | T002 | 凯撒在卢比孔河边的沉默（驻马权衡→踏入河水） | 2026-08-23 | projects/2026-08-23-rubicon | 喜欢 → selected（Critic 8.6，全自动日） |
 | T003 | 敦煌藏经洞第一次被打开（凿墙→火苗弯折→照亮经卷墙） | 2026-08-24 | projects/2026-08-24-dunhuang-cave17 | 喜欢 → selected（Critic 8.6） |
-| T005 | 阿波罗11号舱门开启前的九十秒（泄压死寂→门开强光涌入） | 2026-08-25 | projects/2026-08-25-apollo-hatch | 待评审（Critic 8.3） |
+| T005 | 阿波罗11号舱门开启前的九十秒（泄压死寂→门开强光涌入） | 2026-08-25 | projects/2026-08-25-apollo-hatch | 喜欢 → selected（Critic 8.3） |
 
 ## Blocked（黑名单区）
 

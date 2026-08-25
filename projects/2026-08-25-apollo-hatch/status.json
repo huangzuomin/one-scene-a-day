@@ -4,7 +4,7 @@
   "day_no": 4,
   "date": "2026-08-25",
   "topic_id": "T005",
-  "status": "evaluated",
+  "status": "selected",
   "history": [
     {"time": "2026-08-25 21:01", "step": "Step0 前置检查", "note": "今日无项目，额度 0/2；昨日 T003 已 selected（3 拍 3 中）"},
     {"time": "2026-08-25 21:02", "step": "Step1 选题", "note": "T005 阿波罗11号舱门开启前（科技，避开近三日战争/政治转折/探索发现标签；全事实 A 级置信）"},
@@ -15,6 +15,8 @@
     {"time": "2026-08-25 21:11", "step": "Step6 简报", "note": "prompt.txt 完成，身份锁重复两次 + adherence 约束段"},
     {"time": "2026-08-25 21:13", "step": "Step8 提交", "note": "一次成功 thread_id=skill_268d48a2；消息首行带 Seedance 2.5 指令（第 2 天重试）"},
     {"time": "2026-08-25 21:17", "step": "Step9 下载归档", "note": "iter=20 轮询成功（约 3.5 分钟）；实际模型 seedance2.0_fast_vision（2.5 连续两天不可选）；1280x720/15.1s；抽帧 15 张"},
-    {"time": "2026-08-25 21:28", "step": "Step10 Critic", "note": "亲读 5 帧；八维均分 8.3；verdict=PASS；偏差：Beat3 与 Beat1 镜头合并、双扇门、地平线大气光晕、面板铭牌小字"}
+    {"time": "2026-08-25 21:28", "step": "Step10 Critic", "note": "亲读 5 帧；八维均分 8.3；verdict=PASS；偏差：Beat3 与 Beat1 镜头合并、双扇门、地平线大气光晕、面板铭牌小字"},
+    {"time": "2026-08-25 22:55", "step": "人工评审", "note": "用户评级「精选」→ selected；系列 4 拍 4 中，AI 建议连续四日与人工一致"},
+    {"time": "2026-08-25 23:00", "step": "Step12 二段式发布", "note": "gen_site 重跑 + 「已精选」提交推送 GitHub"}
   ]
 }
