@@ -171,6 +171,26 @@ python "C:\Users\zooma\.agents\skills\xyq-skill\scripts\download_results.py" --u
 2. `state\scheduler-log.md` 追加一行：`日期 | 结果 | 各Stage耗时 | 备注`
 3. 若今日因熔断/失败提前结束，同样记日志
 
+### Step 12 · 发布（收尾之后）
+把当夜成果同步到公开网站（GitHub Pages，https://huangzuomin.github.io/one-scene-a-day/）：
+
+1. 在仓库根目录运行 `python gen_site.py` —— 从 `projects/` 数据重新生成 `site/index.html` 并同步视频/抽帧资产。新夜次**不需要改代码**：标题、评分、研究事实、分镜、简报、学习规则、季况条、统计、待拍清单全部由数据驱动
+2. 数据要求（创作时即应满足）：
+   - `concept.json` 的 `topic` 尽量含 `tag`（标签，如「战争」）——缺省时页面回退到内置映射
+   - `evaluation.json` 的 `learned[]` 条目形如 `{id, title, rule, why?, source}`；`why` 是给网站看的「为什么」，可选
+   - 无成片夜（failed/skipped）暂不进入影片列表，只计入季况统计
+3. 提交推送：
+   ```bash
+   cd site 的仓库根目录
+   git pull --rebase origin main   # 先对齐远端，避免夜间自动化与人手工提交冲突
+   git add -A && git commit -m "第 NN 夜 · T00N 上线（待复核）" && git push
+   ```
+4. GitHub Actions 自动部署（约 1 分钟）；若人工评级改变了结论（精选/废弃），更新 evaluation 后重跑 `python gen_site.py` 并以 「第 NN 夜 · T00N 上线（已精选）」 再推一次 —— 两段式发布
+5. 护栏：
+   - **密钥永不入库**：`state\xyq_access_key.txt` 已在 .gitignore，提交前不要用 `-f` 强加
+   - 运行日志摘编如需更新，编辑 `gen_site.py` 顶部 `RUNLOG` 常量后重新生成（摘编是策展，不是全量转发 scheduler-log）
+   - 推送后抽查线上页面最新夜次是否出现
+
 ## 4. 人工评审约定
 
 用户看片后在对话里说结论（例："喜欢，但盔甲不对"、"失败，脸崩了"），会话负责：
