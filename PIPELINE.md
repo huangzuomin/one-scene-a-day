@@ -179,11 +179,12 @@ python "C:\Users\zooma\.agents\skills\xyq-skill\scripts\download_results.py" --u
    - `concept.json` 的 `topic` 尽量含 `tag`（标签，如「战争」）——缺省时页面回退到内置映射
    - `evaluation.json` 的 `learned[]` 条目形如 `{id, title, rule, why?, source}`；`why` 是给网站看的「为什么」，可选
    - 无成片夜（failed/skipped）暂不进入影片列表，只计入季况统计
-3. 提交推送：
+3. 提交推送（先提交再对齐远端：工作区有未提交改动时 rebase 会拒绝执行）：
    ```bash
    cd site 的仓库根目录
-   git pull --rebase origin main   # 先对齐远端，避免夜间自动化与人手工提交冲突
-   git add -A && git commit -m "第 NN 夜 · T00N 上线（待复核）" && git push
+   git add -A && git commit -m "第 NN 夜 · T00N 上线（待复核）"
+   git pull --rebase origin main   # 对齐远端，避免夜间自动化与人手工提交冲突
+   git push
    ```
 4. GitHub Actions 自动部署（约 1 分钟）；若人工评级改变了结论（精选/废弃），更新 evaluation 后重跑 `python gen_site.py` 并以 「第 NN 夜 · T00N 上线（已精选）」 再推一次 —— 两段式发布
 5. 护栏：
