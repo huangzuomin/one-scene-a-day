@@ -19,12 +19,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 PROJECTS = ROOT / "projects"
 SITE = ROOT / "site"
-TOPIC_POOL = ROOT / "topics" / "topic-pool.md"
+TOPICS_JSON = ROOT / "topics" / "topics.json"
 
 SETTLE_DATE = "2026-09-20"
 SEASON_NIGHTS = 30
 QUEUE_LEN = 5
-QUEUE_EXCLUDE = {"T020"}  # 人工排除的选题（敏感/疲劳题材），与 topic-pool 的 Blocked 区同理；展示顺序不受影响
 
 # ---------------------------------------------------------------------------
 # 编辑性常量（人工/会话维护；其余内容全部来自 projects/ 数据）
@@ -37,7 +36,7 @@ SERIES_STATEMENT = (
 )
 
 MACHINE_STEPS = [
-    ("选题", "从候选池选视觉潜力最高、且与近七天标签不重复的一部。"),
+    ("选题", "只从人工批准的选题池中挑一部，与近七天标签不重复。"),
     ("研究", "核验时代、服饰、建筑与事件，逐条标注史料置信。"),
     ("概念", "一个瞬间、一个动作、一种情绪、一次转折。"),
     ("脚本", "15 秒微故事，禁旁白堆砌，标注声音暗示。"),
@@ -57,6 +56,9 @@ RUNLOG = [
     ("08-23", "首个全自动夜：T002 从选题到收尾无人值守，评 8.6。当晚人工评级「喜欢」。"),
     ("08-24", "21:00 定时运行中断后自动续跑完成：T003 评 8.6。指定模型 Seedance 2.5 后端暂不可选，自动回退 fast_vision，成片质量无异常。"),
     ("08-24", "人工评级「喜欢」。三夜三片，AI 建议与人工评级全中。"),
+    ("08-25", "T005 阿波罗舱门夜评 8.3，人工评级「喜欢 → 精选」。"),
+    ("08-26", "T008 庞贝清晨评 8.9 系列最高，视觉质量首次满分，待人工评级。"),
+    ("08-26", "选题池治理上线：AI 提名、人批准、AI 挑拣；存量候选转待审，等首批批审。"),
 ]
 
 # 学习规则的展示顺序与「为什么」段落（why 也可写在 evaluation.json 的 learned[].why 中，优先取数据）。
@@ -145,28 +147,14 @@ def slug_of(project_dir):
     return suffix.split("-")[0] or suffix
 
 
-def parse_topic_pool():
-    """返回 (candidates{id:{title,year,tag,potential}}, used_ids set)"""
-    cands, used = {}, set()
-    section = None
-    for line in TOPIC_POOL.read_text(encoding="utf-8").splitlines():
-        if line.startswith("## Candidate"):
-            section = "cand"
-        elif line.startswith("## Used"):
-            section = "used"
-        elif line.startswith("## "):
-            section = None
-        elif line.startswith("| T") and section:
-            cells = [c.strip() for c in line.strip().strip("|").split("|")]
-            tid = cells[0].split()[0]
-            # 列序：ID | 题目 | 事件 | 年代 | 标签 | 视觉潜力 | 备注
-            if section == "cand" and len(cells) >= 6:
-                m = re.search(r"\d+", cells[5])
-                cands[tid] = {"title": cells[1], "year": cells[3], "tag": cells[4],
-                              "potential": int(m.group()) if m else 0}
-            elif section == "used":
-                used.add(tid)
-    return cands, used
+def load_topics():
+    """读 topics/topics.json（选题池唯一事实源）：返回 (pool{id:{title,year,tag,potential}}, topics 原始列表)"""
+    data = read_json(TOPICS_JSON)
+    pool = {}
+    for t in data["topics"]:
+        pool[t["id"]] = {"title": t.get("title", ""), "year": t.get("year", ""),
+                         "tag": t.get("tag", ""), "potential": t.get("potential", 0)}
+    return pool, data["topics"]
 
 
 def parse_facts(research_md):
@@ -352,7 +340,7 @@ def content_version(p):
     return hashlib.md5(p.read_bytes()).hexdigest()[:8] if p.exists() else ""
 
 
-def render(films, pool, learning, hero_v, css_v):
+def render(films, pool, topics, learning, hero_v, css_v):
     latest = films[0]
     hero_pos = HERO_POS.get(latest["tid"], "center")
     done = len(films)
@@ -371,13 +359,68 @@ def render(films, pool, learning, hero_v, css_v):
         agree_hit += int(h_sel == ai_sel)
     agreement = f"{round(100 * agree_hit / agree_n)}%" if agree_n else "—"
 
-    # ---- 待拍清单：候选区按视觉潜力取前 N（稳定序），排除人工排除项 ----
-    cand = [(tid, c) for tid, c in pool.items() if tid not in QUEUE_EXCLUDE]
-    cand.sort(key=lambda x: -x[1]["potential"])
-    queue_html = "\n".join(
-        f'        <li><span>{esc(space_cjk_digits(c["title"]))}</span>'
-        f'<span class="queue-meta">{esc(space_year(c["year"]))} · {esc(c["tag"])}</span></li>'
-        for tid, c in cand[:QUEUE_LEN])
+    # ---- 选题池：approved 可拍队列 / candidate 待审 / 冻结与否决 / 标签战绩 ----
+    of_status = lambda s: [t for t in topics if t.get("status") == s]
+    approved = sorted(of_status("approved"), key=lambda t: -t.get("potential", 0))
+    rec_rank = {"高": 0, "中": 1, "低": 2}
+    candidates = sorted(of_status("candidate"),
+                        key=lambda t: (rec_rank.get(t.get("recommend", "中"), 1), -t.get("potential", 0)))
+    frozen = of_status("blocked") + of_status("rejected")
+
+    n_appr, n_cand = len(approved), len(candidates)
+    if n_appr == 0:
+        pool_state, pool_extra = "empty", " · 池空：今晚按规则跳过，等待人工批准"
+    elif n_appr < 3:
+        pool_state, pool_extra = "warn", " · 弹药不足三条，请尽快审批"
+    else:
+        pool_state, pool_extra = "ok", ""
+
+    # 机器区侧栏「待拍清单」：approved 前几条；过渡期为空时给出指引
+    side_items = approved[:QUEUE_LEN]
+    if side_items:
+        queue_html = "\n".join(
+            f'        <li><span>{esc(space_cjk_digits(t["title"]))}</span>'
+            f'<span class="queue-meta">{esc(space_year(t["year"]))} · {esc(t["tag"])}</span></li>'
+            for t in side_items)
+    else:
+        queue_html = (f'        <li><span>可拍队列为空，待首次人工审批</span>'
+                      f'<span class="queue-meta">待审 {n_cand} 条</span></li>')
+
+    appr_html = "\n".join(
+        f'        <li><span class="q-no">{i:02d}</span>'
+        f'<span class="q-title">{esc(space_cjk_digits(t["title"]))}</span>'
+        f'<span class="queue-meta">{esc(space_year(t["year"]))} · {esc(t["tag"])} · 潜力 {t["potential"]}</span></li>'
+        for i, t in enumerate(approved, 1)) or '        <li class="pool-none">（空）首批人工批准后进入</li>'
+
+    tag_stats = {}
+    for f in films:
+        if not f["tag"]:
+            continue
+        s = tag_stats.setdefault(f["tag"], {"n": 0, "sum": 0.0, "cnt": 0, "sel": 0})
+        s["n"] += 1
+        if f["avg"] is not None:
+            s["sum"] += f["avg"]
+            s["cnt"] += 1
+        if f["status"] == "selected":
+            s["sel"] += 1
+    tag_rows_html = "\n".join(
+        f'          <tr><td>{esc(tag)}</td><td>{s["n"]}</td>'
+        f'<td>{s["sum"] / s["cnt"]:.1f}</td><td>{s["sel"]} / {s["n"]}</td></tr>'
+        for tag, s in sorted(tag_stats.items(), key=lambda kv: -kv[1]["n"]))
+
+    REC_CLS = {"高": "rec-high", "中": "rec-mid", "低": "rec-low"}
+    REC_WORD = {"高": "优先", "中": "备选", "低": "存疑"}
+    cand_html = "\n".join(
+        f'''        <li class="cand">
+          <p class="cand-title"><b>{esc(t["id"])}</b>{esc(space_cjk_digits(t["title"]))}<span class="badge-rec {REC_CLS.get(t.get("recommend", "中"), "rec-mid")}">{REC_WORD.get(t.get("recommend", "中"), "备选")}</span></p>
+          <p class="cand-pitch">{esc(t.get("pitch", ""))}<span class="cand-meta">{esc(space_year(t["year"]))} · {esc(t["tag"])} · 潜力 {t["potential"]}</span></p>
+        </li>'''
+        for t in candidates) or '        <li class="pool-none">（暂无待审提名）</li>'
+
+    frozen_html = "\n".join(
+        f'        <li><span><b>{esc(t["id"])}</b>{esc(t["title"])}</span>'
+        f'<span class="queue-meta">{esc(t.get("reason", ""))}</span></li>'
+        for t in frozen) or '        <li class="pool-none">（暂无）</li>'
 
     hero_day_no = latest["day_no"]
     hero_chip = chip_html(latest["status"])
@@ -483,6 +526,7 @@ def render(films, pool, learning, hero_v, css_v):
   <nav class="nav-links">
     <a href="#films">影片</a>
     <a href="#machine">机器</a>
+    <a href="#topics">选题池</a>
     <a href="#learning">学习</a>
     <a href="#about">关于</a>
   </nav>
@@ -550,6 +594,41 @@ def render(films, pool, learning, hero_v, css_v):
       <ul class="queue">
 {queue_html}
       </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 选题池 ============ -->
+<section class="pool" id="topics">
+  <div class="pool-inner">
+    <p class="kicker">TOPIC POOL</p>
+    <h2 class="section-title">选题池</h2>
+    <p class="section-sub">AI 提名，人批准，AI 挑拣。每条片子开拍前，选题必须先经人工批准进入可拍队列；周日的学习会依据标签战绩补充新提名、清理过期候选。</p>
+    <p class="pool-status pool-{pool_state}">库存：可拍 {n_appr} 夜 · 待审 {n_cand} 条{pool_extra}</p>
+    <div class="pool-cols">
+      <div class="pool-col">
+        <h3 class="side-title">可拍队列（已批准）</h3>
+        <ol class="pool-queue">
+{appr_html}
+        </ol>
+        <h3 class="side-title pool-gap">标签战绩</h3>
+        <table class="tag-stats">
+          <tr><th>标签</th><th>已拍</th><th>均分</th><th>精选</th></tr>
+{tag_rows_html}
+        </table>
+      </div>
+      <div class="pool-col">
+        <h3 class="side-title">待审提名（{n_cand} 条）</h3>
+        <ul class="cand-list">
+{cand_html}
+        </ul>
+        <details class="frozen-fold">
+          <summary>冻结与否决（{len(frozen)}）</summary>
+          <ul class="pool-frozen">
+{frozen_html}
+          </ul>
+        </details>
+      </div>
     </div>
   </div>
 </section>
@@ -651,7 +730,7 @@ def sync_assets(films):
 
 
 def main():
-    pool, _used = parse_topic_pool()
+    pool, topics = load_topics()
     films = load_films(pool)
     if not films:
         raise SystemExit("projects/ 下没有找到任何项目")
@@ -659,7 +738,7 @@ def main():
     sync_assets(films)  # 先同步资产，版本号取自同步后的文件内容
     hero_v = content_version(SITE / "assets" / "hero.jpg")
     css_v = content_version(SITE / "css" / "style.css")
-    html = render(films, pool, learning, hero_v, css_v)
+    html = render(films, pool, topics, learning, hero_v, css_v)
     (SITE / "index.html").write_text(html, encoding="utf-8", newline="\n")
     print(f"OK: site/index.html 已生成（{len(films)} 个夜次，最新 第 {films[0]['day_no']:02d} 夜 · hero?v={hero_v}）")
 

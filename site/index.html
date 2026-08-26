@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;900&family=JetBrains+Mono:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css?v=77b8df65">
+<link rel="stylesheet" href="css/style.css?v=4e61aecf">
 </head>
 <body>
 
@@ -21,6 +21,7 @@
   <nav class="nav-links">
     <a href="#films">影片</a>
     <a href="#machine">机器</a>
+    <a href="#topics">选题池</a>
     <a href="#learning">学习</a>
     <a href="#about">关于</a>
   </nav>
@@ -407,7 +408,7 @@
       <h2 class="section-title">一台机器的十一步</h2>
       <p class="section-sub">每个深夜 21:00，一个 AI 会话醒来，读自己的操作手册和创作守则，然后走完这条流水线。生成环节之外，没有任何人碰过鼠标。</p>
       <ol class="pipeline-list">
-        <li><span class="step-no">01</span><div><b>选题</b>从候选池选视觉潜力最高、且与近七天标签不重复的一部。</div></li>
+        <li><span class="step-no">01</span><div><b>选题</b>只从人工批准的选题池中挑一部，与近七天标签不重复。</div></li>
         <li><span class="step-no">02</span><div><b>研究</b>核验时代、服饰、建筑与事件，逐条标注史料置信。</div></li>
         <li><span class="step-no">03</span><div><b>概念</b>一个瞬间、一个动作、一种情绪、一次转折。</div></li>
         <li><span class="step-no">04</span><div><b>脚本</b>15 秒微故事，禁旁白堆砌，标注声音暗示。</div></li>
@@ -430,15 +431,144 @@
         <li><span class="log-time">08-23</span>首个全自动夜：T002 从选题到收尾无人值守，评 8.6。当晚人工评级「喜欢」。</li>
         <li><span class="log-time">08-24</span>21:00 定时运行中断后自动续跑完成：T003 评 8.6。指定模型 Seedance 2.5 后端暂不可选，自动回退 fast_vision，成片质量无异常。</li>
         <li><span class="log-time">08-24</span>人工评级「喜欢」。三夜三片，AI 建议与人工评级全中。</li>
+        <li><span class="log-time">08-25</span>T005 阿波罗舱门夜评 8.3，人工评级「喜欢 → 精选」。</li>
+        <li><span class="log-time">08-26</span>T008 庞贝清晨评 8.9 系列最高，视觉质量首次满分，待人工评级。</li>
+        <li><span class="log-time">08-26</span>选题池治理上线：AI 提名、人批准、AI 挑拣；存量候选转待审，等首批批审。</li>
       </ul>
       <h3 class="side-title">待拍清单</h3>
       <ul class="queue">
-        <li><span>君士坦丁堡城墙陷落前夜</span><span class="queue-meta">1453 · 战争</span></li>
-        <li><span>维京长船推入美洲海岸的雾中</span><span class="queue-meta">约 1000 · 探索发现</span></li>
-        <li><span>瞭望员的三十秒：冰山在前</span><span class="queue-meta">1912 · 灾难</span></li>
-        <li><span>凯撒在卢比孔河边的沉默</span><span class="queue-meta">前 49 · 政治转折</span></li>
-        <li><span>兵马俑工匠画上最后一笔眼睛</span><span class="queue-meta">前 210前后 · 日常</span></li>
+        <li><span>可拍队列为空，待首次人工审批</span><span class="queue-meta">待审 23 条</span></li>
       </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 选题池 ============ -->
+<section class="pool" id="topics">
+  <div class="pool-inner">
+    <p class="kicker">TOPIC POOL</p>
+    <h2 class="section-title">选题池</h2>
+    <p class="section-sub">AI 提名，人批准，AI 挑拣。每条片子开拍前，选题必须先经人工批准进入可拍队列；周日的学习会依据标签战绩补充新提名、清理过期候选。</p>
+    <p class="pool-status pool-empty">库存：可拍 0 夜 · 待审 23 条 · 池空：今晚按规则跳过，等待人工批准</p>
+    <div class="pool-cols">
+      <div class="pool-col">
+        <h3 class="side-title">可拍队列（已批准）</h3>
+        <ol class="pool-queue">
+        <li class="pool-none">（空）首批人工批准后进入</li>
+        </ol>
+        <h3 class="side-title pool-gap">标签战绩</h3>
+        <table class="tag-stats">
+          <tr><th>标签</th><th>已拍</th><th>均分</th><th>精选</th></tr>
+          <tr><td>灾难</td><td>1</td><td>8.9</td><td>0 / 1</td></tr>
+          <tr><td>科技</td><td>1</td><td>8.3</td><td>1 / 1</td></tr>
+          <tr><td>探索发现</td><td>1</td><td>8.6</td><td>1 / 1</td></tr>
+          <tr><td>政治转折</td><td>1</td><td>8.6</td><td>1 / 1</td></tr>
+          <tr><td>战争</td><td>1</td><td>8.4</td><td>1 / 1</td></tr>
+        </table>
+      </div>
+      <div class="pool-col">
+        <h3 class="side-title">待审提名（23 条）</h3>
+        <ul class="cand-list">
+        <li class="cand">
+          <p class="cand-title"><b>T018</b>维京长船推入美洲海岸的雾中<span class="badge-rec rec-high">优先</span></p>
+          <p class="cand-pitch">维京长船划入陌生海岸的浓雾，桅帆一点点没入白茫——史诗级画面。<span class="cand-meta">约 1000 · 探索发现 · 潜力 9</span></p>
+        </li>
+        <li class="cand">
+          <p class="cand-title"><b>T025</b>瞭望员的三十秒：冰山在前<span class="badge-rec rec-high">优先</span></p>
+          <p class="cand-pitch">瞭望员看见冰山的那三十秒。灾难类型已被庞贝夜验证（8.9 系列最高）。<span class="cand-meta">1912 · 灾难 · 潜力 9</span></p>
+        </li>
+        <li class="cand">
+          <p class="cand-title"><b>T006</b>兵马俑工匠画上最后一笔眼睛<span class="badge-rec rec-high">优先</span></p>
+          <p class="cand-pitch">工匠为陶俑点睛的特写与「物勒工名」的刻名一笔：两千年后我们仍知道这双手是谁。<span class="cand-meta">前 210前后 · 日常 · 潜力 8</span></p>
+        </li>
+        <li class="cand">
+          <p class="cand-title"><b>T014</b>烽火台上狼烟升起的瞬间<span class="badge-rec rec-high">优先</span></p>
+          <p class="cand-pitch">一炬火在烽燧顶升起，远处下一座烽台依次回应——信号以光速奔向长安。<span class="cand-meta">汉 · 战争 · 潜力 8</span></p>
+        </li>
+        <li class="cand">
+          <p class="cand-title"><b>T017</b>玄奘第一次望见那烂陀寺<span class="badge-rec rec-high">优先</span></p>
+          <p class="cand-pitch">万里孤征的尽头，那烂陀的塔尖在晨雾里显现——「到达」本身就是高潮。<span class="cand-meta">631 · 探索发现 · 潜力 8</span></p>
+        </li>
+        <li class="cand">
+          <p class="cand-title"><b>T026</b>实验室里第一管发光的镭<span class="badge-rec rec-high">优先</span></p>
+          <p class="cand-pitch">黑暗实验室里第一管镭的蓝绿辉光——全片只靠一点光。<span class="cand-meta">1898 · 科技 · 潜力 8</span></p>
+        </li>
+        <li class="cand">
+          <p class="cand-title"><b>T028</b>杀魔丘上的风：飞行前的一分钟<span class="badge-rec rec-high">优先</span></p>
+          <p class="cand-pitch">杀魔丘的寒风里，起飞前最后一分钟的静止——随后 12 秒改变世界。<span class="cand-meta">1903 · 科技 · 潜力 8</span></p>
+        </li>
+        <li class="cand">
+          <p class="cand-title"><b>T004</b>君士坦丁堡城墙陷落前夜<span class="badge-rec rec-mid">备选</span></p>
+          <p class="cand-pitch">炮声停了的最后一夜：守军在残破城墙上等待黎明——寂静比炮声更可怕。<span class="cand-meta">1453 · 战争 · 潜力 9</span></p>
+        </li>
+        <li class="cand">
+          <p class="cand-title"><b>T010</b>宝船水手第一次望见陌生海岸<span class="badge-rec rec-mid">备选</span></p>
+          <p class="cand-pitch">宝船桅顶瞭望手望见无名大陆海岸线的一瞬——大明视野的尽头。<span class="cand-meta">15世纪初 · 探索发现 · 潜力 8</span></p>
+        </li>
+        <li class="cand">
+          <p class="cand-title"><b>T015</b>古腾堡按下第一印的瞬间<span class="badge-rec rec-mid">备选</span></p>
+          <p class="cand-pitch">压杆落下、掀起纸页的第一瞬：金属活字与油墨印出通往现代世界的第一页。<span class="cand-meta">约 1450 · 科技 · 潜力 8</span></p>
+        </li>
+        <li class="cand">
+          <p class="cand-title"><b>T019</b>巴士底狱大门外第一声锤响<span class="badge-rec rec-mid">备选</span></p>
+          <p class="cand-pitch">第一锤砸在巴士底狱大门上的特写：旧世界的门被敲响。<span class="cand-meta">1789 · 政治转折 · 潜力 8</span></p>
+        </li>
+        <li class="cand">
+          <p class="cand-title"><b>T021</b>张骞持节走出长安城门<span class="badge-rec rec-mid">备选</span></p>
+          <p class="cand-pitch">张骞持节回望长安城门的背影——此去十三年。<span class="cand-meta">前 138 · 政治转折 · 潜力 8</span></p>
+        </li>
+        <li class="cand">
+          <p class="cand-title"><b>T023</b>驿站信使换马的三十秒<span class="badge-rec rec-mid">备选</span></p>
+          <p class="cand-pitch">驿站换马的三十秒：一匹马换另一匹马，帝国的心跳节拍。<span class="cand-meta">13世纪 · 日常 · 潜力 8</span></p>
+        </li>
+        <li class="cand">
+          <p class="cand-title"><b>T027</b>洞窟里点完最后一盏灯的画工<span class="badge-rec rec-mid">备选</span></p>
+          <p class="cand-pitch">与敦煌夜同世界不同事件：画工在洞窟里点完最后一盏灯。<span class="cand-meta">唐 · 日常 · 潜力 8</span></p>
+        </li>
+        <li class="cand">
+          <p class="cand-title"><b>T030</b>毒堇汁端来前的最后一课<span class="badge-rec rec-mid">备选</span></p>
+          <p class="cand-pitch">毒堇汁端上桌前，狱中最后一课收束为静场：苏格拉底最后的转身。<span class="cand-meta">前 399 · 艺术 · 潜力 8</span></p>
+        </li>
+        <li class="cand">
+          <p class="cand-title"><b>T007</b>驼队在黄昏抵达敦煌城门<span class="badge-rec rec-mid">备选</span></p>
+          <p class="cand-pitch">黄昏沙海尽头，敦煌城门次第亮灯，驼铃与城钟第一次同时响起。<span class="cand-meta">唐 · 文明交汇 · 潜力 7</span></p>
+        </li>
+        <li class="cand">
+          <p class="cand-title"><b>T009</b>毕昇把胶泥活字送入窑火<span class="badge-rec rec-mid">备选</span></p>
+          <p class="cand-pitch">胶泥活字排成字阵送入窑火，火光照亮一整面「字的墙」。<span class="cand-meta">北宋 · 科技 · 潜力 7</span></p>
+        </li>
+        <li class="cand">
+          <p class="cand-title"><b>T011</b>长安西市晨钟响起的第一声<span class="badge-rec rec-mid">备选</span></p>
+          <p class="cand-pitch">晨钟第一响，坊门开启，长安像一台巨大机器开始运转。<span class="cand-meta">唐中期 · 日常 · 潜力 7</span></p>
+        </li>
+        <li class="cand">
+          <p class="cand-title"><b>T012</b>木马被拖进城门前守将的犹豫<span class="badge-rec rec-low">存疑</span></p>
+          <p class="cand-pitch">拍「犹豫」而非「木马」：守将的手停在门闩上。史诗叙事置信 C，风险自担。<span class="cand-meta">约 前1200 · 战争 · 潜力 8</span></p>
+        </li>
+        <li class="cand">
+          <p class="cand-title"><b>T013</b>达芬奇工作台上的第一个早晨<span class="badge-rec rec-low">存疑</span></p>
+          <p class="cand-pitch">晨光落进达芬奇的工作台，蒙娜丽莎的轮廓刚刚起线。静态画室，钩子偏弱。<span class="cand-meta">约 1503 · 艺术 · 潜力 7</span></p>
+        </li>
+        <li class="cand">
+          <p class="cand-title"><b>T022</b>兰亭曲水流觞的一个午后<span class="badge-rec rec-low">存疑</span></p>
+          <p class="cand-pitch">曲水流觞的一个午后。雅集置信 A，但群像与「≤3 人」铁律冲突，需裁到单人视角。<span class="cand-meta">353 · 艺术 · 潜力 7</span></p>
+        </li>
+        <li class="cand">
+          <p class="cand-title"><b>T024</b>汴京城头火器第一次轰鸣<span class="badge-rec rec-low">存疑</span></p>
+          <p class="cand-pitch">汴京城头火器第一次轰鸣。火药军用记载置信 B，战争边线题材。<span class="cand-meta">北宋末 · 科技 · 潜力 7</span></p>
+        </li>
+        <li class="cand">
+          <p class="cand-title"><b>T016</b>瘟疫年的苹果园：牛顿的夜晚<span class="badge-rec rec-low">存疑</span></p>
+          <p class="cand-pitch">大瘟疫年的果园之夜。苹果轶事本体置信 C，仅氛围可考。<span class="cand-meta">1665 · 科技 · 潜力 6</span></p>
+        </li>
+        </ul>
+        <details class="frozen-fold">
+          <summary>冻结与否决（1）</summary>
+          <ul class="pool-frozen">
+        <li><span><b>T020</b>黄海海面：致远舰最后的航向</span><span class="queue-meta">人工排除：敏感/疲劳题材（原站点 QUEUE_EXCLUDE）</span></li>
+          </ul>
+        </details>
+      </div>
     </div>
   </div>
 </section>

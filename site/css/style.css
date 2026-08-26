@@ -540,6 +540,143 @@ main { display: block; }
   white-space: nowrap;
 }
 
+/* ---------- 选题池 ---------- */
+
+.pool {
+  border-top: 1px solid var(--line);
+  padding: 110px 32px;
+}
+.pool-inner { max-width: 1240px; margin: 0 auto; }
+.pool-status {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 12.5px;
+  letter-spacing: 0.08em;
+  padding: 8px 16px;
+  border: 1px solid var(--line);
+  background: var(--bg-raise);
+  color: var(--ink);
+  margin-bottom: 48px;
+}
+.pool-ok { border-color: rgba(201, 138, 61, 0.45); color: var(--amber); }
+.pool-warn { border-color: var(--amber); color: var(--amber); }
+.pool-empty { border-color: #a3452e; color: #d0704f; }
+
+.pool-cols {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  gap: 64px;
+  align-items: start;
+}
+.pool-gap { margin-top: 52px; }
+
+.pool-queue { list-style: none; }
+.pool-queue li {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  padding: 11px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 14px;
+}
+.q-no {
+  font-family: var(--mono);
+  font-size: 11.5px;
+  color: var(--amber);
+}
+.q-title { flex: 1; }
+.pool-none { color: var(--dim); font-size: 13px; }
+.pool-queue .pool-none { display: list-item; }
+
+.tag-stats { width: 100%; border-collapse: collapse; }
+.tag-stats th {
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--dim);
+  text-align: left;
+  letter-spacing: 0.1em;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--line);
+}
+.tag-stats td {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 13.5px;
+}
+.tag-stats td:not(:first-child) {
+  font-family: var(--mono);
+  font-size: 12.5px;
+  color: var(--dim);
+  text-align: right;
+}
+
+.cand-list { list-style: none; }
+.cand { padding: 14px 0; border-bottom: 1px solid var(--line); }
+.cand-title {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-size: 14.5px;
+  color: var(--ink);
+}
+.cand-title b {
+  font-family: var(--mono);
+  font-weight: 500;
+  font-size: 11.5px;
+  color: var(--amber);
+}
+.badge-rec {
+  font-family: var(--mono);
+  font-size: 10.5px;
+  letter-spacing: 0.14em;
+  padding: 1px 8px;
+  border: 1px solid var(--line);
+  color: var(--dim);
+}
+.rec-high { border-color: var(--amber); color: var(--amber); }
+.rec-mid { color: var(--ink); }
+.cand-pitch { font-size: 13px; color: var(--dim); line-height: 1.8; margin-top: 4px; }
+.cand-meta {
+  display: block;
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--dim);
+  opacity: 0.75;
+  margin-top: 4px;
+}
+
+.frozen-fold { margin-top: 40px; }
+.frozen-fold > summary {
+  cursor: pointer;
+  list-style: none;
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--dim);
+  letter-spacing: 0.08em;
+}
+.frozen-fold > summary::-webkit-details-marker { display: none; }
+.frozen-fold > summary::before { content: "+ "; color: var(--amber); }
+.frozen-fold[open] > summary::before { content: "− "; }
+.frozen-fold > summary:hover { color: var(--ink); }
+.pool-frozen { list-style: none; margin-top: 10px; }
+.pool-frozen li {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 9px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 13px;
+  color: var(--dim);
+}
+.pool-frozen b {
+  font-family: var(--mono);
+  font-weight: 500;
+  color: var(--dim);
+  margin-right: 6px;
+}
+
 /* ---------- 学习 ---------- */
 
 .learning {
@@ -773,6 +910,7 @@ main { display: block; }
     .series-head,
     .pipeline,
     .machine-side,
+    .pool-inner,
     .learning-inner,
     .settlement,
     .about-intro,
@@ -794,7 +932,8 @@ main { display: block; }
 @media (max-width: 960px) {
   .film-verdict,
   .archive-grid,
-  .machine-cols { grid-template-columns: 1fr; gap: 40px; }
+  .machine-cols,
+  .pool-cols { grid-template-columns: 1fr; gap: 40px; }
   .method { grid-template-columns: 1fr; gap: 44px; }
   .rule-list { grid-template-columns: 1fr; gap: 36px; }
   .stats { grid-template-columns: repeat(2, 1fr); gap: 36px 24px; }

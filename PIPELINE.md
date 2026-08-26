@@ -26,7 +26,7 @@
 ```text
 D:\Work\AI 每日短片实验室\
 ├── PIPELINE.md / PLAYBOOK.md      # 手册与创作守则
-├── topics\topic-pool.md           # 选题池（Candidate / Used / Blocked 三区）
+├── topics\topics.json             # 选题池唯一事实源（治理规则见 §6；topic-pool.md 已归档退役）
 ├── state\
 │   ├── budget-ledger.json         # 生成次数台账（熔断依据）
 │   └── scheduler-log.md           # 每次运行追加一行日志
@@ -72,9 +72,12 @@ idea → researched → scripted → prompted → generating → generated → e
 3. 通读 `PLAYBOOK.md`
 
 ### Step 1 · 选题（Topic Agent）
-- 从 topic-pool.md Candidate 区选 visual_potential 最高且不违反多样性规则者
+- **只从 `topics\topics.json` 中 status=approved 的选题里挑选**（治理规则见 §6）：
+  visual_potential 最高且不违反多样性规则者
 - 多样性硬规则：**同一事件永不复用；与最近 7 天作品主标签相同者跳过**
-- 将选中项移入 Used 区并标注日期；建项目文件夹，concept.json 写入选题部分，状态 idea
+- 选中即把该条选题改为 used（记 used_date 与项目文件夹），建项目文件夹，concept.json 写入选题部分，状态 idea
+- **approved=0**：按 §6 红线处理——当晚不生成，建 status.json（状态 skipped）后在 scheduler-log 记跳过原因并正常结束；
+  仅在 §6.5 过渡期内允许按旧规则从 candidate 挑选
 
 ### Step 2 · 研究（Research Agent）
 - 用自身知识核验：时代、地点、人物、服饰形制、建筑、武器、天气、事件背景
@@ -169,7 +172,9 @@ python "C:\Users\zooma\.agents\skills\xyq-skill\scripts\download_results.py" --u
 ### Step 11 · 收尾
 1. 重新生成 `review\index.html`：审片页列出所有项目的卡片（日期/标题/视频相对路径/AI 总分/人工评级占位），最新在前
 2. `state\scheduler-log.md` 追加一行：`日期 | 结果 | 各Stage耗时 | 备注`
-3. 若今日因熔断/失败提前结束，同样记日志
+3. **明晚预告**：收尾消息附 approved 池前 2 条（id + 题目 + 一句话理由，按潜力与多样性排序），
+   供人工在晨间评级时顺带确认或改选；不回复则次夜 AI 按原规则自行挑选
+4. 若今日因熔断/失败提前结束，同样记日志
 
 ### Step 12 · 发布（收尾之后）
 把当夜成果同步到公开网站（GitHub Pages，https://huangzuomin.github.io/one-scene-a-day/）：
@@ -178,6 +183,7 @@ python "C:\Users\zooma\.agents\skills\xyq-skill\scripts\download_results.py" --u
 2. 数据要求（创作时即应满足）：
    - `concept.json` 的 `topic` 尽量含 `tag`（标签，如「战争」）——缺省时页面回退到内置映射
    - `evaluation.json` 的 `learned[]` 条目形如 `{id, title, rule, why?, source}`；`why` 是给网站看的「为什么」，可选
+   - `topics\topics.json` 是选题池板块（可拍队列/待审区/标签战绩/库存预警）的数据源，选题状态变更后重跑本脚本即可
    - 无成片夜（failed/skipped）暂不进入影片列表，只计入季况统计
 3. 提交推送（先提交再对齐远端：工作区有未提交改动时 rebase 会拒绝执行）：
    ```bash
@@ -212,8 +218,37 @@ python "C:\Users\zooma\.agents\skills\xyq-skill\scripts\download_results.py" --u
 2. 分析：高分题材共性 / 稳定镜头语言 / 反复出现的失败模式 / prompt 简报模式与质量相关性
 3. **仅当结论有 ≥3 个样本支撑**时写入 PLAYBOOK.md 实证规则区（带样本数与来源项目）
 4. 报告存 `insights\YYYY-WW.md`（月度报告每月 1 日追加执行，汇总 30 天）
+5. **选题补给（池子体检 + 新提名，写入 `topics\topics.json`）**：
+   - 体检：近重复事件去重；candidate 超过 4 周未审移入 blocked（reason=stale，人工可捞回）；
+     依据最新实证刷新各 candidate 的 recommend 分级
+   - 补给：依据**标签战绩**（人工好评高的标签多补、连续平庸的停补）+ **覆盖矩阵缺口**
+     （时代 × 标签 × 地域 分布过密处少提、空白处多提）+ **已验证的视觉钩子**（框景/剪影/光柱等
+     成功母题寻找可承接的新事件），提名 3~5 条新 candidate；approved < 5 时本步必做且加量至 5~8 条
+   - 每条提名必过**四关**：可考证（事件本身 A/B 级置信）/ 可拍（单主角单空间一转折的 15 秒可行）/
+     不撞车（不与 used/rejected/blocked 及现有 candidate 的 event 重复，注意 7 天标签窗）/
+     有钩子（一句话 pitch 写清视觉转折是什么）
+   - Learning 报告末尾附**完整待审清单**（id/题目/标签/推荐级/一句话 pitch），请人工批审
 
-## 6. Plan B 备忘（小云雀备用链路）
+## 6. 选题池治理（topics\topics.json）
+
+分工铁律：**人管池子，AI 管挑拣**——AI 负责提名与每晚挑选，只有人工批准过的选题可以开拍。
+
+状态机：`candidate（待审）→ approved（可拍）→ used（已拍）`；
+旁路 `rejected（否决，事件永不复提）`、`blocked（冻结：敏感/疲劳/超期冷藏）`。
+
+- **提名来源**：`seed`（初始种子）/ `ai_weekly`（周日 Learning 补给，见 §5.5）/ `user`（用户随时投喂，审核优先）
+- **审核方式**：对话批审，例「T006 T014 过，T013 毙」→ 会话把对应条目改为 approved / rejected（rejected 记否决理由）；
+  站点「选题池」板块是看板（gen_site 自动渲染库存状态、可拍队列、待审区、标签战绩）
+- **库存红线**：approved < 3 → 站点黄色预警；approved = 0 → 当晚跳过生成（记 skipped）。
+  **不做 AI 自主应急提拔**——宁可空一夜，不回到无审核状态
+- **补给节奏**：正常每周 3~5 条；approved < 5 时 Learning 加量补给
+- **查重范围**：used + rejected + blocked 的事件全部永不复提
+
+### 6.5 过渡条款（一次性，最迟 2026-09-02 失效）
+首批人工批审完成前，Step 1 允许按旧规则从 candidate 中挑选拍摄（多样性硬规则仍生效），
+但每晚收尾消息必须附完整待审清单催审；一旦 approved ≥ 3，本条款永久失效，之后 approved=0 一律跳过。
+
+## 7. Plan B 备忘（小云雀备用链路）
 
 xyq-skill python 脚本链路故障时，改用 pippit-tool-cli 直连子命令（2026-08-22 已勘察，v1.0.8 实测）：
 ```bash
@@ -233,3 +268,4 @@ pippit-tool-cli query-result --thread-id <id> --run-id <id> --download-dir "<项
 *修订记录：2026-08-22 v1 初版（融合 StoryboardDrivenAIVideo 方法论蒸馏）。*
 *修订记录：2026-08-23 v1.1 默认生成模型改为 Seedance 2.5（主链路消息首行指令 + Plan B 优先 seedance2.5_direct 带回退链）。*
 *修订记录：2026-08-23 v1.2 pippit-tool-cli 与 xyq-skill 更新 1.0.8→1.0.18：三脚本接口兼容（get_thread 新增可选 --after-seq 增量拉取）；Plan B 模型表修正为 Seedance_2.5（VIP）等新阵容。*
+*修订记录：2026-08-26 v1.3 选题池治理上线：topics.json 成为唯一事实源，Step 1 只从人工 approved 挑选；新增 §6 治理规则（提名四关/库存红线/过渡条款）、Step 11 明晚预告、§5.5 周日选题补给；站点新增选题池板块。*
