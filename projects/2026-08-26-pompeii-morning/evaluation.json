@@ -52,7 +52,7 @@
       "source": "2026-08-26 T008 Critic adherence Q2/Q10"
     }
   ],
-  "human_rating": null,
-  "human_comment": null,
+  "human_rating": {"rating": "喜欢", "result": "selected", "date": "2026-08-26"},
+  "human_comment": "喜欢",
   "evaluated_at": "2026-08-26 21:32"
 }
