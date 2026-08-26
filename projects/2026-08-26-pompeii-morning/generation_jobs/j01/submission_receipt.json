@@ -1,0 +1,9 @@
+{
+  "job_id": "j01",
+  "project_id": "2026-08-26-pompeii-morning",
+  "thread_id": "skill_7e292c58-9d35-40c6-b036-e062721cd691",
+  "run_id": "skill_2fbc8977-9190-47d7-8a3b-622a874d9781",
+  "web_thread_link": "https://xyq.jianying.com/home?tab_name=integrated-agent&thread_id=skill_7e292c58-9d35-40c6-b036-e062721cd691&agent_name=pippit_nest_agent",
+  "submitted_at": "2026-08-26 21:14",
+  "model_instruction": "Seedance 2.5（消息首行指令，第 3 天重试）"
+}

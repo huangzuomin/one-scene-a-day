@@ -1,0 +1,12 @@
+{
+  "job_id": "j01",
+  "project_id": "2026-08-26-pompeii-morning",
+  "fetched_at": "2026-08-26 21:20",
+  "poll_result": "SUCCESS at iter=24 (~4 min)",
+  "actual_model": "seedance2.0_fast_vision",
+  "model_note": "Seedance 2.5 指令第 3 天重试；后端仍实际使用 seedance2.0_fast_vision（连续三天不可选）",
+  "source_url_file": "video_url.txt",
+  "local_video": "generation_jobs/j01 → 项目根 video.mp4（下载扩展名 .bin 已修正）",
+  "spec": { "width": 1280, "height": 720, "duration_s": 15.104 },
+  "frames": { "dir": "frames/", "count": 15, "method": "ffmpeg fps=1" }
+}

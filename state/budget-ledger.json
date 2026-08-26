@@ -32,6 +32,13 @@
         "2026-08-25-apollo-hatch/j01"
       ],
       "note": "Seedance 2.5 指令第2天重试，后端仍用 seedance2.0_fast_vision；一次提交成功"
+    },
+    "2026-08-26": {
+      "generations": 1,
+      "jobs": [
+        "2026-08-26-pompeii-morning/j01"
+      ],
+      "note": "Seedance 2.5 指令第3天重试，后端仍 seedance2.0_fast_vision；一次提交成功"
     }
   }
 }

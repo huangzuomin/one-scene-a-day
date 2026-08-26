@@ -1,0 +1,60 @@
+{
+  "segment": "S01",
+  "duration_total": 15,
+  "aspect_ratio": "16:9",
+  "panel_map_note": "七格「历史转折 reveal 流」裁剪为四拍：信号（涟漪/震颤）→ 察觉（抬头侧脸）→ 含义揭示（rack focus 到伞松云）→ 定格 payoff（初灰如雪）；声音节奏决定剪辑点（R-305）",
+  "beats": [
+    {
+      "beat": 1,
+      "time": "0-3s",
+      "shot_size": "extreme close-up shot",
+      "angle": "high angle, looking down at basin",
+      "lens": "85mm, shallow depth of field",
+      "composition": "陶盆水面占画面主体居中，同心圆涟漪从中心扩散，倒映窗光被震碎；右侧留暗部负空间",
+      "camera": "固定镜头：起点平静水面，终点涟漪密集、面粉手入画按住盆沿",
+      "action": "木案上的陶盆水面泛起同心圆涟漪，一只沾满干面粉的手入画按住盆沿止住水纹",
+      "lighting": "暖色晨光从小窗斜入，水面反光碎动",
+      "emotion": "日常里第一丝异样",
+      "transition": "隆隆声增强处切"
+    },
+    {
+      "beat": 2,
+      "time": "3-7s",
+      "shot_size": "medium shot",
+      "angle": "eye-level",
+      "lens": "35mm",
+      "composition": "面包师在木案前揉面居右三分线，头顶左侧木架陶罐入画；背景砖石拱顶烤炉虚化",
+      "camera": "缓慢推近：起点揉面动作全景，终点他双手停进面团、抬头动作启动",
+      "action": "面包师揉面中，头顶木架陶罐轻碰作响，一撮陈年面粉从架缝簌簌落下，他双手停进面团缓缓抬头",
+      "lighting": "晨光主光来自小窗，烤炉余温微光补暗部",
+      "emotion": "专注被打断",
+      "transition": "抬头动势处切"
+    },
+    {
+      "beat": 3,
+      "time": "7-11s",
+      "shot_size": "close-up shot",
+      "angle": "eye-level profile",
+      "lens": "50mm, rack focus",
+      "composition": "侧脸特写置于左三分线，右侧窗户亮框入画；焦点从面部移向窗外山体",
+      "camera": "固定机位 rack focus：起点面部清晰窗外模糊，终点窗外清晰面部虚化——伞松云成为视觉中心",
+      "action": "他的侧脸转向窗户逆光中眯眼，焦点移出窗外：维苏威山体剪影顶端灰白云柱缓慢升起、顶部展开成伞形松冠",
+      "lighting": "面部逆光轮廓光，窗外天空亮灰",
+      "emotion": "凝视中的不安",
+      "transition": "云冠展开成形时切"
+    },
+    {
+      "beat": 4,
+      "time": "11-15s",
+      "shot_size": "wide shot",
+      "angle": "interior looking out through window frame",
+      "lens": "24mm",
+      "composition": "窗框构图：黑山与伞形松云占据上半画面，下半为窗台与室内暗部；面包师身影在窗前成半剪影",
+      "camera": "开门瞬间式轻微后拉随即静止 hold 至结束",
+      "action": "第一批灰白浮石屑从天空缓缓飘落积在窗台上如薄雪，面包师静止站在窗前望着远处的云",
+      "lighting": "窗外天光因灰尘开始转暗变灰，室内暖光对比加强",
+      "emotion": "屏息的预感",
+      "transition": "定格收束"
+    }
+  ]
+}
