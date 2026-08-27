@@ -13,3 +13,9 @@ publish/
 Thumbs.db
 .DS_Store
 __pycache__/
+
+# 选题池控制台备份与测试文件
+topics/topics.json.bak*
+topics/topics.json.tmp
+topics/topics.test.json*
+topics/topics.bad.json*
