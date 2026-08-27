@@ -60,7 +60,7 @@
       "source": "2026-08-27 T006 Critic observations"
     }
   ],
-  "human_rating": null,
-  "human_comment": null,
+  "human_rating": {"rating": "精选", "result": "selected", "date": "2026-08-27"},
+  "human_comment": "T006 精选",
   "evaluated_at": "2026-08-27 21:47"
 }
