@@ -1,0 +1,11 @@
+{
+  "job_id": "j01",
+  "fetched_at": "2026-08-27 21:38",
+  "source_url_file": "video_url.txt",
+  "files": [
+    {"remote": "v11-xyq-video.jianying.com/...(见 video_url.txt，签名 URL)", "local": "video_01.mp4"},
+    {"local_copy": "../../video.mp4"}
+  ],
+  "probe": {"width": 1280, "height": 720, "duration_s": 15.04},
+  "note": "download_results 直出 mp4（本次未出现 .bin 情形）；响应 JSON 存 final_result.json"
+}

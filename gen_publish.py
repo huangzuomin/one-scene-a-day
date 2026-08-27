@@ -20,7 +20,7 @@ import shutil
 import sys
 from pathlib import Path
 
-from gen_site import load_films, parse_topic_pool
+from gen_site import load_films, load_topics
 
 ROOT = Path(__file__).resolve().parent
 PUBLISH = ROOT / "publish" / "channels"
@@ -56,7 +56,7 @@ def build_readme(f):
 
 def main():
     force = "--force" in sys.argv
-    pool, _used = parse_topic_pool()
+    pool, _topics = load_topics()
     films = load_films(pool)
     made = skipped = 0
     for f in films:

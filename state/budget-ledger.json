@@ -39,6 +39,13 @@
         "2026-08-26-pompeii-morning/j01"
       ],
       "note": "Seedance 2.5 指令第3天重试，后端仍 seedance2.0_fast_vision；一次提交成功"
+    },
+    "2026-08-27": {
+      "generations": 1,
+      "jobs": [
+        "2026-08-27-terracotta-eye/j01"
+      ],
+      "note": "Seedance 2.5 指令第4天重试；正式审批制首夜（T006 从 approved 池选出）；一次提交成功"
     }
   }
 }
