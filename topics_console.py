@@ -41,7 +41,7 @@ DEFAULT_TOPICS = ROOT / "topics" / "topics.json"
 PROJECTS_DIR = ROOT / "projects"
 
 VALID_STATUS = {"candidate", "approved", "used", "rejected", "blocked"}
-VALID_TAGS = {"战争", "政治转折", "探索发现", "日常", "科技", "艺术", "灾难", "文明交汇"}
+VALID_TAGS = {"战争", "政治转折", "探索发现", "日常", "科技", "艺术", "灾难", "文明交汇", "思想", "营造"}
 VALID_SOURCES = {"seed", "ai_weekly", "user"}
 VALID_RECOMMEND = {"高", "中", "低"}
 

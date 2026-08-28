@@ -242,6 +242,12 @@ python "C:\Users\zooma\.agents\skills\xyq-skill\scripts\download_results.py" --u
 - **库存红线**：approved < 3 → 站点黄色预警；approved = 0 → 当晚跳过生成（记 skipped）。
   **不做 AI 自主应急提拔**——宁可空一夜，不回到无审核状态
 - **补给节奏**：正常每周 3~5 条；approved < 5 时 Learning 加量补给
+- **标签治理**：标签生命周期归 Weekly Learning。新标签入系统须同时满足：
+  ① 提名 ≥3 条该标签新候选入池；② 给出一句话「能量定义」及与既有标签的边界。
+  样本 <3 的标签不参与标签战绩分析（Learning 按「高能量 / 静观」两大能量族聚合分析，
+  直到该标签样本 ≥3）。当前标签体系（10）：战争 / 政治转折 / 探索发现 / 日常 /
+  科技 / 艺术 / 灾难 / 文明交汇 / **思想**（观念诞生的瞬间）/ **营造**（巨大工程合龙的一瞬）。
+  新标签须同步加入 topics_console.py 的 VALID_TAGS。
 - **查重范围**：used + rejected + blocked 的事件全部永不复提
 
 ### 6.5 过渡条款（一次性，最迟 2026-09-02 失效）
