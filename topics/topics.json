@@ -1,6 +1,6 @@
 {
   "schema": "topics/1",
-  "updated": "2026-08-27",
+  "updated": "2026-08-28",
   "note": "选题池唯一事实源。状态机：candidate(待审) → approved(可批拍) → used(已拍)；旁路 rejected(否决，事件永不复提) / blocked(冻结)。治理规则见 PIPELINE.md §6。",
   "topics": [
     {
@@ -404,11 +404,13 @@
       "tag": "艺术",
       "potential": 8,
       "risk_note": "《斐多篇》记载B",
-      "status": "approved",
+      "status": "used",
       "source": "seed",
       "proposed_date": "2026-08-22",
       "recommend": "中",
-      "pitch": "毒堇汁端上桌前，狱中最后一课收束为静场：苏格拉底最后的转身。"
+      "pitch": "毒堇汁端上桌前，狱中最后一课收束为静场：苏格拉底最后的转身。",
+      "used_date": "2026-08-28",
+      "project": "2026-08-28-socrates-hemlock"
     }
   ]
 }

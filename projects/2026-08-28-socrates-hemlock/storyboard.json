@@ -1,0 +1,54 @@
+{
+  "segment": "S01",
+  "duration_total": 15,
+  "beats": [
+    {
+      "beat": 1, "time": "0-3s",
+      "shot_size": "medium shot",
+      "angle": "eye-level，略偏侧",
+      "lens": "40mm, 中景深",
+      "composition": "老人坐木榻边沿居右三分线，左侧前景是弟子背影的虚化肩头；铁栅窗落日条纹光斜切石墙与地面",
+      "camera": "static：纹丝不动，只有人物细微动作",
+      "action": "约七十岁的哲学家话音正落，双手在膝上缓缓合拢；弟子背影肩头轻颤",
+      "lighting": "暖金落日条纹光（铁栅投影）+石室冷灰反差；油灯未点",
+      "emotion": "课业收束的庄重",
+      "transition": "随门轴声切"
+    },
+    {
+      "beat": 2, "time": "3-7s",
+      "shot_size": "close-up（矮桌高度低角度 insert）",
+      "angle": "低角度，视线与矮桌齐平",
+      "lens": "50mm, 浅景深",
+      "composition": "狱卒双手捧陶杯居画面中央，深色药汁在杯中晃动；背景木门虚化",
+      "camera": "微 tracking：跟随狱卒步伐的两步移动，杯子放上矮桌时停",
+      "action": "草鞋衣褶入画，狱卒双手捧陶杯走来，杯底轻轻磕在矮桌上——深色药汁荡了一下",
+      "lighting": "条纹光掠过杯沿，药汁表面一点暗反光",
+      "emotion": "死亡的日常化——狱卒只是执行者",
+      "transition": "杯停即切"
+    },
+    {
+      "beat": 3, "time": "7-11s",
+      "shot_size": "full shot",
+      "angle": "eye-level",
+      "lens": "35mm",
+      "composition": "老人从榻上起立居画面中央偏右，条纹光正好横过他胸腹；左侧弟子背影低头，手按脸侧",
+      "camera": "缓慢 push-in 与起身同步：从他站起推到中景",
+      "action": "满室凝滞半拍后，老人缓缓站起——全片唯一的加速动作，赤足踏进条纹光里；披衫垂落",
+      "lighting": "起身时落日恰好移过，照亮他半边身体，阴影沉入石墙",
+      "emotion": "转折：死亡面前反而起身",
+      "transition": "起身完成接下一镜"
+    },
+    {
+      "beat": 4, "time": "11-15s",
+      "shot_size": "medium close-up",
+      "angle": "微仰角",
+      "lens": "65mm, 浅景深",
+      "composition": "老人双手捧杯于胸前居中，身后石墙与铁栅条纹虚化；脸占上三分幅",
+      "camera": "随他抬头微微上摇，之后完全静止 hold ≥1.5s",
+      "action": "双手稳稳捧起陶杯，姿态如捧祭盏；抬头，落日光斑缓缓移过他的脸，眼角深纹里浮现近乎微笑的平静",
+      "lighting": "暖金主光自栅窗方向打亮半张脸，另一侧沉入暖黑",
+      "emotion": "决断的安宁",
+      "transition": "定格至黑（硬止）"
+    }
+  ]
+}

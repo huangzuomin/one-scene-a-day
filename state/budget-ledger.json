@@ -46,6 +46,13 @@
         "2026-08-27-terracotta-eye/j01"
       ],
       "note": "Seedance 2.5 指令第4天重试；正式审批制首夜（T006 从 approved 池选出）；一次提交成功"
+    },
+    "2026-08-28": {
+      "generations": 1,
+      "jobs": [
+        "2026-08-28-socrates-hemlock/j01"
+      ],
+      "note": "Seedance 2.5 指令第5天重试；T030 为 approved 池内艺术标签唯一可选；一次提交成功"
     }
   }
 }
