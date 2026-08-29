@@ -269,6 +269,8 @@ pippit-tool-cli query-result --thread-id <id> --run-id <id> --download-dir "<项
 模型选择（2026-08-23 CLI 更新 1.0.18 后实测帮助文本）：**VIP 账号优先 `--model Seedance_2.5`**（注意大小写与下划线，用户指定默认 2.5；VIP 专享）。若报无权限/不存在，按序回退：Seedance_2.0_mini → seedance2.0_fast_vision → Seedance_2.0_mini_lite（普通账号唯一可用），回退情况记入 failure_log.md。1.0.8 时代的 seedance2.0_direct / _fast_direct 已从模型表移除。
 注意：(1) 鉴权与 xyq-skill 同源，Ak 过期时两链路同挂；(2) job 工件格式与主链路一致。
 
+**2.5 定位实验（2026-08-30 起，一次性）**：CLI 已确认最新（1.0.18，08-29 update 实测无新版），「2.5 暂不可选」与 CLI 版本无关。次日流水线 j01 改用本节直连命令 `--model Seedance_2.5` 提交：成功出片 → 后端 agent 白名单误判，此后默认改走直连 2.5；报无权限 → 账号确无 2.5 权益，主链路提交消息去掉首行模型指令。结果记入 scheduler-log 并向用户汇报。
+
 ---
 *本手册是活文档：试运行期发现漏洞当天修订；重大变更在文末登记。*
 *修订记录：2026-08-22 v1 初版（融合 StoryboardDrivenAIVideo 方法论蒸馏）。*
