@@ -93,11 +93,13 @@
       "tag": "战争",
       "potential": 9,
       "risk_note": "围城A；守夜士兵C",
-      "status": "approved",
+      "status": "used",
       "source": "seed",
       "proposed_date": "2026-08-22",
       "recommend": "中",
-      "pitch": "炮声停了的最后一夜：守军在残破城墙上等待黎明——寂静比炮声更可怕。"
+      "pitch": "炮声停了的最后一夜：守军在残破城墙上等待黎明——寂静比炮声更可怕。",
+      "used_date": "2026-08-29",
+      "project": "2026-08-29-constantinople-eve"
     },
     {
       "id": "T006",

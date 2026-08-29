@@ -1,0 +1,9 @@
+{
+  "job_id": "j02",
+  "project_id": "2026-08-29-constantinople-eve",
+  "submitted_at": "2026-08-29 21:38",
+  "model_instruction": "Seedance 2.5 (第 6 天重试)",
+  "thread_id": "skill_cbb539fd-3d23-4fe4-a691-310abaadaba3",
+  "run_id": "skill_ecec548a-adb1-4df1-8dae-d4e39ba02f6c",
+  "reason": "j01 Critic 8.0 建议重拍（宣礼塔穿帮）；R-404 简报修正：纯穹顶负面约束×2 + 面向火海 + 火把全程燃烧"
+}

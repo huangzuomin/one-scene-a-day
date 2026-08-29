@@ -53,6 +53,14 @@
         "2026-08-28-socrates-hemlock/j01"
       ],
       "note": "Seedance 2.5 指令第5天重试；T030 为 approved 池内艺术标签唯一可选；一次提交成功"
+    },
+    "2026-08-29": {
+      "generations": 2,
+      "jobs": [
+        "2026-08-29-constantinople-eve/j01",
+        "2026-08-29-constantinople-eve/j02"
+      ],
+      "note": "j01 评 8.0 触发系列首次重拍（宣礼塔穿帮 L-009）；j02 加强约束重提，额度 2/2 用满"
     }
   }
 }

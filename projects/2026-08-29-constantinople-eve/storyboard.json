@@ -1,0 +1,54 @@
+{
+  "segment": "S01",
+  "duration_total": 15,
+  "beats": [
+    {
+      "beat": 1, "time": "0-3s",
+      "shot_size": "extreme close-up (insert)",
+      "angle": "eye-level",
+      "lens": "85mm, 浅景深",
+      "composition": "火把火焰占画面上部左侧，下部为城垛缺口处新钉木栅与土袋的粗粝质感；火星飞散入暗夜",
+      "camera": "static 微推进：缓慢推近木栅与火把交界",
+      "action": "火把在夜风中燃烧摇曳，火星飞散；木栅新钉的痕迹在火光里忽明忽暗",
+      "lighting": "单一火把暖橙光，暗部深黑；光在砖石与木头纹理上跳动",
+      "emotion": "伤口与守御的实感",
+      "transition": "火星飘出画面即切"
+    },
+    {
+      "beat": 2, "time": "3-7s",
+      "shot_size": "medium shot",
+      "angle": "eye-level，微侧背",
+      "lens": "40mm, 中景深",
+      "composition": "老兵凭城垛而立居右三分线，侧耳向墙外；左侧远景是城内零星灯火与圣索菲亚穹顶的巨大剪影",
+      "camera": "缓慢 push-in：从全景推向他的侧脸与听姿",
+      "action": "灰白胡须的守军老兵侧耳倾听——五十天来第一次没有炮声；短氅在夜风里轻拂",
+      "lighting": "手中火把侧逆光勾出盔甲轮廓；背景夜空深蓝近黑",
+      "emotion": "屏息——寂静比炮声更可怕",
+      "transition": "随他的视线切出"
+    },
+    {
+      "beat": 3, "time": "7-11s",
+      "shot_size": "extreme wide shot（主观视角）",
+      "angle": "从城垛上方越过墙面俯望城外",
+      "lens": "24mm 广角",
+      "composition": "下部 1/3 为黑暗的城墙断面，上方为城外辽阔黑暗的营地；地平线沉在画面中部",
+      "camera": "static：绝对的固定机位，让『亮起』成为唯一运动",
+      "action": "绝对黑暗里第一支火把亮起——随即十支百支万支次第燃开，火把的海洋从营地深处蔓延到地平线，照亮夜空下缘",
+      "lighting": "从纯黑到万千暖橙光点的爆发式渐亮；火海把低云映出暗红",
+      "emotion": "终局到来的震撼",
+      "transition": "火海亮满即切"
+    },
+    {
+      "beat": 4, "time": "11-15s",
+      "shot_size": "medium close-up",
+      "angle": "微仰角",
+      "lens": "50mm, 浅景深",
+      "composition": "老兵居中，背后虚化的火把海洋成为橙红光斑底色；长矛竖直入画右侧",
+      "camera": "随他顿矛站定后完全静止，终构图 hold ≥1.5s",
+      "action": "他转身面向墙外，把长矛在石面上一顿立直，火把举高——火海的光与手中火光在锁子甲环上流动，映亮灰白胡须与平静的眼睛",
+      "lighting": "外部火海暖红泛光+手中火把侧光双光源；面部一半亮一半暗",
+      "emotion": "决绝的平静",
+      "transition": "定格至黑（硬止）"
+    }
+  ]
+}
