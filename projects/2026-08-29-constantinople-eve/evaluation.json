@@ -57,7 +57,7 @@
       "source": "2026-08-29 T004 j01/j02 Critic 对比"
     }
   ],
-  "human_rating": null,
-  "human_comment": null,
+  "human_rating": {"rating": "精选", "result": "selected", "date": "2026-08-29"},
+  "human_comment": "精选",
   "evaluated_at": "2026-08-29 21:58"
 }
