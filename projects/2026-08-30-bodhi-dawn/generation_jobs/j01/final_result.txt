@@ -1,0 +1,14 @@
+DONE iter=28
+{
+  "completed": true,
+  "thread_id": "skill_5b20f6b8-50f0-4e4b-bfda-29b05b23b71b",
+  "run_id": "skill_ed931aa5-1a5b-4f9d-ad05-2fdbb998a839",
+  "error_message": "",
+  "videos": [
+    {
+      "download_url": "https://v5-xyq-video.jianying.com/a982631d2ea505e46bd40e69cc3c248c/6b8179ab/video/n/everphoto-jianying-assets/bd65ace2048645b894ed4aa1b8876bd5/?a=795647\u0026ch=0\u0026cr=0\u0026dr=0\u0026cd=0%7C0%7C0%7C0\u0026br=8902\u0026bt=8902\u0026cs=0\u0026ds=4\u0026ft=TLtriUeR_yygZmo0PVm19gkVQ9w6x\u0026mime_type=video_mp4\u0026qs=13\u0026rc=amt1ZmhvOjg1ZDczNDlmM0Bpamt1ZmhvOjg1ZDczNDlmM0BgZXIzYWEva15hLS1kNDBzYSNgZXIzYWEva15hLS1kNDBzcw%3D%3D\u0026btag=80000e00010000\u0026dy_q=1788095388\u0026l=202608302104232F1994FA44902FC54408\u0026download=true",
+      "output_path": "projects\\2026-08-30-bodhi-dawn\\generation_jobs\\j01\\v0dc76g10004daa2n0a7dld7sl9fulv0.mp4"
+    }
+  ],
+  "images": []
+}

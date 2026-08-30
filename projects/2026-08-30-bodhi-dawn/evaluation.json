@@ -1,0 +1,59 @@
+{
+  "project_id": "2026-08-30-bodhi-dawn",
+  "topic_id": "T031",
+  "title": "菩提树下的第七个凌晨",
+  "video_file": "video.mp4",
+  "video_spec": { "width": 1920, "height": 1080, "duration_s": 15.04, "file_mb": 17.1 },
+  "generation": { "requested_model": "Seedance 2.5", "channel": "Plan B 直连 (pippit-tool-cli generate-video --model Seedance_2.5)", "verdict_experiment": "1080p/17MB 直连出片（主链路 fast_vision 六天全部 720p/约6MB）——2.5 真实生效，主链路后端 agent『暂不可选』系误判", "note": "直连响应无模型字段，判定依据分辨率+码率+指令遵循力三重证据" },
+  "frames_reviewed": ["f01", "f05", "f09", "f13", "f15"],
+  "ai_scores": {
+    "visual_quality": 10,
+    "character_consistency": 9,
+    "era_accuracy": 9,
+    "camera_stability": 9,
+    "story_clarity": 9,
+    "emotional_impact": 10,
+    "creativity": 9,
+    "publish_potential": 10,
+    "average": 9.4
+  },
+  "verdict": "PASS",
+  "decision_suggestion": "建议精选",
+  "observations": [
+    "f01 叶隙晨星是系列最简最准的钩子帧：两片心形菩提叶夹一颗星，露珠垂坠，深蓝夜空——构图即叙事",
+    "先验污染零发生：清瘦顶髻修行者、粗麻偏袒右肩披衣、古铜肤色——L-009 防护清单+2.5 的指令遵循力共同生效，全片无金身/莲座/手印/光轮任何一个造像语汇",
+    "f13/f15 payoff 与设计逐字吻合：初阳光斑缓缓移上肩头与半张脸，仰头望向晨空，无可名状的安宁",
+    "1080p/17MB 高码率带来系列最高画质：皮肤纹理、粗麻纤维、逆光雾气质感显著优于前八夜",
+    "模型自发的『坐→立』重构（f05 静坐→f13 直立仰头）：禅定结束、起身迎接第一个早晨——与 T030 起身同构，叙事自洽增强"
+  ],
+  "risks": [
+    "B4 由设计『静坐中仰头』漂移为『起身仰头』——坐姿到立姿的转场需动态确认无跳变",
+    "f01 晨星被视觉化为较大光源（近月感）——星在叶隙的核心语义成立，属艺术自由",
+    "f09 时人物仍阖眼，睁眼动作应落在 f10~f11（B3 后段），静帧无法确证睁眼瞬间与晨星消失的同步性"
+  ],
+  "adherence_review": {
+    "Q1_按分镜顺序": "是：叶隙晨星→静坐→睁眼→初阳仰头",
+    "Q2_跳并重排": "无重排；B4 坐→立的动作重构（自洽）",
+    "Q3_每拍可读运动快照": "是",
+    "Q4_身份服装稳定": "是，四帧同一行者（顶髻/披衣/肤色/骨相一致）",
+    "Q5_景别递进": "ECU→MS→CU→MS 成立",
+    "Q6_因果成立": "成立：晨星隐去→睁眼→初阳",
+    "Q7_文字污染": "无",
+    "Q8_多余人物场景": "无",
+    "Q9_终帧落在payoff": "完整命中：光斑落肩+仰头+安宁，hold 达标",
+    "Q10_失败归因": "无失败；负面约束首次被模型完整遵守（对比 T004 先验碾过负面约束）——通道与模型能力差异"
+  },
+  "critic_summary": "系列新高 9.4：1080p 画质、先验污染零发生、payoff 逐字命中三重突破。更重要的结论在通道层：直连 2.5 出片证明主链路后端 agent 的『暂不可选』为误判，此后默认通道切换为直连 Seedance_2.5。",
+  "learned": [
+    {
+      "id": "L-010",
+      "title": "直连通道优先",
+      "rule": "生成默认走 Plan B 直连通道（pippit-tool-cli generate-video --model Seedance_2.5），其画质（1080p/高码率）与指令遵循（负面约束被遵守）显著优于主链路 agent 转述；主链路仅作直连故障时的回退",
+      "why": "T031 直连 2.5 出片 1080p 且先验污染零发生，而主链路六天『2.5 暂不可选』误判+fast_vision 先验两次碾过负面约束（T006 刻名、T004 宣礼塔）",
+      "source": "2026-08-30 T031 j01 直连实验 vs 08-24~08-29 主链路对比"
+    }
+  ],
+  "human_rating": null,
+  "human_comment": null,
+  "evaluated_at": "2026-08-30 21:40"
+}

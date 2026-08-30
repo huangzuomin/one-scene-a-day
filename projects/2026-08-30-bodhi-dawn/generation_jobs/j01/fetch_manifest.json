@@ -1,0 +1,21 @@
+{
+  "job_id": "j01",
+  "fetched_at": "2026-08-30 21:32",
+  "channel": "Plan B 直连 (query-result 自动下载)",
+  "files": [
+    {
+      "remote": "download_url 见 final_result.txt",
+      "local": "v0dc76g10004daa2n0a7dld7sl9fulv0.mp4"
+    },
+    {
+      "local_copy": "../../video.mp4"
+    }
+  ],
+  "probe": {
+    "width": 1920,
+    "height": 1080,
+    "duration_s": 15.04,
+    "codec": "h264"
+  },
+  "note": "完整响应存 final_result.txt；直连 2.5 实验成功"
+}

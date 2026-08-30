@@ -128,6 +128,11 @@ prompt.txt = 一段连贯的自然语言创作简报（中文），把时代细�
 - 连续 2 次提交失败 → 当日放弃，状态 failed，写 failure_log.md
 
 ### Step 8 · 提交小云雀（Video Provider · submit/status/fetch/review 四操作之 submit+status）
+> **2026-08-30 起默认通道：§7 Plan B 直连**（`pippit-tool-cli generate-video --model Seedance_2.5`，
+> 画质 1080p 且指令遵循力更强——T031 实测详见修订记录 v1.4 与 L-010）。**本节 agent 主链路降级为直连故障时的回退**；
+> 直连提交成功后轮询用 `pippit-tool-cli query-result --thread-id <id> --run-id <id> --download-dir <job目录>`，
+> 返回 `"completed": true` 即完成并已自动下载。以下主链路流程仅在直连失败时启用：
+
 ```bash
 # 密钥一律从工作区文件读取（定时任务继承的进程环境变量可能已过期，2026-08-22 实测教训）
 export XYQ_ACCESS_KEY=$(head -1 "D:\Work\AI 每日短片实验室\state\xyq_access_key.txt" | tr -d '\r\n')
@@ -277,3 +282,4 @@ pippit-tool-cli query-result --thread-id <id> --run-id <id> --download-dir "<项
 *修订记录：2026-08-23 v1.1 默认生成模型改为 Seedance 2.5（主链路消息首行指令 + Plan B 优先 seedance2.5_direct 带回退链）。*
 *修订记录：2026-08-23 v1.2 pippit-tool-cli 与 xyq-skill 更新 1.0.8→1.0.18：三脚本接口兼容（get_thread 新增可选 --after-seq 增量拉取）；Plan B 模型表修正为 Seedance_2.5（VIP）等新阵容。*
 *修订记录：2026-08-26 v1.3 选题池治理上线：topics.json 成为唯一事实源，Step 1 只从人工 approved 挑选；新增 §6 治理规则（提名四关/库存红线/过渡条款）、Step 11 明晚预告、§5.5 周日选题补给；站点新增选题池板块。*
+*修订记录：2026-08-30 v1.4 生成通道切换：直连 generate-video --model Seedance_2.5 实验证实主链路 agent『2.5 暂不可选』为误判（T031 出片 1080p/17MB，先验污染零发生），Step 8 默认改走 Plan B 直连，主链路降为回退。*

@@ -428,8 +428,10 @@
       "pitch": "恒河晨雾里，闭关的行者睁眼——启明星正在隐去，树影落在他不再波动的脸上。",
       "source": "ai_weekly",
       "proposed_date": "2026-08-29",
-      "status": "approved",
-      "recommend_reason": "静观族赛道验证强（9.2/9.0/8.9），双满分潜力"
+      "status": "used",
+      "recommend_reason": "静观族赛道验证强（9.2/9.0/8.9），双满分潜力",
+      "used_date": "2026-08-30",
+      "project": "2026-08-30-bodhi-dawn"
     },
     {
       "id": "T032",
@@ -501,7 +503,7 @@
       "pitch": "斩杩槎，江水涌入内江的第一声轰响——李冰在岸边眯眼看着水线爬上石壁。",
       "source": "ai_weekly",
       "proposed_date": "2026-08-29",
-      "status": "candidate"
+      "status": "approved"
     },
     {
       "id": "T037",
@@ -516,7 +518,7 @@
       "pitch": "穹顶天窗开孔的光第一次落到大殿正中，查士丁尼仰头——光斑就停在那里。",
       "source": "ai_weekly",
       "proposed_date": "2026-08-29",
-      "status": "candidate"
+      "status": "approved"
     },
     {
       "id": "T038",
@@ -531,7 +533,7 @@
       "pitch": "敞肩石桥静立河上，车辙声由远及近——桥是否承得住，这一刻见分晓。",
       "source": "ai_weekly",
       "proposed_date": "2026-08-29",
-      "status": "candidate"
+      "status": "approved"
     },
     {
       "id": "T039",
@@ -546,7 +548,7 @@
       "pitch": "轿帘掀起一线：印加皇帝与一百六十八个陌生人对视——旧大陆与新大陆的第一次对视，安静得只剩金饰轻响。",
       "source": "ai_weekly",
       "proposed_date": "2026-08-30",
-      "status": "candidate"
+      "status": "approved"
     },
     {
       "id": "T040",
@@ -561,7 +563,7 @@
       "pitch": "烛灯当太阳、圆桌当地球、明镜当月亮——一位清代闺秀在灯下把月食装进了一间屋子。",
       "source": "ai_weekly",
       "proposed_date": "2026-08-30",
-      "status": "candidate"
+      "status": "approved"
     },
     {
       "id": "T041",
@@ -576,7 +578,7 @@
       "pitch": "自凿石椁夜卧的贬官中夜猛然坐起、呼跃出声——「圣人之道，吾性自足」，洞外只有驿站的更声。",
       "source": "ai_weekly",
       "proposed_date": "2026-08-30",
-      "status": "candidate"
+      "status": "approved"
     },
     {
       "id": "T042",
@@ -591,7 +593,7 @@
       "pitch": "平安京的雪夜，灯焰照着宫中女官的笔尖——《源氏物语》的第一页落墨，窗外初雪无声。",
       "source": "ai_weekly",
       "proposed_date": "2026-08-30",
-      "status": "candidate"
+      "status": "approved"
     }
   ]
 }

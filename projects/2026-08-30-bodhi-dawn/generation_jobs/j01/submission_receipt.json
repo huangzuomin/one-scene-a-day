@@ -1,0 +1,14 @@
+{
+  "job_id": "j01",
+  "project_id": "2026-08-30-bodhi-dawn",
+  "submitted_at": "2026-08-30 21:12",
+  "channel": "Plan B 直连 (pippit-tool-cli generate-video)",
+  "model": "Seedance_2.5 (直连定位实验：后端接受提交，需以成片判定是否真用 2.5)",
+  "params": {
+    "duration": 15,
+    "ratio": "16:9",
+    "resolution": "1080p"
+  },
+  "thread_id": "skill_5b20f6b8-50f0-4e4b-bfda-29b05b23b71b",
+  "run_id": "skill_ed931aa5-1a5b-4f9d-ad05-2fdbb998a839"
+}

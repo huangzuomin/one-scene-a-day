@@ -1,0 +1,40 @@
+{
+  "project_id": "2026-08-30-bodhi-dawn",
+  "series": "history_camera",
+  "day_no": 9,
+  "date": "2026-08-30",
+  "topic_id": "T031",
+  "status": "evaluated",
+  "history": [
+    {
+      "time": "2026-08-30 21:02",
+      "step": "Step0 前置检查",
+      "note": "今日无项目，额度 0/2"
+    },
+    {
+      "time": "2026-08-30 21:03",
+      "step": "Step1 选题",
+      "note": "next 模拟确认 T031 菩提树下的第七个凌晨当选（思想标签首作，潜力9；T035 同分但池序在后）。本夜特殊任务：j01 走 Plan B 直连通道提交 Seedance_2.5（定位实验，PIPELINE §7）"
+    },
+    {
+      "time": "2026-08-30 21:12",
+      "step": "Step2~6 创作",
+      "note": "研究 9 条（L-009 防护清单：无造像语汇、不称佛）；四拍晨星→静坐→睁眼→初阳"
+    },
+    {
+      "time": "2026-08-30 21:12",
+      "step": "Step8 j01 直连",
+      "note": "2.5 定位实验：Plan B 直连 generate-video --model Seedance_2.5 提交成功受理"
+    },
+    {
+      "time": "2026-08-30 21:31",
+      "step": "Step9 j01 下载",
+      "note": "iter=28 出片；1080p/17MB（主链路 fast_vision 六天全 720p/约6MB）——2.5 真实生效"
+    },
+    {
+      "time": "2026-08-30 21:40",
+      "step": "Step10 Critic",
+      "note": "亲读 5 帧；均分 9.4 系列新高；先验污染零发生；payoff 逐字命中；建议精选；L-010 直连通道优先入库；PIPELINE v1.4 默认通道切换"
+    }
+  ]
+}
