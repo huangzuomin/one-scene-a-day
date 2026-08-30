@@ -4,7 +4,7 @@
   "day_no": 9,
   "date": "2026-08-30",
   "topic_id": "T031",
-  "status": "evaluated",
+  "status": "selected",
   "history": [
     {
       "time": "2026-08-30 21:02",
@@ -35,6 +35,11 @@
       "time": "2026-08-30 21:40",
       "step": "Step10 Critic",
       "note": "亲读 5 帧；均分 9.4 系列新高；先验污染零发生；payoff 逐字命中；建议精选；L-010 直连通道优先入库；PIPELINE v1.4 默认通道切换"
+    },
+    {
+      "time": "2026-08-30 22:30",
+      "step": "人工评级",
+      "note": "「喜欢」→ selected；用户同时指示：2.5/1080p 积分消耗过高，明日起切回 2.0/720p 原模式（→ PIPELINE v1.5）"
     }
   ]
 }

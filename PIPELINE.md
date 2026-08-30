@@ -128,21 +128,19 @@ prompt.txt = 一段连贯的自然语言创作简报（中文），把时代细�
 - 连续 2 次提交失败 → 当日放弃，状态 failed，写 failure_log.md
 
 ### Step 8 · 提交小云雀（Video Provider · submit/status/fetch/review 四操作之 submit+status）
-> **2026-08-30 起默认通道：§7 Plan B 直连**（`pippit-tool-cli generate-video --model Seedance_2.5`，
-> 画质 1080p 且指令遵循力更强——T031 实测详见修订记录 v1.4 与 L-010）。**本节 agent 主链路降级为直连故障时的回退**；
-> 直连提交成功后轮询用 `pippit-tool-cli query-result --thread-id <id> --run-id <id> --download-dir <job目录>`，
-> 返回 `"completed": true` 即完成并已自动下载。以下主链路流程仅在直连失败时启用：
+> **2026-08-30 起默认通道：主链路 agent（本节），模型不加指令行（后端自动用 seedance2.0_fast_vision，720p）**。
+> 用户 2026-08-30 裁定：Seedance_2.5 直连（1080p）画质虽优但积分消耗过高，日常回退 2.0/720p 原模式；
+> 直连 2.5 保留为**特别场合手动选项**（如季度精选重制），日常流水线不使用。详见修订记录 v1.5。
+> （2026-08-30 v1.4 曾默认直连 2.5，次日即按用户指示回退。）
 
 ```bash
 # 密钥一律从工作区文件读取（定时任务继承的进程环境变量可能已过期，2026-08-22 实测教训）
 export XYQ_ACCESS_KEY=$(head -1 "D:\Work\AI 每日短片实验室\state\xyq_access_key.txt" | tr -d '\r\n')
-python "C:\Users\zooma\.agents\skills\xyq-skill\scripts\submit_run.py" --message "使用 Seedance 2.5 模型生成视频。
-<prompt.txt 全文>"
+python "C:\Users\zooma\.agents\skills\xyq-skill\scripts\submit_run.py" --message "<prompt.txt 全文>"
 ```
-- **默认模型：Seedance 2.5**（2026-08-23 用户指定）。主链路无 model 参数，模型由后端 agent 从消息文本领会，故首行固定写模型指令；xyq 文档禁止代写风格描述词，但指定用户要求的模型属需求传话，不违规
-- 若后端明确拒绝该模型（报错/改用其他模型且成片质量异常）→ 去掉模型行回退默认模型重提一次，并在 status_log 记录回退原因
-- 轮询返回的创作信息中若可见实际使用的模型，记入 `status_log.jsonl` 最后一行（字段 `actual_model`），供 Learning 核对指令是否生效
-若报「错误码 2 / Ak已过期」→ 提示用户更新 `state\xyq_access_key.txt` 内容后原样重试；状态保持 prompted。
+- **模型策略（v1.5）**：主链路**不加任何模型指令行**，后端自动使用 seedance2.0_fast_vision（720p）——积分日常消耗模式。
+  Seedance_2.5（1080p，直连）画质显著更优但积分消耗高，仅用于**特别场合手动指定**（如第 30 夜精选重制），日常流水线一律不用
+- 若后端报「错误码 2 / Ak已过期」→ 提示用户更新 `state\xyq_access_key.txt` 内容后原样重试；状态保持 prompted
 - 返回 JSON 取 `thread_id`、`run_id`，连同提交时间写入 `generation_jobs\<job_id>\submission_receipt.json`（job_id 形如 `j01`）
 - 轮询（10 秒间隔，**thread_id 与 run_id 都必传**——2026-08-22 实测省略 run_id 会报「run id不能为空」）：
 ```bash
@@ -274,7 +272,7 @@ pippit-tool-cli query-result --thread-id <id> --run-id <id> --download-dir "<项
 模型选择（2026-08-23 CLI 更新 1.0.18 后实测帮助文本）：**VIP 账号优先 `--model Seedance_2.5`**（注意大小写与下划线，用户指定默认 2.5；VIP 专享）。若报无权限/不存在，按序回退：Seedance_2.0_mini → seedance2.0_fast_vision → Seedance_2.0_mini_lite（普通账号唯一可用），回退情况记入 failure_log.md。1.0.8 时代的 seedance2.0_direct / _fast_direct 已从模型表移除。
 注意：(1) 鉴权与 xyq-skill 同源，Ak 过期时两链路同挂；(2) job 工件格式与主链路一致。
 
-**2.5 定位实验（2026-08-30 起，一次性）**：CLI 已确认最新（1.0.18，08-29 update 实测无新版），「2.5 暂不可选」与 CLI 版本无关。次日流水线 j01 改用本节直连命令 `--model Seedance_2.5` 提交：成功出片 → 后端 agent 白名单误判，此后默认改走直连 2.5；报无权限 → 账号确无 2.5 权益，主链路提交消息去掉首行模型指令。结果记入 scheduler-log 并向用户汇报。
+**2.5 定位实验（已完成，2026-08-30）**：直连 `--model Seedance_2.5` 一次出片（1080p/17MB），证实主链路 agent「暂不可选」为误判、2.5 真实可用。但用户裁定 **1080p 积分消耗过高**，v1.5 起日常回退 2.0/720p；直连 2.5 保留为特别场合手动选项。当时记录：CLI 已确认最新（1.0.18，08-29 update 实测无新版），「暂不可选」与 CLI 版本无关。
 
 ---
 *本手册是活文档：试运行期发现漏洞当天修订；重大变更在文末登记。*
@@ -283,3 +281,4 @@ pippit-tool-cli query-result --thread-id <id> --run-id <id> --download-dir "<项
 *修订记录：2026-08-23 v1.2 pippit-tool-cli 与 xyq-skill 更新 1.0.8→1.0.18：三脚本接口兼容（get_thread 新增可选 --after-seq 增量拉取）；Plan B 模型表修正为 Seedance_2.5（VIP）等新阵容。*
 *修订记录：2026-08-26 v1.3 选题池治理上线：topics.json 成为唯一事实源，Step 1 只从人工 approved 挑选；新增 §6 治理规则（提名四关/库存红线/过渡条款）、Step 11 明晚预告、§5.5 周日选题补给；站点新增选题池板块。*
 *修订记录：2026-08-30 v1.4 生成通道切换：直连 generate-video --model Seedance_2.5 实验证实主链路 agent『2.5 暂不可选』为误判（T031 出片 1080p/17MB，先验污染零发生），Step 8 默认改走 Plan B 直连，主链路降为回退。*
+*修订记录：2026-08-30 v1.5 按用户裁定回退：2.5/1080p 积分消耗过高，日常恢复主链路 agent 通道（无模型行，fast_vision 720p）；直连 2.5 保留为特别场合手动选项。*
