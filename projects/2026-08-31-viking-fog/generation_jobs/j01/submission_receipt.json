@@ -1,0 +1,8 @@
+{
+  "job_id": "j01",
+  "project_id": "2026-08-31-viking-fog",
+  "submitted_at": "2026-08-31 21:11",
+  "channel": "主链路 agent（v1.5：无模型指令行，后端自动 fast_vision 720p）",
+  "thread_id": "skill_ff148a81-8512-4eab-a239-abe83c9461c6",
+  "run_id": "skill_8550904d-b000-48f9-b356-6205d49b4265"
+}
