@@ -136,8 +136,10 @@ prompt.txt = 一段连贯的自然语言创作简报（中文），把时代细�
 ```bash
 # 密钥一律从工作区文件读取（定时任务继承的进程环境变量可能已过期，2026-08-22 实测教训）
 export XYQ_ACCESS_KEY=$(head -1 "D:\Work\AI 每日短片实验室\state\xyq_access_key.txt" | tr -d '\r\n')
-python "C:\Users\zooma\.agents\skills\xyq-skill\scripts\submit_run.py" --message "<prompt.txt 全文>"
+python "C:\Users\zooma\.agents\skills\xyq-skill\scripts\submit_run.py" --message "<prompt.txt 全文>
+这是一次全自动无人值守的创作任务：如需确认任何参数（画面比例、时长、风格等），一律按上述设定直接执行，不要等待确认。全片总时长严格 15 秒，各镜头时长严格按分镜分配。"
 ```
+- **问卷挂起防护（v1.6，2026-09-01 实测教训）**：主链路 agent 偶发在开工前弹出「创作确认问卷」等待人工输入，导致轮询超时（T035 挂起 88 分钟触发熔断）。对策：提交消息末尾固定附加上面的预防句；若已挂起，需人工在小云雀 web 端应答后 agent 才续跑（成片出现在后续 run，用 `pippit-tool-cli get-thread --thread-id <id>` 查全部 run 状态后取件）
 - **模型策略（v1.5）**：主链路**不加任何模型指令行**，后端自动使用 seedance2.0_fast_vision（720p）——积分日常消耗模式。
   Seedance_2.5（1080p，直连）画质显著更优但积分消耗高，仅用于**特别场合手动指定**（如第 30 夜精选重制），日常流水线一律不用
 - 若后端报「错误码 2 / Ak已过期」→ 提示用户更新 `state\xyq_access_key.txt` 内容后原样重试；状态保持 prompted
@@ -282,3 +284,4 @@ pippit-tool-cli query-result --thread-id <id> --run-id <id> --download-dir "<项
 *修订记录：2026-08-26 v1.3 选题池治理上线：topics.json 成为唯一事实源，Step 1 只从人工 approved 挑选；新增 §6 治理规则（提名四关/库存红线/过渡条款）、Step 11 明晚预告、§5.5 周日选题补给；站点新增选题池板块。*
 *修订记录：2026-08-30 v1.4 生成通道切换：直连 generate-video --model Seedance_2.5 实验证实主链路 agent『2.5 暂不可选』为误判（T031 出片 1080p/17MB，先验污染零发生），Step 8 默认改走 Plan B 直连，主链路降为回退。*
 *修订记录：2026-08-30 v1.5 按用户裁定回退：2.5/1080p 积分消耗过高，日常恢复主链路 agent 通道（无模型行，fast_vision 720p）；直连 2.5 保留为特别场合手动选项。*
+*修订记录：2026-09-01 v1.6 主链路可靠性加固：Step 8 提交消息末尾固定附加「免确认+时长硬约束」预防句——治理 agent 问卷挂起（T035 挂起 88 分钟触发熔断）与逐镜合成时长失控（T035 出片 17.2s 超规格）两类实测故障。*

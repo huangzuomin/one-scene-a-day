@@ -1,0 +1,111 @@
+{
+  "messages": [
+    {
+      "id": "84065c8f-27ea-4429-acce-addaddcc969c",
+      "role": "user",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_prompt_text",
+          "data": "{\"content\":\"最终作品呢\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        },
+        {
+          "type": "data",
+          "sub_type": "biz/video_settings",
+          "data": "{\"video_resolution\":\"720p\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        },
+        {
+          "type": "data",
+          "sub_type": "biz/video_settings",
+          "data": "{\"video_resolution\":\"720p\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        },
+        {
+          "type": "data",
+          "sub_type": "biz/general_agent_settings",
+          "data": "{\"video_model\":\"seedance2.0_fast_vision\",\"video_resolution\":\"720p\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "5805631797772",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "sub_type": "",
+          "data": "成片已经生成好了，就是刚才推送的视频。让我再发一次。",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        },
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"present_sandbox_file\",\"tool_id\":\"call_-7293646563656594919\",\"request_data\":\"{\\\"filepath\\\": \\\"assets/pyramid_capstone/output.mp4\\\", \\\"interrupt\\\": true}\",\"extra\":\"{\\\"display_name\\\":\\\"发送产物\\\",\\\"loadingText\\\":\\\"正在发送相关产物...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "5805631799820",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_video",
+          "data": "{\"video\":{\"asset_id\":\"7680580094356505150\",\"uri\":null,\"metadata\":{\"height\":720,\"width\":1280,\"format\":\"\",\"duration_ms\":17166,\"size\":0,\"bitrate\":0,\"definition\":\"\",\"codec_type\":\"\",\"encoded_type\":\"\",\"file_hash\":\"\",\"md5\":\"\",\"ratio\":\"16:9\",\"title\":null,\"name\":null,\"mime\":\"\"},\"url\":\"https://v11-xyq-video.jianying.com/d0de4fb2594fef81f7a85c2b6e3d6500/6b843515/video/n/everphoto-jianying-assets/d79318e6a0214a0c8b6899d024252cb7/?a=795647\\u0026ch=0\\u0026cr=0\\u0026dr=0\\u0026cd=0%7C0%7C0%7C0\\u0026br=4607\\u0026bt=4607\\u0026cs=0\\u0026ds=3\\u0026ft=TLtriUeR_yygZmo0PCQo9gkVQ9w6x\\u0026mime_type=video_mp4\\u0026qs=13\\u0026rc=M3dydmRvOjNoZDczNDlmM0BpM3dydmRvOjNoZDczNDlmM0BnaWZwYWEvYl9hLS1kNC9zYSNnaWZwYWEvYl9hLS1kNC9zcw%3D%3D\\u0026btag=80000e00010000\\u0026dy_q=1788274436\\u0026l=20260901224121BF38EFE90085DFDB0DA1\\u0026download=true\\u0026filename=v02c76g10004dabee027dldassioltj0.mp4\",\"caption\":\"这是一段时长3秒、采用1FPS帧率拍摄的古金字塔建造主题实拍片段，全程为固定机位的中近景镜头，场景设置在由浅米黄色石灰岩铺就的金字塔顶层施工平台上，日光充沛，整体光线明亮硬朗，石块表面投射下清晰的绳索阴影。\\n第一帧画面里，右侧一名赤裸上身、仅下身围着粗糙草编腰布的老年黑人男子呈蹲姿，他皮肤布满汗珠，正神情专注地伸出双手，小心调整前方一个表面高度抛光、能够清晰反射出他身形的纯金金字塔锥尖（即古埃及金字塔传统结构里的顶尖石）；这个金锥尖的底座四角分别固定着粗麻绳，斜向延伸固定在周围的石面锚点上，平台中后部的石砌环形结构留有方形开口，远处平台边缘还能看到两名正在劳作的古埃及施工者的模糊身影。\\n第二帧画面中，原本位于金锥尖右侧的男子全身消失，仅留他的一双手从画面左右两侧的边缘伸入镜头，两侧手掌悬在金锥尖的旁侧同步发力，配合着牵拉连接金锥尖的麻绳，金锥尖被微微抬升，底部离开原本的石面落点，移动到平台的方形开口正上方。\\n第三帧画面里，男子的双手完全退出画面，金锥尖重新平稳放置回开口前方的原始石制落点上，所有麻绳重新绷直固定，平台上没有任何人物留存，金锥尖在阳光下反射出明亮的暖金色光泽，整个顶层平台场景回归安静，完成了古金字塔金锥尖吊装归位的收尾动作。\",\"render_task_id\":\"7680579987224723482\",\"cover_url\":\"https://p11-sign.douyinpic.com/everphoto-jianying-assets/ogTBWtSfbl8va5DIZoWBu8HDgC7gAWbIhqcAEf~tplv-noop.image?dy_q=1788274436\\u0026l=20260901224121BF38EFE90085DFDB0DA1\\u0026x-expires=1803826453\\u0026x-signature=nQTfjEIOdntdu55tTdArL6zEEYw%3D\",\"music_meta\":null,\"preview_url\":\"https://v5-xyq-video.jianying.com/906d23ca28374b01894480efe01759eb/6b843515/video/n/everphoto-jianying-assets/6657e70850184dcca1329389b2519238/?a=795647\\u0026ch=0\\u0026cr=0\\u0026dr=0\\u0026cd=0%7C0%7C0%7C0\\u0026br=6250\\u0026bt=6250\\u0026cs=0\\u0026ds=3\\u0026ft=TLtriUeR_yygZmo0PCQo9gkVQ9w6x\\u0026mime_type=video_mp4\\u0026qs=13\\u0026rc=amozNTRvOnloZDczNDlmM0BpamozNTRvOnloZDczNDlmM0BzZmxzYWFuYV9hLS1kNC9zYSNzZmxzYWFuYV9hLS1kNC9zcw%3D%3D\\u0026btag=80000e00010000\\u0026dy_q=1788274436\\u0026l=20260901224121BF38EFE90085DFDB0DA1\",\"render_task_status\":null,\"draft_key\":null,\"package_id\":null,\"vid\":null,\"render_rsp_map\":{\"disable_edit\":\"0\"},\"download_url\":\"https://v11-xyq-video.jianying.com/d0de4fb2594fef81f7a85c2b6e3d6500/6b843515/video/n/everphoto-jianying-assets/d79318e6a0214a0c8b6899d024252cb7/?a=795647\\u0026ch=0\\u0026cr=0\\u0026dr=0\\u0026cd=0%7C0%7C0%7C0\\u0026br=4607\\u0026bt=4607\\u0026cs=0\\u0026ds=3\\u0026ft=TLtriUeR_yygZmo0PCQo9gkVQ9w6x\\u0026mime_type=video_mp4\\u0026qs=13\\u0026rc=M3dydmRvOjNoZDczNDlmM0BpM3dydmRvOjNoZDczNDlmM0BnaWZwYWEvYl9hLS1kNC9zYSNnaWZwYWEvYl9hLS1kNC9zcw%3D%3D\\u0026btag=80000e00010000\\u0026dy_q=1788274436\\u0026l=20260901224121BF38EFE90085DFDB0DA1\\u0026download=true\\u0026filename=v02c76g10004dabee027dldassioltj0.mp4\",\"ratio\":null,\"title\":\"\",\"duration\":0,\"width\":0,\"height\":0,\"cover_preview_url\":null,\"cover_preview_key\":null,\"player_info\":null,\"preview_url_v2\":null,\"unique_id\":null,\"scene_segment\":null,\"pippit_asset_id\":null,\"extra\":null},\"gif_url\":null,\"living_photo_url\":null,\"task_id\":null,\"error_message\":null,\"error_code\":null}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": "5805599519500",
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "5805631797772",
+      "role": "assistant",
+      "content": []
+    }
+  ]
+}

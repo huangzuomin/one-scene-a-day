@@ -1,0 +1,19 @@
+{
+  "job_id": "j01",
+  "fetched_at": "2026-09-01 23:15",
+  "files": [
+    {
+      "remote": "签名URL见 video_url.txt",
+      "local": "video_01.mp4"
+    },
+    {
+      "local_copy": "../../video.mp4"
+    }
+  ],
+  "probe": {
+    "width": 1280,
+    "height": 720,
+    "duration_s": 17.17
+  },
+  "note": "成片在 thread 的 Run#4（用户 web 端应答问卷后 agent 续跑合成）；完整响应存 final_result.json"
+}
