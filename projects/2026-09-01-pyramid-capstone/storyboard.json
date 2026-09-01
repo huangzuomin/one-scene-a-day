@@ -1,0 +1,54 @@
+{
+  "segment": "S01",
+  "duration_total": 15,
+  "beats": [
+    {
+      "beat": 1, "time": "0-3s",
+      "shot_size": "extreme close-up",
+      "angle": "eye-level 微仰",
+      "lens": "85mm, 浅景深",
+      "composition": "抛光金属尖石占画面中央主体，绳索自上方绷紧入画；石面反射正午白亮天光与扭曲晃动的人影",
+      "camera": "随石头下沉的极缓降机位（幅度以毫米计）",
+      "action": "金尖石悬在绷紧的绳索上缓缓下沉，石面反光灼灼流动",
+      "lighting": "沙漠正午强阳光，金属反光刺目，背景过曝泛白",
+      "emotion": "重量的仪式感",
+      "transition": "随下沉节奏切"
+    },
+    {
+      "beat": 2, "time": "3-7s",
+      "shot_size": "medium shot",
+      "angle": "eye-level",
+      "lens": "40mm, 中景深",
+      "composition": "老石匠立于画面中央偏右、塔尖平台石缘上，双手悬在金尖石两侧；左侧与身后拉绳工人剪影虚化绷紧；远处地平线过曝泛白",
+      "camera": "static：纹丝不动，只有石头下沉与人影绷紧",
+      "action": "光头老石匠赤足踩在平台石缘，双手虚扶在金尖石两侧引导方向而不触及；石头一寸一寸沉向最后的石位",
+      "lighting": "正午顶光强烈，石匠面部明暗分明，汗迹反光",
+      "emotion": "二十年的专注收束于手",
+      "transition": "石头接近落位时切"
+    },
+    {
+      "beat": 3, "time": "7-11s",
+      "shot_size": "close-up",
+      "angle": "eye-level 贴近石缝",
+      "lens": "65mm macro, 浅景深",
+      "composition": "画面主体为金尖石底部与石位的接缝，两侧是老石匠扶正的手指与粗糙指节",
+      "camera": "static",
+      "action": "金尖石底部与石位吻合落座——一声沉闷厚实的吻合；石匠扶正最后半寸，确认，双手缓缓松开、离开石面",
+      "lighting": "正午光下金属与石灰岩的质感对比强烈",
+      "emotion": "交付完成的静穆",
+      "transition": "松手瞬间切"
+    },
+    {
+      "beat": 4, "time": "11-15s",
+      "shot_size": "medium close-up",
+      "angle": "微仰",
+      "lens": "50mm, 浅景深",
+      "composition": "老石匠仰起的脸占画面右侧，左侧为失焦的金尖石灼目反光；背景天光过曝泛白",
+      "camera": "随反光扫过极缓横移，之后完全静止 hold ≥1.5s",
+      "action": "落位的金面第一次完整反射正午阳光，一点灼目的金光；反光缓缓扫过老石匠仰起的脸，他眯眼仰望，眼角皱纹里有风沙也有安顿",
+      "lighting": "金属反光为主动光源扫亮面部，暖金色高光",
+      "emotion": "交付后的安顿与骄傲（克制的）",
+      "transition": "定格至黑（硬止）"
+    }
+  ]
+}

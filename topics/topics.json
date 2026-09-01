@@ -1,6 +1,6 @@
 {
   "schema": "topics/1",
-  "updated": "2026-08-31",
+  "updated": "2026-09-01",
   "note": "选题池唯一事实源。状态机：candidate(待审) → approved(可批拍) → used(已拍)；旁路 rejected(否决，事件永不复提) / blocked(冻结)。治理规则见 PIPELINE.md §6。",
   "topics": [
     {
@@ -491,8 +491,10 @@
       "pitch": "黎明的风里，最后的金色尖石沿着坡道升向塔尖——二十年的工地在这一瞬安静。",
       "source": "ai_weekly",
       "proposed_date": "2026-08-29",
-      "status": "approved",
-      "recommend_reason": "『巨大之物合龙』与静观结合，系列未拍过的尺度"
+      "status": "used",
+      "recommend_reason": "『巨大之物合龙』与静观结合，系列未拍过的尺度",
+      "used_date": "2026-09-01",
+      "project": "2026-09-01-pyramid-capstone"
     },
     {
       "id": "T036",
