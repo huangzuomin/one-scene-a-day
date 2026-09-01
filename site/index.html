@@ -33,7 +33,7 @@
   <div class="hero-scrim"></div>
   <div class="hero-content">
     <p class="hero-eyebrow">SERIES 01 · 如果历史有镜头 · 第一季 30 夜</p>
-    <p class="hero-day">第 11 夜 · 2026-09-01 <span class="chip">待复核</span></p>
+    <p class="hero-day">第 11 夜 · 2026-09-01 <span class="chip">rejected</span></p>
     <h1 class="hero-title">大金字塔封顶的那块金尖石</h1>
     <p class="hero-sub">二十年工程的最后一刻：金尖石沿塔尖最后一石的高度被缓缓放落，落位吻合的一声之后，匠人松手</p>
     <p class="hero-def">一日一幕：每晚 21:00，一台 AI 自主拍下一部 15 秒短片。第一季 30 夜，全程留档，无人值守。</p>
@@ -69,7 +69,7 @@
       <img src="assets/films/pyramid/f01.jpg" alt=""><img src="assets/films/pyramid/f05.jpg" alt=""><img src="assets/films/pyramid/f09.jpg" alt=""><img src="assets/films/pyramid/f13.jpg" alt=""><img src="assets/films/pyramid/f17.jpg" alt="">
     </div>
     <header class="film-head">
-      <p class="film-meta">第 11 夜 · 2026-09-01 · 营造 · 约 前2560 · <span class="chip">待复核</span></p>
+      <p class="film-meta">第 11 夜 · 2026-09-01 · 营造 · 约 前2560 · <span class="chip">rejected</span></p>
       <h2 class="film-title">大金字塔封顶的那块金尖石</h2>
       <p class="film-logline">二十年工程的最后一刻：金尖石沿塔尖最后一石的高度被缓缓放落，落位吻合的一声之后，匠人松手</p>
     </header>
@@ -81,7 +81,7 @@
       <div class="verdict-block">
         <p class="verdict-avg">8.8</p>
         <p class="verdict-note">8.8：金尖石材质与『松手』仪式感为本片双亮点，时代规避全部成功。两处纪律记录：总时长超规格 2.2 秒（逐镜合成失控，L-011 入库）；本轮 agent 弹问卷挂起 88 分钟触发熔断（用户 web 端应答后续跑，Run#4 成片）——主链路偶发问卷挂起将写入 PIPELINE v1.6 预防句。</p>
-        <p class="verdict-sign"><span class="sign-ai">AI 评审：建议精选</span><span class="sign-human">待人工评级</span></p>
+        <p class="verdict-sign"><span class="sign-ai">AI 评审：建议精选</span><span class="sign-human">人说：「失败」→ 不精选</span></p>
       </div>
     </div>
     <details class="film-archive">
@@ -869,6 +869,7 @@
         <li><span class="log-time">08-31</span>T018 维京入雾 8.4 建议精选，雾墙裂开的『发现』构图为本片灵魂；蛇首船首柱违背约束（L-009 第三实证）。720p 回退确认生效。</li>
         <li><span class="log-time">08-31</span>人工评级「喜欢」。十夜十片全部精选。</li>
         <li><span class="log-time">09-01</span>T035 金字塔封顶（营造首作）8.8 建议精选。病因确诊：主链路 agent 弹问卷挂起 88 分钟触发熔断（用户 web 端应答续跑）；v1.6 防护句+时长硬约束 L-011 入库。</li>
+        <li><span class="log-time">09-01</span>人工评级「失败」——系列首个非精选：多镜拆解合成致叙事混乱（L-012），v1.6 预防句追加禁止拆镜拼接。精选率 10/11。</li>
       </ul>
       <h3 class="side-title">待拍清单</h3>
       <ul class="queue">
@@ -1014,7 +1015,7 @@
         <h3 class="rule-title">后世改造地标须构图回避</h3>
         <p class="rule-why">T004 两版生成（j01 无约束、j02 负面约束×2）宣礼塔均入画，j02 反而更明显——证明该失败类型对文字提示免疫</p>
         <p class="rule-candidate">规则候选：取景含『被后世改造过的著名地标』（1453 圣索菲亚、汉长城、古罗马彩绘大理石等）时，文字负面约束不可靠——模型先验会碾过『绝无 X』指令；简报必须改用构图手段：地标只作纯剪影远景/移出画面/以幕布遮挡，并在分镜阶段自检。</p>
-        <p class="rule-src">来源 · 2026-08-29 T004 j01/j02 Critic 对比、2026-08-31 T018 Critic risks/adherence Q8（并见 2026-08-29 T004）</p>
+        <p class="rule-src">来源 · 2026-08-31 T018 Critic risks/adherence Q8（并见 2026-08-29 T004）、2026-08-29 T004 j01/j02 Critic 对比</p>
       </li>
       <li class="rule">
         <p class="rule-no">规则候选 09</p>
@@ -1029,6 +1030,13 @@
         <p class="rule-why">T035 出片 17.17 秒超规格 2.17 秒——此前十夜未发现是因为单 Segment 整段生成；本次 agent 拆四镜合成暴露该问题</p>
         <p class="rule-candidate">规则候选：主链路 agent 逐镜生成再合成的任务，总时长会超规格（本例 15s→17.2s）；简报末尾必须显式写明『全片总时长严格 15 秒，各镜头时长严格按分镜分配』，Critic 时长核验并入评分。</p>
         <p class="rule-src">来源 · 2026-09-01 T035 Critic risks/adherence Q10</p>
+      </li>
+      <li class="rule">
+        <p class="rule-no">规则候选 11</p>
+        <h3 class="rule-title">禁止拆镜拼接（人工失败裁定）</h3>
+        <p class="rule-why">T035 系列首个『失败』评级：成片叙事逻辑混乱（人工 ground truth），与超时长同因——agent 在问卷应答后自行拆四镜分别生成再拼接；前十夜整段生成从未出现叙事混乱</p>
+        <p class="rule-candidate">规则候选：主链路提交消息必须显式要求『一次性整段生成全片，禁止拆分为多个镜头分别生成再拼接』——agent 自行的逐镜拆解合成会破坏叙事逻辑（镜头间时空连续性断裂、节奏结构消解），且时长失控与叙事混乱同源。</p>
+        <p class="rule-src">来源 · 2026-09-01 T035 人工评级原文「成片叙事逻辑混乱，失败」</p>
       </li>
     </ol>
     <div class="settlement">
@@ -1078,7 +1086,7 @@
 
   <div class="stats">
     <div class="stat"><b>11 / 30</b><span>夜完成 · 精选 10</span></div>
-    <div class="stat"><b>90%</b><span>AI 建议与人工评级一致</span></div>
+    <div class="stat"><b>82%</b><span>AI 建议与人工评级一致</span></div>
     <div class="stat"><b>8.7</b><span>平均评审分</span></div>
     <div class="stat"><b>0</b><span>生成环节人工干预</span></div>
   </div>

@@ -23,6 +23,7 @@
   .badge { display:inline-block; padding:2px 10px; border-radius:20px; font-size:12px; margin-left:8px; vertical-align:middle; }
   .badge.review { background:rgba(210,153,34,.15); color:var(--amber); border:1px solid var(--amber); }
   .badge.ok { background:rgba(63,185,80,.15); color:var(--green); border:1px solid var(--green); }
+  .badge.fail { background:rgba(200,60,40,.15); color:#e07050; border:1px solid #a3452e; }
   video, img.frame { width:100%; border-radius:8px; margin-top:16px; background:#000; display:block; }
   .frames { display:flex; gap:8px; margin-top:12px; overflow-x:auto; }
   .frames img { height:90px; border-radius:6px; border:1px solid var(--line); }
@@ -43,13 +44,12 @@
   <div class="stats">
     <div class="stat"><div class="n">11</div><div class="l">成片</div></div>
     <div class="stat"><div class="n">8.7</div><div class="l">平均 AI 分</div></div>
-    <div class="stat"><div class="n">91%</div><div class="l">精选率（10/11）</div></div>
-    <div class="stat"><div class="n">100%</div><div class="l">运行成功率（11/11 天）</div></div>
+    <div class="stat"><div class="n">91%</div><div class="l">精选率（10/11）</div></div>    <div class="stat"><div class="n">100%</div><div class="l">运行成功率（11/11 天）</div></div>
   </div>
 
-  <div class="card pending">
+  <div class="card">
     <div class="date">2026-09-01 · HISTORY_CAMERA · T035 · 营造标签首作 · 问卷挂起熔断夜</div>
-    <h2>大金字塔封顶的那块金尖石 <span class="badge review">待评审</span></h2>
+    <h2>大金字塔封顶的那块金尖石 <span class="badge fail">失败 · 人工「失败」→ 已废弃</span></h2>
     <div class="meta">
       公元前 2560 年前后，吉萨。二十年的工程到了最后一刻：抛光的金尖石被绳索缓缓放落到位——老石匠扶正最后半寸，松手。一点灼目的金光亮起。<br>
       1280×720 · <b>17.2s（超规格 2.2s）</b> · 16:9 · seedance2.0_fast_vision · 本夜熔断病因确诊：agent 弹确认问卷挂起 88 分钟，用户 web 端应答后续跑成片
@@ -71,7 +71,7 @@
       </div>
     </div>
     <div class="score"><b>Critic 摘要：</b>金尖石材质演绎超预期——抛光金属与图拉白石灰岩的对比是系列最佳静物画面；「虚扶引导→扶正→松手→仰望」的交付仪式感完整；无象形文字、无奴隶元素，时代规避全部成功。纪律记录：总时长 17.2s 超规格（逐镜合成失控，L-011 入库，PIPELINE v1.6 已加时长硬约束）；镜头间衔接偏硬。</div>
-    <div class="note wait">🟡 等待人工评审：喜欢 / 一般 / 失败 + 一句理由（在对话里说即可）。</div>
+    <div class="note" style="color:#e07050">🔴 人工评级：失败（2026-09-01）→ rejected。原话：「超时长不是问题，现在成片叙事逻辑混乱，失败」。系列首个非精选；病因＝agent 多镜拆解合成破坏叙事逻辑（超时长同源），L-012 入库，v1.6 预防句已追加「禁止拆镜拼接」。出稿包已标记不建议发布。</div>
   </div>
 
   <div class="card">
