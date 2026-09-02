@@ -1,0 +1,45 @@
+{
+  "project": "liubowen-ep06",
+  "series": "刘伯温六个决定性瞬间（超级IP支线，独立于每日流水线）",
+  "title": "EP06 病榻献书",
+  "status": "evaluated",
+  "updated_at": "2026-09-02T14:40:00+08:00",
+  "history": [
+    {
+      "time": "2026-09-02T14:38:00+08:00",
+      "step": "idea",
+      "note": "EP06 立项：病榻献书（1375），系列终章"
+    },
+    {
+      "time": "2026-09-02T14:39:00+08:00",
+      "step": "researched",
+      "note": "research.md：「亟上之，毋令后人习也」A 级锚点；松手=R-302 预验证母题；EP1 书挡呼应设计"
+    },
+    {
+      "time": "2026-09-02T14:40:00+08:00",
+      "step": "scripted",
+      "note": "4 Beats（4.5/3/3.5/4），转折=松手+灯花轻爆"
+    },
+    {
+      "time": "2026-09-02T14:40:30+08:00",
+      "step": "prompted",
+      "note": "prompt.txt 完成：环境音效方案（EP5 验证）、坐姿顺势、次角不给正面"
+    },
+    {
+      "time": "2026-09-02T14:23:30",
+      "step": "generating",
+      "note": "已提交 j01，轮询中"
+    },
+    {
+      "time": "2026-09-02T14:28:09",
+      "step": "generated",
+      "note": "成片已下载 video.mp4"
+    },
+    {
+      "time": "2026-09-02T14:29:26",
+      "step": "evaluated",
+      "note": "Critic 八维均分 8.6：松手母题落地，系列六集全部完成"
+    }
+  ],
+  "ai_total": 8.6
+}

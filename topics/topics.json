@@ -1,6 +1,6 @@
 {
   "schema": "topics/1",
-  "updated": "2026-09-01",
+  "updated": "2026-09-02",
   "note": "选题池唯一事实源。状态机：candidate(待审) → approved(可批拍) → used(已拍)；旁路 rejected(否决，事件永不复提) / blocked(冻结)。治理规则见 PIPELINE.md §6。",
   "topics": [
     {
@@ -354,11 +354,14 @@
       "tag": "灾难",
       "potential": 9,
       "risk_note": "了望记录A",
-      "status": "approved",
+      "status": "blocked",
       "source": "seed",
       "proposed_date": "2026-08-22",
       "recommend": "高",
-      "pitch": "瞭望员看见冰山的那三十秒。灾难类型已被庞贝夜验证（8.9 系列最高）。"
+      "pitch": "瞭望员看见冰山的那三十秒。灾难类型已被庞贝夜验证（8.9 系列最高）。",
+      "used_date": "2026-09-02",
+      "project": "2026-09-02-iceberg-watch",
+      "reason": "平台内容审核拦截（2026-09-02 两提两拦 code 12011）：邮轮+冰山+瞭望员组合触发泰坦尼克版权检测，当前策略下不可拍；事件本身史实无误，若平台策略变化可人工捞回"
     },
     {
       "id": "T026",

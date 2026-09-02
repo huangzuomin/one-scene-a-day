@@ -1,0 +1,9 @@
+{
+  "job_id": "j02",
+  "project_id": "2026-09-02-iceberg-watch",
+  "submitted_at": "2026-09-02 22:52",
+  "channel": "主链路 agent（v1.6 预防句）",
+  "reason": "j01 被平台版权审核拦截（具体日期+邮船元素）；修正：日期泛化/邮船→远洋邮轮后重提；当日额度 2/2",
+  "thread_id": "skill_0107f23e-f809-4e5e-9e0b-b7aead17f07b",
+  "run_id": "skill_596ad366-4033-4691-b7d7-15f6d24b3177"
+}

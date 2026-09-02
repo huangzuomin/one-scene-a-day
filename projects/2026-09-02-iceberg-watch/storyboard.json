@@ -1,0 +1,54 @@
+{
+  "segment": "S01",
+  "duration_total": 15,
+  "beats": [
+    {
+      "beat": 1, "time": "0-3s",
+      "shot_size": "extreme close-up",
+      "angle": "eye-level",
+      "lens": "85mm, 浅景深",
+      "composition": "扶着栏杆的手占画面左侧，指节冻红；呵出的白气向右飘散；背景无月黑海虚化",
+      "camera": "static：随船身极轻晃动",
+      "action": "瞭望手的手扶在冰冷栏杆上，呵出一口白气，白气缓缓飘过画面",
+      "lighting": "冷蓝夜色，星光微弱；甲板灯自下方远处的微弱暖光",
+      "emotion": "冷夜倦怠",
+      "transition": "白气散出画面即切"
+    },
+    {
+      "beat": 2, "time": "3-7s",
+      "shot_size": "medium shot",
+      "angle": "eye-level，瞭望台内",
+      "lens": "40mm, 中景深",
+      "composition": "瞭望手裹大衣立于瞭望台内居右，左侧栏杆外为俯瞰的船首与白沫航迹；天上无月有星",
+      "camera": "缓慢横摇：随他左右扫视的视线",
+      "action": "他裹紧厚呢大衣，缓慢左右扫视平静的反常海面；下方船首劈开一线白沫",
+      "lighting": "冷蓝星光+下方甲板灯微暖；黑海几乎无反光",
+      "emotion": "规律夜班的倦怠",
+      "transition": "他视线定住的前一帧切主观"
+    },
+    {
+      "beat": 3, "time": "7-11s",
+      "shot_size": "wide shot（主观视角）",
+      "angle": "eye-level 越过栏杆俯瞰前方",
+      "lens": "28mm 广角",
+      "composition": "前方黑暗海面占画面主体，底部为船首白沫航迹；冰山轮廓出现在画面中央偏左",
+      "camera": "static：绝对的固定机位，让浮现成为唯一运动",
+      "action": "黑暗中，一座比夜更黑的巨大冰山轮廓缓缓浮现——水线处一线白色浪沫泄露它的存在；他的呼吸骤停",
+      "lighting": "无月；冰山近黑，仅水线白沫与极微弱天光勾勒轮廓",
+      "emotion": "惊觉的脊背发凉",
+      "transition": "轮廓可辨即切"
+    },
+    {
+      "beat": 4, "time": "11-15s",
+      "shot_size": "medium close-up",
+      "angle": "eye-level 侧前方",
+      "lens": "50mm, 浅景深",
+      "composition": "瞭望手与铜钟占画面中央，钟锤高举；背景虚化的黑海与冰山方向",
+      "camera": "随敲钟微晃，第三响后完全静止，终构图 hold ≥1.5s",
+      "action": "他猛转身抓起瞭望台铜钟，抡锤连敲三响——一声急过一声；第三响后他扶着钟绳死死盯住冰山方向，侧影定格",
+      "lighting": "冷蓝夜色，面部轮廓被星光与远处甲板灯勾出",
+      "emotion": "拉响警报的决然",
+      "transition": "定格至黑（硬止）"
+    }
+  ]
+}

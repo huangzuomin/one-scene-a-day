@@ -1,0 +1,8 @@
+file 'card_title.mp4'
+file 'ep01.mp4'
+file 'ep02.mp4'
+file 'ep03.mp4'
+file 'ep04.mp4'
+file 'ep05.mp4'
+file 'ep06.mp4'
+file 'card_end.mp4'
