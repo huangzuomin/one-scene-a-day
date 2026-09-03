@@ -1,0 +1,54 @@
+{
+  "segment": "S01",
+  "duration_total": 15,
+  "beats": [
+    {
+      "beat": 1, "time": "0-3s",
+      "shot_size": "extreme close-up",
+      "angle": "eye-level",
+      "lens": "85mm, 浅景深",
+      "composition": "织金轿帘的纹样细节占满画面，金饰件与流苏在画面上缘摆动；帘面微微被风吹鼓",
+      "camera": "随轿行节奏的轻晃（极小幅、有韵律）",
+      "action": "轿帘织物与金饰随行进轻轻晃动，流苏摆动，帘面被高原的风微微吹鼓",
+      "lighting": "帘外正午强光透过织物，纹样泛金色微光；轿内幽暗",
+      "emotion": "行进中的华贵与不安",
+      "transition": "轿子停下、晃动消失即切"
+    },
+    {
+      "beat": 2, "time": "3-7s",
+      "shot_size": "medium shot（轿外侧）",
+      "angle": "eye-level",
+      "lens": "40mm, 中景深",
+      "composition": "轿舆停在画面右侧，轿夫放杆蹲身成剪影；左侧远处广场强光中，一线钢盔反光排成横列",
+      "camera": "static：轿停后纹丝不动",
+      "action": "轿舆在广场边缘停稳，轿夫放下轿杆蹲身；印加仪仗剪影在强光中虚化；远处钢盔反光列静止不动",
+      "lighting": "安第斯正午强光，地面泛白，人影浓黑",
+      "emotion": "对峙前的死寂",
+      "transition": "死寂持续两拍后切轿内"
+    },
+    {
+      "beat": 3, "time": "7-11s",
+      "shot_size": "close-up（轿内视角）",
+      "angle": "eye-level，轿内向外",
+      "lens": "50mm, 浅景深",
+      "composition": "画面大部为轿内幽暗的织金衣纹与金耳盘轮廓；帘缝在画面中央亮起一线，照亮皇帝的半张脸与一只直视的眼睛",
+      "camera": "static",
+      "action": "一只手从外面掀起轿帘一线——正午强光如刀切入轿内，瞬间照亮织金衣纹、金耳盘与皇帝半张沉稳的脸；他纹丝不动，直视帘缝",
+      "lighting": "一线强光刺入幽暗，明暗比极大；飞尘在光带中浮动",
+      "emotion": "两个世界相触的一瞬",
+      "transition": "光带稳定即切"
+    },
+    {
+      "beat": 4, "time": "11-15s",
+      "shot_size": "extreme close-up（帘缝特写）",
+      "angle": "eye-level，贴帘缝",
+      "lens": "65mm",
+      "composition": "竖直的帘缝光带居画面中央，缝内为过曝的广场白光与一排钢盔反光的虚像；缝缘是织物与皇帝半张脸的剪影",
+      "camera": "完全静止，终构图 hold ≥1.5s",
+      "action": "帘缝的一线光里，帘外的世界也在望进来——一排钢盔的反光静静排开，一动不动；半张脸与成排反光隔帘对视，金饰轻响已停",
+      "lighting": "竖直光带两侧深暗，中心过曝白",
+      "emotion": "静默戒备的对望——历史在此分岔",
+      "transition": "定格至黑（硬止）"
+    }
+  ]
+}

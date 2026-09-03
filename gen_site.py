@@ -72,6 +72,8 @@ RUNLOG = [
     ("08-31", "人工评级「喜欢」。十夜十片全部精选。"),
     ("09-01", "T035 金字塔封顶（营造首作）8.8 建议精选。病因确诊：主链路 agent 弹问卷挂起 88 分钟触发熔断（用户 web 端应答续跑）；v1.6 防护句+时长硬约束 L-011 入库。"),
     ("09-01", "人工评级「失败」——系列首个非精选：多镜拆解合成致叙事混乱（L-012），v1.6 预防句追加禁止拆镜拼接。精选率 10/11。"),
+    ("09-02", "T025 冰山在前遭平台内容审核两提两拦（泰坦尼克联想，code 12011），当日放弃，选题转 blocked——系列首个 failed 夜。用户裁定放弃该选题。"),
+    ("09-03", "T039 卡哈马卡（文明交汇首作，周日 Learning 提名首题兑现）9.0，帘缝三部曲签名帧落地；v1.6 时长硬约束首夜生效（15.04s）。"),
 ]
 
 # 学习规则的展示顺序与「为什么」段落（why 也可写在 evaluation.json 的 learned[].why 中，优先取数据）。
@@ -247,6 +249,8 @@ def load_films(pool):
     for pdir in sorted(PROJECTS.iterdir()):
         if not (pdir / "status.json").exists():
             continue
+        if not (pdir / "video.mp4").exists():
+            continue  # 无成片夜（failed/skipped）不进入影片列表，仅计季况统计（手册 Step 12）
         st = read_json(pdir / "status.json")
         con = read_json(pdir / "concept.json")
         sb = read_json(pdir / "storyboard.json")

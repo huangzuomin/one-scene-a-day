@@ -1,6 +1,6 @@
 {
   "schema": "topics/1",
-  "updated": "2026-09-02",
+  "updated": "2026-09-03",
   "note": "选题池唯一事实源。状态机：candidate(待审) → approved(可批拍) → used(已拍)；旁路 rejected(否决，事件永不复提) / blocked(冻结)。治理规则见 PIPELINE.md §6。",
   "topics": [
     {
@@ -558,7 +558,9 @@
       "pitch": "轿帘掀起一线：印加皇帝与一百六十八个陌生人对视——旧大陆与新大陆的第一次对视，安静得只剩金饰轻响。",
       "source": "ai_weekly",
       "proposed_date": "2026-08-30",
-      "status": "approved"
+      "status": "used",
+      "used_date": "2026-09-03",
+      "project": "2026-09-03-cajamarca-curtain"
     },
     {
       "id": "T040",

@@ -1,0 +1,19 @@
+{
+  "job_id": "j01",
+  "fetched_at": "2026-09-03 21:55",
+  "files": [
+    {
+      "remote": "签名URL见 video_url.txt",
+      "local": "video_01.mp4"
+    },
+    {
+      "local_copy": "../../video.mp4"
+    }
+  ],
+  "probe": {
+    "width": 1280,
+    "height": 720,
+    "duration_s": 15.04
+  },
+  "note": "完整响应存 final_result.json"
+}
