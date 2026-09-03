@@ -54,7 +54,7 @@
       "source": "2026-09-03 T039 Critic risks（并见 08-29 T004、08-31 T018）"
     }
   ],
-  "human_rating": null,
-  "human_comment": null,
+  "human_rating": {"rating": "喜欢", "result": "selected", "date": "2026-09-03"},
+  "human_comment": "喜欢",
   "evaluated_at": "2026-09-03 22:05"
 }
