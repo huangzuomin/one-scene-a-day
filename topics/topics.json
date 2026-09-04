@@ -1,6 +1,6 @@
 {
   "schema": "topics/1",
-  "updated": "2026-09-03",
+  "updated": "2026-09-04",
   "note": "选题池唯一事实源。状态机：candidate(待审) → approved(可批拍) → used(已拍)；旁路 rejected(否决，事件永不复提) / blocked(冻结)。治理规则见 PIPELINE.md §6。",
   "topics": [
     {
@@ -225,11 +225,13 @@
       "tag": "科技",
       "potential": 8,
       "risk_note": "年代B",
-      "status": "approved",
+      "status": "used",
       "source": "seed",
       "proposed_date": "2026-08-22",
       "recommend": "中",
-      "pitch": "压杆落下、掀起纸页的第一瞬：金属活字与油墨印出通往现代世界的第一页。"
+      "pitch": "压杆落下、掀起纸页的第一瞬：金属活字与油墨印出通往现代世界的第一页。",
+      "used_date": "2026-09-04",
+      "project": "2026-09-04-gutenberg-press"
     },
     {
       "id": "T016",

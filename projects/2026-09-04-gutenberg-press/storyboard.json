@@ -1,0 +1,54 @@
+{
+  "segment": "S01",
+  "duration_total": 15,
+  "beats": [
+    {
+      "beat": 1, "time": "0-3s",
+      "shot_size": "extreme close-up",
+      "angle": "eye-level，斜侧",
+      "lens": "85mm macro, 浅景深",
+      "composition": "金属活字背面阵列占满画面下部，斜射窗光让每枚活字顶端亮起一线；皮墨刷从画面上方入画",
+      "camera": "static 微降：随刷墨动作极缓下移",
+      "action": "皮墨刷扫过活字阵列背面，油墨的湿润光泽漫开；金属活字如微型城堡的阵列",
+      "lighting": "秋日斜射窗光，金属顶端一线高光，其余沉入暖褐",
+      "emotion": "手艺的精密",
+      "transition": "刷完即切"
+    },
+    {
+      "beat": 2, "time": "3-7s",
+      "shot_size": "medium shot",
+      "angle": "eye-level 侧",
+      "lens": "40mm, 中景深",
+      "composition": "压印机居画面中央，工匠立于长杆端，双手压杆；铅格窗的斜光从左侧切入，光柱里浮尘",
+      "camera": "缓慢 push-in：随压杆下沉推近",
+      "action": "工匠覆纸于活字版，双手把长杆压下——木质螺旋发出沉重的吱呀，压盘缓缓沉底，他全身重量压上去",
+      "lighting": "侧窗斜光，木屋暖褐色调",
+      "emotion": "沉重的专注",
+      "transition": "压杆到底静默一拍后切"
+    },
+    {
+      "beat": 3, "time": "7-11s",
+      "shot_size": "close-up",
+      "angle": "eye-level 俯于版面",
+      "lens": "65mm macro, 浅景深",
+      "composition": "纸页从活字版上被掀起一角，未干油墨的湿润黑色反光在纸面蔓延；工匠的指尖捏着纸角",
+      "camera": "随掀页动作极缓上移",
+      "action": "压杆抬起，纸页被轻轻掀起——未干油墨在秋日窗光下泛出湿润的黑色光泽，墨阵纹理如星图（虚焦不可读）",
+      "lighting": "掀页一瞬油墨反光亮起，纸面从暗到亮",
+      "emotion": "揭晓的一瞬",
+      "transition": "纸页完全掀离即切"
+    },
+    {
+      "beat": 4, "time": "11-15s",
+      "shot_size": "medium close-up",
+      "angle": "微仰，逆光位",
+      "lens": "50mm, 浅景深",
+      "composition": "纸页举起于画面中央偏左，正对铅格窗斜光，湿润墨阵逆光闪烁（虚焦不可读字形）；右侧工匠侧脸剪影，身后更深的工坊主剪影转头",
+      "camera": "极缓拉退半寸后完全静止，终构图 hold ≥1.5s",
+      "action": "工匠把纸页举向窗光，湿润墨阵在逆光里如星阵闪烁；身后工坊主的剪影也缓缓转头望来",
+      "lighting": "逆光下纸页半透光，墨阵如星；工坊沉入暖褐剪影",
+      "emotion": "屏息的检验——不知捧着的是什么时代",
+      "transition": "定格至黑（硬止）"
+    }
+  ]
+}
