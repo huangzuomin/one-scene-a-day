@@ -52,7 +52,7 @@
       "source": "2026-09-05 T019 Critic risks/adherence Q8（并见 T004/T018/T039/T015）"
     }
   ],
-  "human_rating": null,
-  "human_comment": null,
+  "human_rating": {"rating": "精选", "result": "selected", "date": "2026-09-05"},
+  "human_comment": "两个都精选（T019）",
   "evaluated_at": "2026-09-05 23:55"
 }
