@@ -1,6 +1,6 @@
 {
   "schema": "topics/1",
-  "updated": "2026-09-04",
+  "updated": "2026-09-05",
   "note": "选题池唯一事实源。状态机：candidate(待审) → approved(可批拍) → used(已拍)；旁路 rejected(否决，事件永不复提) / blocked(冻结)。治理规则见 PIPELINE.md §6。",
   "topics": [
     {
@@ -286,11 +286,13 @@
       "tag": "政治转折",
       "potential": 8,
       "risk_note": "A",
-      "status": "approved",
+      "status": "used",
       "source": "seed",
       "proposed_date": "2026-08-22",
       "recommend": "中",
-      "pitch": "第一锤砸在巴士底狱大门上的特写：旧世界的门被敲响。"
+      "pitch": "第一锤砸在巴士底狱大门上的特写：旧世界的门被敲响。",
+      "used_date": "2026-09-05",
+      "project": "2026-09-05-bastille-hammer"
     },
     {
       "id": "T021",

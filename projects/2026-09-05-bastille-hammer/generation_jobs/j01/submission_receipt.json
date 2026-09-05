@@ -1,0 +1,9 @@
+{
+  "job_id": "j01",
+  "project_id": "2026-09-05-bastille-hammer",
+  "submitted_at": "2026-09-05 23:12",
+  "channel": "主链路 agent（v1.6：免确认+禁止拆镜+15s 硬约束）",
+  "note": "补跑夜",
+  "thread_id": "skill_f600ef0b-74d4-4ff9-ae7b-87c4b27b28b7",
+  "run_id": "skill_b7aa8f10-05c6-45f2-b520-cd771804cf47"
+}

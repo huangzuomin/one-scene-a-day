@@ -1,0 +1,54 @@
+{
+  "segment": "S01",
+  "duration_total": 15,
+  "beats": [
+    {
+      "beat": 1, "time": "0-3s",
+      "shot_size": "extreme close-up",
+      "angle": "eye-level 贴门",
+      "lens": "65mm, 浅景深",
+      "composition": "包铁橡木门的铁箍与铆钉占满画面，铁锤砸击点居中，木屑向镜头方向迸溅",
+      "camera": "随锤击剧烈一晃后静止（手持质感，仅此一晃）",
+      "action": "铁锤砸在包铁门上——铁箍凹陷、木屑迸溅；击点冒出细细的木灰",
+      "lighting": "七月午后强侧光，金属铁箍刺目反光，木纹粗粝",
+      "emotion": "第一声的爆发",
+      "transition": "回声散尽、骤寂静默一拍后切"
+    },
+    {
+      "beat": 2, "time": "3-7s",
+      "shot_size": "medium shot",
+      "angle": "eye-level 侧",
+      "lens": "40mm, 中景深",
+      "composition": "持锤工匠立于画面左侧喘息凝视凹痕，右侧巨门沿透视伸向塔楼；身后人群剪影黑压压虚化；塔墙阴影斜切地面",
+      "camera": "极缓 push-in 向他的侧脸",
+      "action": "皮围裙工匠后退半步喘息，死死盯住锤击的凹痕，手背青筋；人群剪影屏息不动",
+      "lighting": "强光下石墙过曝，人物半剪影",
+      "emotion": "压抑百年后的死寂",
+      "transition": "他重新抡锤的前一帧切"
+    },
+    {
+      "beat": 3, "time": "7-11s",
+      "shot_size": "medium close-up",
+      "angle": "eye-level 微仰",
+      "lens": "50mm, 中景深",
+      "composition": "工匠抡锤的身形居中，锤头轨迹带运动模糊；前景虚化的第二把锤入画下方；木屑纷飞",
+      "camera": "随连击节奏轻微晃动，每锤一拍",
+      "action": "他再次抡锤——第二锤第三锤节奏一声急过一声；周围剪影里更多锤头举起落下；铁箍开始弯曲",
+      "lighting": "正午强光，汗水在额头发亮",
+      "emotion": "决绝的加速",
+      "transition": "第三锤落定即切"
+    },
+    {
+      "beat": 4, "time": "11-15s",
+      "shot_size": "medium close-up",
+      "angle": "低角度仰角",
+      "lens": "50mm, 浅景深",
+      "composition": "工匠仰头，铁锤高举过头顶停在最高点居画面上部；门上凹痕冒烟；身后人群剪影涌动",
+      "camera": "完全静止，终构图 hold ≥1.5s",
+      "action": "他抡圆的锤停在最高点悬停——门后极深处传来铁件弯曲的呻吟；身后人群剪影开始向前涌动",
+      "lighting": "逆光把举锤的剪影勾出金边；凹痕处一缕木灰烟升起",
+      "emotion": "破门在即的历史一瞬",
+      "transition": "定格至黑（硬止）"
+    }
+  ]
+}
