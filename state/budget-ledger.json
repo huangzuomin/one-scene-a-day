@@ -1,116 +1,123 @@
 {
-  "policy": {
-    "max_generations_per_day": 2,
-    "monthly_note": "订阅积分额度以小云雀后台为准，本台账只记次数；达到每日上限停止自动生成",
-    "updated_at": "2026-08-22"
+ "policy": {
+  "max_generations_per_day": 2,
+  "monthly_note": "订阅积分额度以小云雀后台为准，本台账只记次数；达到每日上限停止自动生成",
+  "updated_at": "2026-08-22"
+ },
+ "days": {
+  "2026-08-22": {
+   "generations": 1,
+   "jobs": [
+    "2026-08-22-chibi-east-wind/j01"
+   ],
+   "note": "首拍提交成功（尝试1因密钥过期未计费）"
   },
-  "days": {
-    "2026-08-22": {
-      "generations": 1,
-      "jobs": [
-        "2026-08-22-chibi-east-wind/j01"
-      ],
-      "note": "首拍提交成功（尝试1因密钥过期未计费）"
-    },
-    "2026-08-23": {
-      "generations": 1,
-      "jobs": [
-        "2026-08-23-rubicon/j01"
-      ],
-      "note": "首个全自动日，一次提交成功"
-    },
-    "2026-08-24": {
-      "generations": 1,
-      "jobs": [
-        "2026-08-24-dunhuang-cave17/j01"
-      ],
-      "note": "Seedance 2.5 首次实战，一次提交成功"
-    },
-    "2026-08-25": {
-      "generations": 1,
-      "jobs": [
-        "2026-08-25-apollo-hatch/j01"
-      ],
-      "note": "Seedance 2.5 指令第2天重试，后端仍用 seedance2.0_fast_vision；一次提交成功"
-    },
-    "2026-08-26": {
-      "generations": 1,
-      "jobs": [
-        "2026-08-26-pompeii-morning/j01"
-      ],
-      "note": "Seedance 2.5 指令第3天重试，后端仍 seedance2.0_fast_vision；一次提交成功"
-    },
-    "2026-08-27": {
-      "generations": 1,
-      "jobs": [
-        "2026-08-27-terracotta-eye/j01"
-      ],
-      "note": "Seedance 2.5 指令第4天重试；正式审批制首夜（T006 从 approved 池选出）；一次提交成功"
-    },
-    "2026-08-28": {
-      "generations": 1,
-      "jobs": [
-        "2026-08-28-socrates-hemlock/j01"
-      ],
-      "note": "Seedance 2.5 指令第5天重试；T030 为 approved 池内艺术标签唯一可选；一次提交成功"
-    },
-    "2026-08-29": {
-      "generations": 2,
-      "jobs": [
-        "2026-08-29-constantinople-eve/j01",
-        "2026-08-29-constantinople-eve/j02"
-      ],
-      "note": "j01 评 8.0 触发系列首次重拍（宣礼塔穿帮 L-009）；j02 加强约束重提，额度 2/2 用满"
-    },
-    "2026-08-30": {
-      "generations": 1,
-      "jobs": [
-        "2026-08-30-bodhi-dawn/j01"
-      ],
-      "note": "2.5 直连定位实验：Plan B 直连提交成功，后端接受（是否真用 2.5 待成片判定）"
-    },
-    "2026-08-31": {
-      "generations": 1,
-      "jobs": [
-        "2026-08-31-viking-fog/j01"
-      ],
-      "note": "v1.5 通道首夜：主链路无模型行（fast_vision 720p）；一次提交成功"
-    },
-    "2026-09-01": {
-      "generations": 1,
-      "jobs": [
-        "2026-09-01-pyramid-capstone/j01"
-      ],
-      "note": "T035 营造标签首作；主链路无模型行一次提交成功"
-    },
-    "2026-09-02": {
-      "generations": 2,
-      "jobs": [
-        "2026-09-02-iceberg-watch/j01",
-        "2026-09-02-iceberg-watch/j02"
-      ],
-      "note": "j01 被平台版权拦截（新失败类型）；j02 修正指向性元素重提，额度 2/2 用满"
-    },
-    "2026-09-03": {
-      "generations": 1,
-      "jobs": [
-        "2026-09-03-cajamarca-curtain/j01"
-      ],
-      "note": "T039 文明交汇首作（周日 Learning 提名首题兑现）；一次提交成功"
-    },
-    "2026-09-04": {
-      "generations": 1,
-      "jobs": [
-        "2026-09-04-gutenberg-press/j01"
-      ],
-      "note": "T015 科技第二作；v1.6 预防句；一次提交成功"
-    },
-    "2026-09-05": {
-      "generations": 1,
-      "jobs": [
-        "2026-09-05-bastille-hammer/j01"
-      ],
-      "note": "补跑夜（21:00 cron 未派发而宿主在线，平台一次性故障）；T019 政治转折首题；一次提交成功"
-    }
+  "2026-08-23": {
+   "generations": 1,
+   "jobs": [
+    "2026-08-23-rubicon/j01"
+   ],
+   "note": "首个全自动日，一次提交成功"
+  },
+  "2026-08-24": {
+   "generations": 1,
+   "jobs": [
+    "2026-08-24-dunhuang-cave17/j01"
+   ],
+   "note": "Seedance 2.5 首次实战，一次提交成功"
+  },
+  "2026-08-25": {
+   "generations": 1,
+   "jobs": [
+    "2026-08-25-apollo-hatch/j01"
+   ],
+   "note": "Seedance 2.5 指令第2天重试，后端仍用 seedance2.0_fast_vision；一次提交成功"
+  },
+  "2026-08-26": {
+   "generations": 1,
+   "jobs": [
+    "2026-08-26-pompeii-morning/j01"
+   ],
+   "note": "Seedance 2.5 指令第3天重试，后端仍 seedance2.0_fast_vision；一次提交成功"
+  },
+  "2026-08-27": {
+   "generations": 1,
+   "jobs": [
+    "2026-08-27-terracotta-eye/j01"
+   ],
+   "note": "Seedance 2.5 指令第4天重试；正式审批制首夜（T006 从 approved 池选出）；一次提交成功"
+  },
+  "2026-08-28": {
+   "generations": 1,
+   "jobs": [
+    "2026-08-28-socrates-hemlock/j01"
+   ],
+   "note": "Seedance 2.5 指令第5天重试；T030 为 approved 池内艺术标签唯一可选；一次提交成功"
+  },
+  "2026-08-29": {
+   "generations": 2,
+   "jobs": [
+    "2026-08-29-constantinople-eve/j01",
+    "2026-08-29-constantinople-eve/j02"
+   ],
+   "note": "j01 评 8.0 触发系列首次重拍（宣礼塔穿帮 L-009）；j02 加强约束重提，额度 2/2 用满"
+  },
+  "2026-08-30": {
+   "generations": 1,
+   "jobs": [
+    "2026-08-30-bodhi-dawn/j01"
+   ],
+   "note": "2.5 直连定位实验：Plan B 直连提交成功，后端接受（是否真用 2.5 待成片判定）"
+  },
+  "2026-08-31": {
+   "generations": 1,
+   "jobs": [
+    "2026-08-31-viking-fog/j01"
+   ],
+   "note": "v1.5 通道首夜：主链路无模型行（fast_vision 720p）；一次提交成功"
+  },
+  "2026-09-01": {
+   "generations": 1,
+   "jobs": [
+    "2026-09-01-pyramid-capstone/j01"
+   ],
+   "note": "T035 营造标签首作；主链路无模型行一次提交成功"
+  },
+  "2026-09-02": {
+   "generations": 2,
+   "jobs": [
+    "2026-09-02-iceberg-watch/j01",
+    "2026-09-02-iceberg-watch/j02"
+   ],
+   "note": "j01 被平台版权拦截（新失败类型）；j02 修正指向性元素重提，额度 2/2 用满"
+  },
+  "2026-09-03": {
+   "generations": 1,
+   "jobs": [
+    "2026-09-03-cajamarca-curtain/j01"
+   ],
+   "note": "T039 文明交汇首作（周日 Learning 提名首题兑现）；一次提交成功"
+  },
+  "2026-09-04": {
+   "generations": 1,
+   "jobs": [
+    "2026-09-04-gutenberg-press/j01"
+   ],
+   "note": "T015 科技第二作；v1.6 预防句；一次提交成功"
+  },
+  "2026-09-05": {
+   "generations": 1,
+   "jobs": [
+    "2026-09-05-bastille-hammer/j01"
+   ],
+   "note": "补跑夜（21:00 cron 未派发而宿主在线，平台一次性故障）；T019 政治转折首题；一次提交成功"
+  },
+  "2026-09-06": {
+   "generations": 1,
+   "jobs": [
+    "2026-09-06-beacon-torch/j01"
+   ],
+   "note": "补跑夜（cron 派发被『历史 session 模型不可用』拒绝，人工会话补跑）；脚本路径迁至 .zcode；一次提交成功"
   }
+ }
 }

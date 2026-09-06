@@ -1,0 +1,10 @@
+{
+ "job_id": "j01",
+ "video_url": "https://v5-xyq-video.jianying.com/e0cb3a9255f60e0acf0087a02aaddbc1/6b8abe34/video/n/everphoto-jianying-assets/9502cfe816764d50b1005e34e916d4cb/?a=795647\\\\u0026ch=0\\\\u0026cr=0\\\\u0026dr=0\\\\u0026cd=0%7C0%7C0%7C0\\\\u0026br=5170\\\\u0026bt=5170\\\\u0026cs=0\\\\u0026ds=3\\\\u0026ft=TLtriUeR_yygZmo0Pj9RbgkVQ9w6x\\\\u0026mime_type=video_mp4\\\\u0026qs=13\\\\u0026rc=MzZucGRvOjtxZDczNDlmM0BpMzZucGRvOjtxZDczNDlmM0BzYS9kYWEvLWJhLS1kNDBzYSNzYS9kYWEvLWJhLS1kNDBzcw%3D%3D\\\\u0026btag=80000e00010000\\\\u0026dy_q=1788702757\\\\u0026l=202609062147375DB73719C67859187CAF\\\\u0026download=true\\\\u0026filename=v03c76g10004daen0827dldagm2kd3v0.mp4\\",
+ "local_copies": [
+  "D:\\Work\\AI 每日短片实验室\\projects\\2026-09-06-beacon-torch\\generation_jobs\\j01\\video.mp4",
+  "D:\\Work\\AI 每日短片实验室\\projects\\2026-09-06-beacon-torch\\video.mp4"
+ ],
+ "downloaded_at": "2026-09-06 22:20",
+ "spec": "1280x720 15.04s"
+}

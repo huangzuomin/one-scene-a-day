@@ -1,0 +1,9 @@
+{
+ "job_id": "j01",
+ "thread_id": "skill_520000a2-b068-41bd-97a7-242097dac564",
+ "run_id": "skill_a909c070-9ccc-4745-b728-48b1ab60445d",
+ "submitted_at": "2026-09-06 22:02",
+ "channel": "主链路 agent（v1.5 无模型行）",
+ "script_path": "C:/Users/zooma/.zcode/skills/xyq-skill/scripts/submit_run.py",
+ "note": "submit_run.py 路径已从 .agents 迁至 .zcode（skills 迁移），本夜首用新路径"
+}
