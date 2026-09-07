@@ -118,6 +118,13 @@
     "2026-09-06-beacon-torch/j01"
    ],
    "note": "补跑夜（cron 派发被『历史 session 模型不可用』拒绝，人工会话补跑）；脚本路径迁至 .zcode；一次提交成功"
+  },
+  "2026-09-07": {
+   "generations": 1,
+   "jobs": [
+    "2026-09-07-longchang-vigil/j01"
+   ],
+   "note": "重建自动化（automation-b0fb692d）首次夜间触发；T041 思想标签第二作；一次提交成功"
   }
  }
 }

@@ -1,0 +1,10 @@
+{
+ "job_id": "j01",
+ "video_url": "{\"raw_tail\": \"\\\\\\\"[00:00:00-00:00:05] 画面风格：写实古风，暗冷色调；主体：古装男子、石棺、烛台、竹简；动作：男子平躺在石棺...(见 raw_tail)",
+ "local_copies": [
+  "D:\\Work\\AI 每日短片实验室\\projects\\2026-09-07-longchang-vigil\\generation_jobs\\j01\\video.mp4",
+  "D:\\Work\\AI 每日短片实验室\\projects\\2026-09-07-longchang-vigil\\video.mp4"
+ ],
+ "downloaded_at": "2026-09-07 21:23",
+ "spec": "1280x720 15.04s"
+}
