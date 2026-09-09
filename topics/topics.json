@@ -258,11 +258,13 @@
    "tag": "探索发现",
    "potential": 8,
    "risk_note": "行程A",
-   "status": "approved",
+   "status": "used",
    "source": "seed",
    "proposed_date": "2026-08-22",
    "recommend": "高",
-   "pitch": "万里孤征的尽头，那烂陀的塔尖在晨雾里显现——「到达」本身就是高潮。"
+   "pitch": "万里孤征的尽头，那烂陀的塔尖在晨雾里显现——「到达」本身就是高潮。",
+   "used_date": "2026-09-09",
+   "project_folder": "2026-09-09-nalanda-dawn"
   },
   {
    "id": "T018",

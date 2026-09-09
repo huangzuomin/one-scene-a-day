@@ -1,0 +1,10 @@
+{
+ "job_id": "j01",
+ "video_url": "(见 thread_raw_tail.json)",
+ "local_copies": [
+  "D:\\Work\\AI 每日短片实验室\\projects\\2026-09-09-nalanda-dawn\\generation_jobs\\j01\\video.mp4",
+  "D:\\Work\\AI 每日短片实验室\\projects\\2026-09-09-nalanda-dawn\\video.mp4"
+ ],
+ "downloaded_at": "2026-09-09 21:23",
+ "spec": "1280x720 15.04s"
+}
