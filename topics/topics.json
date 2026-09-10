@@ -127,11 +127,13 @@
    "tag": "文明交汇",
    "potential": 7,
    "risk_note": "商路A；具体商队C",
-   "status": "approved",
+   "status": "used",
    "source": "seed",
    "proposed_date": "2026-08-22",
    "recommend": "中",
-   "pitch": "黄昏沙海尽头，敦煌城门次第亮灯，驼铃与城钟第一次同时响起。"
+   "pitch": "黄昏沙海尽头，敦煌城门次第亮灯，驼铃与城钟第一次同时响起。",
+   "used_date": "2026-09-10",
+   "project_folder": "2026-09-10-dunhuang-lanterns"
   },
   {
    "id": "T009",
