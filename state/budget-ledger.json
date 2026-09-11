@@ -2,7 +2,24 @@
  "policy": {
   "max_generations_per_day": 2,
   "monthly_note": "订阅积分额度以小云雀后台为准，本台账只记次数；达到每日上限停止自动生成",
-  "updated_at": "2026-08-22"
+  "updated_at": "2026-08-22",
+  "credit_policy": {
+   "updated_at": "2026-09-11",
+   "monthly_grant": 2300,
+   "daily_gift": 60,
+   "reset": "每月清零",
+   "prices": {
+    "sd20_720p_per_s": 6,
+    "sd25_720p_per_s": 20
+   },
+   "per_video": {
+    "sd20_15s": 90,
+    "sd25_15s": 300,
+    "sd25_30s": 600
+   },
+   "upgrade_quota_per_month": 6,
+   "note": "v1.7：每晚基线 2.0/15s（90 分）；每月 6 夜 2.5/720p/15s（300 分/夜）；台账 credits_spent_estimate 为估算值（CLI 无法读取真实余额）"
+  }
  },
  "days": {
   "2026-08-22": {
@@ -153,6 +170,16 @@
     "2026-09-11-hypatia-astrolabe/j01"
    ],
    "note": "T043 科技第三作；W36 提名首题兑现；系列首部女性主角；一次提交成功"
+  }
+ },
+ "months": {
+  "2026-09": {
+   "days_elapsed": 11,
+   "generations_so_far": 12,
+   "credits_spent_estimate": 1080,
+   "upgrades_used": 0,
+   "upgrades_quota": 6,
+   "note": "v1.7 生效当日回填；09-24 起未用配额夜自动顺延启用（月末冲刺）"
   }
  }
 }
