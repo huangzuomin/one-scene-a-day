@@ -98,7 +98,8 @@ idea → researched → scripted → prompted → generating → generated → e
   "visual_hook": "视觉转折",
   "ending": "结尾定格画面",
   "pacing_diagnosis": {"genre_energy": "", "felt_speed": "", "target_duration": 15,
-    "avg_beat": "", "fastest_beat": "", "slowest_beat": "", "required_pauses": "", "final_hold": ""}
+    "avg_beat": "", "fastest_beat": "", "slowest_beat": "", "required_pauses": "", "final_hold": ""},
+  "rhythm_template": "A静观四拍 / B动作五拍 / C时间流长镜（R-104a；能量决定模板，禁止默认照抄前夜）"
 }
 ```
 铁律：一个瞬间、一个动作、一种情绪、一次视觉转折；单主角（≤3 人）、单空间。
