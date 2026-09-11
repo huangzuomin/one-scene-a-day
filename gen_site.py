@@ -91,19 +91,19 @@ RULE_WHY = {
 # --- 首三夜的遗留对齐（保持与手写首版页面一致；新夜次一律走默认规则） ---
 
 LEGACY_FRAMES = {
-    "chibi": ["f01", "f04", "f07", "f11", "f13", "f14"],
+    "chibi-east-wind": ["f01", "f04", "f07", "f11", "f13", "f14"],
     "rubicon": ["f01", "f05", "f09", "f12", "f15"],
-    "dunhuang": ["f01", "f04", "f07", "f09", "f12", "f15"],
+    "dunhuang-cave17": ["f01", "f04", "f07", "f09", "f12", "f15"],
 }
 LEGACY_LOGLINE = {
-    "chibi": "公元 208 年冬夜，长江。一名东吴水兵在船头察觉风向变了：旗幡猛然转向东南，极远的江面尽头，第一艘火船的火光亮起。",
+    "chibi-east-wind": "公元 208 年冬夜，长江。一名东吴水兵在船头察觉风向变了：旗幡猛然转向东南，极远的江面尽头，第一艘火船的火光亮起。",
     "rubicon": "冬夜将尽，凯撒驻马河北岸。跨过这条河就是内战。他沉默，然后策马踏入冰水，马蹄踏碎了自己的倒影。",
-    "dunhuang": "深夜，道士王圆箓凿开甬道侧墙的封门墙。封闭千年的气涌吹弯了灯焰，灯光随即照亮从地堆到洞顶的五万卷经书。",
+    "dunhuang-cave17": "深夜，道士王圆箓凿开甬道侧墙的封门墙。封闭千年的气涌吹弯了灯焰，灯光随即照亮从地堆到洞顶的五万卷经书。",
 }
 LEGACY_VERDICT_NOTE = {
-    "chibi": "旗幡被狂风灌满的特写是全片最强画面，转折征兆清晰可读，「寂静中的命运感」达成设计目标。盔甲实际呈札甲，较简报设定精良，但前后一致。",
+    "chibi-east-wind": "旗幡被狂风灌满的特写是全片最强画面，转折征兆清晰可读，「寂静中的命运感」达成设计目标。盔甲实际呈札甲，较简报设定精良，但前后一致。",
     "rubicon": "大远景、特写、大远景的钟形镜头曲线完整落地，冰河与火把线的视觉母题贯穿全片，身份锁零漂移。钩子「马蹄踏碎倒影」发生在动态段，静帧未能验证。",
-    "dunhuang": "四拍结构全中，人物一致性为系列最佳；末帧经卷墙与尘埃光柱是至今最强的收尾画面。核心转折「火苗弯折」在成片中未能确证，实际以表情骤惊替代。",
+    "dunhuang-cave17": "四拍结构全中，人物一致性为系列最佳；末帧经卷墙与尘埃光柱是至今最强的收尾画面。核心转折「火苗弯折」在成片中未能确证，实际以表情骤惊替代。",
 }
 LEGACY_TAGS = {"T001": "战争", "T002": "政治转折", "T003": "探索发现"}
 LEGACY_BADGE = {"rubicon": "首个全自动夜"}
@@ -136,8 +136,12 @@ CHIP = {  # status.json status → (样式类, 文案)
     "evaluated": ("", "待复核"),
     "prompted": ("", "制作中"),
     "rendering": ("", "制作中"),
+    "generating": ("", "制作中"),
+    "rejected": ("chip-failed", "已废弃"),
     "failed": ("chip-failed", "无成片"),
     "skipped": ("", "按规则跳过"),
+    "reviewed": ("chip-selected", "已精选"),
+    "published": ("chip-selected", "已发布"),
 }
 
 
@@ -161,9 +165,11 @@ def read_json(p):
 
 
 def slug_of(project_dir):
-    """projects/2026-08-24-dunhuang-cave17 → dunhuang"""
+    """projects/2026-08-24-dunhuang-cave17 → dunhuang-cave17（完整后缀，保证唯一；
+    2026-09-11 修复：旧版取首段导致 dunhuang-cave17 与 dunhuang-lanterns 同 slug，
+    叙述文案与资产目录互相覆盖）"""
     suffix = project_dir.name[11:] if len(project_dir.name) > 11 else project_dir.name
-    return suffix.split("-")[0] or suffix
+    return suffix or project_dir.name
 
 
 def load_topics():

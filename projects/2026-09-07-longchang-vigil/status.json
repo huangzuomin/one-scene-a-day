@@ -4,7 +4,7 @@
  "day_no": 17,
  "date": "2026-09-07",
  "topic_id": "T041",
- "status": "generating",
+ "status": "evaluated",
  "history": [
   {
    "time": "2026-09-07 21:04",
@@ -25,6 +25,11 @@
    "time": "2026-09-07 21:23",
    "step": "Step9 下载归档",
    "note": "iter=约24（6分钟）；1280x720/15.04s 规格内（v1.6 连续第五夜）"
+  },
+  {
+   "time": "2026-09-11 23:30",
+   "step": "状态修正",
+   "note": "评审完成后 status 漏更新（自动化流程缺陷，本次批量修正 generating→evaluated）"
   }
  ]
 }
