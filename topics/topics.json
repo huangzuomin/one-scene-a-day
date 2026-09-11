@@ -630,11 +630,13 @@
    "tag": "科技",
    "potential": 8,
    "risk_note": "星盘工作见 Synesius 书信（B）；亚历山大港海岸与希腊式屋顶需夜景规避后世清真寺天际线（L-009）",
-   "status": "approved",
+   "status": "used",
    "source": "ai_weekly",
    "proposed_date": "2026-09-06",
    "recommend": "高",
-   "pitch": "屋顶夜测，黄铜星盘的环上映着星光——她把整个天装进一具铜环（补女性+北非+古代科学三重缺口）"
+   "pitch": "屋顶夜测，黄铜星盘的环上映着星光——她把整个天装进一具铜环（补女性+北非+古代科学三重缺口）",
+   "used_date": "2026-09-11",
+   "project_folder": "2026-09-11-hypatia-astrolabe"
   },
   {
    "id": "T044",
