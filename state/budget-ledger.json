@@ -170,13 +170,20 @@
     "2026-09-11-hypatia-astrolabe/j01"
    ],
    "note": "T043 科技第三作；W36 提名首题兑现；系列首部女性主角；一次提交成功"
+  },
+  "2026-09-12": {
+   "generations": 1,
+   "jobs": [
+    "2026-09-12-murasaki-lamp/j01"
+   ],
+   "note": "T042 艺术第二作；基线 2.0（90 分）；初选 T026 被标签窗拦截回滚（科技锁至 09-18）"
   }
  },
  "months": {
   "2026-09": {
-   "days_elapsed": 11,
-   "generations_so_far": 12,
-   "credits_spent_estimate": 1080,
+   "days_elapsed": 12,
+   "generations_so_far": 13,
+   "credits_spent_estimate": 1170,
    "upgrades_used": 0,
    "upgrades_quota": 6,
    "note": "v1.7 生效当日回填；09-24 起未用配额夜自动顺延启用（月末冲刺）"

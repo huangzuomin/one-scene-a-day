@@ -620,7 +620,9 @@
    "pitch": "平安京的雪夜，灯焰照着宫中女官的笔尖——《源氏物语》的第一页落墨，窗外初雪无声。",
    "source": "ai_weekly",
    "proposed_date": "2026-08-30",
-   "status": "approved"
+   "status": "used",
+   "used_date": "2026-09-12",
+   "project_folder": "2026-09-12-murasaki-lamp"
   },
   {
    "id": "T043",
