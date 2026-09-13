@@ -181,7 +181,8 @@ def validate_topic(t):
             errs.append(f"{tid}: used 条目必须有 used_date")
         elif not DATE_RE.match(str(t.get("used_date", ""))):
             errs.append(f"{tid}: used_date 格式应为 YYYY-MM-DD")
-        if not t.get("project"):
+        # 兼容夜跑会话误写的 project_folder 键（2026-09 已三度出现），视为 project
+        if not (t.get("project") or t.get("project_folder")):
             errs.append(f"{tid}: used 条目必须有 project 文件夹名")
     if st in ("rejected", "blocked"):
         if not t.get("reason"):
