@@ -184,13 +184,20 @@
     "2026-09-13-zhangqian-staff/j01"
    ],
    "note": "T021 政治转折第二作；基线 2.0（90 分）；一次提交成功"
+  },
+  "2026-09-14": {
+   "generations": 1,
+   "jobs": [
+    "2026-09-14-sf-512/j01"
+   ],
+   "note": "T047 灾难标签首作（W37 提名首批）；2.5 质量夜首夜——直连被 CLI 版本阻塞回退主链路+指令行，实际模型待核实后记账"
   }
  },
  "months": {
   "2026-09": {
-   "days_elapsed": 13,
-   "generations_so_far": 14,
-   "credits_spent_estimate": 1260,
+   "days_elapsed": 14,
+   "generations_so_far": 15,
+   "credits_spent_estimate": 1350,
    "upgrades_used": 0,
    "upgrades_quota": 6,
    "note": "v1.7 生效当日回填；09-24 起未用配额夜自动顺延启用（月末冲刺）"

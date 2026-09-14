@@ -1,0 +1,10 @@
+{
+ "job_id": "j01",
+ "thread_id": "skill_e49f76fd-1b79-435c-b0bc-db19528b40f0",
+ "run_id": "skill_51f50aca-ee30-429b-9b57-21baaf7a6483",
+ "submitted_at": "2026-09-14 21:26",
+ "channel": "主链路 agent + 首行 Seedance_2.5 指令（直连被 CLI 1.0.18 接口不匹配阻塞）",
+ "requested_model": "Seedance_2.5/720p",
+ "credit_estimate": null,
+ "note": "实际模型待取件核实；台账按实际记账（300=2.5 成功 / 90=回退 2.0）"
+}

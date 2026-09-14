@@ -1,0 +1,11 @@
+{
+ "job_id": "j01",
+ "video_url": "(见 thread_raw_full.json)",
+ "local_copies": [
+  "D:\\Work\\AI 每日短片实验室\\projects\\2026-09-14-sf-512\\generation_jobs\\j01\\video.mp4",
+  "D:\\Work\\AI 每日短片实验室\\projects\\2026-09-14-sf-512\\video.mp4"
+ ],
+ "downloaded_at": "2026-09-14 21:35",
+ "spec": "1280x720 15.04s",
+ "actual_model": "seedance2.0_fast_vision（agent_settings 实证，2.5 指令被回退）"
+}
