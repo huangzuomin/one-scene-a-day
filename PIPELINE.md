@@ -17,7 +17,7 @@
 
 环境要点：
 - 本机用 `python` 命令（`python3` 不存在），Python 3.13.2
-- xyq 脚本目录：`C:\Users\zooma\.agents\skills\xyq-skill\scripts\`
+- xyq 脚本目录：`.agents\skills\xyq-skill\scripts\` 与 `.zcode\skills\xyq-skill\scripts\` 双位置同步（2026-09-14 CLI 1.0.22 更新器双写，任一路径可用；流水线当前使用后者）
 - 鉴权：**以 `state\xyq_access_key.txt` 文件为准**（Step 8 会自动读取）；进程环境变量仅作后备
 - ffmpeg 已安装（Critic 抽帧用）
 
