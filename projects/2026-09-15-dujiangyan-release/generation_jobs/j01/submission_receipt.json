@@ -1,0 +1,10 @@
+{
+ "job_id": "j01",
+ "thread_id": "skill_ced13143-0e47-4b58-aad4-90f3df8919cb",
+ "run_id": "skill_dc1a9c1b-1c6a-412e-afee-257129da74d6",
+ "submitted_at": "2026-09-15 21:20",
+ "channel": "主链路 agent + 首行 Seedance_2.5 指令（直连 1.0.22 仍与后端契约不匹配，阻塞上报平台）",
+ "requested_model": "Seedance_2.5/720p",
+ "credit_estimate": 90,
+ "note": "实际模型待 agent_settings 核实；台账按实际记账"
+}

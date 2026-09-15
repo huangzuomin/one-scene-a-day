@@ -1,0 +1,2 @@
+
+generate-video 请求返回失败: ret=2 errmsg=video_part_tool_param 缺少必填字段: model,ratio,duration_sec,resolution log_id=2026091521042494D21BB3AB4793D15651

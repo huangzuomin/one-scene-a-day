@@ -527,7 +527,9 @@
    "pitch": "斩杩槎，江水涌入内江的第一声轰响——李冰在岸边眯眼看着水线爬上石壁。",
    "source": "ai_weekly",
    "proposed_date": "2026-08-29",
-   "status": "approved"
+   "status": "used",
+   "used_date": "2026-09-15",
+   "project_folder": "2026-09-15-dujiangyan-release"
   },
   {
    "id": "T037",
