@@ -22,8 +22,10 @@
 ## 3. 环境要点（手册之外的坑位清单）
 
 - Windows + Git Bash；**用 `python` 不是 `python3`**（Python 3.13）；ffmpeg 已装。
-- xyq 脚本：`C:\Users\zooma\.zcode\skills\xyq-skill\scripts\`（与 `.agents\skills\xyq-skill\scripts\` 双位置同步，任一可用）。
-  三个脚本：`submit_run.py`（主链路提交）/ `get_thread.py`（轮询，thread_id+run_id 都必传）/ `download_results.py`。
+- xyq 脚本（2026-10-12 迁入本仓库 `tools\xyq\`，**gitignore 不入库，只在本机**）：`submit_run.py`（主链路提交）/
+  `get_thread.py`（轮询，thread_id+run_id 都必传）/ `download_results.py` / `upload_file.py` / `xyq_common.py`（必须与其余同目录）。
+  来源：`D:\Work\skills-hub\skills\xyq-skill\scripts\`（MD5 与 25 夜在跑版本一致）；原技能目录已被新版 CLI 更新清空（新版技能改走 CLI 直连，不再捆绑 .py）。
+  注意：本仓库是**公开仓库**，这批脚本不提交入库（内含小云雀 agent-im 接口细节）——Muse 从本机磁盘读取即可。
 - **鉴权**：`state\xyq_access_key.txt`（已 gitignore，**绝不提交、绝不在日志/回复中复述内容**）。
   用法：`export XYQ_ACCESS_KEY=$(head -1 "D:\Work\AI 每日短片实验室\state\xyq_access_key.txt" | tr -d '\r\n')`。
   直连 CLI（pippit-tool-cli）也认这个环境变量（`logged_in: true, source: "environment"`）。

@@ -19,3 +19,4 @@ topics/topics.json.bak*
 topics/topics.json.tmp
 topics/topics.test.json*
 topics/topics.bad.json*
+tools/

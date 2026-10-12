@@ -17,7 +17,7 @@
 
 环境要点：
 - 本机用 `python` 命令（`python3` 不存在），Python 3.13.2
-- xyq 脚本目录：`.agents\skills\xyq-skill\scripts\` 与 `.zcode\skills\xyq-skill\scripts\` 双位置同步（2026-09-14 CLI 1.0.22 更新器双写，任一路径可用；流水线当前使用后者）
+- xyq 脚本目录：**本仓库 `tools\xyq\`**（2026-10-12 起——技能目录被新版 CLI 更新清空过一次，流水线脚本改为项目内自持、gitignore 不入库；副本来源 skills-hub，MD5 与 25 夜在跑版本一致）。脚本共 5 个：submit_run / get_thread / download_results / upload_file / xyq_common（xyq_common 必须与其余同目录）
 - 鉴权：**以 `state\xyq_access_key.txt` 文件为准**（Step 8 会自动读取）；进程环境变量仅作后备
 - ffmpeg 已安装（Critic 抽帧用）
 
@@ -145,7 +145,7 @@ prompt.txt = 一段连贯的自然语言创作简报（中文），把时代细�
 ```bash
 # 密钥一律从工作区文件读取（定时任务继承的进程环境变量可能已过期，2026-08-22 实测教训）
 export XYQ_ACCESS_KEY=$(head -1 "D:\Work\AI 每日短片实验室\state\xyq_access_key.txt" | tr -d '\r\n')
-python "C:\Users\zooma\.agents\skills\xyq-skill\scripts\submit_run.py" --message "<prompt.txt 全文>
+python "C:\Users\zooma\tools\xyq\submit_run.py" --message "<prompt.txt 全文>
 这是一次全自动无人值守的创作任务：如需确认任何参数（画面比例、时长、风格等），一律按上述设定直接执行，不要等待确认。必须一次性整段生成全片，禁止拆分为多个镜头分别生成再拼接；全片总时长严格 15 秒，各镜头时长严格按分镜分配。"
 ```
 - **问卷挂起防护（v1.6，2026-09-01 实测教训）**：主链路 agent 偶发在开工前弹出「创作确认问卷」等待人工输入，导致轮询超时（T035 挂起 88 分钟触发熔断）。对策：提交消息末尾固定附加上面的预防句；若已挂起，需人工在小云雀 web 端应答后 agent 才续跑（成片出现在后续 run，用 `pippit-tool-cli get-thread --thread-id <id>` 查全部 run 状态后取件）
@@ -155,7 +155,7 @@ python "C:\Users\zooma\.agents\skills\xyq-skill\scripts\submit_run.py" --message
 - 返回 JSON 取 `thread_id`、`run_id`，连同提交时间写入 `generation_jobs\<job_id>\submission_receipt.json`（job_id 形如 `j01`）
 - 轮询（10 秒间隔，**thread_id 与 run_id 都必传**——2026-08-22 实测省略 run_id 会报「run id不能为空」）：
 ```bash
-python "C:\Users\zooma\.agents\skills\xyq-skill\scripts\get_thread.py" --thread-id <id> --run-id <id>
+python "C:\Users\zooma\tools\xyq\get_thread.py" --thread-id <id> --run-id <id>
 ```
   - 退出码 0 且 stderr 含「成功」→ 完成；退出码 1 → 失败（stderr 有原因）；进行中时退出码 0、stderr 为空、stdout 首行为「本次创作进行中」后接 JSON（解析取最后一个 JSON 对象）
   - 每次轮询结果追加 `status_log.jsonl` 一行
@@ -164,7 +164,7 @@ python "C:\Users\zooma\.agents\skills\xyq-skill\scripts\get_thread.py" --thread-
 
 ### Step 9 · 下载归档（fetch 操作）
 ```bash
-python "C:\Users\zooma\.agents\skills\xyq-skill\scripts\download_results.py" --urls <URL> --output-dir "<项目夹>\generation_jobs\<job_id>" --prefix video
+python "C:\Users\zooma\tools\xyq\download_results.py" --urls <URL> --output-dir "<项目夹>\generation_jobs\<job_id>" --prefix video
 ```
 - 下载后将成片复制为项目根 `video.mp4`，URL 与本地路径写入 fetch_manifest.json
 - 状态 generated
