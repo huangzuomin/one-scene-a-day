@@ -1,0 +1,39 @@
+{
+  "project": "2026-10-12-marathon-final-mile",
+  "night": 26,
+  "topic_id": "T045",
+  "title": "马拉松的最后一里",
+  "status": "evaluated",
+  "date": "2026-10-12",
+  "model_plan": "seedance2.0_fast_vision（主链路，720p/15s，基线夜 90 分）",
+  "history": [
+    {
+      "time": "2026-10-12 23:40",
+      "step": "idea",
+      "note": "选题 T045（战争），七日窗实测为空，全标签可选"
+    },
+    {
+      "time": "2026-10-12 23:45",
+      "step": "researched",
+      "note": "research.md：传说层 C，视觉元素 B，L-009 回避清单（无罗马甲/无红披风/无帕特农）"
+    },
+    {
+      "time": "2026-10-12 23:48",
+      "step": "scripted",
+      "note": "concept.json（模板B动作五拍）+ script.md（R-105 诊断）+ storyboard.json（5 beats）+ prompt.txt 落盘"
+    },
+    {
+      "time": "2026-10-12 23:55",
+      "step": "generated",
+      "note": "成片下载完成 8.2MB 1280x720 15.04s"
+    },
+    {
+      "time": "2026-10-13 00:08",
+      "step": "evaluated",
+      "note": "Critic 8.8 建议精选；模板B首验证通过（B-001）"
+    }
+  ],
+  "project_id": "2026-10-12-marathon-final-mile",
+  "series": "如果历史有镜头",
+  "day_no": 26
+}

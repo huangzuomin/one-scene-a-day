@@ -1,0 +1,7 @@
+{
+  "thread_id": "skill_f0235f42-d374-4457-9286-9df4c17ada25",
+  "run_id": "skill_5ab170b7-0a58-4c10-a9e0-a3b03c81aec7",
+  "submit_time": "2026-10-12 23:52",
+  "via": "curl (python urllib RemoteDisconnected 两次，改走 curl)",
+  "note": "诊断性截断提交一次（thread skill_342db418…，已废弃，90分沉没成本），本次为正式提交"
+}

@@ -1,0 +1,11 @@
+{
+  "job_id": "j01",
+  "video_url": "https://v26-xyq-video.jianying.com/05d0b9618b1380d7695bebfa2298b86a/6bba4ec2/video/n/everphoto-jianying-assets/f732deb4f...（全文见 thread_full）",
+  "local_copies": [
+    "projects/2026-10-12-marathon-final-mile/generation_jobs/j01/video_01.mp4",
+    "projects/2026-10-12-marathon-final-mile/video.mp4"
+  ],
+  "downloaded_at": "2026-10-12 23:55",
+  "spec": "1280x720 15.04s",
+  "note": "经 get_thread 提取 biz/x_data_video；平台侧 caption 确认内容=希腊服饰男子沙尘奔跑力竭倒地"
+}
