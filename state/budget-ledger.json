@@ -201,11 +201,11 @@
       "note": "T036 营造第二作；质量夜回退基线 2.0（直连 1.0.22 仍契约不匹配）"
     },
     "2026-10-12": {
-      "generations": 2,
+      "generations": 3,
       "jobs": [
         "2026-10-12-marathon-final-mile/j01"
       ],
-      "note": "T045 战争首作（R-104a 模板B验证之一）；正式提交 1 次 2.0/15s=90 分；另有一次诊断性截断提交（curl 通路验证，90 分沉没成本）；python urllib 在本机代理下 RemoteDisconnected，改走 curl"
+      "note": "T045 战争首作（R-104a 模板B验证之一）；正式提交 1 次 2.0/15s=90 分；另有 2 次 urllib 提交报 RemoteDisconnected 但服务器端实际建单成功（23:40:29/23:40:45，完整版 prompt，各 90 分，浪费）；1 次 curl 诊断性截断提交（23:40:56，未生成视频）；合计实耗 270 分。教训见 submit_once 机制。"
     }
   },
   "months": {
@@ -220,8 +220,8 @@
     "2026-10": {
       "cycle": "2026-10-11 ~ 2026-11-11（账期）",
       "balance_at_1012": 2386,
-      "generations_so_far": 2,
-      "credits_spent_estimate": 180,
+      "generations_so_far": 3,
+      "credits_spent_estimate": 270,
       "upgrades_used": 0,
       "upgrades_quota": 6,
       "note": "订阅 2320 于 10-11 到账+每日 66/天；10-11 暂停期每日分已自然损失；10-12 恢复首夜（Muse 接管端到端跑通），用掉当日 66"
