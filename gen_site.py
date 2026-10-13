@@ -183,15 +183,33 @@ def load_topics():
 
 
 def parse_facts(research_md):
-    """解析 research.md 的 | F1 | 事实 | 置信 | 依据 | 表格"""
+    """解析 research.md 的事实条目。兼容两种写法：
+    1. 旧式 | F1 | 事实 | 置信 | 依据 | 表格（2026-09-09 及以前）
+    2. 新式条目 '- **标签**：内容……A/B/C'（2026-09-10 起，行尾单字母为置信级）
+    """
     facts = []
     for line in research_md.splitlines():
+        # 旧式表格
         if re.match(r"^\|\s*F\d+\s*\|", line):
             cells = [c.strip() for c in line.strip().strip("|").split("|")]
             if len(cells) >= 3:
                 conf = cells[2]
                 cls = "conf-a" if conf == "A" else ("conf-b" if conf == "B" else "conf-c")
                 facts.append((cells[1].replace("**", ""), conf, cls))
+            continue
+        # 新式条目：行尾独立 A/B/C（前面有空格或标点分隔）
+        m = re.match(r"^[-*]\s+(.*?)[\s　]*([ABC])\s*$", line.strip())
+        if m:
+            text, conf = m.group(1).strip(), m.group(2)
+            # 跳过 L-009 回避清单（❌ 开头）和纯风险条目
+            if text.startswith("❌") or "回避" in text[:8]:
+                continue
+            text = re.sub(r"\*\*", "", text)
+            # 去掉末尾残留的置信字母粘连（如 "……。A" 已由正则处理）
+            cls = "conf-a" if conf == "A" else ("conf-b" if conf == "B" else "conf-c")
+            # 过滤掉过短的噪声行
+            if len(text) >= 8:
+                facts.append((text, conf, cls))
     return facts
 
 
