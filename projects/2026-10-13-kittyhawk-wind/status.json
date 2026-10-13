@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-13",
+  "day_no": 27,
+  "history": [
+    {
+      "time": "2026-10-13 21:00",
+      "step": "idea",
+      "note": "选题 T028（科技），七日窗实测：2026-10-06~10-12 仅 10-12 战争（T045）占用，战争锁至 10-19；科技近 32 天未用。recommend=高+potential=8 触发质量夜条件（配额 0/6），直连通道 VM 不可用（无 pippit-tool-cli、平台契约仍阻塞）→ 回退基线 2.0/720p/15s，配额不消耗（T047/T036 先例）"
+    },
+    {
+      "time": "2026-10-13 21:00",
+      "step": "researched",
+      "note": "research.md：首飞史实 A 级全，视觉元素 B+，L-009 回避清单（无现代飞机/跑道/飞行夹克墨镜/岩石山/金属多叶桨）"
+    },
+    {
+      "time": "2026-10-13 21:00",
+      "step": "scripted",
+      "note": "concept.json（模板B动作五拍，验证之二）+ script.md（R-105 诊断）+ storyboard.json（5 beats，Rule-507 指名清单）+ prompt.txt 落盘"
+    },
+    {
+      "time": "2026-10-13 21:01",
+      "step": "budget_check",
+      "note": "当日 generations=0<2，可提交；密钥文件存在（0600）"
+    },
+    {
+      "time": "2026-10-13 21:01",
+      "step": "submit_incident",
+      "note": "submit_once.py 首次调用 exit 2：FileNotFoundError。根因=脚本 REPO_ROOT 少一层 dirname（tools/xyq→tools 而非仓库根），load_key 在发包前即失败，curl 从未执行→服务端无建单。已修一行为三层 dirname（tools/xyq 不入库，本地可修），清 __pycache__，重跑提交"
+    },
+    {
+      "time": "2026-10-13 21:03",
+      "step": "submitted",
+      "note": "submit_once.py 第三次调用 SUCCESS：thread=skill_c334d103-3fc1-4d74-9466-4d7db30f97a5 run=skill_69c0a3a1-77c6-4557-bee2-e0d6e1bb2b36；前两次 exit 2 均为本地脚本 bug（未发包，服务端无建单，幂等安全）；台账 90 分"
+    },
+    {
+      "time": "2026-10-13 21:08",
+      "step": "generated",
+      "note": "成片下载完成 9.1MB；URL 取自 biz/x_data_video；已复制为 video.mp4"
+    },
+    {
+      "time": "2026-10-13 21:12",
+      "step": "evaluated",
+      "note": "Critic 8.5 建议精选；模板B第二验证通过（B-002）；f09 签名帧；螺旋桨布局错位 Rule-507 新样本（牵引式单桨 vs 史实后置双推）"
+    }
+  ],
+  "model_plan": "seedance2.0_fast_vision（主链路，720p/15s，基线夜 90 分；质量夜直连 2.5 仍阻塞→回退，配额 0/6 保持）",
+  "project": "2026-10-13-kittyhawk-wind",
+  "project_id": "2026-10-13-kittyhawk-wind",
+  "series": "如果历史有镜头",
+  "status": "evaluated",
+  "title": "杀魔丘上的风：飞行前的一分钟",
+  "topic_id": "T028"
+}

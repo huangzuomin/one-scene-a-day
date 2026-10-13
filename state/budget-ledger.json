@@ -206,6 +206,13 @@
         "2026-10-12-marathon-final-mile/j01"
       ],
       "note": "T045 战争首作（R-104a 模板B验证之一）；正式提交 1 次 2.0/15s=90 分；另有 2 次 urllib 提交报 RemoteDisconnected 但服务器端实际建单成功（23:40:29/23:40:45，完整版 prompt，各 90 分，浪费）；1 次 curl 诊断性截断提交（23:40:56，未生成视频）；合计实耗 270 分。教训见 submit_once 机制。"
+    },
+    "2026-10-13": {
+      "generations": 1,
+      "jobs": [
+        "2026-10-13-kittyhawk-wind/j01"
+      ],
+      "note": "T028 杀魔丘（科技）；基线 2.0/15s=90 分；质量夜直连仍阻塞→回退，配额不消耗（0/6）；submit_once.py 修两处本地 bug（REPO_ROOT 少一层/--max-time 整型）后一次提交成功"
     }
   },
   "months": {
@@ -220,8 +227,8 @@
     "2026-10": {
       "cycle": "2026-10-11 ~ 2026-11-11（账期）",
       "balance_at_1012": 2386,
-      "generations_so_far": 3,
-      "credits_spent_estimate": 270,
+      "generations_so_far": 4,
+      "credits_spent_estimate": 360,
       "upgrades_used": 0,
       "upgrades_quota": 6,
       "note": "订阅 2320 于 10-11 到账+每日 66/天；10-11 暂停期每日分已自然损失；10-12 恢复首夜（Muse 接管端到端跑通），用掉当日 66"

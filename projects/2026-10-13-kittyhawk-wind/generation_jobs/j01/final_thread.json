@@ -1,0 +1,435 @@
+{
+  "messages": [
+    {
+      "id": "12227376544780",
+      "role": "user",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_prompt_text",
+          "data": "{\"content\":\"1903年12月17日上午，美国北卡罗来纳州外滩群岛，杀魔丘。一座孤立的大沙丘顶上，寒风卷着沙流贴地横移，天空是冷灰蓝色，12月的晨光冷白而低。\\n\\n一架木质双翼飞机停在一条60英尺长的木质滑轨起点：帆布蒙皮的双翼，机头前方有一对小小的鸭式前翼，机身后方两副木质双叶螺旋桨，整架飞机没有轮子，坐在木滑车上。这就是飞行者一号。\\n\\n一位32岁的男人俯卧在下机翼上：深色厚呢大衣，长裤，系带皮靴，深色毛线帽，双手紧握操纵杆——他是奥维尔·莱特。他的哥哥威尔伯站在右翼翼尖旁，一手扶住机翼。\\n\\n发动机突然点火。机身剧烈抖动起来，排气管喷出黑烟和几点火星，双螺旋桨搅起一大片沙尘。寒风把沙尘吹向镜头。\\n\\n滑车松开了。飞机沿着木轨向前滑行，越来越快；背景里灰蓝色的沙丘缓缓后退，沙丘上的风成沙纹和零星沙草丛清晰可见。威尔伯扶着翼尖助跑了几步，然后松开手，他的身影落在后方。时间仿佛被拉长——这是飞行前最后一分钟的静止，被压缩进几秒的屏息。\\n\\n轨端到了。滑车戛然而止，陷进沙地——而飞行者一号离轨悬空了：双翼保持水平，机腹离开沙地约一米，螺旋桨全速旋转。有半秒钟的悬浮静默，风沙在机翼下方贴地横移，世界安静了一瞬。\\n\\n然后它飞起来了。低空掠过沙丘，翼下的风成沙纹飞速掠过，奥维尔俯卧着操纵，身体随气流微微起伏。沙丘、沙草丛、远处救生站的小屋从翼下掠过。\\n\\n远机位定格：飞行者一号的剪影掠过灰蓝色的天空，杀魔丘的沙丘线横贯画面下方。画面就这样静止3.5秒，渐隐。\\n\\n人物与器物身份锁定（全片严格一致）：32岁左右男性，深色厚呢大衣、长裤、系带皮靴、深色毛线帽，全程俯卧于下机翼；飞行器为1903年形制——木质骨架帆布双翼、前置鸭式小翼、后置双木质螺旋桨、60英尺木质滑轨、无轮式起落架。时代为1903年美国：大沙丘、风成沙纹、沙草丛、木质救生站小屋；绝不出现现代飞机外形、机场跑道、飞行夹克、墨镜、金属多叶螺旋桨等时代错误元素。\\n\\n严格按上述镜头顺序呈现，不要跳过、合并或重排镜头；全程保持主角的面容、服装、体型完全一致；不要在画面中渲染任何文字、字幕、边框、编号或水印；镜头之间用自然运动衔接，不要做成静态幻灯片。\\n\\n这是一次全自动无人值守的创作任务：如需确认任何参数（画面比例、时长、风格等），一律按上述设定直接执行，不要等待确认。必须一次性整段生成全片，禁止拆分为多个镜头分别生成再拼接；全片总时长严格 15 秒，各镜头时长严格按分镜分配。\",\"reference_info_list\":null}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        },
+        {
+          "type": "data",
+          "sub_type": "biz/general_agent_settings",
+          "data": "{\"video_model\":\"seedance2.0_fast_vision\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12227177357324",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"这是一段\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12227177357324",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"有历史质\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12227177357324",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"感的镜头脚本，莱特兄弟首飞前最后\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12227177357324",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"一分钟的屏息感写得非常细。按你的无人值守设定，我直接开始创作：单\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12227177357324",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"条15秒、16:9、整段一次性生成。\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12227177357324",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"\",\"done\":true}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12227177357324",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"load_skill\",\"tool_id\":\"call_376f62d9e8764754b01431ed\",\"request_data\":\"{\\\"SkillName\\\": \\\"video_creation\\\"}\",\"extra\":\"{\\\"display_name\\\":\\\"技能学习\\\",\\\"loadingText\\\":\\\"正在学习相关技能...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12227177357324",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"sandbox_read\",\"tool_id\":\"call_d8116610b86541a5bb163143\",\"request_data\":\"{\\\"Description\\\": \\\"读取单段视频工作流程\\\", \\\"FilePath\\\": \\\"/workspace/.skills/video_creation/refs/workflow/single-segment.md\\\"}\",\"extra\":\"{\\\"display_name\\\":\\\"读取文件\\\",\\\"loadingText\\\":\\\"正在读取文件...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12227177357324",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"脚本已是\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12227177357324",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"完整的逐镜描述，\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12227177357324",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"符合直通条件：整段15秒、16:\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12227177357324",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"9，你的原文将原样作为生成依据直接生成，不做任何改写。\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12227177357324",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"\",\"done\":true}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12227177357324",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"sandbox_generate_video\",\"tool_id\":\"call_5e7259867cb54ba3a79c4335\",\"request_data\":\"{\\\"Duration\\\": 15, \\\"OutputPath\\\": \\\"assets/wright_flyer_kill_devil_hill/shot_01.mp4\\\", \\\"Prompt\\\": \\\"\\\", \\\"Ratio\\\": \\\"16:9\\\", \\\"UseRunPrompt\\\": true}\",\"extra\":\"{\\\"display_name\\\":\\\"生成视频\\\",\\\"loadingText\\\":\\\"正在生成视频...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12227177357324",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_artifact_slots_part",
+          "data": "{\"slots\":[{\"artifact_id\":\"12227177376012\",\"ratio\":\"16:9\",\"type\":\"video\"}]}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12227177376012",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_video",
+          "data": "{\"video\":{\"asset_id\":\"7696138121502671384\",\"uri\":null,\"metadata\":{\"height\":720,\"width\":1280,\"format\":\"\",\"duration_ms\":15041,\"size\":0,\"bitrate\":0,\"definition\":\"\",\"codec_type\":\"\",\"encoded_type\":\"\",\"file_hash\":\"\",\"md5\":\"\",\"ratio\":\"16:9\",\"title\":null,\"name\":null,\"mime\":\"\"},\"url\":\"https://v5-xyq-video.jianying.com/6e5d85fa7c9cef3f8dae1e87ce5fa5d4/6bbb7b2d/video/n/everphoto-jianying-assets/d11bb79b2d2b4431beb4e6f9cb89254f/?a=795647\\u0026ch=0\\u0026cr=0\\u0026dr=0\\u0026cd=0%7C0%7C0%7C0\\u0026br=4721\\u0026bt=4721\\u0026cs=0\\u0026ds=3\\u0026ft=TLtriUeR_yygZmo0P~-xLgkVQ9w6x\\u0026mime_type=video_mp4\\u0026qs=13\\u0026rc=MztneWZvOnM1ZTczNDlmM0BpMztneWZvOnM1ZTczNDlmM0AxLS5pYWFmbTRhLS1kNGFzYSMxLS5pYWFmbTRhLS1kNGFzcw%3D%3D\\u0026btag=80000e00010000\\u0026dy_q=1791896862\\u0026l=20261013210308A826786ADBFC0A183B56\\u0026download=true\\u0026filename=v0dc76g10004db72ppi7dldclv1d0840.mp4\",\"caption\":null,\"render_task_id\":\"52528376844\",\"cover_url\":\"https://p26-sign.douyinpic.com/everphoto-jianying-assets/ocC1YiBZ2eeBgjagqRiTMWiR30EZBZHzcQAWj5~tplv-noop.image?dy_q=1791896862\\u0026l=20261013210308A826786ADBFC0A183B56\\u0026x-expires=1807448877\\u0026x-signature=y77TBbk3u45kYdnvlCJtKXddmS8%3D\",\"music_meta\":null,\"preview_url\":\"https://v11-xyq-video.jianying.com/f44e3b44c3e68811d9dbf0cca1abbd5a/6bbb7b2d/video/n/everphoto-jianying-assets/f519eb13b2d24866b14c778adb8859ad/?a=795647\\u0026ch=0\\u0026cr=0\\u0026dr=0\\u0026cd=0%7C0%7C0%7C0\\u0026br=6283\\u0026bt=6283\\u0026cs=0\\u0026ds=3\\u0026ft=TLtriUeR_yygZmo0P~-xLgkVQ9w6x\\u0026mime_type=video_mp4\\u0026qs=13\\u0026rc=M3JmeDRvOjk1ZTczNDlmM0BpM3JmeDRvOjk1ZTczNDlmM0BncDMzYWFebjRhLS1kNC9zYSNncDMzYWFebjRhLS1kNC9zcw%3D%3D\\u0026btag=80000e00010000\\u0026dy_q=1791896862\\u0026l=20261013210308A826786ADBFC0A183B56\",\"render_task_status\":null,\"draft_key\":null,\"package_id\":null,\"vid\":null,\"render_rsp_map\":{\"disable_edit\":\"1\"},\"download_url\":\"https://v5-xyq-video.jianying.com/6e5d85fa7c9cef3f8dae1e87ce5fa5d4/6bbb7b2d/video/n/everphoto-jianying-assets/d11bb79b2d2b4431beb4e6f9cb89254f/?a=795647\\u0026ch=0\\u0026cr=0\\u0026dr=0\\u0026cd=0%7C0%7C0%7C0\\u0026br=4721\\u0026bt=4721\\u0026cs=0\\u0026ds=3\\u0026ft=TLtriUeR_yygZmo0P~-xLgkVQ9w6x\\u0026mime_type=video_mp4\\u0026qs=13\\u0026rc=MztneWZvOnM1ZTczNDlmM0BpMztneWZvOnM1ZTczNDlmM0AxLS5pYWFmbTRhLS1kNGFzYSMxLS5pYWFmbTRhLS1kNGFzcw%3D%3D\\u0026btag=80000e00010000\\u0026dy_q=1791896862\\u0026l=20261013210308A826786ADBFC0A183B56\\u0026download=true\\u0026filename=v0dc76g10004db72ppi7dldclv1d0840.mp4\",\"ratio\":null,\"title\":\"\",\"duration\":0,\"width\":1280,\"height\":720,\"cover_preview_url\":null,\"cover_preview_key\":null,\"player_info\":null,\"preview_url_v2\":null,\"unique_id\":null,\"scene_segment\":null,\"pippit_asset_id\":null,\"extra\":null},\"gif_url\":null,\"living_photo_url\":null,\"task_id\":null,\"error_message\":null,\"error_code\":null}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": "12232463664140",
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12227177357324",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"15秒成\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12227177357324",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"片已生成并推送给\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12227177357324",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"你，整段按你的镜头顺序一次性完成\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12227177357324",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"：点火震颤、滑轨加速、离轨悬浮、低空掠丘，最后远机位剪影定格渐隐\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12227177357324",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"。\\n\\n接下来可以：\\n1. 满意则结束\\n2. \",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12227177357324",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"修改某个画面或动作细节，重新生成\\n3. 换一种画面风格再出一版\",\"done\":true,\"is_final_answer\":true}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12227177357324",
+      "role": "assistant",
+      "content": []
+    }
+  ]
+}

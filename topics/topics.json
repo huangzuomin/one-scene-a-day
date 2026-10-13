@@ -413,11 +413,13 @@
    "tag": "科技",
    "potential": 8,
    "risk_note": "A",
-   "status": "approved",
+   "status": "used",
    "source": "seed",
    "proposed_date": "2026-08-22",
    "recommend": "高",
-   "pitch": "杀魔丘的寒风里，起飞前最后一分钟的静止——随后 12 秒改变世界。"
+   "pitch": "杀魔丘的寒风里，起飞前最后一分钟的静止——随后 12 秒改变世界。",
+   "used_date": "2026-10-13",
+   "project": "2026-10-13-kittyhawk-wind"
   },
   {
    "id": "T030",
