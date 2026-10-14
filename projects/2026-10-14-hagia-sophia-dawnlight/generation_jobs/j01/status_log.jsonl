@@ -1,0 +1,2071 @@
+本次创作进行中
+{
+  "messages": [
+    {
+      "id": "12322914717196",
+      "role": "user",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_prompt_text",
+          "data": "{\"content\":\"创作一部 15 秒历史微短片：公元 537 年 12 月 27 日，拜占庭圣索菲亚大教堂祝圣的清晨。\\n\\n中殿尚未点灯，一片暗蓝色的石内空间。一位六旬老石匠独自走进大殿做最后检查：灰白短发，未染原色的羊毛束腰外衣，深褐色皮围裙，腰带上悬着铅垂线和木抹子，右手提着一盏黄铜油灯——这是全片唯一的光源，暖黄的火苗照亮他疲惫的脸庞，脚步声在空旷大殿里回响。\\n\\n他停下脚步，仰起头，望向高处隐没在黑暗中的穹顶。那是一座低平的浅碟形穹顶，基座一周均匀环绕着四十扇拱形窗，此刻窗带仍是青黑色的。\\n\\n突然，四十扇拱窗的边缘同时泛起一圈金边，像一条金链把穹顶轻轻托起、悬于天上。老石匠怔住，手里的油灯垂落身侧，灯火在晨光里黯淡下去。他的表情从疲惫转为敬畏。\\n\\n然后光倾泻而下：四十道金色光柱斜斜打进大殿，尘埃在光柱中缓慢浮动，大理石地面上爬满长条光斑。镜头缓缓推近，老石匠的剪影立在光柱交汇处，仰着头。\\n\\n最后一幕定格：老人的剪影立于金色光柱之中，仰望着被金链悬于天上的穹顶，金色马赛克在光里苏醒。画面就此 hold 住。\\n\\n时代细节铁律：只拍大教堂内部，不拍外部；内部没有任何文字、圆牌、碑刻；穹顶是低平碟形、四十扇拱窗一周，绝不是洋葱形穹顶；人物是六世纪拜占庭工匠装束，不穿奥斯曼式宽松裤、不戴缠头巾；色调是暗蓝石内大底衬托暖金光柱。严格按上述镜头顺序呈现，不要跳过、合并或重排镜头；全程保持主角的面容、服装、体型完全一致；不要在画面中渲染任何文字、字幕、边框、编号或水印；镜头之间用自然运动衔接，不要做成静态幻灯片。\\n\\n这是一次全自动无人值守的创作任务：如需确认任何参数（画面比例、时长、风格等），一律按上述设定直接执行，不要等待确认。必须一次性整段生成全片，禁止拆分为多个镜头分别生成再拼接；全片总时长严格 15 秒，各镜头时长严格按分镜分配。\",\"reference_info_list\":null}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        },
+        {
+          "type": "data",
+          "sub_type": "biz/general_agent_settings",
+          "data": "{\"video_model\":\"seedance2.0_fast_vision\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"这是一个\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"充满敬畏感的场景\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"，老石匠提着油灯仰望晨光从四十扇\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"拱窗倾泻而入的那一刻，神圣感自然涌出。我来按照你的完整脚本，一次\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"性生成这条15秒历史微短片。\\n\\n先查看当前可用的视频模型能力，确认生成参数范围。\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"\",\"done\":true}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"list_capabilities\",\"tool_id\":\"call_ba041ddec6cf4b9e9a7b643d\",\"request_data\":\"{\\\"Kind\\\": \\\"video\\\"}\",\"extra\":\"{\\\"display_name\\\":\\\"查询支持能力\\\",\\\"loadingText\\\":\\\"正在查询支持能力...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"现在查看\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"沙盒中的已有素材\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"和项目目录状态。\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"\",\"done\":true}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"sandbox_bash\",\"tool_id\":\"call_0754d6c293ce432aa373b61e\",\"request_data\":\"{\\\"Command\\\": \\\"ls -la /workspace/assets/ 2\\u003e/dev/null || echo \\\\\\\"assets目录不存在\\\\\\\"\\\", \\\"Description\\\": \\\"查看已有素材目录\\\"}\",\"extra\":\"{\\\"display_name\\\":\\\"执行命令\\\",\\\"loadingText\\\":\\\"正在执行命令...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"这是一个\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"全新的项目。先加\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"载视频创作技能，按专业流程执行。\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"\",\"done\":true}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"load_skill\",\"tool_id\":\"call_be12a31b67224ab38eb175ce\",\"request_data\":\"{\\\"SkillName\\\": \\\"video_creation\\\"}\",\"extra\":\"{\\\"display_name\\\":\\\"技能学习\\\",\\\"loadingText\\\":\\\"正在学习相关技能...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"根据技能\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"路由，先分析层级\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"填充度：你提供了完整的内容描述（\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"含逐段画面描写、镜头顺序、动作细节、时代细节铁律），意图层和创意\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"层都已填满，时长15秒、比例16:9（记忆中的默认偏好）、风格方向明确（暗蓝石内空间+暖金光柱的历史\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"写实）。总时长15秒，属于单段流程。先读取单段流程指导。\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"\",\"done\":true}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"sandbox_read\",\"tool_id\":\"call_ff1f1366dbcf4916af24c70d\",\"request_data\":\"{\\\"Description\\\": \\\"读取单段视频流程指导\\\", \\\"FilePath\\\": \\\"/workspace/.skills/video_creation/refs/workflow/single-segment.md\\\"}\",\"extra\":\"{\\\"display_name\\\":\\\"读取文件\\\",\\\"loadingText\\\":\\\"正在读取文件...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"你的输入\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"构成完整内容描述\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"（逐段画面描写、镜头顺序、动作细\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"节、时代细节铁律全部齐备），命中直通分叉。脚本是当轮用户消息的主\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"体内容，适用程序直传模式：系统将把你的原文逐字作为生视频提示词，零转写零漂移。\\n\\n按照记忆中的默认偏好，画面比例采用16:9，时\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"长15秒，无字幕，不传任何参考素材。现在直接生成。\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"\",\"done\":true}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"sandbox_generate_video\",\"tool_id\":\"call_e8ec0f83f1c34283a08a5fb1\",\"request_data\":\"{\\\"Duration\\\": 15, \\\"OutputPath\\\": \\\"assets/hagia_sophia_537/shot_01.mp4\\\", \\\"Prompt\\\": \\\"\\\", \\\"Ratio\\\": \\\"16:9\\\", \\\"UseRunPrompt\\\": true}\",\"extra\":\"{\\\"display_name\\\":\\\"生成视频\\\",\\\"loadingText\\\":\\\"正在生成视频...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_artifact_slots_part",
+          "data": "{\"slots\":[{\"artifact_id\":\"12324011994124\",\"ratio\":\"16:9\",\"type\":\"video\"}]}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    }
+  ]
+}
+本次创作进行中
+{
+  "messages": [
+    {
+      "id": "12322914717196",
+      "role": "user",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_prompt_text",
+          "data": "{\"content\":\"创作一部 15 秒历史微短片：公元 537 年 12 月 27 日，拜占庭圣索菲亚大教堂祝圣的清晨。\\n\\n中殿尚未点灯，一片暗蓝色的石内空间。一位六旬老石匠独自走进大殿做最后检查：灰白短发，未染原色的羊毛束腰外衣，深褐色皮围裙，腰带上悬着铅垂线和木抹子，右手提着一盏黄铜油灯——这是全片唯一的光源，暖黄的火苗照亮他疲惫的脸庞，脚步声在空旷大殿里回响。\\n\\n他停下脚步，仰起头，望向高处隐没在黑暗中的穹顶。那是一座低平的浅碟形穹顶，基座一周均匀环绕着四十扇拱形窗，此刻窗带仍是青黑色的。\\n\\n突然，四十扇拱窗的边缘同时泛起一圈金边，像一条金链把穹顶轻轻托起、悬于天上。老石匠怔住，手里的油灯垂落身侧，灯火在晨光里黯淡下去。他的表情从疲惫转为敬畏。\\n\\n然后光倾泻而下：四十道金色光柱斜斜打进大殿，尘埃在光柱中缓慢浮动，大理石地面上爬满长条光斑。镜头缓缓推近，老石匠的剪影立在光柱交汇处，仰着头。\\n\\n最后一幕定格：老人的剪影立于金色光柱之中，仰望着被金链悬于天上的穹顶，金色马赛克在光里苏醒。画面就此 hold 住。\\n\\n时代细节铁律：只拍大教堂内部，不拍外部；内部没有任何文字、圆牌、碑刻；穹顶是低平碟形、四十扇拱窗一周，绝不是洋葱形穹顶；人物是六世纪拜占庭工匠装束，不穿奥斯曼式宽松裤、不戴缠头巾；色调是暗蓝石内大底衬托暖金光柱。严格按上述镜头顺序呈现，不要跳过、合并或重排镜头；全程保持主角的面容、服装、体型完全一致；不要在画面中渲染任何文字、字幕、边框、编号或水印；镜头之间用自然运动衔接，不要做成静态幻灯片。\\n\\n这是一次全自动无人值守的创作任务：如需确认任何参数（画面比例、时长、风格等），一律按上述设定直接执行，不要等待确认。必须一次性整段生成全片，禁止拆分为多个镜头分别生成再拼接；全片总时长严格 15 秒，各镜头时长严格按分镜分配。\",\"reference_info_list\":null}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        },
+        {
+          "type": "data",
+          "sub_type": "biz/general_agent_settings",
+          "data": "{\"video_model\":\"seedance2.0_fast_vision\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"这是一个\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"充满敬畏感的场景\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"，老石匠提着油灯仰望晨光从四十扇\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"拱窗倾泻而入的那一刻，神圣感自然涌出。我来按照你的完整脚本，一次\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"性生成这条15秒历史微短片。\\n\\n先查看当前可用的视频模型能力，确认生成参数范围。\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"\",\"done\":true}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"list_capabilities\",\"tool_id\":\"call_ba041ddec6cf4b9e9a7b643d\",\"request_data\":\"{\\\"Kind\\\": \\\"video\\\"}\",\"extra\":\"{\\\"display_name\\\":\\\"查询支持能力\\\",\\\"loadingText\\\":\\\"正在查询支持能力...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"现在查看\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"沙盒中的已有素材\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"和项目目录状态。\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"\",\"done\":true}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"sandbox_bash\",\"tool_id\":\"call_0754d6c293ce432aa373b61e\",\"request_data\":\"{\\\"Command\\\": \\\"ls -la /workspace/assets/ 2\\u003e/dev/null || echo \\\\\\\"assets目录不存在\\\\\\\"\\\", \\\"Description\\\": \\\"查看已有素材目录\\\"}\",\"extra\":\"{\\\"display_name\\\":\\\"执行命令\\\",\\\"loadingText\\\":\\\"正在执行命令...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"这是一个\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"全新的项目。先加\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"载视频创作技能，按专业流程执行。\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"\",\"done\":true}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"load_skill\",\"tool_id\":\"call_be12a31b67224ab38eb175ce\",\"request_data\":\"{\\\"SkillName\\\": \\\"video_creation\\\"}\",\"extra\":\"{\\\"display_name\\\":\\\"技能学习\\\",\\\"loadingText\\\":\\\"正在学习相关技能...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"根据技能\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"路由，先分析层级\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"填充度：你提供了完整的内容描述（\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"含逐段画面描写、镜头顺序、动作细节、时代细节铁律），意图层和创意\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"层都已填满，时长15秒、比例16:9（记忆中的默认偏好）、风格方向明确（暗蓝石内空间+暖金光柱的历史\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"写实）。总时长15秒，属于单段流程。先读取单段流程指导。\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"\",\"done\":true}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"sandbox_read\",\"tool_id\":\"call_ff1f1366dbcf4916af24c70d\",\"request_data\":\"{\\\"Description\\\": \\\"读取单段视频流程指导\\\", \\\"FilePath\\\": \\\"/workspace/.skills/video_creation/refs/workflow/single-segment.md\\\"}\",\"extra\":\"{\\\"display_name\\\":\\\"读取文件\\\",\\\"loadingText\\\":\\\"正在读取文件...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"你的输入\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"构成完整内容描述\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"（逐段画面描写、镜头顺序、动作细\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"节、时代细节铁律全部齐备），命中直通分叉。脚本是当轮用户消息的主\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"体内容，适用程序直传模式：系统将把你的原文逐字作为生视频提示词，零转写零漂移。\\n\\n按照记忆中的默认偏好，画面比例采用16:9，时\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"长15秒，无字幕，不传任何参考素材。现在直接生成。\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"\",\"done\":true}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"sandbox_generate_video\",\"tool_id\":\"call_e8ec0f83f1c34283a08a5fb1\",\"request_data\":\"{\\\"Duration\\\": 15, \\\"OutputPath\\\": \\\"assets/hagia_sophia_537/shot_01.mp4\\\", \\\"Prompt\\\": \\\"\\\", \\\"Ratio\\\": \\\"16:9\\\", \\\"UseRunPrompt\\\": true}\",\"extra\":\"{\\\"display_name\\\":\\\"生成视频\\\",\\\"loadingText\\\":\\\"正在生成视频...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_artifact_slots_part",
+          "data": "{\"slots\":[{\"artifact_id\":\"12324011994124\",\"ratio\":\"16:9\",\"type\":\"video\"}]}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    }
+  ]
+}
+{
+  "messages": [
+    {
+      "id": "12322914717196",
+      "role": "user",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_prompt_text",
+          "data": "{\"content\":\"创作一部 15 秒历史微短片：公元 537 年 12 月 27 日，拜占庭圣索菲亚大教堂祝圣的清晨。\\n\\n中殿尚未点灯，一片暗蓝色的石内空间。一位六旬老石匠独自走进大殿做最后检查：灰白短发，未染原色的羊毛束腰外衣，深褐色皮围裙，腰带上悬着铅垂线和木抹子，右手提着一盏黄铜油灯——这是全片唯一的光源，暖黄的火苗照亮他疲惫的脸庞，脚步声在空旷大殿里回响。\\n\\n他停下脚步，仰起头，望向高处隐没在黑暗中的穹顶。那是一座低平的浅碟形穹顶，基座一周均匀环绕着四十扇拱形窗，此刻窗带仍是青黑色的。\\n\\n突然，四十扇拱窗的边缘同时泛起一圈金边，像一条金链把穹顶轻轻托起、悬于天上。老石匠怔住，手里的油灯垂落身侧，灯火在晨光里黯淡下去。他的表情从疲惫转为敬畏。\\n\\n然后光倾泻而下：四十道金色光柱斜斜打进大殿，尘埃在光柱中缓慢浮动，大理石地面上爬满长条光斑。镜头缓缓推近，老石匠的剪影立在光柱交汇处，仰着头。\\n\\n最后一幕定格：老人的剪影立于金色光柱之中，仰望着被金链悬于天上的穹顶，金色马赛克在光里苏醒。画面就此 hold 住。\\n\\n时代细节铁律：只拍大教堂内部，不拍外部；内部没有任何文字、圆牌、碑刻；穹顶是低平碟形、四十扇拱窗一周，绝不是洋葱形穹顶；人物是六世纪拜占庭工匠装束，不穿奥斯曼式宽松裤、不戴缠头巾；色调是暗蓝石内大底衬托暖金光柱。严格按上述镜头顺序呈现，不要跳过、合并或重排镜头；全程保持主角的面容、服装、体型完全一致；不要在画面中渲染任何文字、字幕、边框、编号或水印；镜头之间用自然运动衔接，不要做成静态幻灯片。\\n\\n这是一次全自动无人值守的创作任务：如需确认任何参数（画面比例、时长、风格等），一律按上述设定直接执行，不要等待确认。必须一次性整段生成全片，禁止拆分为多个镜头分别生成再拼接；全片总时长严格 15 秒，各镜头时长严格按分镜分配。\",\"reference_info_list\":null}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        },
+        {
+          "type": "data",
+          "sub_type": "biz/general_agent_settings",
+          "data": "{\"video_model\":\"seedance2.0_fast_vision\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"这是一个\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"充满敬畏感的场景\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"，老石匠提着油灯仰望晨光从四十扇\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"拱窗倾泻而入的那一刻，神圣感自然涌出。我来按照你的完整脚本，一次\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"性生成这条15秒历史微短片。\\n\\n先查看当前可用的视频模型能力，确认生成参数范围。\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"\",\"done\":true}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"list_capabilities\",\"tool_id\":\"call_ba041ddec6cf4b9e9a7b643d\",\"request_data\":\"{\\\"Kind\\\": \\\"video\\\"}\",\"extra\":\"{\\\"display_name\\\":\\\"查询支持能力\\\",\\\"loadingText\\\":\\\"正在查询支持能力...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"现在查看\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"沙盒中的已有素材\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"和项目目录状态。\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"\",\"done\":true}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"sandbox_bash\",\"tool_id\":\"call_0754d6c293ce432aa373b61e\",\"request_data\":\"{\\\"Command\\\": \\\"ls -la /workspace/assets/ 2\\u003e/dev/null || echo \\\\\\\"assets目录不存在\\\\\\\"\\\", \\\"Description\\\": \\\"查看已有素材目录\\\"}\",\"extra\":\"{\\\"display_name\\\":\\\"执行命令\\\",\\\"loadingText\\\":\\\"正在执行命令...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"这是一个\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"全新的项目。先加\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"载视频创作技能，按专业流程执行。\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"\",\"done\":true}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"load_skill\",\"tool_id\":\"call_be12a31b67224ab38eb175ce\",\"request_data\":\"{\\\"SkillName\\\": \\\"video_creation\\\"}\",\"extra\":\"{\\\"display_name\\\":\\\"技能学习\\\",\\\"loadingText\\\":\\\"正在学习相关技能...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"根据技能\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"路由，先分析层级\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"填充度：你提供了完整的内容描述（\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"含逐段画面描写、镜头顺序、动作细节、时代细节铁律），意图层和创意\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"层都已填满，时长15秒、比例16:9（记忆中的默认偏好）、风格方向明确（暗蓝石内空间+暖金光柱的历史\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"写实）。总时长15秒，属于单段流程。先读取单段流程指导。\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"\",\"done\":true}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"sandbox_read\",\"tool_id\":\"call_ff1f1366dbcf4916af24c70d\",\"request_data\":\"{\\\"Description\\\": \\\"读取单段视频流程指导\\\", \\\"FilePath\\\": \\\"/workspace/.skills/video_creation/refs/workflow/single-segment.md\\\"}\",\"extra\":\"{\\\"display_name\\\":\\\"读取文件\\\",\\\"loadingText\\\":\\\"正在读取文件...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"你的输入\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"构成完整内容描述\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"（逐段画面描写、镜头顺序、动作细\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"节、时代细节铁律全部齐备），命中直通分叉。脚本是当轮用户消息的主\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"体内容，适用程序直传模式：系统将把你的原文逐字作为生视频提示词，零转写零漂移。\\n\\n按照记忆中的默认偏好，画面比例采用16:9，时\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"长15秒，无字幕，不传任何参考素材。现在直接生成。\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"\",\"done\":true}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"sandbox_generate_video\",\"tool_id\":\"call_e8ec0f83f1c34283a08a5fb1\",\"request_data\":\"{\\\"Duration\\\": 15, \\\"OutputPath\\\": \\\"assets/hagia_sophia_537/shot_01.mp4\\\", \\\"Prompt\\\": \\\"\\\", \\\"Ratio\\\": \\\"16:9\\\", \\\"UseRunPrompt\\\": true}\",\"extra\":\"{\\\"display_name\\\":\\\"生成视频\\\",\\\"loadingText\\\":\\\"正在生成视频...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_artifact_slots_part",
+          "data": "{\"slots\":[{\"artifact_id\":\"12324011994124\",\"ratio\":\"16:9\",\"type\":\"video\"}]}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011994124",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_video",
+          "data": "{\"video\":{\"asset_id\":\"7696508184097456664\",\"uri\":null,\"metadata\":{\"height\":720,\"width\":1280,\"format\":\"\",\"duration_ms\":15041,\"size\":0,\"bitrate\":0,\"definition\":\"\",\"codec_type\":\"\",\"encoded_type\":\"\",\"file_hash\":\"\",\"md5\":\"\",\"ratio\":\"16:9\",\"title\":null,\"name\":null,\"mime\":\"\"},\"url\":\"https://v5-xyq-video.jianying.com/87fb5976d559ad781804ce199f8503bd/6bbccbc3/video/n/everphoto-jianying-assets/49f5129f6277414eae4cfc620ac9c0b0/?a=795647\\u0026ch=0\\u0026cr=0\\u0026dr=0\\u0026cd=0%7C0%7C0%7C0\\u0026br=3594\\u0026bt=3594\\u0026cs=0\\u0026ds=3\\u0026ft=TLtriUeR_yygZmo0P37iLgkVQ9w6x\\u0026mime_type=video_mp4\\u0026qs=13\\u0026rc=amluZGVvOnhxZTczNDlmM0BpamluZGVvOnhxZTczNDlmM0BtbV5yYWEvbjRhLS1kNC9zYSNtbV5yYWEvbjRhLS1kNC9zcw%3D%3D\\u0026btag=80000e00010000\\u0026dy_q=1791983028\\u0026l=2026101420590855BF0583ECFC6FDE8CC4\\u0026download=true\\u0026filename=v02c76g10004db7nqu27dldbuaakpfpg.mp4\",\"caption\":\"{\\n  \\\"video_caption\\\": \\\"这是一段剧情类短片，核心内容为一名手持提灯的人在宏伟的古典建筑内行走，随后镜头聚焦于一位身处建筑穹顶下的老年男性，最终展现出建筑穹顶的光束与人物在光束中的身影，整体营造出神秘肃穆的氛围。视频采用写实的画面风格，以冷调的暗蓝色为主色调，搭配穹顶射入的暖金色光束，画质清晰细腻，场景为带有高大立柱与圆形穹顶的古典大厅，空间开阔庄重。视频的叙事从人物的行走动作展开，通过镜头的视角变化逐步展现建筑的宏伟与人物的状态，情绪基调神秘且带有敬畏感，令人感受到古典建筑的庄严与空间的神圣感。\\\",\\n  \\\"split_shot_info\\\": \\\"[00:00:00-00:00:03] 画面风格：写实；主体：手持提灯行走的人；动作：手持点亮的提灯在铺有大理石的大厅地面上向前行走；镜头变化：从人物下半身的特写开始，跟随人物移动；内容简述：展现人物在大厅中行走的状态；声音：微弱的脚步声，低沉神秘的背景音乐，无人物对话，无旁白，无额外音效\\\",\\n  \\\"[00:00:03-00:00:06] 画面风格：写实；主体：老年男性；动作：手持提灯，抬头向上看；镜头变化：从人物下半身特写切换为人物上半身的低角度特写，向上仰拍；内容简述：展示老年男性的外貌与状态；声音：低沉神秘的背景音乐，无人物对话，无旁白，无额外音效\\\",\\n  \\\"[00:00:06-00:00:09] 画面风格：写实；主体：建筑穹顶；动作：无；镜头变化：镜头向上移动，聚焦于建筑穹顶的圆形窗户；内容简述：展现穹顶窗户射入的光束；声音：低沉神秘的背景音乐，无人物对话，无旁白，无额外音效\\\",\\n  \\\"[00:00:09-00:00:10] 画面风格：写实；主体：老年男性；动作：抬头向上看；镜头变化：从穹顶的仰拍镜头切换为人物的正面特写；内容简述：展示老年男性的神态；声音：低沉神秘的背景音乐，无人物对话，无旁白，无额外音效\\\",\\n  \\\"[00:00:10-00:00:14] 画面风格：写实；主体：老年男性；动作：站立在大厅中央；镜头变化：从人物正面特写切换为全景镜头，展示整个大厅的空间；内容简述：展现人物在大厅中央被光束笼罩的场景；声音：低沉神秘的背景音乐，无人物对话，无旁白，无额外音效\\\"\\n}\",\"render_task_id\":\"52720742156\",\"cover_url\":\"https://p5-ex-gddgtc-sign.douyinpic.com/everphoto-jianying-assets/os9T2ATaqQns8ZCgUeHzv2g3Hset1RkBC1jqF9~tplv-noop.image?dy_q=1791983028\\u0026l=2026101420590855BF0583ECFC6FDE8CC4\\u0026x-expires=1807535043\\u0026x-signature=YvTjLlO1epFSDj79LELo0D4GG2o%3D\",\"music_meta\":null,\"preview_url\":\"https://v11-xyq-video.jianying.com/c8c3545de7a445bdd4dcf8c593520dee/6bbccbc3/video/n/everphoto-jianying-assets/ad8153638d1a43c1b16e9980402b3a2b/?a=795647\\u0026ch=0\\u0026cr=0\\u0026dr=0\\u0026cd=0%7C0%7C0%7C0\\u0026br=6240\\u0026bt=6240\\u0026cs=0\\u0026ds=3\\u0026ft=TLtriUeR_yygZmo0P37iLgkVQ9w6x\\u0026mime_type=video_mp4\\u0026qs=13\\u0026rc=amV3amVvOmVxZTczNDlmM0BpamV3amVvOmVxZTczNDlmM0BxaV8vYWFebzRhLS1kNC9zYSNxaV8vYWFebzRhLS1kNC9zcw%3D%3D\\u0026btag=80000e00010000\\u0026dy_q=1791983028\\u0026l=2026101420590855BF0583ECFC6FDE8CC4\",\"render_task_status\":null,\"draft_key\":null,\"package_id\":null,\"vid\":null,\"render_rsp_map\":{\"disable_edit\":\"1\"},\"download_url\":\"https://v5-xyq-video.jianying.com/87fb5976d559ad781804ce199f8503bd/6bbccbc3/video/n/everphoto-jianying-assets/49f5129f6277414eae4cfc620ac9c0b0/?a=795647\\u0026ch=0\\u0026cr=0\\u0026dr=0\\u0026cd=0%7C0%7C0%7C0\\u0026br=3594\\u0026bt=3594\\u0026cs=0\\u0026ds=3\\u0026ft=TLtriUeR_yygZmo0P37iLgkVQ9w6x\\u0026mime_type=video_mp4\\u0026qs=13\\u0026rc=amluZGVvOnhxZTczNDlmM0BpamluZGVvOnhxZTczNDlmM0BtbV5yYWEvbjRhLS1kNC9zYSNtbV5yYWEvbjRhLS1kNC9zcw%3D%3D\\u0026btag=80000e00010000\\u0026dy_q=1791983028\\u0026l=2026101420590855BF0583ECFC6FDE8CC4\\u0026download=true\\u0026filename=v02c76g10004db7nqu27dldbuaakpfpg.mp4\",\"ratio\":null,\"title\":\"\",\"duration\":0,\"width\":1280,\"height\":720,\"cover_preview_url\":null,\"cover_preview_key\":null,\"player_info\":null,\"preview_url_v2\":null,\"unique_id\":null,\"scene_segment\":null,\"pippit_asset_id\":null,\"extra\":null},\"gif_url\":null,\"living_photo_url\":null,\"task_id\":null,\"error_message\":null,\"error_code\":null}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": "12325386470156",
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"15秒历\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"史微短片已生成完\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"成。全片按你的脚本逐字呈现：老石\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"匠提灯步入暗蓝大殿、四十扇拱窗金边泛起、光柱倾泻、老人剪影仰望穹\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"顶定格。全程一次性整段生成，无拆分拼接，16:9画幅，无字幕无水印。\\n\\n下一步你可以：\\n1. 满意则结束\\n2. 修改某个画面段落\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"或动作重新生成\\n3. 换个风格或色调重新做一版\",\"done\":true,\"is_final_answer\":true}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12324011980812",
+      "role": "assistant",
+      "content": []
+    }
+  ]
+}

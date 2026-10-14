@@ -1,237 +1,245 @@
 {
-  "policy": {
-    "max_generations_per_day": 2,
-    "monthly_note": "订阅积分额度以小云雀后台为准，本台账只记次数；达到每日上限停止自动生成",
-    "updated_at": "2026-08-22",
-    "credit_policy": {
-      "updated_at": "2026-10-12（按积分页实测修订）",
-      "monthly_grant": 2320,
-      "daily_gift": 66,
-      "reset": "订阅分按账期清零（11日至11日）；每日分当日 23:59 清零",
-      "prices": {
-        "sd20_720p_per_s": 6,
-        "sd25_720p_per_s": 20
-      },
-      "per_video": {
-        "sd20_15s": 90,
-        "sd25_15s": 300,
-        "sd25_30s": 600
-      },
-      "upgrade_quota_per_month": 6,
-      "note": "v1.7 修订：真实数 2320+66/日（当日清零）；账期冲刺窗口=每月 6~10 日；9 月实测浪费=订阅清零 997+暂停期每日分损失约 990",
-      "grant_landed_at": "2026-10-11 12:34（实测）"
-    }
-  },
-  "days": {
-    "2026-08-22": {
-      "generations": 1,
-      "jobs": [
-        "2026-08-22-chibi-east-wind/j01"
-      ],
-      "note": "首拍提交成功（尝试1因密钥过期未计费）"
-    },
-    "2026-08-23": {
-      "generations": 1,
-      "jobs": [
-        "2026-08-23-rubicon/j01"
-      ],
-      "note": "首个全自动日，一次提交成功"
-    },
-    "2026-08-24": {
-      "generations": 1,
-      "jobs": [
-        "2026-08-24-dunhuang-cave17/j01"
-      ],
-      "note": "Seedance 2.5 首次实战，一次提交成功"
-    },
-    "2026-08-25": {
-      "generations": 1,
-      "jobs": [
-        "2026-08-25-apollo-hatch/j01"
-      ],
-      "note": "Seedance 2.5 指令第2天重试，后端仍用 seedance2.0_fast_vision；一次提交成功"
-    },
-    "2026-08-26": {
-      "generations": 1,
-      "jobs": [
-        "2026-08-26-pompeii-morning/j01"
-      ],
-      "note": "Seedance 2.5 指令第3天重试，后端仍 seedance2.0_fast_vision；一次提交成功"
-    },
-    "2026-08-27": {
-      "generations": 1,
-      "jobs": [
-        "2026-08-27-terracotta-eye/j01"
-      ],
-      "note": "Seedance 2.5 指令第4天重试；正式审批制首夜（T006 从 approved 池选出）；一次提交成功"
-    },
-    "2026-08-28": {
-      "generations": 1,
-      "jobs": [
-        "2026-08-28-socrates-hemlock/j01"
-      ],
-      "note": "Seedance 2.5 指令第5天重试；T030 为 approved 池内艺术标签唯一可选；一次提交成功"
-    },
-    "2026-08-29": {
-      "generations": 2,
-      "jobs": [
-        "2026-08-29-constantinople-eve/j01",
-        "2026-08-29-constantinople-eve/j02"
-      ],
-      "note": "j01 评 8.0 触发系列首次重拍（宣礼塔穿帮 L-009）；j02 加强约束重提，额度 2/2 用满"
-    },
-    "2026-08-30": {
-      "generations": 1,
-      "jobs": [
-        "2026-08-30-bodhi-dawn/j01"
-      ],
-      "note": "2.5 直连定位实验：Plan B 直连提交成功，后端接受（是否真用 2.5 待成片判定）"
-    },
-    "2026-08-31": {
-      "generations": 1,
-      "jobs": [
-        "2026-08-31-viking-fog/j01"
-      ],
-      "note": "v1.5 通道首夜：主链路无模型行（fast_vision 720p）；一次提交成功"
-    },
-    "2026-09-01": {
-      "generations": 1,
-      "jobs": [
-        "2026-09-01-pyramid-capstone/j01"
-      ],
-      "note": "T035 营造标签首作；主链路无模型行一次提交成功"
-    },
-    "2026-09-02": {
-      "generations": 2,
-      "jobs": [
-        "2026-09-02-iceberg-watch/j01",
-        "2026-09-02-iceberg-watch/j02"
-      ],
-      "note": "j01 被平台版权拦截（新失败类型）；j02 修正指向性元素重提，额度 2/2 用满"
-    },
-    "2026-09-03": {
-      "generations": 1,
-      "jobs": [
-        "2026-09-03-cajamarca-curtain/j01"
-      ],
-      "note": "T039 文明交汇首作（周日 Learning 提名首题兑现）；一次提交成功"
-    },
-    "2026-09-04": {
-      "generations": 1,
-      "jobs": [
-        "2026-09-04-gutenberg-press/j01"
-      ],
-      "note": "T015 科技第二作；v1.6 预防句；一次提交成功"
-    },
-    "2026-09-05": {
-      "generations": 1,
-      "jobs": [
-        "2026-09-05-bastille-hammer/j01"
-      ],
-      "note": "补跑夜（21:00 cron 未派发而宿主在线，平台一次性故障）；T019 政治转折首题；一次提交成功"
-    },
-    "2026-09-06": {
-      "generations": 1,
-      "jobs": [
-        "2026-09-06-beacon-torch/j01"
-      ],
-      "note": "补跑夜（cron 派发被『历史 session 模型不可用』拒绝，人工会话补跑）；脚本路径迁至 .zcode；一次提交成功"
-    },
-    "2026-09-07": {
-      "generations": 1,
-      "jobs": [
-        "2026-09-07-longchang-vigil/j01"
-      ],
-      "note": "重建自动化（automation-b0fb692d）首次夜间触发；T041 思想标签第二作；一次提交成功"
-    },
-    "2026-09-08": {
-      "generations": 1,
-      "jobs": [
-        "2026-09-08-equinox-serpent/j01"
-      ],
-      "note": "T044 营造第二作；系列首个『转折=光学现象』夜；一次提交成功"
-    },
-    "2026-09-09": {
-      "generations": 1,
-      "jobs": [
-        "2026-09-09-nalanda-dawn/j01"
-      ],
-      "note": "T017 探索发现第二作；一次提交成功"
-    },
-    "2026-09-10": {
-      "generations": 1,
-      "jobs": [
-        "2026-09-10-dunhuang-lanterns/j01"
-      ],
-      "note": "T007 文明交汇第二作；种子批最后一条未用选题兑现；一次提交成功"
-    },
-    "2026-09-11": {
-      "generations": 1,
-      "jobs": [
-        "2026-09-11-hypatia-astrolabe/j01"
-      ],
-      "note": "T043 科技第三作；W36 提名首题兑现；系列首部女性主角；一次提交成功"
-    },
-    "2026-09-12": {
-      "generations": 1,
-      "jobs": [
-        "2026-09-12-murasaki-lamp/j01"
-      ],
-      "note": "T042 艺术第二作；基线 2.0（90 分）；初选 T026 被标签窗拦截回滚（科技锁至 09-18）"
-    },
-    "2026-09-13": {
-      "generations": 1,
-      "jobs": [
-        "2026-09-13-zhangqian-staff/j01"
-      ],
-      "note": "T021 政治转折第二作；基线 2.0（90 分）；一次提交成功"
-    },
-    "2026-09-14": {
-      "generations": 1,
-      "jobs": [
-        "2026-09-14-sf-512/j01"
-      ],
-      "note": "T047 灾难标签首作（W37 提名首批）；2.5 质量夜首夜——直连被 CLI 版本阻塞回退主链路+指令行，实际模型待核实后记账"
-    },
-    "2026-09-15": {
-      "generations": 1,
-      "jobs": [
-        "2026-09-15-dujiangyan-release/j01"
-      ],
-      "note": "T036 营造第二作；质量夜回退基线 2.0（直连 1.0.22 仍契约不匹配）"
-    },
-    "2026-10-12": {
-      "generations": 3,
-      "jobs": [
-        "2026-10-12-marathon-final-mile/j01"
-      ],
-      "note": "T045 战争首作（R-104a 模板B验证之一）；正式提交 1 次 2.0/15s=90 分；另有 2 次 urllib 提交报 RemoteDisconnected 但服务器端实际建单成功（23:40:29/23:40:45，完整版 prompt，各 90 分，浪费）；1 次 curl 诊断性截断提交（23:40:56，未生成视频）；合计实耗 270 分。教训见 submit_once 机制。"
-    },
-    "2026-10-13": {
-      "generations": 1,
-      "jobs": [
-        "2026-10-13-kittyhawk-wind/j01"
-      ],
-      "note": "T028 杀魔丘（科技）；基线 2.0/15s=90 分；质量夜直连仍阻塞→回退，配额不消耗（0/6）；submit_once.py 修两处本地 bug（REPO_ROOT 少一层/--max-time 整型）后一次提交成功"
-    }
-  },
-  "months": {
-    "2026-09": {
-      "days_elapsed": 15,
-      "generations_so_far": 16,
-      "credits_spent_estimate": 1440,
-      "upgrades_used": 0,
-      "upgrades_quota": 6,
-      "note": "v1.7 生效当日回填；09-24 起未用配额夜自动顺延启用（月末冲刺）"
-    },
-    "2026-10": {
-      "cycle": "2026-10-11 ~ 2026-11-11（账期）",
-      "balance_at_1012": 2386,
-      "generations_so_far": 4,
-      "credits_spent_estimate": 360,
-      "upgrades_used": 0,
-      "upgrades_quota": 6,
-      "note": "订阅 2320 于 10-11 到账+每日 66/天；10-11 暂停期每日分已自然损失；10-12 恢复首夜（Muse 接管端到端跑通），用掉当日 66"
-    }
+ "policy": {
+  "max_generations_per_day": 2,
+  "monthly_note": "订阅积分额度以小云雀后台为准，本台账只记次数；达到每日上限停止自动生成",
+  "updated_at": "2026-08-22",
+  "credit_policy": {
+   "updated_at": "2026-10-12（按积分页实测修订）",
+   "monthly_grant": 2320,
+   "daily_gift": 66,
+   "reset": "订阅分按账期清零（11日至11日）；每日分当日 23:59 清零",
+   "prices": {
+    "sd20_720p_per_s": 6,
+    "sd25_720p_per_s": 20
+   },
+   "per_video": {
+    "sd20_15s": 90,
+    "sd25_15s": 300,
+    "sd25_30s": 600
+   },
+   "upgrade_quota_per_month": 6,
+   "note": "v1.7 修订：真实数 2320+66/日（当日清零）；账期冲刺窗口=每月 6~10 日；9 月实测浪费=订阅清零 997+暂停期每日分损失约 990",
+   "grant_landed_at": "2026-10-11 12:34（实测）"
   }
+ },
+ "days": {
+  "2026-08-22": {
+   "generations": 1,
+   "jobs": [
+    "2026-08-22-chibi-east-wind/j01"
+   ],
+   "note": "首拍提交成功（尝试1因密钥过期未计费）"
+  },
+  "2026-08-23": {
+   "generations": 1,
+   "jobs": [
+    "2026-08-23-rubicon/j01"
+   ],
+   "note": "首个全自动日，一次提交成功"
+  },
+  "2026-08-24": {
+   "generations": 1,
+   "jobs": [
+    "2026-08-24-dunhuang-cave17/j01"
+   ],
+   "note": "Seedance 2.5 首次实战，一次提交成功"
+  },
+  "2026-08-25": {
+   "generations": 1,
+   "jobs": [
+    "2026-08-25-apollo-hatch/j01"
+   ],
+   "note": "Seedance 2.5 指令第2天重试，后端仍用 seedance2.0_fast_vision；一次提交成功"
+  },
+  "2026-08-26": {
+   "generations": 1,
+   "jobs": [
+    "2026-08-26-pompeii-morning/j01"
+   ],
+   "note": "Seedance 2.5 指令第3天重试，后端仍 seedance2.0_fast_vision；一次提交成功"
+  },
+  "2026-08-27": {
+   "generations": 1,
+   "jobs": [
+    "2026-08-27-terracotta-eye/j01"
+   ],
+   "note": "Seedance 2.5 指令第4天重试；正式审批制首夜（T006 从 approved 池选出）；一次提交成功"
+  },
+  "2026-08-28": {
+   "generations": 1,
+   "jobs": [
+    "2026-08-28-socrates-hemlock/j01"
+   ],
+   "note": "Seedance 2.5 指令第5天重试；T030 为 approved 池内艺术标签唯一可选；一次提交成功"
+  },
+  "2026-08-29": {
+   "generations": 2,
+   "jobs": [
+    "2026-08-29-constantinople-eve/j01",
+    "2026-08-29-constantinople-eve/j02"
+   ],
+   "note": "j01 评 8.0 触发系列首次重拍（宣礼塔穿帮 L-009）；j02 加强约束重提，额度 2/2 用满"
+  },
+  "2026-08-30": {
+   "generations": 1,
+   "jobs": [
+    "2026-08-30-bodhi-dawn/j01"
+   ],
+   "note": "2.5 直连定位实验：Plan B 直连提交成功，后端接受（是否真用 2.5 待成片判定）"
+  },
+  "2026-08-31": {
+   "generations": 1,
+   "jobs": [
+    "2026-08-31-viking-fog/j01"
+   ],
+   "note": "v1.5 通道首夜：主链路无模型行（fast_vision 720p）；一次提交成功"
+  },
+  "2026-09-01": {
+   "generations": 1,
+   "jobs": [
+    "2026-09-01-pyramid-capstone/j01"
+   ],
+   "note": "T035 营造标签首作；主链路无模型行一次提交成功"
+  },
+  "2026-09-02": {
+   "generations": 2,
+   "jobs": [
+    "2026-09-02-iceberg-watch/j01",
+    "2026-09-02-iceberg-watch/j02"
+   ],
+   "note": "j01 被平台版权拦截（新失败类型）；j02 修正指向性元素重提，额度 2/2 用满"
+  },
+  "2026-09-03": {
+   "generations": 1,
+   "jobs": [
+    "2026-09-03-cajamarca-curtain/j01"
+   ],
+   "note": "T039 文明交汇首作（周日 Learning 提名首题兑现）；一次提交成功"
+  },
+  "2026-09-04": {
+   "generations": 1,
+   "jobs": [
+    "2026-09-04-gutenberg-press/j01"
+   ],
+   "note": "T015 科技第二作；v1.6 预防句；一次提交成功"
+  },
+  "2026-09-05": {
+   "generations": 1,
+   "jobs": [
+    "2026-09-05-bastille-hammer/j01"
+   ],
+   "note": "补跑夜（21:00 cron 未派发而宿主在线，平台一次性故障）；T019 政治转折首题；一次提交成功"
+  },
+  "2026-09-06": {
+   "generations": 1,
+   "jobs": [
+    "2026-09-06-beacon-torch/j01"
+   ],
+   "note": "补跑夜（cron 派发被『历史 session 模型不可用』拒绝，人工会话补跑）；脚本路径迁至 .zcode；一次提交成功"
+  },
+  "2026-09-07": {
+   "generations": 1,
+   "jobs": [
+    "2026-09-07-longchang-vigil/j01"
+   ],
+   "note": "重建自动化（automation-b0fb692d）首次夜间触发；T041 思想标签第二作；一次提交成功"
+  },
+  "2026-09-08": {
+   "generations": 1,
+   "jobs": [
+    "2026-09-08-equinox-serpent/j01"
+   ],
+   "note": "T044 营造第二作；系列首个『转折=光学现象』夜；一次提交成功"
+  },
+  "2026-09-09": {
+   "generations": 1,
+   "jobs": [
+    "2026-09-09-nalanda-dawn/j01"
+   ],
+   "note": "T017 探索发现第二作；一次提交成功"
+  },
+  "2026-09-10": {
+   "generations": 1,
+   "jobs": [
+    "2026-09-10-dunhuang-lanterns/j01"
+   ],
+   "note": "T007 文明交汇第二作；种子批最后一条未用选题兑现；一次提交成功"
+  },
+  "2026-09-11": {
+   "generations": 1,
+   "jobs": [
+    "2026-09-11-hypatia-astrolabe/j01"
+   ],
+   "note": "T043 科技第三作；W36 提名首题兑现；系列首部女性主角；一次提交成功"
+  },
+  "2026-09-12": {
+   "generations": 1,
+   "jobs": [
+    "2026-09-12-murasaki-lamp/j01"
+   ],
+   "note": "T042 艺术第二作；基线 2.0（90 分）；初选 T026 被标签窗拦截回滚（科技锁至 09-18）"
+  },
+  "2026-09-13": {
+   "generations": 1,
+   "jobs": [
+    "2026-09-13-zhangqian-staff/j01"
+   ],
+   "note": "T021 政治转折第二作；基线 2.0（90 分）；一次提交成功"
+  },
+  "2026-09-14": {
+   "generations": 1,
+   "jobs": [
+    "2026-09-14-sf-512/j01"
+   ],
+   "note": "T047 灾难标签首作（W37 提名首批）；2.5 质量夜首夜——直连被 CLI 版本阻塞回退主链路+指令行，实际模型待核实后记账"
+  },
+  "2026-09-15": {
+   "generations": 1,
+   "jobs": [
+    "2026-09-15-dujiangyan-release/j01"
+   ],
+   "note": "T036 营造第二作；质量夜回退基线 2.0（直连 1.0.22 仍契约不匹配）"
+  },
+  "2026-10-12": {
+   "generations": 3,
+   "jobs": [
+    "2026-10-12-marathon-final-mile/j01"
+   ],
+   "note": "T045 战争首作（R-104a 模板B验证之一）；正式提交 1 次 2.0/15s=90 分；另有 2 次 urllib 提交报 RemoteDisconnected 但服务器端实际建单成功（23:40:29/23:40:45，完整版 prompt，各 90 分，浪费）；1 次 curl 诊断性截断提交（23:40:56，未生成视频）；合计实耗 270 分。教训见 submit_once 机制。"
+  },
+  "2026-10-13": {
+   "generations": 1,
+   "jobs": [
+    "2026-10-13-kittyhawk-wind/j01"
+   ],
+   "note": "T028 杀魔丘（科技）；基线 2.0/15s=90 分；质量夜直连仍阻塞→回退，配额不消耗（0/6）；submit_once.py 修两处本地 bug（REPO_ROOT 少一层/--max-time 整型）后一次提交成功"
+  },
+  "2026-10-14": {
+   "generations": 1,
+   "jobs": [
+    "2026-10-14-hagia-sophia-dawnlight/j01"
+   ],
+   "credit_estimate": 90,
+   "note": "T037 基线 2.0/720p/15s 一次提交成功"
+  }
+ },
+ "months": {
+  "2026-09": {
+   "days_elapsed": 15,
+   "generations_so_far": 16,
+   "credits_spent_estimate": 1440,
+   "upgrades_used": 0,
+   "upgrades_quota": 6,
+   "note": "v1.7 生效当日回填；09-24 起未用配额夜自动顺延启用（月末冲刺）"
+  },
+  "2026-10": {
+   "cycle": "2026-10-11 ~ 2026-11-11（账期）",
+   "balance_at_1012": 2386,
+   "generations_so_far": 5,
+   "credits_spent_estimate": 450,
+   "upgrades_used": 0,
+   "upgrades_quota": 6,
+   "note": "订阅 2320 于 10-11 到账+每日 66/天；10-11 暂停期每日分已自然损失；10-12 恢复首夜（Muse 接管端到端跑通），用掉当日 66"
+  }
+ }
 }

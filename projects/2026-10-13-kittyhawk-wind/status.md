@@ -13,3 +13,7 @@
 - 21:00 scripted：concept.json + script.md + storyboard.json + prompt.txt
 - 21:01 submit_incident：submit_once 两处 bug 定位与修复（未发包）
 - 21:03 prompted → generating：正式提交成功
+
+- **状态**: evaluated（Critic 8.5，建议精选）
+- **评审**: 2026-10-13 21:12；模板 B 第二验证通过（B-002），f09 离地悬空签名帧
+- **发布**: 2026-10-13 21:20；site 重生成（26 夜次）+ publish/channels/2026-10-13 发布包 + GitHub 推送 925fd2f0/9f95f6b5；线上 scene.huangzuomin.com 已见第 27 夜

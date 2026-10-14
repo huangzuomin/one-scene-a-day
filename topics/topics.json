@@ -546,7 +546,9 @@
    "pitch": "穹顶天窗开孔的光第一次落到大殿正中，查士丁尼仰头——光斑就停在那里。",
    "source": "ai_weekly",
    "proposed_date": "2026-08-29",
-   "status": "approved"
+   "status": "used",
+   "used_date": "2026-10-14",
+   "project": "2026-10-14-hagia-sophia-dawnlight"
   },
   {
    "id": "T038",
