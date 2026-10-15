@@ -1,0 +1,465 @@
+---poll1 20:59:36
+
+---poll1 EC=1 20:59:49
+s/xyq/get_thread.py", line 45, in main
+    run = get_thread(args.thread_id, run_id=args.run_id, after_seq=args.after_seq)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/one-scene-a-day/tools/xyq/xyq_common.py", line 109, in get_thread
+    resp = api_post(GET_THREAD_PATH, body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/one-scene-a-day/tools/xyq/xyq_common.py", line 42, in api_post
+    return json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 500, in read
+    s = self._safe_read(self.length)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 650, in _safe_read
+    raise IncompleteRead(data, amt - len(data))
+http.client.IncompleteRead: IncompleteRead(20021 bytes read, 3720 more expected)
+---poll1 EC=1 20:59:58
+s/xyq/get_thread.py", line 45, in main
+    run = get_thread(args.thread_id, run_id=args.run_id, after_seq=args.after_seq)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/one-scene-a-day/tools/xyq/xyq_common.py", line 109, in get_thread
+    resp = api_post(GET_THREAD_PATH, body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/one-scene-a-day/tools/xyq/xyq_common.py", line 42, in api_post
+    return json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 500, in read
+    s = self._safe_read(self.length)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 650, in _safe_read
+    raise IncompleteRead(data, amt - len(data))
+http.client.IncompleteRead: IncompleteRead(2357 bytes read, 22438 more expected)
+---poll2 EC=1 21:00:15
+ile "/usr/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 1348, in do_open
+    r = h.getresponse()
+        ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 1457, in getresponse
+    response.begin()
+  File "/usr/lib/python3.12/http/client.py", line 336, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 305, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+---poll3 EC=0 21:00:32
+_01.mp4\\\", \\\"Prompt\\\": \\\"\\\"}\",\"extra\":\"{\\\"display_name\\\":\\\"生成视频\\\",\\\"loadingText\\\":\\\"正在生成视频...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12393784779788",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_artifact_slots_part",
+          "data": "{\"slots\":[{\"artifact_id\":\"12393784794892\",\"ratio\":\"16:9\",\"type\":\"video\"}]}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    }
+  ]
+}
+---poll4 EC=1 21:00:58
+s/xyq/get_thread.py", line 45, in main
+    run = get_thread(args.thread_id, run_id=args.run_id, after_seq=args.after_seq)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/one-scene-a-day/tools/xyq/xyq_common.py", line 109, in get_thread
+    resp = api_post(GET_THREAD_PATH, body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/one-scene-a-day/tools/xyq/xyq_common.py", line 42, in api_post
+    return json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 500, in read
+    s = self._safe_read(self.length)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 650, in _safe_read
+    raise IncompleteRead(data, amt - len(data))
+http.client.IncompleteRead: IncompleteRead(2537 bytes read, 22258 more expected)
+---poll5 EC=0 21:01:14
+_01.mp4\\\", \\\"Prompt\\\": \\\"\\\"}\",\"extra\":\"{\\\"display_name\\\":\\\"生成视频\\\",\\\"loadingText\\\":\\\"正在生成视频...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12393784779788",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_artifact_slots_part",
+          "data": "{\"slots\":[{\"artifact_id\":\"12393784794892\",\"ratio\":\"16:9\",\"type\":\"video\"}]}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    }
+  ]
+}
+---poll6 EC=1 21:01:42
+/xyq/get_thread.py", line 45, in main
+    run = get_thread(args.thread_id, run_id=args.run_id, after_seq=args.after_seq)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/one-scene-a-day/tools/xyq/xyq_common.py", line 109, in get_thread
+    resp = api_post(GET_THREAD_PATH, body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/one-scene-a-day/tools/xyq/xyq_common.py", line 42, in api_post
+    return json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 500, in read
+    s = self._safe_read(self.length)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 650, in _safe_read
+    raise IncompleteRead(data, amt - len(data))
+http.client.IncompleteRead: IncompleteRead(12897 bytes read, 11898 more expected)
+---poll7 EC=1 21:01:58
+ile "/usr/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 1348, in do_open
+    r = h.getresponse()
+        ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 1457, in getresponse
+    response.begin()
+  File "/usr/lib/python3.12/http/client.py", line 336, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 305, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+---poll8 EC=0 21:02:14
+_01.mp4\\\", \\\"Prompt\\\": \\\"\\\"}\",\"extra\":\"{\\\"display_name\\\":\\\"生成视频\\\",\\\"loadingText\\\":\\\"正在生成视频...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12393784779788",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_artifact_slots_part",
+          "data": "{\"slots\":[{\"artifact_id\":\"12393784794892\",\"ratio\":\"16:9\",\"type\":\"video\"}]}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    }
+  ]
+}
+---poll9 EC=1 21:02:41
+/xyq/get_thread.py", line 45, in main
+    run = get_thread(args.thread_id, run_id=args.run_id, after_seq=args.after_seq)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/one-scene-a-day/tools/xyq/xyq_common.py", line 109, in get_thread
+    resp = api_post(GET_THREAD_PATH, body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/one-scene-a-day/tools/xyq/xyq_common.py", line 42, in api_post
+    return json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 500, in read
+    s = self._safe_read(self.length)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 650, in _safe_read
+    raise IncompleteRead(data, amt - len(data))
+http.client.IncompleteRead: IncompleteRead(13497 bytes read, 11298 more expected)
+---poll10 EC=1 21:02:57
+/xyq/get_thread.py", line 45, in main
+    run = get_thread(args.thread_id, run_id=args.run_id, after_seq=args.after_seq)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/one-scene-a-day/tools/xyq/xyq_common.py", line 109, in get_thread
+    resp = api_post(GET_THREAD_PATH, body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/one-scene-a-day/tools/xyq/xyq_common.py", line 42, in api_post
+    return json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 500, in read
+    s = self._safe_read(self.length)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 650, in _safe_read
+    raise IncompleteRead(data, amt - len(data))
+http.client.IncompleteRead: IncompleteRead(13497 bytes read, 11298 more expected)
+---poll11 EC=1 21:03:13
+/xyq/get_thread.py", line 45, in main
+    run = get_thread(args.thread_id, run_id=args.run_id, after_seq=args.after_seq)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/one-scene-a-day/tools/xyq/xyq_common.py", line 109, in get_thread
+    resp = api_post(GET_THREAD_PATH, body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/one-scene-a-day/tools/xyq/xyq_common.py", line 42, in api_post
+    return json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 500, in read
+    s = self._safe_read(self.length)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 650, in _safe_read
+    raise IncompleteRead(data, amt - len(data))
+http.client.IncompleteRead: IncompleteRead(13497 bytes read, 11298 more expected)
+---poll12 EC=1 21:03:30
+ile "/usr/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 1348, in do_open
+    r = h.getresponse()
+        ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 1457, in getresponse
+    response.begin()
+  File "/usr/lib/python3.12/http/client.py", line 336, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 305, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+---poll13 EC=1 21:03:46
+/xyq/get_thread.py", line 45, in main
+    run = get_thread(args.thread_id, run_id=args.run_id, after_seq=args.after_seq)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/one-scene-a-day/tools/xyq/xyq_common.py", line 109, in get_thread
+    resp = api_post(GET_THREAD_PATH, body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/one-scene-a-day/tools/xyq/xyq_common.py", line 42, in api_post
+    return json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 500, in read
+    s = self._safe_read(self.length)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 650, in _safe_read
+    raise IncompleteRead(data, amt - len(data))
+http.client.IncompleteRead: IncompleteRead(14600 bytes read, 10195 more expected)
+---poll14 EC=1 21:04:02
+/xyq/get_thread.py", line 45, in main
+    run = get_thread(args.thread_id, run_id=args.run_id, after_seq=args.after_seq)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/one-scene-a-day/tools/xyq/xyq_common.py", line 109, in get_thread
+    resp = api_post(GET_THREAD_PATH, body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/one-scene-a-day/tools/xyq/xyq_common.py", line 42, in api_post
+    return json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 500, in read
+    s = self._safe_read(self.length)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 650, in _safe_read
+    raise IncompleteRead(data, amt - len(data))
+http.client.IncompleteRead: IncompleteRead(14600 bytes read, 10195 more expected)
+---poll15 EC=1 21:04:19
+/xyq/get_thread.py", line 45, in main
+    run = get_thread(args.thread_id, run_id=args.run_id, after_seq=args.after_seq)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/one-scene-a-day/tools/xyq/xyq_common.py", line 109, in get_thread
+    resp = api_post(GET_THREAD_PATH, body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/one-scene-a-day/tools/xyq/xyq_common.py", line 42, in api_post
+    return json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 500, in read
+    s = self._safe_read(self.length)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 650, in _safe_read
+    raise IncompleteRead(data, amt - len(data))
+http.client.IncompleteRead: IncompleteRead(21661 bytes read, 12286 more expected)
+---poll16 EC=1 21:04:35
+/xyq/get_thread.py", line 45, in main
+    run = get_thread(args.thread_id, run_id=args.run_id, after_seq=args.after_seq)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/one-scene-a-day/tools/xyq/xyq_common.py", line 109, in get_thread
+    resp = api_post(GET_THREAD_PATH, body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/one-scene-a-day/tools/xyq/xyq_common.py", line 42, in api_post
+    return json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 500, in read
+    s = self._safe_read(self.length)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 650, in _safe_read
+    raise IncompleteRead(data, amt - len(data))
+http.client.IncompleteRead: IncompleteRead(14807 bytes read, 23252 more expected)
+---poll17 EC=1 21:04:51
+ile "/usr/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 1348, in do_open
+    r = h.getresponse()
+        ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 1457, in getresponse
+    response.begin()
+  File "/usr/lib/python3.12/http/client.py", line 336, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 305, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+---poll18 EC=1 21:05:08
+ile "/usr/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 1348, in do_open
+    r = h.getresponse()
+        ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 1457, in getresponse
+    response.begin()
+  File "/usr/lib/python3.12/http/client.py", line 336, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 305, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+---poll19 EC=1 21:05:24
+s/xyq/get_thread.py", line 45, in main
+    run = get_thread(args.thread_id, run_id=args.run_id, after_seq=args.after_seq)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/one-scene-a-day/tools/xyq/xyq_common.py", line 109, in get_thread
+    resp = api_post(GET_THREAD_PATH, body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/one-scene-a-day/tools/xyq/xyq_common.py", line 42, in api_post
+    return json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 500, in read
+    s = self._safe_read(self.length)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 650, in _safe_read
+    raise IncompleteRead(data, amt - len(data))
+http.client.IncompleteRead: IncompleteRead(2537 bytes read, 35522 more expected)
+---poll20 EC=1 21:05:40
+/xyq/get_thread.py", line 45, in main
+    run = get_thread(args.thread_id, run_id=args.run_id, after_seq=args.after_seq)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/one-scene-a-day/tools/xyq/xyq_common.py", line 109, in get_thread
+    resp = api_post(GET_THREAD_PATH, body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/one-scene-a-day/tools/xyq/xyq_common.py", line 42, in api_post
+    return json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 500, in read
+    s = self._safe_read(self.length)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 650, in _safe_read
+    raise IncompleteRead(data, amt - len(data))
+http.client.IncompleteRead: IncompleteRead(14867 bytes read, 23192 more expected)
+---poll21 EC=1 21:05:56
+ile "/usr/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 1348, in do_open
+    r = h.getresponse()
+        ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 1457, in getresponse
+    response.begin()
+  File "/usr/lib/python3.12/http/client.py", line 336, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 305, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+---poll22 EC=1 21:06:15
+/xyq/get_thread.py", line 45, in main
+    run = get_thread(args.thread_id, run_id=args.run_id, after_seq=args.after_seq)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/one-scene-a-day/tools/xyq/xyq_common.py", line 109, in get_thread
+    resp = api_post(GET_THREAD_PATH, body)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hatch/workspace/one-scene-a-day/tools/xyq/xyq_common.py", line 42, in api_post
+    return json.loads(resp.read().decode("utf-8"))
+                      ^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 500, in read
+    s = self._safe_read(self.length)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/http/client.py", line 650, in _safe_read
+    raise IncompleteRead(data, amt - len(data))
+http.client.IncompleteRead: IncompleteRead(14599 bytes read, 23460 more expected)
+---poll23 EC=0 21:06:31
+     "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12393784779788",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"\\n\\n你可以：\\n1. 满意则结束\\n2. 修改某个镜头的画面或动作重新生成\\n3. 换个风格或色调再试一版\",\"done\":true,\"is_final_answer\":true}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12393784779788",
+      "role": "assistant",
+      "content": []
+    }
+  ]
+}

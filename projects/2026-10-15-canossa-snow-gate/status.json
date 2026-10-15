@@ -1,0 +1,47 @@
+{
+ "date": "2026-10-15",
+ "day_no": 29,
+ "project": "2026-10-15-canossa-snow-gate",
+ "series": "如果历史有镜头",
+ "title": "卡诺莎的雪门",
+ "topic_id": "T049",
+ "status": "evaluated",
+ "model_plan": "seedance2.0_fast_vision（主链路，720p/15s，基线夜 90 分；质量夜触发（recommend=高 且 potential≥8，配额 0/6 <3）但 VM 无 pippit-tool-cli、直连 2.5 平台契约仍阻塞 → 回退基线 2.0，配额不消耗）",
+ "history": [
+  {
+   "time": "2026-10-15 21:00",
+   "step": "idea",
+   "note": "选题 T049（政治转折）。七日窗实测：2026-10-08~10-14 仅 10-12 战争/10-13 科技/10-14 营造占用，锁；p8/高 候选 T048/T049 均在窗外。T049 获胜：Rule-509 雪夜×门缝烛光配方直载 + Rule-508 光学转折（门缝开光）+ 欧洲中世纪地域首作；政治转折上次 09-13（32天）。"
+  },
+  {
+   "time": "2026-10-15 21:00",
+   "step": "researched",
+   "note": "research.md：卡诺莎/赤足三日/1077 A 全；苦衣形制/开门落点 B；Rule-505 第二层图案自检（罗曼式拱/粗糙方石/禁哥特尖拱/禁十字军纹章）。"
+  },
+  {
+   "time": "2026-10-15 21:00",
+   "step": "scripted",
+   "note": "concept.json（模板A静观四拍）+ script.md（R-105 诊断，门开前静持+3s 收束 hold）+ storyboard.json（5 beats，转折 7-10s 光缝）+ prompt.txt（R-303 身份锁双重重复+R-401+v1.6 预防句）落盘。"
+  },
+  {
+   "time": "2026-10-15 21:00",
+   "step": "budget_check",
+   "note": "台账当日 generations=0<2，可提交；密钥文件存在（0600）。"
+  },
+  {
+   "time": "2026-10-15 21:05",
+   "step": "submitted",
+   "note": "submit_once.py 一次调用 SUCCESS：thread=skill_3d278088-5661-4939-b4a1-6932a117682c run=skill_74335b2e-c0b3-4faa-bba6-5fb6d841b270；台账 90 分"
+  },
+  {
+   "time": "2026-10-15 21:20",
+   "step": "generated",
+   "note": "成片下载完成 8.4MB（15.1s/720p）；已复制为 video.mp4；抽帧 16 张"
+  },
+  {
+   "time": "2026-10-15 21:30",
+   "step": "evaluated",
+   "note": "Critic 8.75 建议精选；Rule-501/508/509 三重复现；门拱略尖为唯一微瑕（L-canossa-01 入库）；L-009 先验零泄漏；f15 签名帧「赤足踏光」"
+  }
+ ]
+}

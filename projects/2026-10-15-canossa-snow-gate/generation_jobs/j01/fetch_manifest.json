@@ -1,0 +1,10 @@
+{
+ "urls": [
+  "https://v11-xyq-video.jianying.com/b6f9ed74c98303751accb6247a521688/6bbe1d5b/video/n/everphoto-jianying-assets/67e531a914e248a9bb9e185b6a891b49/?a=795647\\&ch=0\\&cr=0\\&dr=0\\&cd=0%7C0%7C0%7C0\\&br=4365\\&bt=4365\\&cs=0\\&ds=3\\&ft=TLtriUeR_yygZmo0PeB_ngkVQ9w6x\\&mime_type=video_mp4\\&qs=13\\&rc=anNvaDpvOjdmZTczNDlmM0BpanNvaDpvOjdmZTczNDlmM0ByZm8tYWFecjVhLS1kNGFzYSNyZm8tYWFecjVhLS1kNGFzcw%3D%3D\\&btag=80000e00010000\\&dy_q=1792069452\\&l=20261015205913AB07828FBF00E87372A8\\&download=true\\&filename=v0dc76g10004db8cu4a7dld70erlipug.mp4\\"
+ ],
+ "local": "generation_jobs/j01/video_01.mp4",
+ "video": "video.mp4",
+ "duration": 15.104,
+ "resolution": "1280x720",
+ "note": "首轮 download_results.py 产物截断（moov 缺失，代理截断）；curl 重下载 8.4MB 完整文件后覆盖 video.mp4"
+}

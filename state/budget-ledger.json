@@ -221,6 +221,14 @@
    ],
    "credit_estimate": 90,
    "note": "T037 基线 2.0/720p/15s 一次提交成功"
+  },
+  "2026-10-15": {
+   "generations": 1,
+   "jobs": [
+    "2026-10-15-canossa-snow-gate/j01"
+   ],
+   "credit_estimate": 90,
+   "note": "T049 卡诺莎的雪门（政治转折）；基线 2.0/15s=90 分；质量夜直连仍阻塞→回退，配额不消耗（0/6）"
   }
  },
  "months": {
@@ -235,8 +243,8 @@
   "2026-10": {
    "cycle": "2026-10-11 ~ 2026-11-11（账期）",
    "balance_at_1012": 2386,
-   "generations_so_far": 5,
-   "credits_spent_estimate": 450,
+   "generations_so_far": 6,
+   "credits_spent_estimate": 540,
    "upgrades_used": 0,
    "upgrades_quota": 6,
    "note": "订阅 2320 于 10-11 到账+每日 66/天；10-11 暂停期每日分已自然损失；10-12 恢复首夜（Muse 接管端到端跑通），用掉当日 66"
