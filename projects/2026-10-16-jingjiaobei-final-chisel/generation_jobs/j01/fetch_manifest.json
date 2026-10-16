@@ -1,0 +1,10 @@
+{
+ "urls": [
+  "https://v11-xyq-video.jianying.com/a768c1c51436e4af536492f431ef86b8/6bbf6ec3/video/n/everphoto-jianying-assets/c7c6f12615774467a76bcc54f928f9a4/?a=795647&ch=0&cr=0&dr=0&cd=0%7C0%7C0%7C0&br=4417&bt=4417&cs=0&ds=3&ft=TLtriUeR_yygZmo0P3DxngkVQ9w6x&mime_type=video_mp4&qs=13&rc=MzRxajpvOnE1ZTczNDlmM0BpMzRxajpvOnE1ZTczNDlmM0BeY2VkYWFuLTZhLS1kNC9zYSNeY2VkYWFuLTZhLS1kNC9zcw%3D%3D&btag=80000e00010000&dy_q=1792155828&l=202610162058588DD22F6E2E00C7615004&download=true&filename=v02c76g10004db920nq7dld7gghnf1a0.mp4"
+ ],
+ "local": "generation_jobs/j01/video_01.mp4",
+ "video": "video.mp4",
+ "duration": 15.104,
+ "resolution": "1280x720",
+ "note": "curl 一次下载完整 8.5MB，无截断"
+}

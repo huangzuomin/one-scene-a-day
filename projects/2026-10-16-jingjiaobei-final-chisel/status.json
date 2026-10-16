@@ -1,0 +1,47 @@
+{
+ "date": "2026-10-16",
+ "day_no": 30,
+ "history": [
+  {
+   "note": "选题 T048（文明交汇，距上次用 09-10 已36天）。七日窗实测：10-09~10-15 占用标签=战争/科技/营造/政治转折；T048 p8/高=池内最高潜力且在窗外。昨晚明晚预告首位。Rule-508 光学转折家族（门缝光→尘埃光束照十字架）+ Rule-509 冷暖配方直载。",
+   "step": "idea",
+   "time": "2026-10-16 21:05"
+  },
+  {
+   "note": "research.md：景教碑 781 A 全（景净撰文/吕秀岩书丹/635 阿罗本/2.36米青石/碑额等臂十字+莲台/1623出土/现存碑林）；书丹后刻工镌刻 B；吕秀岩亲手收尾为 C 艺术设定。Rule-505 自检（禁哥特尖拱/拉丁长竖十字/阿拉伯纹）+ Rule-507 十字架指名清单。",
+   "step": "researched",
+   "time": "2026-10-16 21:06"
+  },
+  {
+   "note": "concept.json（模板A静观四拍，能量判定=安静观察/情绪领悟；R-104a 非照抄）+ script.md（R-105 诊断，锤落前1s悬停，收束 hold≥2.5s）+ storyboard.json（5 beats，转折 6.5-10s 尘埃光束照十字架）+ prompt.txt（R-303 身份锁固定+R-401+v1.6 预防句）落盘。",
+   "step": "scripted",
+   "time": "2026-10-16 21:10"
+  },
+  {
+   "note": "台账当日 generations=0<2，可提交。质量夜判定：T048 recommend=高且potential≥8、配额0/6<3 → 触发优先(a)成立；但 VM 无 pippit-tool-cli、直连 2.5 平台契约仍阻塞 → 回退基线 2.0/720p/15s，配额不消耗（0/6）。密钥文件存在（0600）。",
+   "step": "budget_check",
+   "time": "2026-10-16 21:10"
+  },
+  {
+   "time": "2026-10-16 21:15",
+   "step": "submitted",
+   "note": "submit_once.py 一次调用 SUCCESS：thread=skill_4dee7fcd-f06b-4b7c-89b2-d3d9db54e3bd run=skill_cf932200-cbdb-43ba-bc6c-2a1f369e707d；台账 90 分"
+  },
+  {
+   "time": "2026-10-16 21:22",
+   "step": "generated",
+   "note": "成片下载完成 8.5MB（15.1s/720p），curl 一次完整无截断；已复制为 video.mp4；抽帧 16 张"
+  },
+  {
+   "time": "2026-10-16 21:30",
+   "step": "evaluated",
+   "note": "Critic 八维 8.7（视觉9/人物9/时代8/镜头9/故事9/情绪8.5/创意8/发布9），建议精选；转折帧 f08 Rule-508 第四样本；微瑕 L-jingjiaobei-01（终帧十字架纵臂轻微拉丁化）"
+  }
+ ],
+ "model_plan": "seedance2.0_fast_vision（主链路，720p/15s，基线夜 90 分；质量夜触发（a）但直连 2.5 阻塞 → 回退基线，配额不消耗）",
+ "project": "2026-10-16-jingjiaobei-final-chisel",
+ "series": "如果历史有镜头",
+ "status": "evaluated",
+ "title": "景教碑的最后一凿",
+ "topic_id": "T048"
+}

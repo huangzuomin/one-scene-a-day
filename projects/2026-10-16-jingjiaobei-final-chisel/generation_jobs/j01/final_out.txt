@@ -1,0 +1,345 @@
+{
+  "messages": [
+    {
+      "id": "12448227425804",
+      "role": "user",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_prompt_text",
+          "data": "{\"content\":\"冬日午后，长安碑林的廊下。青灰色的冬日光线里，一座两米多高的青石灰巨碑静静立着——这就是唐建中二年（781年）的大秦景教流行中国碑，碑额上新近凿出的十字架还带着新鲜的石色：等臂的十字立于仰莲座上，臂端饰着云头纹，两侧环绕着唐代卷云纹。\\n\\n书丹者吕秀岩站在碑前。他五十余岁，穿青灰圆领长袍、袖口扎绑，灰白头发挽成发髻，腰间系着布绳；左手扶住冰凉的碑沿，右手握着铁錾，另一只手举起木柄短锤。他没有立刻落下——锤在半空悬停了约一秒，呼吸在冷空气里凝成白气，像把一百五十年传教史都压进了这一錾。\\n\\n锤落。錾尖触石的一瞬，石屑簌簌飞扬。尘埃扬起的同一刻，廊柱间斜射进来的一束暖天光，恰好落在碑额刚刚凿出的十字架上——光尘在光束里悬浮，十字架的刻痕清晰可辨。\\n\\n他退后两步，拄着锤，仰起头，久久望着整座碑。尘埃缓缓沉降，那束光停在十字架上，不动了。\\n\\n全片15秒，16:9画幅。画面色调：冬日青灰为底，一束暖天光为唯一的暖源。主角的面容、青灰长袍、灰白发髻、铁錾与木柄锤全片保持完全一致。碑身刻痕只呈现石材质感与线条走势，不渲染任何可辨认的文字、字幕或符号。镜头之间用自然运动衔接（缓慢推近、拉远），衣物随穿堂风与动作轻微拂动，不要做成静态幻灯片。\\n\\n严格按上述镜头顺序呈现，不要跳过、合并或重排镜头；全程保持主角的面容、服装、体型完全一致；不要在画面中渲染任何文字、字幕、边框、编号或水印；镜头之间用自然运动衔接，不要做成静态幻灯片。\\n\\n这是一次全自动无人值守的创作任务：如需确认任何参数（画面比例、时长、风格等），一律按上述设定直接执行，不要等待确认。必须一次性整段生成全片，禁止拆分为多个镜头分别生成再拼接；全片总时长严格 15 秒，各镜头时长严格按分镜分配。\",\"reference_info_list\":null}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        },
+        {
+          "type": "data",
+          "sub_type": "biz/general_agent_settings",
+          "data": "{\"video_model\":\"seedance2.0_fast_vision\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12449321026060",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"load_skill\",\"tool_id\":\"call_ad3d8ad315ec4770b8d7123f\",\"request_data\":\"{\\\"SkillName\\\":\\\"video_creation\\\"}\",\"extra\":\"{\\\"display_name\\\":\\\"技能学习\\\",\\\"loadingText\\\":\\\"正在学习相关技能...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12449321026060",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"sandbox_read\",\"tool_id\":\"call_5c351faaa8ff4bb2a45a8cf7\",\"request_data\":\"{\\\"Description\\\":\\\"读取单段流程执行规则\\\",\\\"FilePath\\\":\\\"/workspace/.skills/video_creation/refs/workflow/single-segment.md\\\"}\",\"extra\":\"{\\\"display_name\\\":\\\"读取文件\\\",\\\"loadingText\\\":\\\"正在读取文件...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12449321026060",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"脚本完整\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12449321026060",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"且约束明确，按 \",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12449321026060",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"15 秒、16:9 一次性整段生\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12449321026060",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"成。\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12449321026060",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"\",\"done\":true}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12449321026060",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"sandbox_generate_video\",\"tool_id\":\"call_4985dedf8a614969b812ee1b\",\"request_data\":\"{\\\"Duration\\\":15,\\\"OutputPath\\\":\\\"assets/jingjiao_stele/shot_01.mp4\\\",\\\"Prompt\\\":\\\"\\\",\\\"Ratio\\\":\\\"16:9\\\",\\\"UseRunPrompt\\\":true}\",\"extra\":\"{\\\"display_name\\\":\\\"生成视频\\\",\\\"loadingText\\\":\\\"正在生成视频...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12449321026060",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_artifact_slots_part",
+          "data": "{\"slots\":[{\"artifact_id\":\"12449321038604\",\"ratio\":\"16:9\",\"type\":\"video\"}]}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12449321038604",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_video",
+          "data": "{\"video\":{\"asset_id\":\"7697250179708600894\",\"uri\":null,\"metadata\":{\"height\":720,\"width\":1280,\"format\":\"\",\"duration_ms\":15104,\"size\":0,\"bitrate\":0,\"definition\":\"\",\"codec_type\":\"\",\"encoded_type\":\"\",\"file_hash\":\"\",\"md5\":\"\",\"ratio\":\"16:9\",\"title\":null,\"name\":null,\"mime\":\"\"},\"url\":\"https://v11-xyq-video.jianying.com/a768c1c51436e4af536492f431ef86b8/6bbf6ec3/video/n/everphoto-jianying-assets/c7c6f12615774467a76bcc54f928f9a4/?a=795647\\u0026ch=0\\u0026cr=0\\u0026dr=0\\u0026cd=0%7C0%7C0%7C0\\u0026br=4417\\u0026bt=4417\\u0026cs=0\\u0026ds=3\\u0026ft=TLtriUeR_yygZmo0P3DxngkVQ9w6x\\u0026mime_type=video_mp4\\u0026qs=13\\u0026rc=MzRxajpvOnE1ZTczNDlmM0BpMzRxajpvOnE1ZTczNDlmM0BeY2VkYWFuLTZhLS1kNC9zYSNeY2VkYWFuLTZhLS1kNC9zcw%3D%3D\\u0026btag=80000e00010000\\u0026dy_q=1792155828\\u0026l=202610162058588DD22F6E2E00C7615004\\u0026download=true\\u0026filename=v02c76g10004db920nq7dld7gghnf1a0.mp4\",\"caption\":\"{\\n  \\\"video_caption\\\": \\\"这是一段古风剧情类短片，核心内容为一位身着传统服饰的老者在中式古建筑的庭院中，持锤敲击刻有十字纹样的石碑，石碑被敲击后发出光亮，老者见状停下动作，抬头注视石碑。视频整体采用写实的古风画面风格，色调偏冷且带有朦胧的氛围感，画质清晰，场景为带有多根深色立柱的中式传统建筑庭院，氛围庄重肃穆，传递出神秘且略带敬畏的情绪。\\\",\\n  \\\"split_shot_info\\\": \\\"[00:00:00-00:00:04] 画面风格：写实古风；主体：中式古建筑庭院、多根深色立柱、中央石碑；动作：无；镜头变化：镜头缓慢推进，从庭院全景逐渐聚焦到中央石碑；声音：悠远低沉的钟声，伴随轻微的环境回响，无人物对话\\\",\\n  \\\"split_shot_info\\\": \\\"[00:00:04-00:00:07] 画面风格：写实古风；主体：老者、石碑；动作：老者右手持锤举至肩侧，左手扶在石碑上；镜头变化：镜头从庭院全景切换为中景，聚焦老者与石碑；声音：悠远低沉的钟声持续，随后出现一声沉重的金属撞击声，伴随轻微的物体晃动声\\\",\\n  \\\"split_shot_info\\\": \\\"[00:00:07-00:00:10] 画面风格：写实古风；主体：老者、石碑；动作：老者将锤子敲击在石碑的莲花底座位置，石碑被敲击处发出光亮；镜头变化：镜头切换为近景，突出敲击动作与石碑的光亮；声音：悠远低沉的钟声持续，伴随敲击石碑的清脆金属声\\\",\\n  \\\"split_shot_info\\\": \\\"[00:00:10-00:00:14] 画面风格：写实古风；主体：老者、石碑；动作：老者收回锤子，放下手臂，抬头注视石碑；镜头变化：镜头缓慢拉远，展现老者与石碑的整体状态；声音：悠远低沉的钟声持续，伴随轻微的环境回响\\\"\\n}\",\"render_task_id\":\"53159504908\",\"cover_url\":\"https://p5-ex-gddgtc-sign.douyinpic.com/everphoto-jianying-assets/oIIvfavH2IrEgJ0riSRCeksTZlR2q1CdAADKB4~tplv-noop.image?dy_q=1792155828\\u0026l=202610162058588DD22F6E2E00C7615004\\u0026x-expires=1807707843\\u0026x-signature=y%2BVX6oIItbraGq8zGrjZ5U3zwQs%3D\",\"music_meta\":null,\"preview_url\":\"https://v11-xyq-video.jianying.com/7da6fb5df10ec5d5296a448cd77dc42f/6bbf6ec3/video/n/everphoto-jianying-assets/bc34733e3e504f31a016876bf9385580/?a=795647\\u0026ch=0\\u0026cr=0\\u0026dr=0\\u0026cd=0%7C0%7C0%7C0\\u0026br=6285\\u0026bt=6285\\u0026cs=0\\u0026ds=3\\u0026ft=TLtriUeR_yygZmo0P3DxngkVQ9w6x\\u0026mime_type=video_mp4\\u0026qs=13\\u0026rc=M3l3d2VvOmU1ZTczNDlmM0BpM3l3d2VvOmU1ZTczNDlmM0BzaS9xYWEvLjZhLS1kNC9zYSNzaS9xYWEvLjZhLS1kNC9zcw%3D%3D\\u0026btag=80000e00010000\\u0026dy_q=1792155828\\u0026l=202610162058588DD22F6E2E00C7615004\",\"render_task_status\":null,\"draft_key\":null,\"package_id\":null,\"vid\":null,\"render_rsp_map\":{\"disable_edit\":\"1\"},\"download_url\":\"https://v11-xyq-video.jianying.com/a768c1c51436e4af536492f431ef86b8/6bbf6ec3/video/n/everphoto-jianying-assets/c7c6f12615774467a76bcc54f928f9a4/?a=795647\\u0026ch=0\\u0026cr=0\\u0026dr=0\\u0026cd=0%7C0%7C0%7C0\\u0026br=4417\\u0026bt=4417\\u0026cs=0\\u0026ds=3\\u0026ft=TLtriUeR_yygZmo0P3DxngkVQ9w6x\\u0026mime_type=video_mp4\\u0026qs=13\\u0026rc=MzRxajpvOnE1ZTczNDlmM0BpMzRxajpvOnE1ZTczNDlmM0BeY2VkYWFuLTZhLS1kNC9zYSNeY2VkYWFuLTZhLS1kNC9zcw%3D%3D\\u0026btag=80000e00010000\\u0026dy_q=1792155828\\u0026l=202610162058588DD22F6E2E00C7615004\\u0026download=true\\u0026filename=v02c76g10004db920nq7dld7gghnf1a0.mp4\",\"ratio\":null,\"title\":\"\",\"duration\":0,\"width\":1280,\"height\":720,\"cover_preview_url\":null,\"cover_preview_key\":null,\"player_info\":null,\"preview_url_v2\":null,\"unique_id\":null,\"scene_segment\":null,\"pippit_asset_id\":null,\"extra\":null},\"gif_url\":null,\"living_photo_url\":null,\"task_id\":null,\"error_message\":null,\"error_code\":null}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": "12451238637068",
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12449321026060",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"sandbox_bash\",\"tool_id\":\"call_ab3df9cfc29d4790af7eb3d4\",\"request_data\":\"{\\\"Command\\\":\\\"ls -la assets/jingjiao_stele/\\\",\\\"Description\\\":\\\"确认成片文件存在\\\"}\",\"extra\":\"{\\\"display_name\\\":\\\"执行命令\\\",\\\"loadingText\\\":\\\"正在执行命令...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12449321026060",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"成片已生\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12449321026060",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"成，15 秒、1\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12449321026060",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"6:9，按你的脚本顺序一次性整段\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12449321026060",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"完成：锤悬一秒、落錾扬尘、暖光落上十字架、退后仰望收尾，全\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12449321026060",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"片青灰底色配单一天光暖源。\\n\\n后续如需调整：①满意则结束 ②修改某处\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12449321026060",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"画面或动作 ③换个风格或色调重做一版。\",\"done\":true,\"is_final_answer\":true}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12449321026060",
+      "role": "assistant",
+      "content": []
+    }
+  ]
+}
