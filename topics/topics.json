@@ -468,7 +468,10 @@
    "pitch": "焚书的诏令到了，老儒把最后一卷竹简塞进墙洞，抹上泥——字比墙活得久。",
    "source": "ai_weekly",
    "proposed_date": "2026-08-29",
-   "status": "approved"
+   "status": "used",
+   "used_date": "2026-10-17",
+   "project": "2026-10-17-fusheng-book-wall",
+   "result": "生成中（第31夜）"
   },
   {
    "id": "T033",
