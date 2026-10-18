@@ -1,0 +1,50 @@
+{"time": "2026-10-18T12:59:02", "poll": 1, "exit": 0, "stderr": "", "stdout_len": 12589}
+{"time": "2026-10-18T13:00:03", "poll": 2, "exit": 0, "stderr": "", "stdout_len": 12589}
+{"time": "2026-10-18T13:01:05", "poll": 3, "exit": 0, "stderr": "", "stdout_len": 16506}
+{"time": "2026-10-18T13:02:06", "poll": 4, "exit": 0, "stderr": "", "stdout_len": 25762}
+{"time": "2026-10-18T13:03:08", "poll": 5, "exit": 0, "stderr": "", "stdout_len": 25762}
+{"time": "2026-10-18T13:04:10", "poll": 6, "exit": 0, "stderr": "", "stdout_len": 25762}
+{"time": "2026-10-18T13:05:12", "poll": 7, "exit": 0, "stderr": "", "stdout_len": 25762}
+{"time": "2026-10-18T13:06:14", "poll": 8, "exit": 0, "stderr": "", "stdout_len": 25762}
+{"time": "2026-10-18T13:07:15", "poll": 9, "exit": 0, "stderr": "", "stdout_len": 25762}
+{"time": "2026-10-18T13:08:17", "poll": 10, "exit": 0, "stderr": "", "stdout_len": 25762}
+{"time": "2026-10-18T13:09:19", "poll": 11, "exit": 0, "stderr": "", "stdout_len": 25762}
+{"time": "2026-10-18T13:10:21", "poll": 12, "exit": 0, "stderr": "", "stdout_len": 25762}
+{"time": "2026-10-18T13:11:23", "poll": 13, "exit": 0, "stderr": "", "stdout_len": 25762}
+{"time": "2026-10-18T13:12:26", "poll": 14, "exit": 0, "stderr": "", "stdout_len": 25762}
+{"time": "2026-10-18T13:13:27", "poll": 15, "exit": 0, "stderr": "", "stdout_len": 25762}
+{"time": "2026-10-18T13:14:28", "poll": 16, "exit": 0, "stderr": "", "stdout_len": 25762}
+{"time": "2026-10-18T13:15:30", "poll": 17, "exit": 0, "stderr": "", "stdout_len": 25762}
+{"time": "2026-10-18T13:16:34", "poll": 18, "exit": 0, "stderr": "", "stdout_len": 25762}
+{"time": "2026-10-18T13:17:36", "poll": 19, "exit": 0, "stderr": "", "stdout_len": 25762}
+{"time": "2026-10-18T13:18:38", "poll": 20, "exit": 0, "stderr": "", "stdout_len": 25762}
+{"time": "2026-10-18T13:19:44", "poll": 21, "exit": 0, "stderr": "", "stdout_len": 25762}
+{"time": "2026-10-18T13:20:46", "poll": 22, "exit": 0, "stderr": "", "stdout_len": 25762}
+{"time": "2026-10-18T13:21:48", "poll": 23, "exit": 0, "stderr": "", "stdout_len": 25762}
+{"time": "2026-10-18T13:22:51", "poll": 24, "exit": 0, "stderr": "", "stdout_len": 25762}
+{"time": "2026-10-18T13:23:52", "poll": 25, "exit": 0, "stderr": "", "stdout_len": 25762}
+{"time": "2026-10-18T13:24:55", "poll": 26, "exit": 0, "stderr": "", "stdout_len": 25762}
+{"time": "2026-10-18T13:25:56", "poll": 27, "exit": 0, "stderr": "", "stdout_len": 25762}
+{"time": "2026-10-18T13:34:22", "poll_curl": 1, "state": 9, "http_ok": true}
+{"time": "2026-10-18T13:36:23", "poll_curl": 2, "state": 9, "http_ok": true}
+{"time": "2026-10-18T13:38:25", "poll_curl": 3, "state": 9, "http_ok": true}
+{"time": "2026-10-18T13:40:26", "poll_curl": 4, "state": 9, "http_ok": true}
+{"time": "2026-10-18T13:42:28", "poll_curl": 5, "state": 9, "http_ok": true}
+{"time": "2026-10-18T13:44:30", "poll_curl": 6, "state": 9, "http_ok": true}
+{"time": "2026-10-18T13:46:33", "poll_curl": 7, "state": 9, "http_ok": true}
+{"time": "2026-10-18T13:48:36", "poll_curl": 8, "state": 9, "http_ok": true}
+{"time": "2026-10-18T13:50:38", "poll_curl": 9, "state": 9, "http_ok": true}
+{"time": "2026-10-18T13:52:41", "poll_curl": 10, "state": 9, "http_ok": true}
+{"time": "2026-10-18T13:54:43", "poll_curl": 11, "state": 9, "http_ok": true}
+{"time": "2026-10-18T13:56:45", "poll_curl": 12, "state": 9, "http_ok": true}
+{"time": "2026-10-18T13:58:47", "poll_curl": 13, "state": 9, "http_ok": true}
+{"time": "2026-10-18T14:00:53", "poll_curl": 14, "state": 9, "http_ok": true}
+{"time": "2026-10-18T14:02:55", "poll_curl": 15, "state": 9, "http_ok": true}
+{"time": "2026-10-18T14:04:57", "poll_curl": 16, "state": 9, "http_ok": true}
+{"time": "2026-10-18T14:06:59", "poll_curl": 17, "state": 9, "http_ok": true}
+{"time": "2026-10-18T14:09:00", "poll_curl": 18, "state": 9, "http_ok": true}
+{"time": "2026-10-18T14:11:02", "poll_curl": 19, "state": 9, "http_ok": true}
+{"time": "2026-10-18T14:13:05", "poll_curl": 20, "state": 9, "http_ok": true}
+{"time": "2026-10-18T14:15:06", "poll_curl": 21, "state": 9, "http_ok": true}
+{"time": "2026-10-18T14:17:09", "poll_curl": 22, "state": 9, "http_ok": true}
+{"time": "2026-10-18T14:19:11", "poll_curl": 23, "state": 9, "http_ok": true}
