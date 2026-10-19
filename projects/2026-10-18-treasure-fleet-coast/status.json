@@ -20,6 +20,11 @@
       "time": "2026-10-18 22:23",
       "step": "step8-poll",
       "note": "生成挂起（v1.6 已知故障复现）：主链路 agent 在建单后弹出「创作方向选择」问卷（biz/x_data_dynamic_questionnaire，未被预防句拦截；Rule-506 连四夜零挂起后首次复发）。提交 6s 建单成功，80+ 分钟 state=9 未转 state 3。thread_id 已入档，明晚/人工 web 端应答后从本步续跑取件。状态保持 generating。"
+    },
+    {
+      "time": "2026-10-19 21:10",
+      "step": "step8-poll-recheck",
+      "note": "10-19 夜建单 24h 后复查：仍 state=9，线程末消息为 biz/x_data_dynamic_questionnaire（问卷挂起，需人工在 web 端应答后才可续跑取件）。"
     }
   ],
   "night": 32,

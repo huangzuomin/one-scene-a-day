@@ -48,3 +48,4 @@
 {"time": "2026-10-18T14:15:06", "poll_curl": 21, "state": 9, "http_ok": true}
 {"time": "2026-10-18T14:17:09", "poll_curl": 22, "state": 9, "http_ok": true}
 {"time": "2026-10-18T14:19:11", "poll_curl": 23, "state": 9, "http_ok": true}
+{"time": "2026-10-19T12:57:43+00:00", "poll_curl": 24, "state": 9, "http_ok": true, "note": "10-19 夜复查：建单 24h 后仍 state=9（问卷挂起），需人工 web 端应答后方可续跑"}

@@ -342,11 +342,13 @@
       "tag": "日常",
       "potential": 8,
       "risk_note": "站赤制度A",
-      "status": "approved",
+      "status": "used",
       "source": "seed",
       "proposed_date": "2026-08-22",
       "recommend": "中",
-      "pitch": "驿站换马的三十秒：一匹马换另一匹马，帝国的心跳节拍。"
+      "pitch": "驿站换马的三十秒：一匹马换另一匹马，帝国的心跳节拍。",
+      "used_date": "2026-10-19",
+      "used_project": "2026-10-19-courier-relay"
     },
     {
       "id": "T024",
