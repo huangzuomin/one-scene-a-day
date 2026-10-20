@@ -1,0 +1,453 @@
+{
+  "messages": [
+    {
+      "id": "12641233399308",
+      "role": "user",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_prompt_text",
+          "data": "{\"content\":\"黎明前的特洛伊内门洞，一部15秒无声历史短片，画面比例16:9。\\n\\n石灰岩巨石砌筑的城墙门洞，粗糙的巨石肌理（不是方整大理石、不是罗马柱廊），木制巨门紧闭，一根粗木横闩横在门后。门洞纵深，黎明前一片冷暗，只有一盏油灯在守将身旁燃着——冷暗环境大底 × 单点暖光源。\\n\\n城门守将，约40岁，青铜色短髯，软皮束发帽（无头盔），深色羊毛披风，亚麻甲束腰带，青铜护胫。注意：他是特洛伊守将，不是斯巴达战士——不要科林斯头盔、不要红披风、不要罗马式铠甲。\\n\\n远景：守将独自站在巨门前，右手扶剑柄，披风下摆被穿堂风轻拂。镜头缓慢推进，从门洞全景推到人+巨门的中景。油灯暖光勾勒他的剪影，左侧大面积黑暗负空间。\\n\\n中景转近景：门外传来绳索绷紧的吱呀声、车轮辘辘声和隐约的欢呼。守将停步，抬头，闭眼侧耳，缓缓转向城门。镜头继续缓慢推进到他胸部以上的近景，侧脸轮廓线对着画面右侧的门缝留白。\\n\\n特写：他的手按在粗木横闩的提手上，指节发白，悬停不动。突然，一道晨光从门缝切进来——冷白色的光带切分画面，照亮了门缝外木马涂漆的眼睛：一只粗凿原木拼合、松脂涂层的巨木马的眼睛，透过门缝\\\"看\\\"了他一眼（静止画面，光线是主角）。他的手缓缓松开提手。\\n\\n中景：横闩没有落下，城门被绳索拖开一条缝，晨光漫进来。守将垂下手，木马的巨大阴影从右侧投上城道。画面定格，停留两秒。\\n\\n电影质感，胶片颗粒，冷色调大底，油灯与晨光两处光源的光影对比强烈。衣物头发随穿堂风持续轻微飘动，镜头之间用自然运动衔接，不要做成静态幻灯片。\\n\\n严格按上述镜头顺序呈现，不要跳过、合并或重排镜头；全程保持主角的面容、服装、体型完全一致；不要在画面中渲染任何文字、字幕、边框、编号或水印；镜头之间用自然运动衔接，不要做成静态幻灯片。\\n\\n这是一次全自动无人值守的创作任务：如需确认任何参数（画面比例、时长、风格等），一律按上述设定直接执行，不要等待确认。必须一次性整段生成全片，禁止拆分为多个镜头分别生成再拼接；全片总时长严格15秒，各镜头时长严格按分镜分配。\",\"reference_info_list\":null}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        },
+        {
+          "type": "data",
+          "sub_type": "biz/general_agent_settings",
+          "data": "{\"video_model\":\"seedance2.0_fast_vision\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12642235621900",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"load_skill\",\"tool_id\":\"call_dc78c926517b42c3afbae0a6\",\"request_data\":\"{\\\"SkillName\\\": \\\"video_creation\\\"}\",\"extra\":\"{\\\"display_name\\\":\\\"技能学习\\\",\\\"loadingText\\\":\\\"正在学习相关技能...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12642235621900",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"按 Sk\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12642235621900",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"ill 要求，先\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12642235621900",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"读取单段流程的 workflow\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12642235621900",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\" 文件。\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12642235621900",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"\",\"done\":true}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12642235621900",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"sandbox_read\",\"tool_id\":\"call_51b3066fe8d341c2abea4285\",\"request_data\":\"{\\\"FilePath\\\": \\\"/workspace/.skills/video_creation/refs/workflow/single-segment.md\\\", \\\"Description\\\": \\\"读取单段流程workflow\\\"}\",\"extra\":\"{\\\"display_name\\\":\\\"读取文件\\\",\\\"loadingText\\\":\\\"正在读取文件...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12642235621900",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"sandbox_bash\",\"tool_id\":\"call_8448f1d1abd64b3aaf59641e\",\"request_data\":\"{\\\"Command\\\": \\\"ls /workspace/upload/ 2\\u003e/dev/null; ls /workspace/assets/ 2\\u003e/dev/null\\\", \\\"Description\\\": \\\"检查上传素材和已有资产\\\"}\",\"extra\":\"{\\\"display_name\\\":\\\"执行命令\\\",\\\"loadingText\\\":\\\"正在执行命令...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12642235621900",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"sandbox_bash\",\"tool_id\":\"call_a3263f9442a344f4aa1a380c\",\"request_data\":\"{\\\"Command\\\": \\\"mkdir -p /workspace/assets/troy_gate\\\", \\\"Description\\\": \\\"创建项目目录\\\"}\",\"extra\":\"{\\\"display_name\\\":\\\"执行命令\\\",\\\"loadingText\\\":\\\"正在执行命令...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12642235621900",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"用户的完\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12642235621900",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"整脚本就在当轮消\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12642235621900",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"息中，且明确要求全片15秒一次生\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12642235621900",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"成、16:9、无声片。命中直通分叉的程序\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12642235621900",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"直传模式，直接使用用户原文作为提示词生成。\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12642235621900",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"\",\"done\":true}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12642235621900",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "tool_call_req",
+          "data": "{\"tool_name\":\"sandbox_generate_video\",\"tool_id\":\"call_54bcadab3adc4d4587c0fab2\",\"request_data\":\"{\\\"Duration\\\": 15, \\\"OutputPath\\\": \\\"assets/troy_gate/shot_01.mp4\\\", \\\"Prompt\\\": \\\"\\\", \\\"Ratio\\\": \\\"16:9\\\", \\\"UseRunPrompt\\\": true}\",\"extra\":\"{\\\"display_name\\\":\\\"生成视频\\\",\\\"loadingText\\\":\\\"正在生成视频...\\\"}\"}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12642235621900",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_artifact_slots_part",
+          "data": "{\"slots\":[{\"artifact_id\":\"12642235635212\",\"ratio\":\"16:9\",\"type\":\"video\"}]}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12642235635212",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_video",
+          "data": "{\"video\":{\"asset_id\":\"7698735030994240024\",\"uri\":null,\"metadata\":{\"height\":720,\"width\":1280,\"format\":\"\",\"duration_ms\":15104,\"size\":0,\"bitrate\":0,\"definition\":\"\",\"codec_type\":\"\",\"encoded_type\":\"\",\"file_hash\":\"\",\"md5\":\"\",\"ratio\":\"16:9\",\"title\":null,\"name\":null,\"mime\":\"\"},\"url\":\"https://v5-xyq-video.jianying.com/658f6a7c48d52eaaeae113a09a92da38/6bc4b51c/video/n/everphoto-jianying-assets/0f8d04cc5dd7425cb5c9ca4c8ab5bfb0/?a=795647\\u0026ch=0\\u0026cr=0\\u0026dr=0\\u0026cd=0%7C0%7C0%7C0\\u0026br=3581\\u0026bt=3581\\u0026cs=0\\u0026ds=3\\u0026ft=TLtriUeR_yygZmo0P7QTTgkVQ9w6x\\u0026mime_type=video_mp4\\u0026qs=13\\u0026rc=anY3NTZvOmtwZTczNDlmM0BpanY3NTZvOmtwZTczNDlmM0BncjFmYWFmYV9hLS1kNC9zYSNncjFmYWFmYV9hLS1kNC9zcw%3D%3D\\u0026btag=80000e00010000\\u0026dy_q=1792501517\\u0026l=202610202058563FAF956E0CAAB74B0619\\u0026download=true\\u0026filename=v02c76g10004dbbmdhi7dld3i244usjg.mp4\",\"caption\":\"{\\n  \\\"video_caption\\\": \\\"这是一段剧情类短片，核心内容为一名身着古希腊风格战甲的男子在夜晚的石砌城堡大门处，准备开启大门的过程。视频整体采用写实的影视画面风格，以冷调的暗蓝色为主色调，搭配火把的暖光，营造出神秘、肃穆且略带紧张的氛围，画质清晰，光影层次分明。主要人物是一名头戴饰带、身披斗篷、身着金属胸甲与短裙式战衣的战士，场景设定在夜晚的石砌城堡大门前，大门为厚重的木质结构，嵌在粗糙的石砌拱门中，旁侧地面放置着一支点燃的火把。视频以镜头推进的方式，从远景逐渐聚焦到战士的动作，战士先是靠近大门，握住门闩，随后打开大门，过程中还出现了从门后窥视的眼睛，叙事逻辑连贯，节奏紧凑。整体传递出严肃、充满张力的氛围，细节亮点在于门后窥视的眼睛这一设计，为场景增添了未知的紧张感。视频中无人物台词，背景音包含夜晚的虫鸣，还有门闩移动、大门开启的金属与木质摩擦音效。\\\",\\n  \\\"split_shot_info\\\": \\\"[00:00:00-00:00:02] 画面风格：写实影视；主体：石砌城堡大门、火把、战士；动作：战士站在城堡大门前，靠近大门；镜头变化：远景推近；内容简述：夜晚的石砌城堡大门前，地面的火把照亮区域，战士站在大门旁；声音：夜晚虫鸣声，轻微的环境底噪\\\",\\n  \\\"split_shot_info\\\": \\\"[00:00:02-00:00:08] 画面风格：写实影视；主体：战士；动作：战士握住门闩，身体贴向大门；镜头变化：持续推近至特写；内容简述：镜头逐渐推进，聚焦到战士的上半身，战士的动作清晰呈现；声音：夜晚虫鸣声，轻微的环境底噪\\\",\\n  \\\"split_shot_info\\\": \\\"[00:00:08-00:00:11] 画面风格：写实影视；主体：手、门闩、门后眼睛；动作：手握住门闩，门后露出一只眼睛；镜头变化：特写；内容简述：特写战士的手握住门闩，同时门后出现一只眼睛窥视；声音：夜晚虫鸣声，轻微的环境底噪\\\",\\n  \\\"split_shot_info\\\": \\\"[00:00:11-00:00:15] 画面风格：写实影视；主体：战士、城堡大门；动作：战士打开大门，大门向两侧开启；镜头变化：拉远；内容简述：战士拉开门闩，厚重的木质大门缓缓打开，露出门后的空间；声音：夜晚虫鸣声，门闩移动的金属摩擦声，大门开启的木质摩擦声\\\"\\n}\",\"render_task_id\":\"53758491404\",\"cover_url\":\"https://p11-sign.douyinpic.com/everphoto-jianying-assets/oMIe2mu1gcKZTQXhqxgmCNaVHxAuN2RzB6Ck1e~tplv-noop.image?dy_q=1792501517\\u0026l=202610202058563FAF956E0CAAB74B0619\\u0026x-expires=1808053532\\u0026x-signature=PXkkEqDT2cVhJv7A1W76h3orhyQ%3D\",\"music_meta\":null,\"preview_url\":\"https://v5-xyq-video.jianying.com/a8af02b2cd97fd27558d4378d699f92f/6bc4b51c/video/n/everphoto-jianying-assets/3f8c3a6137c548ec9b94a2a6da93c3f0/?a=795647\\u0026ch=0\\u0026cr=0\\u0026dr=0\\u0026cd=0%7C0%7C0%7C0\\u0026br=6290\\u0026bt=6290\\u0026cs=0\\u0026ds=3\\u0026ft=TLtriUeR_yygZmo0P7QTTgkVQ9w6x\\u0026mime_type=video_mp4\\u0026qs=13\\u0026rc=anhxcjVvOjVwZTczNDlmM0BpanhxcjVvOjVwZTczNDlmM0BobDFoYWEvYl9hLS1kNGFzYSNobDFoYWEvYl9hLS1kNGFzcw%3D%3D\\u0026btag=80000e00010000\\u0026dy_q=1792501517\\u0026l=202610202058563FAF956E0CAAB74B0619\",\"render_task_status\":null,\"draft_key\":null,\"package_id\":null,\"vid\":null,\"render_rsp_map\":{\"disable_edit\":\"1\"},\"download_url\":\"https://v5-xyq-video.jianying.com/658f6a7c48d52eaaeae113a09a92da38/6bc4b51c/video/n/everphoto-jianying-assets/0f8d04cc5dd7425cb5c9ca4c8ab5bfb0/?a=795647\\u0026ch=0\\u0026cr=0\\u0026dr=0\\u0026cd=0%7C0%7C0%7C0\\u0026br=3581\\u0026bt=3581\\u0026cs=0\\u0026ds=3\\u0026ft=TLtriUeR_yygZmo0P7QTTgkVQ9w6x\\u0026mime_type=video_mp4\\u0026qs=13\\u0026rc=anY3NTZvOmtwZTczNDlmM0BpanY3NTZvOmtwZTczNDlmM0BncjFmYWFmYV9hLS1kNC9zYSNncjFmYWFmYV9hLS1kNC9zcw%3D%3D\\u0026btag=80000e00010000\\u0026dy_q=1792501517\\u0026l=202610202058563FAF956E0CAAB74B0619\\u0026download=true\\u0026filename=v02c76g10004dbbmdhi7dld3i244usjg.mp4\",\"ratio\":null,\"title\":\"\",\"duration\":0,\"width\":1280,\"height\":720,\"cover_preview_url\":null,\"cover_preview_key\":null,\"player_info\":null,\"preview_url_v2\":null,\"unique_id\":null,\"scene_segment\":null,\"pippit_asset_id\":null,\"extra\":null},\"gif_url\":null,\"living_photo_url\":null,\"task_id\":null,\"error_message\":null,\"error_code\":null}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": "12644018727948",
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12642235621900",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"15秒无\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12642235621900",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"声历史短片已生成\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12642235621900",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"，16:9画幅，一次性整段出片。\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12642235621900",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"黎明前的特洛伊城门洞、守将剪影、油灯暖光与门缝晨光的光影对比、木\",\"done\":false}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12642235621900",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "data",
+          "sub_type": "biz/x_data_text_stream",
+          "data": "{\"text\":\"马之眼特写，全部按你的镜头顺序呈现。\\n\\n①满意则结束\\n②修改画面/动作\\n③换个风格试试\",\"done\":true,\"is_final_answer\":true}",
+          "sequence": null,
+          "hidden": false,
+          "is_thought": false,
+          "pippit_asset_id": null,
+          "is_mention": null,
+          "extra": null,
+          "interrupt_id": null
+        }
+      ]
+    },
+    {
+      "id": "12642235621900",
+      "role": "assistant",
+      "content": []
+    }
+  ]
+}
