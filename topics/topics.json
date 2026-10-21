@@ -392,11 +392,13 @@
    "tag": "科技",
    "potential": 8,
    "risk_note": "A",
-   "status": "approved",
+   "status": "used",
    "source": "seed",
    "proposed_date": "2026-08-22",
    "recommend": "高",
-   "pitch": "黑暗实验室里第一管镭的蓝绿辉光——全片只靠一点光。"
+   "pitch": "黑暗实验室里第一管镭的蓝绿辉光——全片只靠一点光。",
+   "used_date": "2026-10-21",
+   "project": "2026-10-21-radium-glow"
   },
   {
    "id": "T027",

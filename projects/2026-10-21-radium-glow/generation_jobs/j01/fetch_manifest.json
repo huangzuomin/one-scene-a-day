@@ -1,0 +1,9 @@
+{
+ "video_url": "[见 submission 线程取件，x_data_video/download_url]",
+ "local": "projects/2026-10-21-radium-glow/video.mp4",
+ "size": 7223626,
+ "width": 1280,
+ "height": 720,
+ "duration_s": 15.104,
+ "note": "download_results.py 报 HTTP 403（本机 urllib 代理链路不可靠），改 curl 直下一次完整 7.2MB；v11 第二 URL 为封面图未取。"
+}
