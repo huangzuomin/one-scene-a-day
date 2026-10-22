@@ -1,6 +1,6 @@
 {
  "schema": "topics/1",
- "updated": "2026-09-13",
+ "updated": "2026-10-22",
  "note": "选题池唯一事实源。状态机：candidate(待审) → approved(可批拍) → used(已拍)；旁路 rejected(否决，事件永不复提) / blocked(冻结)。治理规则见 PIPELINE.md §6。",
  "topics": [
   {
@@ -575,7 +575,9 @@
    "pitch": "敞肩石桥静立河上，车辙声由远及近——桥是否承得住，这一刻见分晓。",
    "source": "ai_weekly",
    "proposed_date": "2026-08-29",
-   "status": "approved"
+   "status": "used",
+   "used_date": "2026-10-22",
+   "project": "2026-10-22-zhaozhou-first-carriage"
   },
   {
    "id": "T039",

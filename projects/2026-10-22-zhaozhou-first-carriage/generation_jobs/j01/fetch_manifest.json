@@ -1,0 +1,10 @@
+{
+ "url_source": "x_data_video 嵌套 JSON（10-16 同路径）",
+ "local_path": "generation_jobs/j01/video_raw.mp4",
+ "project_video": "video.mp4",
+ "duration_s": 15.104,
+ "resolution": "1280x720",
+ "size_bytes": 6796107,
+ "downloaded_at": "2026-10-22T21:35:00+08:00",
+ "method": "curl 直下（urllib 代理链路不可靠）"
+}

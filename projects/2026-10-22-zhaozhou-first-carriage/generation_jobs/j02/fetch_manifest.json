@@ -1,0 +1,11 @@
+{
+ "url_source": "x_data_video 嵌套 JSON",
+ "local_path": "generation_jobs/j02/video_raw.mp4",
+ "project_video": "video.mp4（j02 版）",
+ "duration_s": 15.104,
+ "resolution": "1280x720",
+ "size_bytes": 6233799,
+ "downloaded_at": "2026-10-22T21:55:00+08:00",
+ "method": "curl 直下",
+ "j01": "generation_jobs/j01/video_raw.mp4 归档（不发布）"
+}
