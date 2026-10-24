@@ -1,0 +1,50 @@
+{
+  "channel": "baseline-2.0/15s",
+  "credits_estimate": 90,
+  "history": [
+    {
+      "note": "选题 T022（艺术，potential 7，recommend 低）；七日标签窗排除：文明交汇/思想/探索发现/日常/战争/科技/营造，艺术可用；兰亭事件未复用；topics.json 已标 used",
+      "step": "step1",
+      "time": "2026-10-23T21:00+08:00"
+    },
+    {
+      "time": "2026-10-23T21:10+08:00",
+      "step": "step2",
+      "note": "研究完成，research.md 落盘（事实 A/B/C 标注，Rule-505 图案自检完成）"
+    },
+    {
+      "time": "2026-10-23T21:10+08:00",
+      "step": "step3",
+      "note": "创意概念完成，concept.json 落盘（模板 A 静观四拍，节奏诊断已填）"
+    },
+    {
+      "time": "2026-10-23T21:10+08:00",
+      "step": "step4",
+      "note": "脚本完成，script.md 落盘（2 镜头组一次转折，声音暗示已标）"
+    },
+    {
+      "time": "2026-10-23T21:10+08:00",
+      "step": "step5",
+      "note": "分镜完成，storyboard.json 落盘（4 格，起止运镜已写）"
+    },
+    {
+      "time": "2026-10-23T21:10+08:00",
+      "step": "step6",
+      "note": "prompt.txt 简报完成（含 R-401 约束段 + v1.6 预防句）"
+    },
+    {
+      "time": "2026-10-23T21:11+08:00",
+      "step": "step8",
+      "note": "submit_once.py v1.8 提交成功，receipt 已写 j01"
+    },
+    {
+      "time": "2026-10-24T21:05+08:00",
+      "step": "step8-result",
+      "note": "线程已完结（run state=3）但无成片：平台安全审核驳回 artifact，code=12023，message=安全审核输出视频因版权问题被驳回；agent 未重试，线程终答止于此。按手册记 failed，不再为本项目提交新生成（当日额度已计 1 次）。"
+    }
+  ],
+  "project": "2026-10-23-lanting-stream",
+  "status": "failed",
+  "title": "兰亭曲水流觞的一个午后",
+  "topic_id": "T022"
+}
