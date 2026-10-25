@@ -496,7 +496,9 @@
    "pitch": "刻符的史官仰望夜空，传说那一夜天雨粟、鬼夜哭。",
    "source": "ai_weekly",
    "proposed_date": "2026-08-29",
-   "status": "approved"
+   "status": "used",
+   "used_date": "2026-10-25",
+   "project": "2026-10-25-cangjie-night"
   },
   {
    "id": "T034",

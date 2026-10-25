@@ -1,0 +1,57 @@
+{
+ "channel": "baseline-2.0/15s",
+ "credits_estimate": 90,
+ "date": "2026-10-25",
+ "day_no": 39,
+ "history": [
+  {
+   "note": "选题 T033（思想，potential 7，recommend 低）；七日标签窗实测：近 7 夜标签=探索发现/日常/战争/科技/营造/艺术/文明交汇，思想可用；事件未复用；topics.json 已标 used",
+   "step": "step1",
+   "time": "2026-10-25T21:05+08:00"
+  },
+  {
+   "note": "研究完成，research.md 落盘（传说非信史声明 A/B/C 标注，Rule-505 图案自检：刻痕抽象线条、四目异相回避、刻刀非毛笔）",
+   "step": "step2",
+   "time": "2026-10-25T21:05+08:00"
+  },
+  {
+   "note": "创意概念完成，concept.json 落盘（模板 A 静观四拍，节奏诊断已填）",
+   "step": "step3",
+   "time": "2026-10-25T21:05+08:00"
+  },
+  {
+   "note": "脚本完成，script.md 落盘（2 镜头组一次转折，声音暗示已标）",
+   "step": "step4",
+   "time": "2026-10-25T21:05+08:00"
+  },
+  {
+   "note": "分镜完成，storyboard.json 落盘（4 格，起止运镜已写）",
+   "step": "step5",
+   "time": "2026-10-25T21:05+08:00"
+  },
+  {
+   "note": "prompt.txt 简报完成（含 R-401 约束段 + v1.6 预防句，身份锁重复两次）",
+   "step": "step6",
+   "time": "2026-10-25T21:05+08:00"
+  },
+  {
+   "note": "submit_once.py v1.8 提交成功，receipt 已写 j01；台账当日 +1（90 分）",
+   "step": "step8",
+   "time": "2026-10-25T21:00+08:00"
+  },
+  {
+   "note": "下载归档完成：curl 一次直下 8.7MB 完整（15.104s/1280x720），已复制为项目根 video.mp4，抽帧 15 张",
+   "step": "step9",
+   "time": "2026-10-25T21:10+08:00"
+  },
+  {
+   "note": "Critic 完成：八维均分 8.75（70/80），verdict 强建议精选；evaluation.json 落盘",
+   "step": "step10",
+   "time": "2026-10-25T21:15+08:00"
+  }
+ ],
+ "project": "2026-10-25-cangjie-night",
+ "status": "evaluated",
+ "title": "仓颉造字之夜",
+ "topic_id": "T033"
+}

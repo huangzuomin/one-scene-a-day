@@ -1,0 +1,6 @@
+{"time": "2026-10-25T20:58:39", "poll_curl": 1, "state": 2, "http_ok": true}
+{"time": "2026-10-25T20:59:40", "poll_curl": 2, "state": 2, "http_ok": true}
+{"time": "2026-10-25T21:00:42", "poll_curl": 3, "state": 2, "http_ok": true}
+{"time": "2026-10-25T21:01:43", "poll_curl": 4, "state": 2, "http_ok": true}
+{"time": "2026-10-25T21:02:45", "poll_curl": 5, "state": 2, "http_ok": true}
+{"time": "2026-10-25T21:03:47", "poll_curl": 6, "state": 3, "http_ok": true}
