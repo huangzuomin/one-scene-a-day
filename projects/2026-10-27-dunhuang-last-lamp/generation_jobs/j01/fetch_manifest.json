@@ -1,0 +1,11 @@
+{
+  "url": "https://v26-xyq-video.jianying.com/ff59d43cbcb494eec6ef55c2d60d6d1a/6bcdef48/video/n/everphoto-jianying-assets/6687df910cca4cbc8187c7fe9871a3a0/?a=795647&ch=0&cr=0&dr=0&cd=0%7C0%7C0%7C0&br=3062&bt=3062&cs=0&ds=3&ft=TLtriUeR_yygZmo0P2~CcgkVQ9w6x&mime_type=video_mp4&qs=13&rc=M2hyeDhvOmVkZTczNDlmM0BpM2hyeDhvOmVkZTczNDlmM0BvMTVjYWFmL2RhLS1kNC9zYSNvMTVjYWFmL2RhLS1kNC9zcw%3D%3D&btag=80000e00010000&dy_q=1793106233&l=20261027205858F4A8637049F24D4FC9A9&download=true&filename=v02c76g10004dbga2bi7dld5fu8o4er0.mp4",
+  "local_path": "video.mp4",
+  "job_path": "generation_jobs/j01/video.mp4",
+  "size_bytes": 5920646,
+  "sha256": "b7aa978399543b1183be1f7cbba845751ea3abba481f8792ce859c3315672b36",
+  "duration_s": 15.104,
+  "resolution": "1280x720",
+  "model": "seedance2.0_fast_vision",
+  "artifact_id": "13104862319628"
+}

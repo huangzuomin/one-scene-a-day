@@ -1,0 +1,57 @@
+{
+ "project": "2026-10-27-dunhuang-last-lamp",
+ "date": "2026-10-27",
+ "day_no": 40,
+ "title": "洞窟里点完最后一盏灯的画工",
+ "topic_id": "T027",
+ "status": "evaluated",
+ "channel": "baseline-2.0/15s",
+ "credits_estimate": 90,
+ "history": [
+  {
+   "time": "2026-10-27T20:58+08:00",
+   "step": "step1",
+   "note": "选题 T027（日常，potential 8，recommend 中）；七日标签窗实测：2026-10-20~10-26 近 7 日标签=战争/科技/营造/艺术/文明交汇/思想（10-26 为空夜），日常可用（上次日常 T023 为 10-19，已出窗）；事件敦煌壁画绘制未复用（T003 藏经洞现世/T007 敦煌城门驼队为不同事件）；topics.json 已标 used"
+  },
+  {
+   "time": "2026-10-27T20:58+08:00",
+   "step": "step2",
+   "note": "研究完成，research.md 落盘（莫高窟/矿物颜料/灯火照明 A/B/C 标注，Rule-505 图案自检：窟形/文字载体/人群/器物/唐式形制）"
+  },
+  {
+   "time": "2026-10-27T20:58+08:00",
+   "step": "step3",
+   "note": "创意概念完成，concept.json 落盘（模板 A 静观四拍，节奏诊断已填）"
+  },
+  {
+   "time": "2026-10-27T20:58+08:00",
+   "step": "step4",
+   "note": "脚本完成，script.md 落盘（2 镜头组一次转折，声音暗示已标）"
+  },
+  {
+   "time": "2026-10-27T20:58+08:00",
+   "step": "step5",
+   "note": "分镜完成，storyboard.json 落盘（4 格，起止运镜已写）"
+  },
+  {
+   "time": "2026-10-27T20:58+08:00",
+   "step": "step6",
+   "note": "prompt.txt 简报完成（含 R-401 约束段 + v1.6 预防句，身份锁重复两次）"
+  },
+  {
+   "time": "2026-10-27T20:59+08:00",
+   "step": "step8",
+   "note": "submit_once.py v1.8 提交成功，receipt 已写 j01；台账当日 +1（90 分）"
+  },
+  {
+   "time": "2026-10-27T21:05+08:00",
+   "step": "step9",
+   "note": "下载归档完成：curl 一次直下 5.92MB 完整（15.104s/1280x720，ffprobe 验长通过），已复制为项目根 video.mp4，抽帧 15 张"
+  },
+  {
+   "time": "2026-10-27T21:05+08:00",
+   "step": "step10",
+   "note": "Critic 完成：八维 69/80（均分 8.63），verdict 强建议精选；evaluation.json 落盘"
+  }
+ ]
+}
