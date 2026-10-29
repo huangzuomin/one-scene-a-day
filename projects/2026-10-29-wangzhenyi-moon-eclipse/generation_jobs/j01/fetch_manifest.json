@@ -1,0 +1,21 @@
+{
+ "url_host": "v5-xyq-video.jianying.com",
+ "metadata": {
+  "height": 720,
+  "width": 1280,
+  "format": "",
+  "duration_ms": 15104,
+  "size": 0,
+  "bitrate": 0,
+  "definition": "",
+  "codec_type": "",
+  "encoded_type": "",
+  "file_hash": "",
+  "md5": "",
+  "ratio": "16:9",
+  "title": null,
+  "name": null,
+  "mime": ""
+ },
+ "local_path": "projects/2026-10-29-wangzhenyi-moon-eclipse/generation_jobs/j01/video_01.mp4"
+}

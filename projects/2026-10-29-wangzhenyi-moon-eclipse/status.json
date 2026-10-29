@@ -1,0 +1,57 @@
+{
+ "channel": "baseline-2.0/15s",
+ "credits_estimate": 90,
+ "date": "2026-10-29",
+ "day_no": 41,
+ "history": [
+  {
+   "note": "选题 T040（科技，potential 8，recommend 高）；七日标签窗实测：2026-10-22~10-28 近 7 日标签=营造(T038)/艺术(T022 已失败，仍占窗)/文明交汇(T050)/思想(T033)/空夜(10-26)/日常(T027)/空夜(10-28)，科技已出窗（上次科技 T026 为 10-21）；事件王贞仪灯镜实验未复用；topics.json 已标 used",
+   "step": "step1",
+   "time": "2026-10-29T21:00+08:00"
+  },
+  {
+   "note": "研究完成，research.md（王贞仪/《月食解》/灯桌镜三物 A/B/C 标注，Rule-505 图案自检：浑仪/望远镜/星盘/西洋玻璃镜/旗装五重否定）",
+   "step": "step2",
+   "time": "2026-10-29T21:00+08:00"
+  },
+  {
+   "note": "创意概念完成，concept.json：模板 A 静观四拍；核心瞬间=铜镜移入桌影、镜面亮光熄灭；年龄锚点二十岁上下",
+   "step": "step3",
+   "time": "2026-10-29T21:00+08:00"
+  },
+  {
+   "note": "脚本完成，script.md（2 镜头组，一次转折，声音暗示；转折=镜面亮光熄灭，Rule-508 光学现象）",
+   "step": "step4",
+   "time": "2026-10-29T21:00+08:00"
+  },
+  {
+   "note": "分镜完成，storyboard.json（4 格，起止运镜已写，影线落点写明桌面）",
+   "step": "step5",
+   "time": "2026-10-29T21:00+08:00"
+  },
+  {
+   "note": "简报完成，prompt.txt（R-401 约束段 + v1.6 预防句，身份锁重复两次）；Step 7 预算：当日第 1 次生成（<2），基线 2.0/15s（90 分）；质量夜触发(a)（recommend=高且 potential≥8、配额未用满 3 夜）但直连 2.5 自 09-14 持续阻塞→回退基线，配额 0/6 保持",
+   "step": "step6",
+   "time": "2026-10-29T21:00+08:00"
+  },
+  {
+   "note": "Step 8 提交成功：submit_once 一次建单，thread=skill_8f298c25-8ac7-4084-bbad-e9ef4c643962 run=skill_7c3ebfba-00c8-4d07-a583-4e31933da2f4，receipt 已入档 generation_jobs/j01；台账当日 1 次（90 分）已记",
+   "step": "step8",
+   "time": "2026-10-29T21:00+08:00"
+  },
+  {
+   "time": "2026-10-29T21:15+08:00",
+   "step": "step9",
+   "note": "Step 9 下载归档：artifact x_data_video（seedance2.0_fast_vision 实证，1280x720/15.104s）curl 一次直下 5.15MB 完整，已复制 video.mp4，fetch_manifest.json 已写"
+  },
+  {
+   "time": "2026-10-29T21:20+08:00",
+   "step": "step10",
+   "note": "Critic 完成：8.5（68/80）建议精选；f08 镜面亮光熄灭=Rule-508 第 14 样本；微瑕=铜镜带柄（L-wangzhenyi-02）、坐姿与终帧近景漂移（L-wangzhenyi-03）、立领偏晚清；Rule-505 零泄漏"
+  }
+ ],
+ "project": "2026-10-29-wangzhenyi-moon-eclipse",
+ "status": "evaluated",
+ "title": "王贞仪的月食实验室",
+ "topic_id": "T040"
+}

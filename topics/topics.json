@@ -1,6 +1,6 @@
 {
   "schema": "topics/1",
-  "updated": "2026-10-27",
+  "updated": "2026-10-29",
   "note": "选题池唯一事实源。状态机：candidate(待审) → approved(可批拍) → used(已拍)；旁路 rejected(否决，事件永不复提) / blocked(冻结)。治理规则见 PIPELINE.md §6。",
   "topics": [
     {
@@ -616,7 +616,9 @@
       "pitch": "烛灯当太阳、圆桌当地球、明镜当月亮——一位清代闺秀在灯下把月食装进了一间屋子。",
       "source": "ai_weekly",
       "proposed_date": "2026-08-30",
-      "status": "approved"
+      "status": "used",
+      "used_date": "2026-10-29",
+      "project": "2026-10-29-wangzhenyi-moon-eclipse"
     },
     {
       "id": "T041",
