@@ -11,3 +11,5 @@
 - [step8] 2026-10-31T21:00+08:00 Step 8 提交成功：submit_once 一次建单，thread=skill_04fe1de7-39e9-4929-a734-062b7d759970 run=skill_223e9884-7c0b-4032-9594-eeba7adaccda，receipt 已入档 generation_jobs/j01；台账当日 1 次（90 分）已记
 - [step9] 2026-10-31T21:05+08:00 Step 9 下载归档：artifact x_data_video（1280x720/15.104s）curl 一次直下 7.58MB 完整，已复制 video.mp4，fetch_manifest.json 已写
 - [step10] 2026-10-31T21:10+08:00 Critic 完成：8.75（70/80）建议精选；f11 淡轮廓线初现/f15 侧面轮廓可辨=Rule-508 光学转折家族第 15 样本；名作弱化拍摄有效（一次成片，未触发 T022 式驳回）；微瑕=画布钉边、调色板色彩过艳、终帧侧影→画板特写良性漂移；Rule-505 零泄漏
+- [step11] 2026-10-31T21:15+08:00 Step 11 收尾：审片页已补插第 42 夜卡片（待复核队列 18 部）；scheduler-log 已记；明晚预告 T011/T051（日常），但七日窗将锁日常+艺术，approved 池窗内缺货，需人工批审候选 T052/T053/T054/T056/T057/T058 任一
+- [step12] 2026-10-31T21:15+08:00 Step 12 发布：gen_site 42 夜重生（39 夜次），gen_publish 2026-10-31 包已生成，gitpush_api 推送 32e893bb
