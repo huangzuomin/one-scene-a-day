@@ -516,7 +516,9 @@
    "pitch": "柯康迪园的书房，手稿摞到窗台——静态场景，钩子偏弱。",
    "source": "ai_weekly",
    "proposed_date": "2026-08-29",
-   "status": "approved"
+   "status": "used",
+   "used_date": "2026-11-02",
+   "project": "2026-11-02-wealth-of-nations-eve"
   },
   {
    "id": "T035",
@@ -790,11 +792,13 @@
    "tag": "日常",
    "potential": 7,
    "risk_note": "黄道婆自崖州归松江传艺载于《南村辍耕录》（A）；三锭纺车形制据王祯《农书》图谱推断（B）；转折「三线齐张」为静帧可验证（Rule-508 家族）；女性第二作（承接 T043 实证）；元代市镇棉纺织场景需回避和服/韩服先验",
-   "status": "approved",
+   "status": "used",
    "source": "ai_weekly",
    "proposed_date": "2026-09-13",
    "recommend": "中",
-   "pitch": "满屋纺车声里，三锭纺车第一次同时转动，三根棉纱齐齐绷直——她把一整个崖州的辽阔纺进了乌泥泾（女性第二作+元+日常）"
+   "pitch": "满屋纺车声里，三锭纺车第一次同时转动，三根棉纱齐齐绷直——她把一整个崖州的辽阔纺进了乌泥泾（女性第二作+元+日常）",
+   "used_date": "2026-11-04",
+   "project": "2026-11-04-huangdaopo-looms"
   },
   {
    "id": "T052",

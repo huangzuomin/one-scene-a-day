@@ -1,0 +1,6 @@
+{"time": "2026-11-04T13:01:50", "poll_curl": 1, "exception": "AttributeError(\"'NoneType' object has no attribute 'get'\")"}
+{"time": "2026-11-04T13:02:21", "poll_curl": 2, "exception": "AttributeError(\"'NoneType' object has no attribute 'get'\")"}
+{"time": "2026-11-04T13:02:53", "poll_curl": 3, "exception": "AttributeError(\"'NoneType' object has no attribute 'get'\")"}
+{"time": "2026-11-04T13:03:24", "poll_curl": 4, "exception": "AttributeError(\"'NoneType' object has no attribute 'get'\")"}
+{"time": "2026-11-04T13:03:55", "poll_curl": 5, "exception": "AttributeError(\"'NoneType' object has no attribute 'get'\")"}
+{"time": "2026-11-04T13:04:33", "poll_curl": 6, "state": "failed", "ret": "5", "errmsg": "创作失败：积分不足", "http_ok": true}
