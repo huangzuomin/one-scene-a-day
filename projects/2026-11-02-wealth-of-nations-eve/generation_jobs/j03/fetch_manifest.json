@@ -1,0 +1,11 @@
+{
+ "job_id": "j03",
+ "video_url": "https://v5-xyq-video.jianying.com/6955ddd604c4f051e85e70a7a16fe92a/6be1b572/video/n/everphoto-jianying-assets/ow1YEai1A7CuZ060AABTEOe9ZnqgZBDHAjizfv/?a=795647&ch=0&cr=0&dr=0&cd=0%7C0%7C0%7C0&br=3092&bt=3092&cs=0&ds=3&ft=TLtriUeR_yygZmo0Ph0uygkVQ9w6x&mime_type=video_mp4&qs=13&rc=M25neHc5cnE5ZTczNDlmM0BpM25neHc5cnE5ZTczNDlmM0BhZXJnMmRjYm5hLS1kNC9zYSNhZXJnMmRjYm5hLS1kNC9zcw%3D%3D&btag=80000e00010000&dy_q=1794402147&l=20261111205851B2A65D93C99093AE3947&download=true&filename=v02c76g10004dbq6enfog65tjuudhkd0.mp4",
+ "local_path": "generation_jobs/j03/video.mp4",
+ "project_video": "video.mp4",
+ "size_bytes": 5978713,
+ "duration_s": 15.104,
+ "resolution": "1280x720",
+ "downloaded": "2026-11-11T21:05+08:00",
+ "note": "j03 采用版；j01/j02 为 11-02 积分不足失败，无成片"
+}

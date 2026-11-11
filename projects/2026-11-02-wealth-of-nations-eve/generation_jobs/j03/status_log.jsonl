@@ -1,0 +1,11 @@
+{"time": "2026-11-11T12:59:05", "poll_curl": 1, "ret": "0", "raw": "{\"ret\":\"0\",\"errmsg\":\"\",\"svr_time\":1794401946,\"log_id\":\"202611112059065BDE237F455ECC35F953\",\"data\":{\"thread\":{\"thread_id\":null,\"title\":null,\"run_list\":[{\"run_id\":\"skill_dd2f2c62-de83-437d-9009-435755669a48\",\"thread_id\":\"skill_215844f3-e35a-47a1-b499-43c13130cd9b\",\"state\":2,\"entry_list\":[{\"type\":1,\"message\":{\"message_id\":\"14131786415372\",\"role\":\"user\",\"thread_id\":\"skill_215844f3-e35a-47a1-b499-43c13130cd9b\",\"run_id\":\"skill_dd2f2c62-de83-437d-9009-435755669a48\",\"content\":[{\"type\":\"data\",\"sub_type\":"}
+{"time": "2026-11-11T12:59:32", "poll_curl": 1, "state": 2, "http_ok": true}
+{"time": "2026-11-11T12:59:53", "poll_curl": 2, "state": 2, "http_ok": true}
+{"time": "2026-11-11T13:00:15", "poll_curl": 3, "state": 2, "http_ok": true}
+{"time": "2026-11-11T13:00:36", "poll_curl": 4, "state": 2, "http_ok": true}
+{"time": "2026-11-11T13:00:57", "poll_curl": 5, "state": 2, "http_ok": true}
+{"time": "2026-11-11T13:01:19", "poll_curl": 6, "state": 2, "http_ok": true}
+{"time": "2026-11-11T13:01:40", "poll_curl": 7, "state": 2, "http_ok": true}
+{"time": "2026-11-11T13:02:01", "poll_curl": 8, "state": 2, "http_ok": true}
+{"time": "2026-11-11T13:02:22", "poll_curl": 9, "state": 2, "http_ok": true}
+{"time": "2026-11-11T13:02:43", "poll_curl": 10, "state": 3, "http_ok": true}
