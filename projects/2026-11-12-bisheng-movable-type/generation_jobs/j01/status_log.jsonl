@@ -1,0 +1,8 @@
+{"time": "2026-11-12T13:02:49", "poll_curl": 1, "state": 2, "http_ok": true}
+{"time": "2026-11-12T13:03:51", "poll_curl": 2, "state": 2, "http_ok": true}
+{"time": "2026-11-12T13:04:52", "poll_curl": 3, "state": 2, "http_ok": true}
+{"time": "2026-11-12T13:05:54", "poll_curl": 4, "state": 2, "http_ok": true}
+{"time": "2026-11-12T13:06:55", "poll_curl": 5, "state": 2, "http_ok": true}
+{"time": "2026-11-12T13:07:58", "poll_curl": 6, "state": 2, "http_ok": true}
+{"time": "2026-11-12T13:09:00", "poll_curl": 7, "state": 2, "http_ok": true}
+{"time": "2026-11-12T13:10:02", "poll_curl": 8, "state": 3, "http_ok": true}

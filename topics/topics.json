@@ -143,11 +143,13 @@
    "tag": "科技",
    "potential": 7,
    "risk_note": "沈括《梦溪笔谈》B",
-   "status": "approved",
+   "status": "used",
    "source": "seed",
    "proposed_date": "2026-08-22",
    "recommend": "中",
-   "pitch": "胶泥活字排成字阵送入窑火，火光照亮一整面「字的墙」。"
+   "pitch": "胶泥活字排成字阵送入窑火，火光照亮一整面「字的墙」。",
+   "used_date": "2026-11-12",
+   "project": "2026-11-12-bisheng-movable-type"
   },
   {
    "id": "T010",
