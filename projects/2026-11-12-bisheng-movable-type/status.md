@@ -1,9 +1,11 @@
 # 状态 · 第 46 夜 T009 毕昇把胶泥活字送入窑火
 
 - 日期：2026-11-12
-- 状态：prompted
+- 状态：reviewed（已发布，待人工评级）
 - 选题：T009《毕昇把胶泥活字送入窑火》（科技，potential 7，recommend 中）
 - 通道：基线 2.0/15s（90 分），非质量夜，配额新账期 0/6
+- Critic：8.5（68/80），verdict=强，建议精选
+- 发布：gen_site 41 夜重生；gitpush_api 推送 4bbde0de；gen_publish 2026-11-12 包已生成
 
 ## 历史
 - 21:00 step1 选题：七日窗内可用科技＋日常，取 potential 最高、科技最冷的 T009；topics.json 已标 used。

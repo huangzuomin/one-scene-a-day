@@ -1,6 +1,6 @@
 {
  "schema": "topics/1",
- "updated": "2026-11-08",
+ "updated": "2026-11-13",
  "note": "选题池唯一事实源。状态机：candidate(待审) → approved(可批拍) → used(已拍)；旁路 rejected(否决，事件永不复提) / blocked(冻结)。治理规则见 PIPELINE.md §6。",
  "topics": [
   {
@@ -175,11 +175,13 @@
    "tag": "日常",
    "potential": 7,
    "risk_note": "坊市制度A",
-   "status": "approved",
+   "status": "used",
    "source": "seed",
    "proposed_date": "2026-08-22",
    "recommend": "中",
-   "pitch": "晨钟第一响，坊门开启，长安像一台巨大机器开始运转。"
+   "pitch": "晨钟第一响，坊门开启，长安像一台巨大机器开始运转。",
+   "used_date": "2026-11-13",
+   "project": "2026-11-13-changan-morning-bell"
   },
   {
    "id": "T012",

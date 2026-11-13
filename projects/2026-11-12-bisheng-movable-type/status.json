@@ -48,8 +48,18 @@
    "note": "Step 10 Critic 完成：抽帧 15 帧，实看 f01/f04/f08/f11/f15；八维 68/80（8.5），verdict=强，建议精选；Rule-508 家族第 17 样本（变体：火光照亮字墙落点终帧）；Rule-509 再复现；Rule-501 签名帧复现（字墙+工匠）；Rule-505 新增泄漏 1 起样本 9→10（L-bisheng-01 字墙字形准可读）；L-bisheng-02 动作方向反转（送入变取出）、L-bisheng-03 主角迟到 5 秒、R-304 终帧漂移第四样本",
    "step": "step10",
    "time": "2026-11-12T21:20+08:00"
+  },
+  {
+   "note": "Step 11 收尾：审片页 review/index.html 已插第 46 夜卡片（成片 30，平均 AI 分 8.7 保持）；scheduler-log 已记；明晚预告：T011 长安西市晨钟响起的第一声（日常 p7/中）——11-13 七日窗含思想（11-11）与科技（本夜），approved 池窗内仅日常 T011 一条；次选无，候选 T052/T053/T054/T057/T061/T062/T063/T067 待人工批审（T052~T056 距 stale 线 11-15 仅 3 天）",
+   "step": "step11",
+   "time": "2026-11-12T21:25+08:00"
+  },
+  {
+   "note": "Step 12 发布：gen_site 重生（41 夜次，最新第 46 夜）；gen_publish 新打包 2026-11-12；gitpush_api 推送 4bbde0de「第 46 夜 · T009 上线（待复核）」",
+   "step": "step12",
+   "time": "2026-11-12T21:30+08:00"
   }
  ],
- "status": "evaluated",
+ "status": "reviewed",
  "topic_id": "T009"
 }
