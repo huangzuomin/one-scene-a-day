@@ -1,0 +1,12 @@
+{"poll": 1, "state": 2, "status": "running", "time": "2026-11-20T13:02:34"}
+{"poll": 2, "state": 2, "status": "running", "time": "2026-11-20T13:03:05"}
+{"poll": 3, "state": 2, "status": "running", "time": "2026-11-20T13:03:37"}
+{"poll": 4, "state": 2, "status": "running", "time": "2026-11-20T13:04:08"}
+{"poll": 5, "state": 2, "status": "running", "time": "2026-11-20T13:04:39"}
+{"poll": 6, "state": 2, "status": "running", "time": "2026-11-20T13:05:11"}
+{"poll": 7, "state": 2, "status": "running", "time": "2026-11-20T13:05:43"}
+{"poll": 8, "state": 2, "status": "running", "time": "2026-11-20T13:06:14"}
+{"poll": 9, "state": 2, "status": "running", "time": "2026-11-20T13:06:45"}
+{"poll": 10, "state": 2, "status": "running", "time": "2026-11-20T13:07:17"}
+{"poll": 11, "state": 2, "status": "running", "time": "2026-11-20T13:07:48"}
+{"poll": 12, "state": 3, "status": "done", "time": "2026-11-20T21:08+08:00", "note": "轮询脚本在 DONE 分支 URL 提取撞 AttributeError（data 为 JSON 字符串），已修脚本并手动 curl 核验：state=3，模型 seedance2.0_fast_vision", "urls": ["https://v5-xyq-video.jianying.com/08c94937fbd23be87e17236d29e2ba44/6bed942e/video/n/everphoto-jianying-assets/oghTEnFFAeDRdzLAAADTEYA5ZprgRBAHAEE1fl/?a=795647&ch=0&cr=0&dr=0&cd=0%7C0%7C0%7C0&br=2876&bt=2876&cs=0&ds=3&ft=TLtriUeR_yygZmo0P8jOU~kVQ9w6x&mime_type=video_mp4&qs=13&rc=am1vaXY5cjc3ZjczNDlmM0Bpam1vaXY5cjc3ZjczNDlmM0BnNGpuMmRjYC1hLS1kNDBzYSNnNGpuMmRjYC1hLS1kNDBzcw%3D%3D&btag=80000e00010000&dy_q=1795180063&l=2026112021005950CB42D018CD8A8B41E3&download=true&filename=v03c76g10004dc04c4fog65sqfml7jjg.mp4"]}

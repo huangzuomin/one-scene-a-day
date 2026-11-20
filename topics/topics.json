@@ -718,11 +718,13 @@
    "tag": "科技",
    "potential": 7,
    "risk_note": "密率 355/113 载于《隋书》律历志（A）；演算场景为推断（B）；算筹形制据出土汉筹推断",
-   "status": "approved",
+   "status": "used",
    "source": "ai_weekly",
    "proposed_date": "2026-09-06",
    "recommend": "中",
-   "pitch": "满案算筹间最后一根落下——圆周率精确到小数第七位，这个纪录要保持九百年"
+   "pitch": "满案算筹间最后一根落下——圆周率精确到小数第七位，这个纪录要保持九百年",
+   "used_date": "2026-11-20",
+   "project": "2026-11-20-zuchongzhi-last-rod"
   },
   {
    "id": "T047",
